@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Seats.io',
+  tagline: 'Developer documentation',
   url: 'https://seatsio.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -21,11 +21,6 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
