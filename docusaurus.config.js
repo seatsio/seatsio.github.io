@@ -21,6 +21,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: 'changelog/',
+          activeBasePath: 'changelog',
+          label: 'Changelog',
+          position: 'left'
+        }
       ],
     },
     footer: {
