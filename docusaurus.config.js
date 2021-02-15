@@ -26,6 +26,11 @@ module.exports = {
           activeBasePath: 'changelog',
           label: 'Changelog',
           position: 'left'
+        },
+        {
+          to: 'https://support.seats.io/en/',
+          label: 'Support',
+          position: 'right'
         }
       ],
     },
@@ -74,6 +79,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+    colorMode: {
+      disableSwitch: true,
+    }
   },
   presets: [
     [
