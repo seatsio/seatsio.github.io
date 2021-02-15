@@ -10,10 +10,9 @@ module.exports = {
   projectName: 'seatsio.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Seats.io developer docs',
+        src: 'img/seatsio-black.svg',
       },
       items: [
         {
