@@ -6,8 +6,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'seatsio', // Usually your GitHub org/user name.
-  projectName: 'seatsio.github.io', // Usually your repo name.
+  organizationName: 'seatsio',
+  projectName: 'seatsio.github.io',
   themeConfig: {
     navbar: {
       logo: {
