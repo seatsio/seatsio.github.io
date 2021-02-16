@@ -8,13 +8,13 @@ updatedAt: "2019-01-17T12:42:29.773Z"
 ## Welcome to the Seats.io Developer Hub!
 This is where you&#39;ll find all information you need to integrate Seats into your ticketing platform.  
 
-[block:callout]
-{
-  &quot;type&quot;: &quot;info&quot;,
-  &quot;title&quot;: &quot;Important note&quot;,
-  &quot;body&quot;: &quot;Seats.io cannot be used just by itself, it is not a standalone tool. Instead, it needs to be integrated into a host ticketing system, which requires some coding, both on the front- and the backend. \n\nSo, if you&#39;re a developer: great, welcome! This website contains all information you need to get cracking. \n\nIf you&#39;re not a developer, that&#39;s awesome too, and you&#39;re just as welcome! But please be aware that this website can contain traces of technical terms 😉&quot;
-}
-[/block]
+:::info Important note
+Seats.io cannot be used just by itself, it is not a standalone tool. Instead, it needs to be integrated into a host ticketing system, which requires some coding, both on the front- and the backend. 
+
+So, if you're a developer: great, welcome! This website contains all information you need to get cracking. 
+
+If you're not a developer, that's awesome too, and you're just as welcome! But please be aware that this website can contain traces of technical terms 😉
+:::
 
 ## Overview
 Integrating seats.io floor plans is a 2-step process. 

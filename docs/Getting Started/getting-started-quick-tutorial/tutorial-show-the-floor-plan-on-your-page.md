@@ -26,9 +26,6 @@ So in short: just copy &amp; paste this code snippet and adapt it to your needs:
 </script>
 ```
 
-[block:callout]
-{
-  &quot;type&quot;: &quot;info&quot;,
-  &quot;body&quot;: &quot;If you&#39;re using React, the easiest way to show a seating chart is to use our React wrapper: https://www.npmjs.com/package/@seatsio/seatsio-react&quot;
-}
-[/block]
+:::info 
+If you're using React, the easiest way to show a seating chart is to use our React wrapper: https://www.npmjs.com/package/@seatsio/seatsio-react
+:::
