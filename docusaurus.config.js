@@ -42,6 +42,9 @@ module.exports = {
       disableSwitch: true,
     },
     hideableSidebar: true,
+    prism: {
+      additionalLanguages: ['csharp'],
+    },
   },
   presets: [
     [
