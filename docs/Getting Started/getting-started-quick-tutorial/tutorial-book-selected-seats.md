@@ -20,11 +20,11 @@ Here are some examples using the respective [API Client libraries](doc:api-clien
 <Tabs 
   defaultValue="php"
   values={[
-{ label: 'php', value: 'php', },
-{ label: 'csharp', value: 'csharp', },
-{ label: 'java', value: 'java', },
-{ label: 'python', value: 'python', },
-{ label: 'javascript', value: 'javascript', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Python', value: 'python', },
+{ label: 'Javascript', value: 'javascript', },
 ]}>
 <TabItem value='php'>
 
