@@ -1,0 +1,40 @@
+---
+title: "Reacting to events"
+slug: "chart-manager-reacting-to-events"
+hidden: false
+createdAt: "2020-06-19T08:02:55.035Z"
+updatedAt: "2020-12-02T15:22:13.920Z"
+---
+# onChartRendered(chart)
+Fired after the seating chart is fully rendered. The rendered chart is passed in as a parameter.
+
+# onChartRenderingFailed(chart)
+Fired when there&#39;s an error when rendering the chart.
+The chart manager object is passed in as a parameter, to allow you to destroy it if needed.
+
+# onObjectSelected(selectedObject)
+Fired when an object (seat, table, etc) gets selected.
+
+#onObjectDeselected(deselectedObject)
+Fired when an object (seat, table, etc) gets de-selected.
+
+# onObjectClicked(clickedObject)
+Fired when the user clicks or taps on an object (seat, table, etc). Note that this event will be fired even if the object is not selectable.
+
+# onFullScreenOpened()
+
+# onFullScreenClosed()
+
+# onSubmitSucceeded()
+Fired when the chart manager state is successfully saved on the seats.io servers: e.g. when the user clicks the &#39;apply changes&#39; button, or when the user creates a new ruleset, deletes a ruleset, etc. 
+
+# onSubmitFailed()
+Fired when the chart manager failed to save its state on the seats.io servers: e.g. when the user clicks the &#39;apply changes&#39; button but the operation failed. 
+
+[block:callout]
+{
+  &quot;type&quot;: &quot;info&quot;,
+  &quot;title&quot;: &quot;Object Properties&quot;,
+  &quot;body&quot;: &quot;Some of these callbacks take a bookable object (i.e. a seat, a table, a booth)  as a parameter.\n\nTo see the different properties available on these objects, please refer to [Renderer Object Properties](doc:renderer-object-properties).&quot;
+}
+[/block]
