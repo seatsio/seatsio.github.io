@@ -1,0 +1,45 @@
+---
+title: "Introduction"
+slug: "getting-started-intro"
+hidden: false
+createdAt: "2018-07-27T08:27:25.875Z"
+updatedAt: "2019-01-17T12:42:29.773Z"
+---
+[block:api-header]
+{
+  &quot;title&quot;: &quot;Welcome to the Seats.io Developer Hub!&quot;
+}
+[/block]
+This is where you&#39;ll find all information you need to integrate Seats into your ticketing platform.  
+
+[block:callout]
+{
+  &quot;type&quot;: &quot;info&quot;,
+  &quot;title&quot;: &quot;Important note&quot;,
+  &quot;body&quot;: &quot;Seats.io cannot be used just by itself, it is not a standalone tool. Instead, it needs to be integrated into a host ticketing system, which requires some coding, both on the front- and the backend. \n\nSo, if you&#39;re a developer: great, welcome! This website contains all information you need to get cracking. \n\nIf you&#39;re not a developer, that&#39;s awesome too, and you&#39;re just as welcome! But please be aware that this website can contain traces of technical terms 😉&quot;
+}
+[/block]
+
+[block:api-header]
+{
+  &quot;title&quot;: &quot;Overview&quot;
+}
+[/block]
+Integrating seats.io floor plans is a 2-step process. 
+
+1. on the **frontend**: embedding a interactive floor plan for an event in your html page
+2. on the **backend**: book seats through the Seats API to make them unavailable for the next ticket buyer. 
+
+Optionally, you can also
+* Embed the floor plan designer in your backoffice application, so that your users can design their own floor plans
+* Embed the Event Manager in your backoffice application for specific users (e.g. box office managers) for event management purposes (e.g. change seat statuses on the fly). 
+[block:api-header]
+{
+  &quot;title&quot;: &quot;A word of advice: start small &amp; keep it simple!&quot;
+}
+[/block]
+Seats.io is packed with a lot of features. How long you&#39;ll need to integrate depends greatly on the features you require, and on what type of ticket flow your app needs. 
+
+To get started, we suggest you don&#39;t worry too much about the advanced features. Things like season tickets, temporarily holding seats, best available seat booking and embedding the floor plan designer are all supported, but require extra integration work. 
+
+Instead, we typically advise you to start small: draw a simple seating chart, manually create a single event, and then start booking some seats. That way you will get you up to speed more quickly.
