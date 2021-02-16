@@ -5,7 +5,7 @@ hidden: false
 createdAt: "2018-08-21T09:35:42.604Z"
 updatedAt: "2018-11-19T06:35:27.895Z"
 ---
-So you&#39;ve shown your ticket buyer a floor plan, they selected the seats they wish. Now it&#39;s time to actually book them, so that they become unavailable for selection for the next ticket buyer that comes along. 
+So you've shown your ticket buyer a floor plan, they selected the seats they wish. Now it's time to actually book them, so that they become unavailable for selection for the next ticket buyer that comes along. 
 
 You do this by calling the [Book objects endpoint](doc:api-book-objects) of the Seats API. 
 Here are some examples using the respective [API Client libraries](doc:api-client-libraries) you can use: 
@@ -27,7 +27,7 @@ client.events.book("event1", ["A-3", "A-5", "A-7"])
 await client.events.book('eventKey', ['A-3', 'A-5', 'A-7']);
 ```
 ## When should I book?
-The answer is simple and complex at the same time: &quot;whenever is appropriate in your sales flow&quot;. 
+The answer is simple and complex at the same time: "whenever is appropriate in your sales flow". 
 
 For example, you could call the seats.io API to book seats right before you collect their payment. Or you could pre-book some seats for VIPs before you even open up ticket sales.
 
@@ -41,7 +41,7 @@ In other words: you can look at the seats on a floor plan as a collection of on/
 
 
 ## Custom statuses
-There&#39;s more than just &#39;booking&#39; a seat. You can use your own statuses (i.e. other than *BOOKED*) as well, read more [here](doc:api-custom-object-status).
+There's more than just 'booking' a seat. You can use your own statuses (i.e. other than *BOOKED*) as well, read more [here](doc:api-custom-object-status).
 
 ## Temporarily holding seats
-It&#39;s possible to hold seats for a little while, until the ticket buyer finishes up their purchase. Check [this page](doc:api-temporarily-hold-objects) for more information on how to do this.
+It's possible to hold seats for a little while, until the ticket buyer finishes up their purchase. Check [this page](doc:api-temporarily-hold-objects) for more information on how to do this.

@@ -5,7 +5,7 @@ hidden: false
 createdAt: "2018-08-21T09:12:10.090Z"
 updatedAt: "2020-03-03T10:49:37.175Z"
 ---
-You have created a seating chart, and you&#39;ve created an event for it. Great, you’re ready to show the seating chart to your users.
+You have created a seating chart, and you've created an event for it. Great, you’re ready to show the seating chart to your users.
 
 To do this, you need to: 
 
