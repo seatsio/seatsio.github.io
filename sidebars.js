@@ -11,6 +11,19 @@ module.exports = {
                 "Getting Started/getting-started-quick-tutorial/tutorial-book-selected-seats",
                 "Getting Started/getting-started-quick-tutorial/tutorial-further-reading",
             ]
+        },
+        // TODO renderer
+        // TODO API
+        {
+            "Event Manager": [
+                "Event Manager/event-manager-introduction",
+                "Event Manager/event-manager-how-to-embed",
+                "Event Manager/event-manager-configuring",
+                "Event Manager/event-manager-styling",
+                "Event Manager/event-manager-reacting-to-events",
+            ]
         }
+        // TODO Chart Manager
+        // TODO Embedded Designer
     ],
 };
