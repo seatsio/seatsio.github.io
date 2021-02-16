@@ -5,11 +5,7 @@ hidden: false
 createdAt: "2018-07-27T08:27:25.875Z"
 updatedAt: "2019-01-17T12:42:29.773Z"
 ---
-[block:api-header]
-{
-  &quot;title&quot;: &quot;Welcome to the Seats.io Developer Hub!&quot;
-}
-[/block]
+##Welcome to the Seats.io Developer Hub!
 This is where you&#39;ll find all information you need to integrate Seats into your ticketing platform.  
 
 [block:callout]
@@ -20,11 +16,7 @@ This is where you&#39;ll find all information you need to integrate Seats into y
 }
 [/block]
 
-[block:api-header]
-{
-  &quot;title&quot;: &quot;Overview&quot;
-}
-[/block]
+##Overview
 Integrating seats.io floor plans is a 2-step process. 
 
 1. on the **frontend**: embedding a interactive floor plan for an event in your html page
@@ -33,11 +25,7 @@ Integrating seats.io floor plans is a 2-step process.
 Optionally, you can also
 * Embed the floor plan designer in your backoffice application, so that your users can design their own floor plans
 * Embed the Event Manager in your backoffice application for specific users (e.g. box office managers) for event management purposes (e.g. change seat statuses on the fly). 
-[block:api-header]
-{
-  &quot;title&quot;: &quot;A word of advice: start small &amp; keep it simple!&quot;
-}
-[/block]
+##A word of advice: start small & keep it simple!
 Seats.io is packed with a lot of features. How long you&#39;ll need to integrate depends greatly on the features you require, and on what type of ticket flow your app needs. 
 
 To get started, we suggest you don&#39;t worry too much about the advanced features. Things like season tickets, temporarily holding seats, best available seat booking and embedding the floor plan designer are all supported, but require extra integration work. 
