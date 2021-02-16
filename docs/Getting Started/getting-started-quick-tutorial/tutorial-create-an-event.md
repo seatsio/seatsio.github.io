@@ -5,6 +5,10 @@ hidden: false
 createdAt: "2018-08-21T09:07:21.083Z"
 updatedAt: "2018-08-23T14:13:17.396Z"
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 An interactive floor plan is only useful to a ticket buyer if they can see which seats are available, and which are not. 
 
 That is what the concept of an *event* is for. 

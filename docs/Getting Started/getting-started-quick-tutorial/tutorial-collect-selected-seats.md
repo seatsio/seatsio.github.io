@@ -5,6 +5,10 @@ hidden: false
 createdAt: "2018-08-21T09:55:39.597Z"
 updatedAt: "2020-12-29T09:53:36.408Z"
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 Your ticket buyer has selected seats on the interactive floor plan. Now you need to pass those seats to your server-side code, so you can later on book them via the Seats API. 
 
 There are 3 options: 

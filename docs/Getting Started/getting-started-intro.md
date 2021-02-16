@@ -5,6 +5,10 @@ hidden: false
 createdAt: "2018-07-27T08:27:25.875Z"
 updatedAt: "2019-01-17T12:42:29.773Z"
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Welcome to the Seats.io Developer Hub!
 This is where you'll find all information you need to integrate Seats into your ticketing platform.  
 

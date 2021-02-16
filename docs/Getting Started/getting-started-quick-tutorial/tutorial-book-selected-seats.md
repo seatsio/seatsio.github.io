@@ -5,27 +5,65 @@ hidden: false
 createdAt: "2018-08-21T09:35:42.604Z"
 updatedAt: "2018-11-19T06:35:27.895Z"
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 So you've shown your ticket buyer a floor plan, they selected the seats they wish. Now it's time to actually book them, so that they become unavailable for selection for the next ticket buyer that comes along. 
 
 You do this by calling the [Book objects endpoint](doc:api-book-objects) of the Seats API. 
 Here are some examples using the respective [API Client libraries](doc:api-client-libraries) you can use: 
 
 
+
+
+<Tabs 
+  defaultValue="php"
+  values={[
+{ label: 'php', value: 'php', },
+{ label: 'csharp', value: 'csharp', },
+{ label: 'java', value: 'java', },
+{ label: 'python', value: 'python', },
+{ label: 'javascript', value: 'javascript', },
+]}>
+<TabItem value='php'>
+
 ```php
 $seatsioClient->events->book("event1", ["A-3", "A-5", "A-7"]);
 ```
+
+</TabItem>
+<TabItem value='csharp'>
+
 ```csharp
 Client.Events.Book("event1", new [] { "A-3", "A-5", "A-7" });
 ```
+
+</TabItem>
+<TabItem value='java'>
+
 ```java
 client.events.book("event1", Arrays.asList("A-3", "A-5", "A-7"));
 ```
+
+</TabItem>
+<TabItem value='python'>
+
 ```python
 client.events.book("event1", ["A-3", "A-5", "A-7"])
 ```
+
+</TabItem>
+<TabItem value='javascript'>
+
 ```javascript
 await client.events.book('eventKey', ['A-3', 'A-5', 'A-7']);
 ```
+
+</TabItem>
+</Tabs>
+
+
 ## When should I book?
 The answer is simple and complex at the same time: "whenever is appropriate in your sales flow". 
 
