@@ -1,5 +1,6 @@
 module.exports = {
     docs: [
+        'index',
         'Getting Started/getting-started-intro',
         {
             "Quick Tutorial": [
