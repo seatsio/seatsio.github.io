@@ -11,9 +11,7 @@ To make this easy, we developed an in-browser designer tool, allowing you to jus
 
 
 You can try it out for yourself using the [online demo](https://www.seats.io/demos/designer).
-![ddee72f-designer2x.jpg](/img/ddee72f-designer2x.jpg)
-
-![dklmsqklm](/img/Screen Shot 2018-11-28 at 11.05.41 AM.png)
+![ddee72f-designer2x.jpg](/img/readme/ddee72f-designer2x.jpg)
 
 :::tip 
 Alternatively, you can get readymade seating charts from [seatingcharts.io](https://www.seatingcharts.io/), straight into your seats.io account!

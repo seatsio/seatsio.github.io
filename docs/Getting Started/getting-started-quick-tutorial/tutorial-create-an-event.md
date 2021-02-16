@@ -13,8 +13,4 @@ In seats.io speak, an event is a single instance of a concert, show or sports ma
 You can create an event for a floor plan in 2 ways: either through the seats.io web application, or using the [create event API endpoint](doc:api-create-an-event).
 
 
-<img src="/img/Screenshot 2018-08-21 11.46.50.png"/>
-
-![Screenshot 2018-08-21 11.46.50.png](/img/Screenshot 2018-08-21 11.46.50.png)
-
-
+![Screenshot 2018-08-21 11.46.50.png](/img/readme/Screenshot-2018-08-21-11.46.50.png)
