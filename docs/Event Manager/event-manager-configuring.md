@@ -3,7 +3,7 @@ title: "Configuring the Event Manager"
 slug: "event-manager-configuring"
 hidden: false
 createdAt: "2018-07-27T11:38:28.723Z"
-updatedAt: "2021-01-29T08:37:40.827Z"
+updatedAt: "2021-02-22T15:24:08.408Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -48,7 +48,7 @@ The keys of the events for which you want to render the event manager. Only `man
 Can be either:
 
 - `'manageObjectStatuses'`: to book and release seats
-- `'manageForSaleConfig'`: to mark seats as [for sale and not for sale](api-v2#core-resources-objects-for-sale-not-for-sale).
+- `'manageForSaleConfig'`: to mark seats as [for sale / not for sale](doc:api-for-sale-not-for-sale).
 - `'manageTableBooking'`: to indicate which tables are bookable as a whole, and which ones are bookable by seat
 - `'manageChannels'`: to manage the list of channels for the event, and to assign objects to channels. 
 
