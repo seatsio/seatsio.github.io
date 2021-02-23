@@ -50,7 +50,6 @@ module.exports = {
                         "REST API/api-charts/api-update-a-chart",
                         "REST API/api-charts/api-validate-a-chart-version",
                         "REST API/api-charts/api-retrieve-a-chart-thumbnail",
-                        "REST API/api-charts/api-retrieve-a-chart-thumbnail",
                         "REST API/api-charts/api-publish-a-draft-version",
                         "REST API/api-charts/api-discard-a-draft-version",
                         "REST API/api-charts/api-list-charts-in-the-archive",
