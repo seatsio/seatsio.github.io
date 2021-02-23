@@ -20,7 +20,7 @@ The secret key of a subaccount should be kept secret at all times. If it does ge
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },

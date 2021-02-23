@@ -16,7 +16,7 @@ Updates the [extra data](doc:api-extra-data) for a bunch of objects in an event,
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },

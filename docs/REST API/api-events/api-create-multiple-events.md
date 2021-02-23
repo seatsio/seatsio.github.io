@@ -15,7 +15,7 @@ Use this API call to create multiple events at once for a chart. The maximum num
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },

@@ -17,7 +17,7 @@ Deep summary reports contain the same kind of information as the [regular summar
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -169,13 +169,13 @@ Selectable objects can be found under the selectable key, non-selectable objects
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
 ]}>
 <TabItem value='text'>
 
@@ -319,7 +319,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -445,7 +445,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -571,7 +571,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -697,7 +697,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aS
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },

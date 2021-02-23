@@ -52,7 +52,7 @@ The possible values for objectType are:
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -236,13 +236,13 @@ Selectable objects can be found under the `selectable` key, non-selectable objec
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
 ]}>
 <TabItem value='text'>
 
@@ -415,7 +415,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKe
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -603,7 +603,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKe
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -790,7 +790,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey:
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -970,7 +970,7 @@ curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey:
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -1156,7 +1156,7 @@ curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey:
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },

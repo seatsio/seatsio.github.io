@@ -18,7 +18,7 @@ Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },

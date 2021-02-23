@@ -19,7 +19,7 @@ They also allow you to drill down into the numbers: how many booked seats are th
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -145,13 +145,13 @@ Selectable objects can be found under the selectable key, non-selectable objects
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'text', },
 ]}>
 <TabItem value='text'>
 
@@ -265,7 +265,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u a
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -384,7 +384,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u a
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -502,7 +502,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSe
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -628,7 +628,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecret
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },

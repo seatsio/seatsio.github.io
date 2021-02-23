@@ -3,7 +3,7 @@ title: "API Client libraries"
 slug: "api-client-libraries"
 hidden: false
 createdAt: "2018-07-31T08:41:40.668Z"
-updatedAt: "2019-10-23T18:21:09.513Z"
+updatedAt: "2021-02-23T11:04:57.829Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -21,4 +21,4 @@ Interacting with the API becomes even easier if you use one of our client librar
 * [iOS client library](https://github.com/seatsio/seatsio-ios)
 * [Android client library](https://github.com/seatsio/seatsio-android)
 
-If you need a client library in another language, please &lt;a href="mailto:support@seats.io"&gt;let us know&lt;/a&gt;.
+If you need a client library in another language, please let us via simple email to support@seats.io.

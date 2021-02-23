@@ -23,7 +23,7 @@ To use the thumbnail in an `<img>` tag, use the publicly accessible `publishedVe
 <Tabs 
   defaultValue="text"
   values={[
-{ label: '', value: 'text', },
+{ label: 'Text', value: 'text', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
