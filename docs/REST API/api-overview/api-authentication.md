@@ -32,24 +32,13 @@ curl https://api.seatsio.net/charts -u 550e8400-e29b-41d4-a716-446655440000:
 In general, you need to set a header called Authorization with value “Basic x”, where x is your secret key with a colon, base64 encoded. 
 
 So: 
-[block:parameters]
-{
-  "data": {
-    "h-1": "Example",
-    "h-0": "Steps",
-    "0-0": "1. Take your workspace secret key",
-    "0-1": "550e8400-e29b-41d4-a716-446655440000",
-    "1-0": "2. append a colon (:)",
-    "1-1": "550e8400-e29b-41d4-a716-446655440000:",
-    "2-0": "3. base64-encode it",
-    "2-1": "NTUwZTg0MDAtZTI5Yi00MWQ0LWE3MTYtNDQ2NjU1NDQwMDAwOg==",
-    "3-0": "4. put it in an Authorization header",
-    "3-1": "Authorization: Basic NTUwZTg0MDAtZTI5Yi00MWQ0LWE3MTYtNDQ2NjU1NDQwMDAwOg=="
-  },
-  "cols": 2,
-  "rows": 4
-}
-[/block]
+
+Steps|Example|
+---|---|
+1. Take your workspace secret key|550e8400-e29b-41d4-a716-446655440000|
+2. append a colon (:)|550e8400-e29b-41d4-a716-446655440000:|
+3. base64-encode it|NTUwZTg0MDAtZTI5Yi00MWQ0LWE3MTYtNDQ2NjU1NDQwMDAwOg==|
+4. put it in an Authorization header|Authorization: Basic NTUwZTg0MDAtZTI5Yi00MWQ0LWE3MTYtNDQ2NjU1NDQwMDAwOg==|
 
 ```curl
 curl https://api.seatsio.net/charts -H "Authorization: Basic NTUwZTg0MDAtZTI5Yi00MWQ0LWE3MTYtNDQ2NjU1NDQwMDAwOg=="
