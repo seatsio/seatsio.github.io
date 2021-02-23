@@ -3,18 +3,18 @@ title: "Regenerate the secret key of a subaccount"
 slug: "api-regenerate-a-subaccounts-secret-key"
 hidden: false
 createdAt: "2018-08-02T10:18:29.569Z"
-updatedAt: "2020-02-28T13:16:22.231Z"
+updatedAt: "2021-02-23T13:13:23.966Z"
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 :::caution 
-Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
+Subaccounts are deprecated. Please use [Workspaces](doc:api-workspaces)  instead.
 :::
 ### Regenerate the secret key
 
-The secret key of a subaccount should be kept secret at all times. If it does get compromised, you can generate a new one.
+The secret key of a subaccount should be kept secret at all times. If it does get compromised, you can generate a new one. 
 
 
 <Tabs 

@@ -3,7 +3,7 @@ title: "Save social distancing rulesets"
 slug: "api-charts-save-social-distancing-rulesets"
 hidden: false
 createdAt: "2020-06-19T07:17:22.286Z"
-updatedAt: "2020-11-17T07:01:30.633Z"
+updatedAt: "2021-02-23T13:15:04.769Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 A social distancing ruleset determines which seats should not be selectable for a ticket buyer. Something like: 'families of up to 4 people can sit next to each other, but there should be a gap of 2 seats to the left and to the right of them'.
 :::info Applying a ruleset to an event
-This article describes the call to add rulesets to a chart. To apply one of those rulesets to an event, use the [create event](/docs/api-create-an-event) or [update event](/docs/api-update-an-event) call.
+This article describes the call to add rulesets to a chart. To apply one of those rulesets to an event, use the [create event](doc:api-create-an-event) or[update event](doc:api-update-an-event) call.
 :::
 
 
