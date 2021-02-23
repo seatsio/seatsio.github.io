@@ -1,6 +1,6 @@
 ---
 title: "Deep summary reports"
-slug: "api-deep-summary-reports"
+slug: "/api-deep-summary-reports"
 hidden: false
 createdAt: "2020-12-28T07:31:45.151Z"
 updatedAt: "2021-02-09T11:46:13.139Z"

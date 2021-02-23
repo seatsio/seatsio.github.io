@@ -1,6 +1,6 @@
 ---
 title: "https"
-slug: "api-https"
+slug: "/api-https"
 hidden: false
 createdAt: "2018-07-31T08:10:32.165Z"
 updatedAt: "2018-07-31T08:12:15.803Z"

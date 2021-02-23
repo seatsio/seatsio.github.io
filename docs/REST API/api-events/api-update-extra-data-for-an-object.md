@@ -1,6 +1,6 @@
 ---
 title: "Update extra data for an object"
-slug: "api-update-extra-data-for-an-object"
+slug: "/api-update-extra-data-for-an-object"
 hidden: false
 createdAt: "2018-08-02T10:03:43.443Z"
 updatedAt: "2018-11-15T10:21:33.072Z"

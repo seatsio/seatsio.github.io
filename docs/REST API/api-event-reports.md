@@ -1,6 +1,6 @@
 ---
 title: "Event Reports"
-slug: "api-event-reports"
+slug: "/api-event-reports"
 hidden: false
 createdAt: "2018-08-02T10:09:25.475Z"
 updatedAt: "2018-08-23T14:15:26.617Z"

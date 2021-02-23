@@ -1,6 +1,6 @@
 ---
 title: "Retrieve the status of an object"
-slug: "api-retrieve-the-status-of-an-object"
+slug: "/api-retrieve-the-status-of-an-object"
 hidden: false
 createdAt: "2018-08-02T10:08:06.329Z"
 updatedAt: "2019-08-23T12:09:13.081Z"

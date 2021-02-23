@@ -1,6 +1,6 @@
 ---
 title: "Hold Tokens"
-slug: "api-hold-tokens"
+slug: "/api-hold-tokens"
 hidden: false
 createdAt: "2018-08-02T10:11:11.446Z"
 updatedAt: "2019-12-10T12:50:27.974Z"

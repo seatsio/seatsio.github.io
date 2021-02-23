@@ -1,6 +1,6 @@
 ---
 title: "Discard a draft version"
-slug: "api-discard-a-draft-version"
+slug: "/api-discard-a-draft-version"
 hidden: false
 createdAt: "2018-08-01T13:29:08.502Z"
 updatedAt: "2018-11-15T09:50:17.218Z"

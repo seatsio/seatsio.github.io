@@ -1,6 +1,6 @@
 ---
 title: "Chart Reports"
-slug: "chart-reports"
+slug: "/chart-reports"
 hidden: false
 createdAt: "2018-10-02T14:51:28.856Z"
 updatedAt: "2020-12-11T12:27:53.494Z"

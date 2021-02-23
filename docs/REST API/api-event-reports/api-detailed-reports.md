@@ -1,6 +1,6 @@
 ---
 title: "Detailed reports"
-slug: "api-detailed-reports"
+slug: "/api-detailed-reports"
 hidden: false
 createdAt: "2018-08-02T10:10:05.573Z"
 updatedAt: "2021-02-09T11:43:58.063Z"

@@ -1,6 +1,6 @@
 ---
 title: "Create a chart"
-slug: "api-create-a-chart"
+slug: "/api-create-a-chart"
 hidden: false
 createdAt: "2018-08-01T13:27:06.249Z"
 updatedAt: "2019-08-26T09:06:41.896Z"

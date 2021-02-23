@@ -1,6 +1,6 @@
 ---
 title: "Custom object status"
-slug: "api-custom-object-status"
+slug: "/api-custom-object-status"
 hidden: false
 createdAt: "2018-07-31T10:13:43.779Z"
 updatedAt: "2020-12-11T15:24:20.399Z"

@@ -1,6 +1,6 @@
 ---
 title: "Extra data"
-slug: "api-extra-data"
+slug: "/api-extra-data"
 hidden: false
 createdAt: "2018-08-01T12:53:10.410Z"
 updatedAt: "2019-08-21T09:28:02.829Z"

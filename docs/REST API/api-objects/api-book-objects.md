@@ -1,6 +1,6 @@
 ---
 title: "Book objects"
-slug: "api-book-objects"
+slug: "/api-book-objects"
 hidden: false
 createdAt: "2018-07-31T08:46:42.677Z"
 updatedAt: "2021-02-19T07:47:32.665Z"

@@ -1,6 +1,6 @@
 ---
 title: "5. Book selected seats"
-slug: "tutorial-book-selected-seats"
+slug: "/tutorial-book-selected-seats"
 hidden: false
 createdAt: "2018-08-21T09:35:42.604Z"
 updatedAt: "2018-11-19T06:35:27.895Z"

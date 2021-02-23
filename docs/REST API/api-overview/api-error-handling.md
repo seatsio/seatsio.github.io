@@ -1,6 +1,6 @@
 ---
 title: "Error handling"
-slug: "api-error-handling"
+slug: "/api-error-handling"
 hidden: false
 createdAt: "2018-07-31T08:27:13.076Z"
 updatedAt: "2018-11-06T22:17:46.192Z"

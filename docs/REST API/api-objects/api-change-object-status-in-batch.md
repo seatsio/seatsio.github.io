@@ -1,6 +1,6 @@
 ---
 title: "Change object statuses in batch"
-slug: "api-change-object-status-in-batch"
+slug: "/api-change-object-status-in-batch"
 hidden: false
 createdAt: "2020-03-02T07:47:33.337Z"
 updatedAt: "2020-10-13T07:32:19.661Z"

@@ -1,6 +1,6 @@
 ---
 title: "List all charts"
-slug: "api-list-all-charts"
+slug: "/api-list-all-charts"
 hidden: false
 createdAt: "2018-08-01T13:12:11.538Z"
 updatedAt: "2020-09-21T14:35:58.050Z"

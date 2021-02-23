@@ -1,6 +1,6 @@
 ---
 title: "Summary reports"
-slug: "api-summary-reports"
+slug: "/api-summary-reports"
 hidden: false
 createdAt: "2018-08-02T10:10:41.918Z"
 updatedAt: "2020-12-28T07:46:17.868Z"

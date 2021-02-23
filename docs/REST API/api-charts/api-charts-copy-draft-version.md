@@ -1,6 +1,6 @@
 ---
 title: "Copy draft version"
-slug: "api-charts-copy-draft-version"
+slug: "/api-charts-copy-draft-version"
 hidden: false
 createdAt: "2018-08-01T13:31:50.078Z"
 updatedAt: "2018-11-15T09:59:07.130Z"

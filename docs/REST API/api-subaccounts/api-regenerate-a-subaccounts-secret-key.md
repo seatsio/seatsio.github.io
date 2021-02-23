@@ -1,6 +1,6 @@
 ---
 title: "Regenerate the secret key of a subaccount"
-slug: "api-regenerate-a-subaccounts-secret-key"
+slug: "/api-regenerate-a-subaccounts-secret-key"
 hidden: false
 createdAt: "2018-08-02T10:18:29.569Z"
 updatedAt: "2021-02-23T13:13:23.966Z"

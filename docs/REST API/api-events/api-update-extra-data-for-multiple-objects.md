@@ -1,6 +1,6 @@
 ---
 title: "Update extra data for multiple objects"
-slug: "api-update-extra-data-for-multiple-objects"
+slug: "/api-update-extra-data-for-multiple-objects"
 hidden: false
 createdAt: "2018-08-29T14:29:26.715Z"
 updatedAt: "2018-11-15T11:11:51.960Z"

@@ -1,6 +1,6 @@
 ---
 title: "Update a chart"
-slug: "api-update-a-chart"
+slug: "/api-update-a-chart"
 hidden: false
 createdAt: "2018-08-01T13:27:13.005Z"
 updatedAt: "2019-08-26T09:06:54.682Z"

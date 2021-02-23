@@ -1,6 +1,6 @@
 ---
 title: "Expanding objects"
-slug: "api-expanding-objects"
+slug: "/api-expanding-objects"
 hidden: false
 createdAt: "2018-07-31T08:35:24.882Z"
 updatedAt: "2019-12-10T12:43:03.462Z"

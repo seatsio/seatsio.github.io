@@ -1,6 +1,6 @@
 ---
 title: "Retrieve an event"
-slug: "api-retrieve-an-event"
+slug: "/api-retrieve-an-event"
 hidden: false
 createdAt: "2018-08-02T09:57:07.007Z"
 updatedAt: "2020-10-30T11:17:29.827Z"

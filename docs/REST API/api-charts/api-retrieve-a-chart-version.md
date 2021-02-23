@@ -1,6 +1,6 @@
 ---
 title: "Retrieve a chart version"
-slug: "api-retrieve-a-chart-version"
+slug: "/api-retrieve-a-chart-version"
 hidden: false
 createdAt: "2018-08-01T13:26:25.264Z"
 updatedAt: "2019-01-19T12:39:00.262Z"

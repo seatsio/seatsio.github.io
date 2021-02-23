@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-slug: "event-manager-introduction"
+slug: "/event-manager-introduction"
 excerpt: "What is the Event Manager tool, and how to use it?"
 hidden: false
 createdAt: "2018-07-27T11:33:27.514Z"

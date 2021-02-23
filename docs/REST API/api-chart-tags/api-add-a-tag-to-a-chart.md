@@ -1,6 +1,6 @@
 ---
 title: "Add a tag to a chart"
-slug: "api-add-a-tag-to-a-chart"
+slug: "/api-add-a-tag-to-a-chart"
 hidden: false
 createdAt: "2018-08-02T08:56:23.986Z"
 updatedAt: "2018-11-15T10:01:09.905Z"

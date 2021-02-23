@@ -1,6 +1,6 @@
 ---
 title: "Create multiple events"
-slug: "api-create-multiple-events"
+slug: "/api-create-multiple-events"
 hidden: false
 createdAt: "2019-01-15T11:40:46.026Z"
 updatedAt: "2020-11-05T10:11:57.290Z"

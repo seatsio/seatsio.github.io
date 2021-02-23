@@ -1,6 +1,6 @@
 ---
 title: "Remove a tag from a chart"
-slug: "api-remove-a-tag-from-a-chart"
+slug: "/api-remove-a-tag-from-a-chart"
 hidden: false
 createdAt: "2018-08-02T08:56:35.720Z"
 updatedAt: "2018-11-15T10:02:40.391Z"

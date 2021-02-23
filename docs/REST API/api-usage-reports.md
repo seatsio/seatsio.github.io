@@ -1,6 +1,6 @@
 ---
 title: "Usage reports"
-slug: "api-usage-reports"
+slug: "/api-usage-reports"
 hidden: false
 createdAt: "2019-05-28T13:25:14.356Z"
 updatedAt: "2019-06-11T14:18:41.360Z"

@@ -1,6 +1,6 @@
 ---
 title: "Update channels for an event"
-slug: "update-channels-for-an-event"
+slug: "/update-channels-for-an-event"
 hidden: false
 createdAt: "2020-06-22T08:20:48.512Z"
 updatedAt: "2020-06-22T09:51:45.689Z"

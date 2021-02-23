@@ -1,6 +1,6 @@
 ---
 title: "Styling the Event Manager"
-slug: "event-manager-styling"
+slug: "/event-manager-styling"
 hidden: false
 createdAt: "2019-07-26T06:23:24.326Z"
 updatedAt: "2020-06-19T07:55:30.552Z"

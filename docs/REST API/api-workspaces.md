@@ -1,6 +1,6 @@
 ---
 title: "Workspaces"
-slug: "api-workspaces"
+slug: "/api-workspaces"
 hidden: false
 createdAt: "2020-02-27T22:00:24.802Z"
 updatedAt: "2020-02-28T12:34:11.610Z"

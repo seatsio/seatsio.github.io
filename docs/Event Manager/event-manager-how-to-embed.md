@@ -1,6 +1,6 @@
 ---
 title: "How to embed the Event Manager"
-slug: "event-manager-how-to-embed"
+slug: "/event-manager-how-to-embed"
 hidden: false
 createdAt: "2018-07-27T11:35:01.450Z"
 updatedAt: "2020-09-02T09:26:53.821Z"

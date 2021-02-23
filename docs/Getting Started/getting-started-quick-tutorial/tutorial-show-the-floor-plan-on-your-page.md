@@ -1,6 +1,6 @@
 ---
 title: "3. Show the floor plan on your page"
-slug: "tutorial-show-the-floor-plan-on-your-page"
+slug: "/tutorial-show-the-floor-plan-on-your-page"
 hidden: false
 createdAt: "2018-08-21T09:12:10.090Z"
 updatedAt: "2020-03-03T10:49:37.175Z"

@@ -1,6 +1,6 @@
 ---
 title: "Change expiration date"
-slug: "api-change-expiration-date"
+slug: "/api-change-expiration-date"
 hidden: false
 createdAt: "2018-08-02T10:12:28.121Z"
 updatedAt: "2019-05-15T07:18:30.839Z"

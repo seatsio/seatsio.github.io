@@ -1,6 +1,6 @@
 ---
 title: "Pagination"
-slug: "api-pagination"
+slug: "/api-pagination"
 hidden: false
 createdAt: "2018-07-31T08:30:44.628Z"
 updatedAt: "2018-07-31T08:33:50.025Z"

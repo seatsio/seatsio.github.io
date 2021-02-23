@@ -1,6 +1,6 @@
 ---
 title: "List your inactive subaccounts"
-slug: "api-list-your-inactive-subaccounts"
+slug: "/api-list-your-inactive-subaccounts"
 hidden: false
 createdAt: "2018-08-02T10:15:47.782Z"
 updatedAt: "2020-02-28T13:15:07.713Z"

@@ -1,6 +1,6 @@
 ---
 title: "Activate a subaccount"
-slug: "api-activate-a-subaccount"
+slug: "/api-activate-a-subaccount"
 hidden: false
 createdAt: "2018-08-02T10:18:12.868Z"
 updatedAt: "2020-02-28T13:16:13.633Z"

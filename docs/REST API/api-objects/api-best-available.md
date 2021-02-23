@@ -1,6 +1,6 @@
 ---
 title: "Best Available"
-slug: "api-best-available"
+slug: "/api-best-available"
 hidden: false
 createdAt: "2018-08-01T12:42:25.055Z"
 updatedAt: "2020-12-08T08:06:30.108Z"

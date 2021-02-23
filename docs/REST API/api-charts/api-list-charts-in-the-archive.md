@@ -1,6 +1,6 @@
 ---
 title: "List charts in the archive"
-slug: "api-list-charts-in-the-archive"
+slug: "/api-list-charts-in-the-archive"
 hidden: false
 createdAt: "2018-08-01T13:29:26.334Z"
 updatedAt: "2019-03-21T11:00:45.152Z"

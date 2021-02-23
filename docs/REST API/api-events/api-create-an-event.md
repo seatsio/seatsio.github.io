@@ -1,6 +1,6 @@
 ---
 title: "Create an event"
-slug: "api-create-an-event"
+slug: "/api-create-an-event"
 hidden: false
 createdAt: "2018-08-02T09:57:18.036Z"
 updatedAt: "2021-02-23T13:16:10.999Z"

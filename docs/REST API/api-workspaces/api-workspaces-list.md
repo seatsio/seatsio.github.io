@@ -1,6 +1,6 @@
 ---
 title: "List all workspaces"
-slug: "api-workspaces-list"
+slug: "/api-workspaces-list"
 hidden: false
 createdAt: "2020-02-27T22:00:24.814Z"
 updatedAt: "2020-07-03T16:01:19.321Z"

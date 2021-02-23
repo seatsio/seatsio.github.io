@@ -1,6 +1,6 @@
 ---
 title: "Reacting to events"
-slug: "event-manager-reacting-to-events"
+slug: "/event-manager-reacting-to-events"
 hidden: false
 createdAt: "2018-07-27T12:11:00.583Z"
 updatedAt: "2020-10-06T07:25:54.819Z"

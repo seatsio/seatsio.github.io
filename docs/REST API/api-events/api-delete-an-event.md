@@ -1,6 +1,6 @@
 ---
 title: "Delete an event"
-slug: "api-delete-an-event"
+slug: "/api-delete-an-event"
 hidden: false
 createdAt: "2018-08-02T09:57:40.460Z"
 updatedAt: "2018-11-15T10:17:38.037Z"

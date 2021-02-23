@@ -1,6 +1,6 @@
 ---
 title: "Copy chart from a subaccount to another subaccount or to its parent"
-slug: "api-copy-chart-from-a-subaccount-to-another-subaccount-or-to-its-parent"
+slug: "/api-copy-chart-from-a-subaccount-to-another-subaccount-or-to-its-parent"
 hidden: false
 createdAt: "2018-08-02T10:17:12.687Z"
 updatedAt: "2020-02-28T21:27:24.232Z"

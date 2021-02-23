@@ -1,6 +1,6 @@
 ---
 title: "Quick tutorial"
-slug: "getting-started-quick-tutorial"
+slug: "/getting-started-quick-tutorial"
 hidden: false
 createdAt: "2018-08-21T08:33:33.105Z"
 updatedAt: "2019-12-02T13:22:42.501Z"

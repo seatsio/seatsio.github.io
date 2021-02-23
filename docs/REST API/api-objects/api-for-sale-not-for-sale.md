@@ -1,6 +1,6 @@
 ---
 title: "For sale / not for sale"
-slug: "api-for-sale-not-for-sale"
+slug: "/api-for-sale-not-for-sale"
 hidden: false
 createdAt: "2018-08-01T12:57:08.200Z"
 updatedAt: "2019-06-14T09:53:56.245Z"

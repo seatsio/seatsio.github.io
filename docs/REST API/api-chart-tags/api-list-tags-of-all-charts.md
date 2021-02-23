@@ -1,6 +1,6 @@
 ---
 title: "List tags of all charts"
-slug: "api-list-tags-of-all-charts"
+slug: "/api-list-tags-of-all-charts"
 hidden: false
 createdAt: "2018-08-02T08:56:16.875Z"
 updatedAt: "2018-11-15T09:59:40.652Z"

@@ -1,6 +1,6 @@
 ---
 title: "Create a workspace"
-slug: "api-workspaces-create"
+slug: "/api-workspaces-create"
 hidden: false
 createdAt: "2020-02-27T22:00:24.623Z"
 updatedAt: "2020-07-03T16:00:35.910Z"

@@ -1,6 +1,6 @@
 ---
 title: "List events"
-slug: "api-list-events"
+slug: "/api-list-events"
 hidden: false
 createdAt: "2018-08-02T09:56:39.537Z"
 updatedAt: "2020-10-29T11:37:52.293Z"

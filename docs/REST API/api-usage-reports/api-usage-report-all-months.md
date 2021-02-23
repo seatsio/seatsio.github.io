@@ -1,6 +1,6 @@
 ---
 title: "Usage summary for all months"
-slug: "api-usage-report-all-months"
+slug: "/api-usage-report-all-months"
 hidden: false
 createdAt: "2019-05-28T13:25:56.119Z"
 updatedAt: "2019-06-03T14:02:51.546Z"

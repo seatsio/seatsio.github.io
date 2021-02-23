@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-slug: "getting-started-intro"
+slug: "/getting-started-intro"
 hidden: false
 createdAt: "2018-07-27T08:27:25.875Z"
 updatedAt: "2019-01-17T12:42:29.773Z"

@@ -1,6 +1,6 @@
 ---
 title: "List all your subaccounts"
-slug: "api-list-all-your-subaccounts"
+slug: "/api-list-all-your-subaccounts"
 hidden: false
 createdAt: "2018-08-02T10:13:10.605Z"
 updatedAt: "2020-02-28T13:14:48.278Z"

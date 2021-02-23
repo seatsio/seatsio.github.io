@@ -1,6 +1,6 @@
 ---
 title: "gzip"
-slug: "api-gzip"
+slug: "/api-gzip"
 hidden: false
 createdAt: "2018-07-31T08:17:28.059Z"
 updatedAt: "2018-07-31T08:25:55.817Z"

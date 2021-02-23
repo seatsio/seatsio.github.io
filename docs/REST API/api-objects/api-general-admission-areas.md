@@ -1,6 +1,6 @@
 ---
 title: "General admission areas"
-slug: "api-general-admission-areas"
+slug: "/api-general-admission-areas"
 hidden: false
 createdAt: "2018-08-01T12:38:00.288Z"
 updatedAt: "2020-10-01T08:26:37.415Z"

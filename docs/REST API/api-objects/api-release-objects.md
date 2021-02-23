@@ -1,6 +1,6 @@
 ---
 title: "Release objects"
-slug: "api-release-objects"
+slug: "/api-release-objects"
 hidden: false
 createdAt: "2018-07-31T09:11:57.723Z"
 updatedAt: "2020-10-13T07:32:57.352Z"
