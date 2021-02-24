@@ -29,6 +29,7 @@ module.exports = {
                 },
                 {
                     "Objects": [
+                        "REST API/api-objects",
                         "REST API/api-objects/api-book-objects",
                         "REST API/api-objects/api-release-objects",
                         "REST API/api-objects/api-temporarily-hold-objects",
@@ -61,14 +62,70 @@ module.exports = {
                         "REST API/api-charts/api-charts-save-social-distancing-rulesets",
                     ]
                 },
-                // TODO chart tags
-                // TODO EVENTS
-                // TODO Chart reports
-                // TODO Event reports
-                // TODO Usage reports
-                // TODO Hold TOkens
-                // TODO Workspaces
-                // TODO Subaccounts
+                {
+                    "Chart tags": [
+                        "REST API/api-chart-tags/api-list-tags-of-all-charts",
+                        "REST API/api-chart-tags/api-add-a-tag-to-a-chart",
+                        "REST API/api-chart-tags/api-remove-a-tag-from-a-chart",
+                    ]
+                },
+                {
+                    "Events": [
+                        "REST API/api-events/api-list-events",
+                        "REST API/api-events/api-retrieve-an-event",
+                        "REST API/api-events/api-create-an-event",
+                        "REST API/api-events/api-create-multiple-events",
+                        "REST API/api-events/api-update-an-event",
+                        "REST API/api-events/api-delete-an-event",
+                        "REST API/api-events/api-list-events-for-a-chart",
+                        "REST API/api-events/api-update-extra-data-for-an-object",
+                        "REST API/api-events/api-update-extra-data-for-multiple-objects",
+                        "REST API/api-events/api-retrieve-the-status-of-an-object",
+                        "REST API/api-events/api-list-status-changes",
+                        "REST API/api-events/api-list-status-changes-for-an-object",
+                        "REST API/api-events/update-channels-for-an-event", // yes this is correct
+                        "REST API/api-events/assign-objects-to-channels", // yes this is correct
+                    ]
+                },
+                "REST API/chart-reports",
+                {
+                    "Event reports": [
+                        "REST API/api-event-reports",
+                        "REST API/api-event-reports/api-detailed-reports",
+                        "REST API/api-event-reports/api-summary-reports",
+                        "REST API/api-event-reports/api-deep-summary-reports",
+                    ]
+                },
+                {
+                    "Usage reports": [
+                        "REST API/api-usage-reports", // TODO rename this in custom cleanup
+                        "REST API/api-usage-reports/api-usage-report-all-months",
+                        "REST API/api-usage-reports/api-usage-report-single-month",
+                        "REST API/api-usage-reports/api-usage-report-event-month",
+                    ]
+                },
+                {
+                    "Hold tokens": [
+                        "REST API/api-hold-tokens",
+                        "REST API/api-hold-tokens/api-the-hold-token-object",
+                        "REST API/api-hold-tokens/api-retrieve-a-hold-token",
+                        "REST API/api-hold-tokens/api-create-a-hold-token",
+                        "REST API/api-hold-tokens/api-change-expiration-date",
+                    ]
+                },
+                {
+                    "Workspaces": [
+                        "REST API/api-workspaces",
+                        "REST API/api-workspaces/api-workspaces-create",
+                        "REST API/api-workspaces/api-workspaces-update",
+                        "REST API/api-workspaces/api-workspaces-retrieve",
+                        "REST API/api-workspaces/api-workspaces-list",
+                        "REST API/api-workspaces/api-workspaces-regenerate-secret-key",
+                        "REST API/api-workspaces/api-workspace-activate",
+                        "REST API/api-workspaces/api-workspace-deactivate",
+                    ]
+                }
+                // TODO Subaccounts deprecated
             ]
         },
         {
@@ -79,8 +136,16 @@ module.exports = {
                 "Event Manager/event-manager-styling",
                 "Event Manager/event-manager-reacting-to-events",
             ]
+        },
+        {
+            "Chart Manager": [
+                // TODO Chart Manager
+            ]
+        },
+        {
+            "Embedded Designer": [
+                // TODO Embedded Designer
+            ]
         }
-        // TODO Chart Manager
-        // TODO Embedded Designer
     ],
 };
