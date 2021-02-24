@@ -11,4 +11,4 @@ import TabItem from '@theme/TabItem';
 
 To retrieve the events for a chart, you need to fetch the chart data and expand its events, using the `expand=events` query parameter. 
 
-See [the charts chapter](doc:api-retrieve-a-chart) for more information.
+See [the charts chapter](api-retrieve-a-chart) for more information.

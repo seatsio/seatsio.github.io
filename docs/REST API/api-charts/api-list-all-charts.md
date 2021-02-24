@@ -192,7 +192,7 @@ The status of a chart can be either
 
 publishedVersionThumbnailUrl (and draftVersionThumbnailUrl if applicable) are URLs that return a PNG thumbnail for the chart.
 ## Query parameters
-This is a paginated API endpoint, so the normal pagination query params (limit, start_after_id and end_before_id) are applicable. See [this page](doc:api-pagination) for more info.
+This is a paginated API endpoint, so the normal pagination query params (limit, start_after_id and end_before_id) are applicable. See [this page](api-pagination) for more info.
 
 * **filter** *(optional)*   
 Allows you to filter on chart name (case insensitive).

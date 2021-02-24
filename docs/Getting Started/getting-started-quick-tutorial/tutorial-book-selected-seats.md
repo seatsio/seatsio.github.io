@@ -11,8 +11,8 @@ import TabItem from '@theme/TabItem';
 
 So you've shown your ticket buyer a floor plan, they selected the seats they wish. Now it's time to actually book them, so that they become unavailable for selection for the next ticket buyer that comes along. 
 
-You do this by calling the [Book objects endpoint](doc:api-book-objects) of the Seats API. 
-Here are some examples using the respective [API Client libraries](doc:api-client-libraries) you can use: 
+You do this by calling the [Book objects endpoint](api-book-objects) of the Seats API. 
+Here are some examples using the respective [API Client libraries](api-client-libraries) you can use: 
 
 
 
@@ -79,7 +79,7 @@ In other words: you can look at the seats on a floor plan as a collection of on/
 
 
 ## Custom statuses
-There's more than just 'booking' a seat. You can use your own statuses (i.e. other than *BOOKED*) as well, read more [here](doc:api-custom-object-status).
+There's more than just 'booking' a seat. You can use your own statuses (i.e. other than *BOOKED*) as well, read more [here](api-custom-object-status).
 
 ## Temporarily holding seats
-It's possible to hold seats for a little while, until the ticket buyer finishes up their purchase. Check [this page](doc:api-temporarily-hold-objects) for more information on how to do this.
+It's possible to hold seats for a little while, until the ticket buyer finishes up their purchase. Check [this page](api-temporarily-hold-objects) for more information on how to do this.

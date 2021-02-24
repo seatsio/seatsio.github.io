@@ -15,4 +15,4 @@ For example, the reporting call `/reports/events/{eventKey}/byCategoryLabel/{lab
 
 E.g. `Balcão Nobre` becomes `Balc%C3%A3o%20Nobre`.
 
-Note that our [API Client libraries](doc:api-client-libraries) do this under the hood, so you don't have to encode anything when using them.
+Note that our [API Client libraries](api-client-libraries) do this under the hood, so you don't have to encode anything when using them.

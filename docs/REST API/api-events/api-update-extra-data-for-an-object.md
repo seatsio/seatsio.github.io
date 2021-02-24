@@ -9,7 +9,7 @@ updatedAt: "2018-11-15T10:21:33.072Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Updates the [extra data](doc:api-extra-data) for an object in an event, without changing the object status.
+Updates the [extra data](api-extra-data) for an object in an event, without changing the object status.
 
 
 

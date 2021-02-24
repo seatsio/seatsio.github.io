@@ -45,7 +45,7 @@ curl https://api.seatsio.net/charts -H "Authorization: Basic NTUwZTg0MDAtZTI5Yi0
 ```
 
 ## Using one of the seats.io client libs
-All of the seats.io [client libraries](doc:api-client-libraries) support authentication with the API, so you don't have to fiddle with authorization headers and base64 encoding.  
+All of the seats.io [client libraries](api-client-libraries) support authentication with the API, so you don't have to fiddle with authorization headers and base64 encoding.  
 
 
 <Tabs 

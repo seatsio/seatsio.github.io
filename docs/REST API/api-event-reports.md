@@ -13,8 +13,8 @@ The *Event Report* endpoints all give you access to the data about an event.
 
 The Seats API provides 2 types of reports: 
 
-1. [Detailed reports](doc:api-detailed-reports): these contain details on each and every bookable object
-2. [Summary reports](doc:api-summary-reports): these don't contain the individual bookable objects, but give you an aggregated view (e.g. the total number of seats with status "BOOKED"). 
+1. [Detailed reports](api-detailed-reports): these contain details on each and every bookable object
+2. [Summary reports](api-summary-reports): these don't contain the individual bookable objects, but give you an aggregated view (e.g. the total number of seats with status "BOOKED"). 
 
 You can retrieve each of these reports in different representations, which we call report types. For example, the *byLabel* report will give you an overview of all seats per seat label, whereas the "byStatus" report will give you an overview of all different seat statuses present on the event, together with a list of the seats that have that status. 
 

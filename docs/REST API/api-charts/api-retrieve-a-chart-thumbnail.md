@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 Chart thumbnails are static PNG representations of a seating chart. This means that you cannot interact with the objects on the chart. You typically use them when showing a list of charts to a user, e.g. when integrating seats.io into your backoffice system.
 
-These thumbnails are not a completely accurate representation of the seating chart. To get a high-detail static representation of a single chart, use [print mode](doc:renderer-config-mode).
+These thumbnails are not a completely accurate representation of the seating chart. To get a high-detail static representation of a single chart, use [print mode](renderer-config-mode).
 :::info Tip
 To use the thumbnail in an `<img>` tag, use the publicly accessible `publishedVersionThumbnailUrl` (or `draftVersionThumbnailUrl`) that is returned by the [list charts](doc:api-list-all-charts) and [retrieve chart](doc:api-retrieve-a-chart) calls instead of the call documented below.
 :::

@@ -16,14 +16,14 @@ GET /reports/events/{eventKey}/{reportType}
 ```
 
 The report types you can choose from are:
-- [byStatus](doc:api-detailed-reports#section-detailed-report-by-status) 
-- [bySelectability](doc:api-detailed-reports#section-detailed-report-by-selectability) 
-- [byCategoryLabel](doc:api-detailed-reports#section-detailed-report-by-category-label) 
-- [byCategoryKey](doc:api-detailed-reports#section-detailed-report-by-category-key) 
-- [byLabel](doc:api-detailed-reports#section-detailed-report-by-label) 
-- [byOrderId](doc:api-detailed-reports#section-detailed-report-by-order-id) 
-- [bySection](doc:api-detailed-reports#section-detailed-report-by-section)
-- [byChannel](doc:api-detailed-reports#section-detailed-report-by-channel)  
+- [byStatus](api-detailed-reports#section-detailed-report-by-status) 
+- [bySelectability](api-detailed-reports#section-detailed-report-by-selectability) 
+- [byCategoryLabel](api-detailed-reports#section-detailed-report-by-category-label) 
+- [byCategoryKey](api-detailed-reports#section-detailed-report-by-category-key) 
+- [byLabel](api-detailed-reports#section-detailed-report-by-label) 
+- [byOrderId](api-detailed-reports#section-detailed-report-by-order-id) 
+- [bySection](api-detailed-reports#section-detailed-report-by-section)
+- [byChannel](api-detailed-reports#section-detailed-report-by-channel)  
 
 You can also pass in an optional filter, for example to retrieve only the objects in a certain status:
 

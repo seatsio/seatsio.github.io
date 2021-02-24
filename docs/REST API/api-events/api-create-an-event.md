@@ -144,7 +144,7 @@ await client.events.create(
   - `ALL_BY_SEAT`: for this event, all tables are bookable by seat
   - `ALL_BY_TABLE`:  for this event, all tables are bookable as a whole
 
-* **socialDistancingRulesetKey**: optional. The UUID which identifies a social distancing ruleset. You can get that key by [retrieving the chart](doc:api-retrieve-a-chart) for the event.
+* **socialDistancingRulesetKey**: optional. The UUID which identifies a social distancing ruleset. You can get that key by [retrieving the chart](api-retrieve-a-chart) for the event.
 
 * **bookWholeTables**: deprecated. Boolean. Whether only whole tables can be booked, or the individual seats of a table. Cannot be used in combination with `tableBookingModes`. Pass in `false` to make all tables bookable by seat, and `true` to make them bookable by table.
 If both `bookWholeTables` and `tableBookingModes` are omitted, the table booking modes from the chart are inherited.
