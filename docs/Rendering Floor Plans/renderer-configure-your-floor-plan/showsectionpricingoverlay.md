@@ -15,4 +15,6 @@ import TabItem from '@theme/TabItem';
 Overlays the price or price range of a section on top of it, when the chart is zoomed out. The pricing is positioned underneath the label.
 
 The price is updated live based on the currently selectable objects inside.
+
 ![section-price-range@2x.png](/img/readme/section-price-range@2x.png)
+

@@ -19,5 +19,7 @@ The normal behaviour for charts with sections, is to show section contents (rows
 However, if `alwaysShowSectionContents` is set to `true`, section contents will always be rendered, at any zoom level or screen size. This means the sections themselves won't be shown in their category color, but rather in a very light gray, with their contents rendered in color. Like so: 
 
 
+
 ![Screenshot 2019-06-28 14.35.38.png](/img/readme/Screenshot-2019-06-28-14.35.38.png)
+
 This is notably useful on seating charts that have multiple categories within a same section.

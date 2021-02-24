@@ -17,7 +17,9 @@ colors: {
    colorSelected: 'hsl(214, 96%, 53%)'
 }
 ```
+
 ![Screen Shot 2019-07-22 at 2.19.43 PM.png](/img/readme/Screen-Shot-2019-07-22-at-2.19.43-PM.png)
+
 Replaces certain colors of the current color scheme.
 
 Currently you can redefine:

@@ -11,7 +11,9 @@ import TabItem from '@theme/TabItem';
 
 **Type**: function(object)
 **Return**: string
+
 ![custom-info@2x.png](/img/readme/custom-info@2x.png)
+
 A function whose result will be displayed as extra information on the cursor tooltip.
 
 Can be formatted using a simple [BBCode](https://en.wikipedia.org/wiki/BBCode) format:

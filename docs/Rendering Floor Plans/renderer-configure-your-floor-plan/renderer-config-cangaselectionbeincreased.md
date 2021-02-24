@@ -14,7 +14,9 @@ import TabItem from '@theme/TabItem';
 This function is invoked when a user clicks on a GA area. If `canGASelectionBeIncreased` returns true, the user is able to increase the number of selected places by clicking on the + button of the ticket selector that pops up.
 
 
+
 ![Screenshot 2018-08-03 14.31.18.png](/img/readme/Screenshot-2018-08-03-14.31.18.png)
+
 * **gaArea**: the GA area that has been selected
 * **defaultValue**: a boolean that indicates if additional GA places can be selected. This is determined by whether the number of selected places plus the number places booked by other users is smaller than the capacity of the GA area.
 * **extraConfig**: see [extraConfig](renderer-config-extraconfig)

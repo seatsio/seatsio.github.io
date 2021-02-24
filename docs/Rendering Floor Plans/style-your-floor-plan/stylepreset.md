@@ -19,12 +19,22 @@ Styles can still be overwritten by using the [style](/docs/style) setting.
 # List of style presets:
 
 ## **"balance" (default)** 
+
 ![Balance.png](/img/readme/Balance.png)
+
 ## **"bubblegum"** 
+
 ![Bubblegum.png](/img/readme/Bubblegum.png)
+
 ## **"flathead"** 
+
 ![Flathead.png](/img/readme/Flathead.png)
+
 ### **"bezels"** 
+
 ![Bezels.png](/img/readme/Bezels.png)
+
 ### **"leaf"** 
+
 ![Leaf.png](/img/readme/Leaf.png)
+

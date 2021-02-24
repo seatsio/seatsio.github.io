@@ -11,7 +11,9 @@ import TabItem from '@theme/TabItem';
 
 **Type**: string
 **Default**: `"light"`
+
 ![Screen Shot 2019-07-22 at 2.24.34 PM.png](/img/readme/Screen-Shot-2019-07-22-at-2.24.34-PM.png)
+
 Sets the color scheme for the user interface. The colors of certain floor plan elements, such as zoomed-in sections, will also be adjusted accordingly.
 
 You can pick between:

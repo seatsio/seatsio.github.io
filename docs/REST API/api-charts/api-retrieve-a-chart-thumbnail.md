@@ -95,4 +95,6 @@ curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/version
 -u aSecretKey:
 ```
 **Example response**
+
 ![thumbnail.png](/img/readme/thumbnail.png)
+

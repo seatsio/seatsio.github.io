@@ -348,7 +348,9 @@ The above API endpoints are rate limited: you can only call it 10 times per 24 h
 
 Of course, this rate limit applies **per event**: If you have used up all 10 saves for event A, you will still be able to change the for-sale configuration for event B. 
 
+
 ![Screenshot 2019-06-14 11.39.51.png](/img/readme/Screenshot-2019-06-14-11.39.51.png)
+
 If that limit of 10 is reached, a 429 (Too Many Requests) is returned. 
 The `Retry-After` header indicates how many seconds you have to wait before trying again.
 
@@ -361,9 +363,13 @@ In other words: you can always change the for-sale configuration of an event to 
 This allows you to start sales with just a portion of your floor plan as available, and then to gradually open up the rest of the seats.
 :::
 So this operation will count for the rate limit: 
+
 ![Screenshot 2019-06-14 11.46.56.png](/img/readme/Screenshot-2019-06-14-11.46.56.png)
+
 And this will **not** count for the rate limit: 
 
 
 
+
 ![Screenshot 2019-06-14 11.47.09.png](/img/readme/Screenshot-2019-06-14-11.47.09.png)
+

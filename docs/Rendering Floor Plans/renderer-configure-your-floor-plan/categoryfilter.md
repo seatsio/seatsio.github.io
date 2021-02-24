@@ -30,9 +30,13 @@ Supported parameters are:
 - `enabled` - **Default: false.** If true, the category filter will be visible.
 - `multiSelect` - **Default: true.** If true, multiple categories can be selected at once.
 - `zoomOnSelect` - **Default: false.** If true, the chart will zoom in or out to fit in the viewport the filtered objects.
+
 ![Category filters - desktop 2.gif](/img/readme/Category-filters---desktop-2.gif)
 
+
+
 ![Category filters - mobile 2.gif](/img/readme/Category-filters---mobile-2.gif)
+
 
 :::info Notice
 To use the two-step layout, where the categories filter is fully displayed on the left side, the embed must be wide enough to support this. It will otherwise dock to the top of the screen.

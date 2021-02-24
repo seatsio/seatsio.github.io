@@ -28,4 +28,6 @@ priceFormatter: function (price) {
 }
 ```
 
+
 ![Screenshot 2019-01-04 at 09.15.55.png](/img/readme/Screenshot-2019-01-04-at-09.15.55.png)
+
