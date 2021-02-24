@@ -16,8 +16,4 @@ The messages parameter allows you to change all kinds of texts that are displaye
 Just pass in an object with the original texts as keys, and the translations as values.
 
 For a more detailed explanation, check [this page](http://support.seats.io/integrating-seats-io/multi-language-i18n-support).
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/k2xvn8rq/embedded/js,html,result/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/k2xvn8rq/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

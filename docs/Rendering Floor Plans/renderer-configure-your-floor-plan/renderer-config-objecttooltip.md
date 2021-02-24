@@ -39,10 +39,6 @@ The supported parameters are:
 - `showUnavailableNotice` - **Default: true.** If true, a notice will be displayed on the tooltip if the object is unavailable.
 - `stylizedLabel` - **Default: true.** If true, a labels will be displayed in a hierarchy-based styling, improving readability. If false, labels will be displayed as flat text.
 - `confirmSelectionOnMobile` - **Boolean. Default: auto.** If `true`, a popup will show up when selecting an object on mobile containing the same information as the desktop tooltip, seen on hover. A button must be pressed to confirm the selection. If `false`, selection is done instantly but no information regarding the object is shown to the user. If unset, it will automatically attempt to show it as long `tooltipText` and `onObjectClicked` parameters are not passed in.
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/kt2xuf5m/embedded/js,html,result/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/kt2xuf5m/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ![Screen Shot 2018-11-28 at 11.05.41 AM.png](/img/readme/Screen-Shot-2018-11-28-at-11.05.41-AM.png)

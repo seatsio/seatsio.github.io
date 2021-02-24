@@ -14,7 +14,8 @@ module.exports = {
         },
         {
             "Rendering Floor Plans": [
-
+                "Rendering Floor Plans/renderer-embed-a-floor-plan"
+                // TODO add more here
             ]
         },
         {

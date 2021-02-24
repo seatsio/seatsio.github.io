@@ -36,11 +36,7 @@ objectLabel: object => object.labels.own
 ```
 :::
 
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/q6w0t3va/embedded/js,html,result/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/q6w0t3va/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 ```javascript
 
 ```

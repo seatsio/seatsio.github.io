@@ -9,7 +9,7 @@ updatedAt: "2019-04-08T23:42:59.727Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type:** array<string>
+**Type:** array&lt;string&gt;
 **Default**: []
 
 Leaves the specified categories normally visible, while making all others dimmed out. The array can be a list of category IDs or labels.

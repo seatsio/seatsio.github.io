@@ -9,7 +9,7 @@ updatedAt: "2018-08-24T08:34:28.143Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: array<string>
+**type**: array&lt;string&gt;
 Array containing the labels of the objects the user has selected.
 ```javascript
 var chart = new seatsio.SeatingChart({...}).render();

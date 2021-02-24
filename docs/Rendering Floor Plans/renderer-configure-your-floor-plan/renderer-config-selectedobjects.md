@@ -37,8 +37,4 @@ Note that you can mix and match the two, so this will select both the seats and 
  ```javascript
  selectedObjects: ['A-1', 'A-2', {label: 'MyGA', amount: 4}]
  ```
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/o4u3gzb2/embedded/js,html,result/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/o4u3gzb2/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

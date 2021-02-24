@@ -27,8 +27,4 @@ The ticket buyer is not allowed to leave orphan seats, unless it's not possible 
 numberOfPlacesToSelect: 3
 ```
 
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/d1x39o4a/embedded/result,js,html/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/d1x39o4a/embedded/result,js,html/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

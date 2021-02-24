@@ -22,8 +22,4 @@ The result of this function will be escaped. This means you can't use html entit
 This might now work if you're not encoding your page as UTF-8. In that case, you should be able to use the unicode value (e.g. `\u0024` for $)
 :::
 Note that the result of this function will be escaped, meaning you can't use html entities such as `&#36;`
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/tsd62gpb/embedded/js,html,result/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/tsd62gpb/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

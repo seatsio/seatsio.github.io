@@ -42,8 +42,4 @@ In *TypeScript* https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/t
 In the rest of the documentation, code examples will be presented in interactive code editors like the one below. 
 
 Feel free to play around! 
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/xjmk1g36/embedded/js,html,result/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/xjmk1g36/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

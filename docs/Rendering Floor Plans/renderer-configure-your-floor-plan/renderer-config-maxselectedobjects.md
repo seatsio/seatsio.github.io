@@ -65,11 +65,7 @@ maxSelectedObjects: [
 If you don't pass in all categories, the ticket buyer will not be able to select tickets in the missing categories. E.g. if the max number of balcony tickets is set to 2, and no max is set for stalls tickets, the ticket buyer will only be able to select balcony tickets.
 :::
 
-[block:html]
-{
-  "html": "<iframe width=\"100%\" height=\"580\" src=\"//jsfiddle.net/seatsio/q47ozwj0/embedded/js,html,result/\" allowfullscreen=\"allowfullscreen\" frameborder=\"0\"></iframe>"
-}
-[/block]
+<iframe width="100%" height="580" src="//jsfiddle.net/seatsio/q47ozwj0/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 :::caution Security notice
 You should also validate this server side; a somewhat clever user can change this value right from the browser to bypass the validation.
