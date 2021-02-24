@@ -144,7 +144,32 @@ module.exports = {
         },
         {
             "Embedded Designer": [
-                // TODO Embedded Designer
+                "Embedded Designer/embedded-designer-introduction",
+                {
+                    "Configuration": [
+                        "Embedded Designer/embedded-designer-configuration",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-divid",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-secretkey",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-chartkey",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-language",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-features",
+                        "Embedded Designer/embedded-designer-configuration/mode",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-opendraftdrawing",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-onchartcreated",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-onchartupdated",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-onchartpublished",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-onexitrequested",
+                        "Embedded Designer/embedded-designer-configuration/embedded-designer-configuration-ondesignerrendered",
+                        "Embedded Designer/embedded-designer-configuration/ondesignerrenderingfailed",
+                        "Embedded Designer/embedded-designer-configuration/openlatestdrawing",
+                    ]
+                },
+                {
+                    "Chart designer functions": [
+                        "Embedded Designer/embedded-designer-functions",
+                        "Embedded Designer/embedded-designer-functions/embedded-designer-functions-destroy",
+                    ]
+                }
             ]
         }
     ],
