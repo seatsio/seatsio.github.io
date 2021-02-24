@@ -15,14 +15,14 @@ import TabItem from '@theme/TabItem';
 
 Sets the color scheme for the user interface, and the contrast required when rendering the floor plan elements.
 
-For details, see the [Renderer colorScheme documentation](https://docs.seats.io/docs/colorscheme).
+For details, see the [Renderer colorScheme documentation](colorscheme).
 
 # colors
 **Type**: object
 
 Replaces certain colors of the current color scheme.
 
-For details, see the [Renderer colors documentation](https://docs.seats.io/docs/colors).
+For details, see the [Renderer colors documentation](colors).
 
 # stylePreset
 **Type**: string
@@ -30,11 +30,11 @@ For details, see the [Renderer colors documentation](https://docs.seats.io/docs/
 
 Sets the preset of styles to use for the seating chart user interface.
 
-For details, see the [Renderer stylePreset documentation](https://docs.seats.io/docs/stylepreset).
+For details, see the [Renderer stylePreset documentation](stylepreset).
 
 # style
 **Type**: object
 
 Sets the intention for certain style properties, allowing to override the current style preset.
 
-For details, see the [Renderer style documentation](https://docs.seats.io/docs/style).
+For details, see the [Renderer style documentation](style).

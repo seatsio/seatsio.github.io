@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 This endpoint retrieves the metadata that is shared between the published and draft versions of a chart (id, key, status, archived etc).
 
-To fetch the actual contents of the chart (including categories), use the endpoint to [retrieve a chart version](https://docs.seats.io/docs/api-retrieve-a-chart-version)
+To fetch the actual contents of the chart (including categories), use the endpoint to [retrieve a chart version](api-retrieve-a-chart-version)
 
 
 <Tabs 
