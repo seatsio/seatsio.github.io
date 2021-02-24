@@ -139,7 +139,11 @@ module.exports = {
         },
         {
             "Chart Manager": [
-                // TODO Chart Manager
+                "Chart manager/chart-manager-introduction",
+                "Chart manager/chart-manager-how-to-embed",
+                "Chart manager/chart-manager-configuring",
+                "Chart manager/chart-manager-styling",
+                "Chart manager/chart-manager-reacting-to-events",
             ]
         },
         {
