@@ -185,8 +185,8 @@ The request is a JSON object with one property: `statusChanges`. This is an arra
 * **holdToken** *(optional)*: the hold token must be supplied when you hold a seat (status `reservedByToken`), or want to make sure that the same person that made the hold confirms his booking.
 * **keepExtraData** *(optional)*: boolean. If set to true, the existing extra data doesn't get cleared
 * **orderId** *(optional)*: an order id, defined by yourself, to be able to retrieve the objects IDs per order later on.
-* **channelKeys** &lt;i&gt;(optional)&lt;/i&gt;: an array of strings, i.e. the channel keys of the channel(s) to which the objects belong. If omitted, and the objects are assigned to a channel, the request will fail with 400 Bad request. Pass in `NO_CHANNEL` as channel key to allow objects without a channel.
-* **ignoreChannels** &lt;i&gt;(optional)&lt;/i&gt;: if true, the status change call succeeds, even if the objects belong to a channel. Useful inside a back office application, in which the user is allowed to book any seat - no matter the channel.
+* **channelKeys** <i>(optional)</i>: an array of strings, i.e. the channel keys of the channel(s) to which the objects belong. If omitted, and the objects are assigned to a channel, the request will fail with 400 Bad request. Pass in `NO_CHANNEL` as channel key to allow objects without a channel.
+* **ignoreChannels** <i>(optional)</i>: if true, the status change call succeeds, even if the objects belong to a channel. Useful inside a back office application, in which the user is allowed to book any seat - no matter the channel.
 Should not be used in combination with `channelKeys`.
 ## Response
 *** Without expand=objects ***

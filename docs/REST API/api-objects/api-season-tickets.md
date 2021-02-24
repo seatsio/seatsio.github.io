@@ -100,7 +100,7 @@ await client.events.changeObjectStatus(['event1Key', 'event2Key', 'event3Key'], 
 * **objects**: an array of object ids to release
 * **events**: an array of event keys
 * **status**: the status you want to assign to an object
-* **holdToken** &lt;i&gt;(optional)&lt;/i&gt;: the hold token must be supplied when you want to make sure that the same person that made the hold confirms his booking.
+* **holdToken** <i>(optional)</i>: the hold token must be supplied when you want to make sure that the same person that made the hold confirms his booking.
 * **orderId** *(optional)*: an order id, defined by yourself, to be able to [retrieve the objects IDs per order](/docs/api-detailed-reports#detailed-report-by-order-id) later on.
 ## Response
 204 - No Content

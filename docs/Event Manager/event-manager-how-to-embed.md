@@ -15,7 +15,7 @@ To show the event manager to your admins or box office managers, you need to do 
 2. load https://cdn.seatsio.net/chart.js
 3. create a new `seatsio.EventManager` object, configure it and call its `render()` method
 
-So in short: just copy &amp; paste this code snippet and adapt it to your needs.
+So in short: just copy & paste this code snippet and adapt it to your needs.
 ```html
 <div id="event-manager"></div>
 

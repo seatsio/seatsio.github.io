@@ -3,7 +3,7 @@ title: "4. Collect selected seats"
 slug: "/tutorial-collect-selected-seats"
 hidden: false
 createdAt: "2018-08-21T09:55:39.597Z"
-updatedAt: "2020-12-29T09:53:36.408Z"
+updatedAt: "2021-02-24T09:55:57.603Z"
 ---
 
 import Tabs from '@theme/Tabs';
