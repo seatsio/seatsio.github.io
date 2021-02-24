@@ -12,7 +12,11 @@ module.exports = {
                 "Getting Started/getting-started-quick-tutorial/tutorial-further-reading",
             ]
         },
-        // TODO renderer
+        {
+            "Rendering Floor Plans": [
+
+            ]
+        },
         {
             "REST API": [
                 {
