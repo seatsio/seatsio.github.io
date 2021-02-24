@@ -41,7 +41,7 @@ module.exports = {
     colorMode: {
       disableSwitch: true,
     },
-    hideableSidebar: true,
+    hideableSidebar: false,
     prism: {
       additionalLanguages: ['csharp'],
     },
