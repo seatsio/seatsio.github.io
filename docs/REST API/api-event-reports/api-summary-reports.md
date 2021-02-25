@@ -3,7 +3,7 @@ title: "Summary reports"
 slug: "/api-summary-reports"
 hidden: false
 createdAt: "2018-08-02T10:10:41.918Z"
-updatedAt: "2020-12-28T07:46:17.868Z"
+updatedAt: "2021-02-25T11:14:35.413Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -155,12 +155,12 @@ Selectable objects can be found under the selectable key, non-selectable objects
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Python', value: 'python', },
+{ label: 'Javascript', value: 'javascript', },
 ]}>
 <TabItem value='shell'>
 
@@ -169,45 +169,45 @@ GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability/summary
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='php'>
 
-```shell
+```php
 $seatsioClient->eventReports->summaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='csharp'>
 
-```shell
+```csharp
 Client.EventReports.SummaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='java'>
 
-```shell
+```java
 client.eventReports.summaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='ruby'>
 
-```shell
+```ruby
 client.event_reports.summary_by_selectability("event34")
 
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='python'>
 
-```shell
+```python
 client.events.reports.summary_by_selectability("event34")
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='javascript'>
 
-```shell
+```javascript
 await client.eventReports.summaryBySelectability('eventKey');
 ```
 
