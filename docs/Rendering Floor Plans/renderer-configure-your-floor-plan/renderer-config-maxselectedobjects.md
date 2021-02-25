@@ -9,8 +9,8 @@ updatedAt: "2021-02-12T09:02:00.160Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: number or array of objects
-**Default**: not set
+**Type**: number or array of objects  
+**Default**: not set  
 
 Limit the number of objects a user can select.
 

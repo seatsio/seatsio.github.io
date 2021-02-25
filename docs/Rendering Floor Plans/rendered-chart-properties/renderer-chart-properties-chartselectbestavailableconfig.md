@@ -9,7 +9,7 @@ updatedAt: "2019-12-02T12:56:16.020Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(config)
+**Type**: function(config)  
 
 Selects best available objects (and deselects any already selected objects). 
 

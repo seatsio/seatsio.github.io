@@ -9,8 +9,8 @@ updatedAt: "2018-08-23T14:39:01.703Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: en
+**Type**: string  
+**Default**: en  
 
 Sets the language for built-in texts in seats.io. 
 

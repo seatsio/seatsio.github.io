@@ -9,7 +9,7 @@ updatedAt: "2018-08-23T14:18:40.093Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object, selectedTicketType)
+**Type**: function(object, selectedTicketType)  
 
 Fired when the user selects an object. The selected object is passed into this function as a parameter. 
 

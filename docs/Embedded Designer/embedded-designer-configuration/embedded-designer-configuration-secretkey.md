@@ -9,7 +9,7 @@ updatedAt: "2020-02-28T21:31:26.102Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
+**Type**: string  
 
 The secret key of a workspace.
 

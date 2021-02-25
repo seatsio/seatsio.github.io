@@ -9,6 +9,6 @@ updatedAt: "2020-03-25T09:21:33.524Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: string
+**Type**: string  
 
 The displayed object type for rows and seats, if specified in the designer.

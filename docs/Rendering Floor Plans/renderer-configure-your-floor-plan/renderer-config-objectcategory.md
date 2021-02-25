@@ -9,8 +9,8 @@ updatedAt: "2019-10-31T15:12:47.144Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object, categories, defaultCategory, extraConfig)
-**Default**: not implemented
+**Type**: function(object, categories, defaultCategory, extraConfig)  
+**Default**: not implemented  
 
 The objectCategory function allows the default category of an object to be overridden. It takes a number of parameters:
 

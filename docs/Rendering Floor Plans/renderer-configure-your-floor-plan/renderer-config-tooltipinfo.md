@@ -9,7 +9,7 @@ updatedAt: "2018-09-03T09:10:21.259Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object)
+**Type**: function(object)  
 **Return**: string
 
 ![custom-info@2x.png](/img/readme/custom-info@2x.png)

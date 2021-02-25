@@ -9,6 +9,6 @@ updatedAt: "2020-01-28T08:29:26.381Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: string
+**Type**: string  
 
 The name of the ticket type the user selected.

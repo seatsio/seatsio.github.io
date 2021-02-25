@@ -9,7 +9,7 @@ updatedAt: "2019-12-10T12:43:03.455Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(label, successCallback, objectNotFoundCallback)
+**Type**: function(label, successCallback, objectNotFoundCallback)  
 
 ```javascript
 chart.findObject(label, successCallback, objectNotFoundCallback)

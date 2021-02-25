@@ -9,7 +9,7 @@ updatedAt: "2019-05-03T11:22:10.380Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: object
+**Type**: object  
 The status for a GA area, per event. Useful when you pass in multiple events when rendering a chart.
 
 ```json

@@ -9,7 +9,7 @@ updatedAt: "2018-08-23T14:21:19.984Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(violations)
+**Type**: function(violations)  
 
 - **violations**: an array of violations against the passed in [selectionValidators](renderer-config-selectionvalidators) E.g. `['noOrphanSeats', 'consecutiveSeats']` if the selected seats contain orphans AND non-consecutive seats.
 

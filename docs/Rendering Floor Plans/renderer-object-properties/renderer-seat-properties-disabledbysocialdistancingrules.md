@@ -9,7 +9,7 @@ updatedAt: "2020-07-27T06:16:40.941Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: boolean
+**Type**: boolean  
 
 Whether this seat is disabled by social distancing rules.
 

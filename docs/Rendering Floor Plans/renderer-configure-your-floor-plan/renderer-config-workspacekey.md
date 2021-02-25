@@ -9,7 +9,7 @@ updatedAt: "2020-03-03T10:50:47.532Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
+**Type**: string  
 
 The workspace key for the workspace in which the chart was created. You can find it on your [workspace settings](https://app.seats.io/workspace-settings) page.
 

@@ -9,7 +9,7 @@ updatedAt: "2019-04-16T23:34:31.339Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: string
+**Type**: string  
 **possible values:**
 - `'free'`
 - `'reservedByToken'`

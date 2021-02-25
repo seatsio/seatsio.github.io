@@ -9,7 +9,7 @@ updatedAt: "2019-12-10T12:43:03.456Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(callback)
+**Type**: function(callback)  
 
 ```javascript
 chart.listCategories(categories => { ... })

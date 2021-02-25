@@ -9,8 +9,8 @@ updatedAt: "2020-10-20T08:44:07.465Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: array of objects
-**Default**: []
+**Type**: array of objects  
+**Default**: []  
 
 Seats supports two types of pricing: *simple pricing* and *multi-level pricing*. Both are defined using the `pricing` configuration parameter. 
 

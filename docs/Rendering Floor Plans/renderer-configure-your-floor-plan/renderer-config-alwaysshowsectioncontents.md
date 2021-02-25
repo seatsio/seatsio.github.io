@@ -9,8 +9,8 @@ updatedAt: "2019-11-05T19:19:36.927Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 Only useful for charts with sections.
 

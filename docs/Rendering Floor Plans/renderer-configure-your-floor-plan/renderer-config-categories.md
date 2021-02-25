@@ -9,7 +9,7 @@ updatedAt: "2019-12-05T08:46:22.779Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: array[object]
+**Type**: array[object]  
 
 The array of categories that you pass in to `categories` replaces the list of categories that were set through the designer.
 

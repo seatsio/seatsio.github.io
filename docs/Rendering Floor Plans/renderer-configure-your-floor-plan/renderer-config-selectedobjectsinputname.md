@@ -9,8 +9,8 @@ updatedAt: "2018-08-03T11:44:34.870Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: not set
+**Type**: string  
+**Default**: not set  
 
 If your chart div is enclosed within a `<form>`element, you can use this configuration option to automatically add the selected seat IDs to the form data. This is one of the ways you can pass the selected seats to your server, so that you can book them later on through the Seats API. 
 

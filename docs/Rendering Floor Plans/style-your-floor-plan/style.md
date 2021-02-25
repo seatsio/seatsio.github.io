@@ -9,7 +9,7 @@ updatedAt: "2019-07-22T22:18:21.539Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: object
+**Type**: object  
 
 **Example**:
 ```javascript

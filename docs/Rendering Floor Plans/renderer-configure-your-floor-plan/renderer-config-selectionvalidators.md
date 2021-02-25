@@ -12,8 +12,8 @@ import TabItem from '@theme/TabItem';
 
 ## selectionValidators
 
-**Type**: array
-**Default**: []
+**Type**: array  
+**Default**: []  
 
 ```javascript
 selectionValidators: [

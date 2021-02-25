@@ -9,7 +9,7 @@ updatedAt: "2018-08-23T14:18:50.706Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object, deselectedTicketType)
+**Type**: function(object, deselectedTicketType)  
 
 Fired when the user deselects an object. The deselected object is passed into this function as a parameter. 
 

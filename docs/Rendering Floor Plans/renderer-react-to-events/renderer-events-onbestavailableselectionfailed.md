@@ -9,7 +9,7 @@ updatedAt: "2018-08-23T14:20:02.657Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function()
+**Type**: function()  
 
 Fired when no best available objects could be found, because there are not enough selectable objects available.
 

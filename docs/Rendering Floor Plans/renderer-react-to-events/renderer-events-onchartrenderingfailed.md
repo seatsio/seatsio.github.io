@@ -9,7 +9,7 @@ updatedAt: "2018-08-03T13:43:59.856Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(chart)
+**Type**: function(chart)  
 
 Fired when there's an error when rendering the chart.
 

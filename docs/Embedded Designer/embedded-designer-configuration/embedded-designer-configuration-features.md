@@ -9,7 +9,7 @@ updatedAt: "2021-02-08T13:35:34.543Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: object
+**Type**: object  
 
 By passing in a `features` object, you can control the availability (enabled/disabled) and behaviour (read-only vs editable) of features.
 

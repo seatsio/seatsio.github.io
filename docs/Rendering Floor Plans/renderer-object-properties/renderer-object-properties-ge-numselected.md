@@ -9,5 +9,5 @@ updatedAt: "2018-08-24T08:13:46.124Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: number
+**Type**: number  
 The total number of places the user selected in the GA area. If there are multiple ticket types, numSelected is equal to the sum of all selections per ticket type.

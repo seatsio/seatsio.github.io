@@ -9,7 +9,7 @@ updatedAt: "2019-04-16T00:03:10.728Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: object
+**Type**: object  
 **example:** `{ own: '2', parent: 'A', section: 'Choir' }`
 
 The object label split into different parts. It contains the label of the object itself, the label of its parent (i.e. a table or row), and the section label if applicable.

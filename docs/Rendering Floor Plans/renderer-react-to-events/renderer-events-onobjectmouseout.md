@@ -9,6 +9,6 @@ updatedAt: "2021-02-25T07:54:54.720Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object)
+**Type**: function(object)  
 
 Fired when the user unhovers an object.

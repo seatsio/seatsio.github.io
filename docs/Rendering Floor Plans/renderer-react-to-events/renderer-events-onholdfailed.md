@@ -9,7 +9,7 @@ updatedAt: "2020-10-21T08:35:44.303Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(objects, ticketTypes)
+**Type**: function(objects, ticketTypes)  
 
 When in a [`session`](renderer-config-session), the user's browser will automatically hold selected places for a period of time, by issuing a direct API call to the Seats.io server.  
 

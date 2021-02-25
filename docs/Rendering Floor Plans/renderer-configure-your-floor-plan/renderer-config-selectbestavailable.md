@@ -9,7 +9,7 @@ updatedAt: "2019-12-02T12:57:29.735Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: object
+**Type**: object  
 
 Automatically pre-select the best available objects (and deselect already selected objects).
 

@@ -9,8 +9,8 @@ updatedAt: "2019-10-03T16:40:03.957Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: `"light"`
+**Type**: string  
+**Default**: `"light"`  
 
 ![Screen Shot 2019-07-22 at 2.24.34 PM.png](/img/readme/Screen-Shot-2019-07-22-at-2.24.34-PM.png)
 

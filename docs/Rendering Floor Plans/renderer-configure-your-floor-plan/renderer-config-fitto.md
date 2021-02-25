@@ -9,8 +9,8 @@ updatedAt: "2021-02-08T13:06:21.959Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: default depends on width and height of the container `<div>`
+**Type**: string  
+**Default**: default depends on width and height of the container `<div>`  
 
 
 ### How Seats.io determines rendering size

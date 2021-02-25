@@ -9,7 +9,7 @@ updatedAt: "2020-08-26T10:24:07.993Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
+**Type**: string  
 
 When starting a [session](renderer-config-session), a hold token is generated and stored in the browser's session storage. That way, the hold token will still available after a page refresh, allowing the renderer to re-select the previously selected and held seats.
 

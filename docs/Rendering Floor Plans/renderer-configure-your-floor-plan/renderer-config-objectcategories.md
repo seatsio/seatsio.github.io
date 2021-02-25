@@ -9,7 +9,7 @@ updatedAt: "2018-09-12T21:00:25.715Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: object
+**Type**: object  
 
 `objectCategories` allows you to override the categories that were assigned to objects through the designer. It's a mapping between object labels and category keys (or labels):
 

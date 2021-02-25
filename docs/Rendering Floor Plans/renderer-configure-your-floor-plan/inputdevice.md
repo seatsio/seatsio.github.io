@@ -9,8 +9,8 @@ updatedAt: "2020-12-05T23:05:33.832Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: 'auto'
+**Type**: string  
+**Default**: 'auto'  
 
 Specifies the type of input device to optimize the user interface for. These can either be:
 

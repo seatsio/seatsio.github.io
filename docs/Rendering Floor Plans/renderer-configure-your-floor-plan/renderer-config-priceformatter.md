@@ -9,8 +9,8 @@ updatedAt: "2020-10-02T12:55:00.332Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(price)
-**Default implementation**: return the raw price, as provided by the [pricing](renderer-config-pricing) configuration parameter (i.e. a number or a string). 
+**Type**: function(price)  
+**Default**: implementation**: return the raw price, as provided by the [pricing](renderer-config-pricing) configuration parameter (i.e. a number or a string).   
 
 A function that formats a price when it's shown to an end user. This is notably used in the tooltip you see when you hover over a seat. 
 

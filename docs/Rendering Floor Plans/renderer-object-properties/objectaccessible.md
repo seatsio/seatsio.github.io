@@ -9,8 +9,8 @@ updatedAt: "2020-03-25T09:23:44.683Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: boolean
-**default**: `false`
+**Type**: boolean  
+**Default**: `false`  
 
 `true` if either the object or its category is marked as accessible in the designer.
 

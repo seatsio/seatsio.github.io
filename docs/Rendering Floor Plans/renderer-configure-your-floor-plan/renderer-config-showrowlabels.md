@@ -9,8 +9,8 @@ updatedAt: "2018-10-29T12:42:03.407Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 :::caution Note
 This parameter is deprecated. You can indicate which row labels are shown through the designer.

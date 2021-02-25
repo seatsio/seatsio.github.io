@@ -9,6 +9,6 @@ updatedAt: "2020-03-25T09:17:55.272Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: string
+**Type**: string  
 
 The URL of the image if the seat has a "view from your seat" image set.

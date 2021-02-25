@@ -9,7 +9,7 @@ updatedAt: "2018-08-23T14:39:53.794Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object, extraConfig)
+**Type**: function(object, extraConfig)  
 
 A function that should return true if an object is visible, and false otherwise. When an object is invisible, it can't be selected or interacted with. Can be based on `object.type`, `object.status`, `object.category`, or on other criteria.
 

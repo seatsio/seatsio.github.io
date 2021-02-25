@@ -9,9 +9,9 @@ updatedAt: "2019-12-10T13:00:59.831Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
+**Type**: string  
 **Possible values**: `'continue'`, `'start'`, `'manual'`, `'none'` 
-**Default**: `'none'`
+**Default**: `'none'`  
 
 Start a session to temporarily hold objects upon selection.
 

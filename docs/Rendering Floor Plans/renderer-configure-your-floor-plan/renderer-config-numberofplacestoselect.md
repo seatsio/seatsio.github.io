@@ -9,8 +9,8 @@ updatedAt: "2020-10-27T18:14:14.532Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: integer
-**Default**: not set
+**Type**: integer  
+**Default**: not set  
 
 Activates one-click selection mode.
 

@@ -9,7 +9,7 @@ updatedAt: "2021-01-06T10:56:37.737Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(holdToken)
+**Type**: function(holdToken)  
 
 Fired when a session is initialized. This is either when:  
 * a new session is started, e.g. when [chart.startNewSession()](chartstartnewsession)  is called, or when the user clicks on the "start over" button on the "session expired" dialog

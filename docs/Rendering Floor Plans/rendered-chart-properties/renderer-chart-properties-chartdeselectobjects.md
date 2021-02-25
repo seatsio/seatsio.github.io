@@ -9,7 +9,7 @@ updatedAt: "2019-12-10T12:51:52.799Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(objects, successCallback, failedCallback)
+**Type**: function(objects, successCallback, failedCallback)  
 
 Deselects matched objects. The parameter `objects` must be an array of strings or an array of objects.
 

@@ -9,7 +9,7 @@ updatedAt: "2019-12-10T12:47:09.816Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(objects, ticketTypes)
+**Type**: function(objects, ticketTypes)  
 
 When in a [`session`](renderer-config-session), the user's browser will automatically hold selected places for a period of time.  
 

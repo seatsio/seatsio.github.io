@@ -9,7 +9,7 @@ updatedAt: "2019-08-08T08:55:10.467Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: object
+**Type**: object  
 The status and extra data for an object, per event. Useful when you pass in multiple events when rendering a chart.
 
 For GA areas, have a look at [this page](/docs/renderer-object-properties-ga-dataperevent).

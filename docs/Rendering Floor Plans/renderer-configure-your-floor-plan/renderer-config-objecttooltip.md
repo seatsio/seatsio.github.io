@@ -9,8 +9,8 @@ updatedAt: "2020-07-09T20:31:29.385Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: object
-**Default**:
+**Type**: object  
+**Default**:  
 ```javascript
 {
     showActionHint: true,

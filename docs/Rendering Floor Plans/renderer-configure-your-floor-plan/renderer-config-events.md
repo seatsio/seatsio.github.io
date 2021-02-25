@@ -9,7 +9,7 @@ updatedAt: "2020-10-27T18:15:12.547Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: array of strings
+**Type**: array of strings  
 
 The key of the events for which you want to render the seating chart.
 

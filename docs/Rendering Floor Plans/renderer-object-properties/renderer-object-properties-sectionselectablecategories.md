@@ -9,5 +9,5 @@ updatedAt: "2019-12-10T12:43:03.435Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: array
+**Type**: array  
 Array that contains all the (unique) categories for the selectable objects in the section. The categories contain pricing information, if specified.

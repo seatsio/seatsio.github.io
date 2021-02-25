@@ -9,7 +9,7 @@ updatedAt: "2018-08-03T13:49:30.940Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(array_of_objects, nextToEachOther)
+**Type**: function(array_of_objects, nextToEachOther)  
 
 Fired when best available objects are successfully selected. This callback receives two parameters:
 

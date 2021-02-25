@@ -9,7 +9,7 @@ updatedAt: "2019-03-18T10:31:00.417Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: object
+**Type**: object  
 example: {'type': 'row'}
 
 Information about a seats' parent. Currently this object contains just a single field, `type`, that is either 'row' or 'table'.

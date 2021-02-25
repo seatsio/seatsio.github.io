@@ -9,7 +9,7 @@ updatedAt: "2020-10-21T08:35:22.230Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(objects, ticketTypes)
+**Type**: function(objects, ticketTypes)  
 
 If a user deselects a held seat, a release request is sent to the seats.io server. 
 

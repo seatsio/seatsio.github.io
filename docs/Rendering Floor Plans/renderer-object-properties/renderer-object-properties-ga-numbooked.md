@@ -9,6 +9,6 @@ updatedAt: "2018-08-24T08:12:05.732Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: number
+**Type**: number  
 The total number of booked places in the GA area. 
 Equal to capacity - numFree.

@@ -9,8 +9,8 @@ updatedAt: "2020-10-13T07:30:09.628Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: array of strings
-**Default**: undefined
+**Type**: array of strings  
+**Default**: undefined  
 
 The *keys* of the channels you wish to make selectable. Objects that have no channel assigned, or that have a channel assigned whose key is not in this list, will not be selectable. However, by passing in `NO_CHANNEL` as channel key, objects without channel become selectable.
 

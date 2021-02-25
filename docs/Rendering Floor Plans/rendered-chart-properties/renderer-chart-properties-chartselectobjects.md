@@ -9,7 +9,7 @@ updatedAt: "2021-01-06T14:09:33.649Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(objects, successCallback, failedCallback)
+**Type**: function(objects, successCallback, failedCallback)  
 Selects matched objects. The parameter `objects` must be an array of strings or an array of objects.
 
 ```javascript

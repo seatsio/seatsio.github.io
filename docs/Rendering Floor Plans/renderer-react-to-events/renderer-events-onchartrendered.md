@@ -9,7 +9,7 @@ updatedAt: "2018-08-03T13:41:06.661Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(chart)
+**Type**: function(chart)  
 
 Fired after the seating chart is fully rendered. The rendered chart is passed in as a parameter.
 

@@ -9,8 +9,8 @@ updatedAt: "2018-08-03T13:17:14.363Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: true
+**Type**: boolean  
+**Default**: true  
 
 On mobile, when displaying a chart with sections, a tooltip is shown at the bottom of the screen with the section name and pricing, or a custom tooltip if `tooltipText` is provided.
 

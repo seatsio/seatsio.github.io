@@ -9,5 +9,5 @@ updatedAt: "2019-04-16T00:01:21.414Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: string
+**Type**: string  
 **example**: `'Choir-A-2'`

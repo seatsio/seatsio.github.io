@@ -9,7 +9,7 @@ updatedAt: "2018-08-21T13:19:34.883Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
+**Type**: string  
 
 An optional chart id. 
 

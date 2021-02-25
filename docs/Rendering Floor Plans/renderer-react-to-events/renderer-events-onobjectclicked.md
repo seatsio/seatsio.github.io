@@ -9,7 +9,7 @@ updatedAt: "2018-08-23T14:18:25.409Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object)
+**Type**: function(object)  
 
 Fired when the user clicks on an object. The clicked object is passed in as a parameter. 
 

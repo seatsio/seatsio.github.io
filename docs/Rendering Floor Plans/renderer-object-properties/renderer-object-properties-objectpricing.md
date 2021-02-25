@@ -9,7 +9,7 @@ updatedAt: "2019-04-16T00:05:43.244Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: array of objects or object
+**Type**: array of objects or object  
 
 ```json
 [

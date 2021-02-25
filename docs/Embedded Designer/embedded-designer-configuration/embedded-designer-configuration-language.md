@@ -9,8 +9,8 @@ updatedAt: "2018-08-21T13:21:33.598Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: "en"
+**Type**: string  
+**Default**: "en"  
 
 Sets the language of the designer. 
 

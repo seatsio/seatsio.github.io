@@ -9,8 +9,8 @@ updatedAt: "2019-03-05T17:51:43.499Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type:** array&lt;string&gt;
-**Default**: []
+**Type**: array&lt;string&gt;  
+**Default**: []  
 
 Makes the specified categories unavailable from selection. The array can be a list of category IDs or labels.
 

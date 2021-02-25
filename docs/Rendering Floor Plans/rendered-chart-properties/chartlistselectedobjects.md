@@ -9,7 +9,7 @@ updatedAt: "2018-10-24T11:46:56.482Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(selectedObjectsCallback)
+**Type**: function(selectedObjectsCallback)  
 
 ```javascript
 chart.listSelectedObjects(callback)

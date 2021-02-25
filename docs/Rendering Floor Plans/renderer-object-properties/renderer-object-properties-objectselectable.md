@@ -9,7 +9,7 @@ updatedAt: "2019-04-16T00:02:07.664Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: boolean
+**Type**: boolean  
 
 Whether the object can be selected by the user.
 

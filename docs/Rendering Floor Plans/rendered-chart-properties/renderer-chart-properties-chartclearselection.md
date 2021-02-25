@@ -9,7 +9,7 @@ updatedAt: "2019-12-10T12:48:43.766Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(successCallback, failedCallback)
+**Type**: function(successCallback, failedCallback)  
 
 Deselects the currently selected objects.
 

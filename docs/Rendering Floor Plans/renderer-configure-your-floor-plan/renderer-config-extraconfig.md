@@ -9,8 +9,8 @@ updatedAt: "2018-08-23T14:26:57.355Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: object
-**Default**: {}
+**Type**: object  
+**Default**: {}  
 
 Some callbacks (e.g. `objectLabel`) do not have access to variables defined in your web page. That's because they're executed inside the seats.io iFrame.
 

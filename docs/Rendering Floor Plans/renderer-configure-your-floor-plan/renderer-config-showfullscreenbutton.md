@@ -9,8 +9,8 @@ updatedAt: "2019-09-12T10:09:06.177Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: true
+**Type**: boolean  
+**Default**: true  
 
 Whether to show the full screen button or not. Defaults to true if your account was created after September 11th, 2019. False otherwise.
 

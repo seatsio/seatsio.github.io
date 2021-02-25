@@ -9,8 +9,8 @@ updatedAt: "2018-08-03T13:23:40.073Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: 'normal'
+**Type**: string  
+**Default**: 'normal'  
 
 This parameter supports three values:
 

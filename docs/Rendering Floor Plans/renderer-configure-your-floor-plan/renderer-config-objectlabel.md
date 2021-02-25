@@ -9,8 +9,8 @@ updatedAt: "2021-02-25T08:02:12.065Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object, defaultLabel, extraConfig)
-**Default**: no label
+**Type**: function(object, defaultLabel, extraConfig)  
+**Default**: no label  
 
 A function that determines the label that's rendered inside an object on the chart. Can be based on `object.status`, `object.category`, `object.isSelectable()` or on other criteria. 
 By default, no label is shown.

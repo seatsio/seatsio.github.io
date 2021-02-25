@@ -9,8 +9,8 @@ updatedAt: "2018-08-23T14:42:34.304Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(section, defaultColor, extraConfig)
-**Default**: The category color of the section, or grey if no category has been assigned.
+**Type**: function(section, defaultColor, extraConfig)  
+**Default**: The category color of the section, or grey if no category has been assigned.  
 
 A function that determines the section color. Must return a CSS string (e.g. 'red' or '#ccc').
 

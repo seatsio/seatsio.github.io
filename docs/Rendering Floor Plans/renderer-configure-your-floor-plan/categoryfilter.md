@@ -9,8 +9,8 @@ updatedAt: "2019-04-09T00:20:07.144Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: object
-**Default**:
+**Type**: object  
+**Default**: 
 ```javascript
 {
     enabled: false,

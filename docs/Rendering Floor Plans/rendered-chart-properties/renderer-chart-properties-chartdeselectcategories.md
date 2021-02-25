@@ -9,7 +9,7 @@ updatedAt: "2019-11-19T08:53:42.158Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(categoryIds, successCallback, failedCallback)
+**Type**: function(categoryIds, successCallback, failedCallback)  
 Deselects all the objects in the categories. The parameter must be an array of strings, and the strings must be valid category IDs.
 
 ```javascript

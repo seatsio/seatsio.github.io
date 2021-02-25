@@ -9,7 +9,7 @@ updatedAt: "2019-04-16T00:04:05.519Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
+**Type**: string  
 **Possible values:**
 - `'Seat'`
 - `'Booth'`

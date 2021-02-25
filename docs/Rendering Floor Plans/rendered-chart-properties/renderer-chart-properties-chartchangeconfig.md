@@ -9,7 +9,7 @@ updatedAt: "2020-10-20T10:15:09.894Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: function(config)
+**Type**: function(config)  
 
 Change the configuration of the chart. Currently supported parameters are:
 

@@ -9,8 +9,8 @@ updatedAt: "2019-04-26T14:42:37.873Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: array<string | object>
-**Default**:[]
+**Type**: array<string | object>  
+**Default**:[]  
 
 Render the chart with the specified objects selected (if they are still free). 
 

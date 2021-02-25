@@ -10,7 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # divId
-**Type**: string
+**Type**: string  
 
 The id of the div on your page in which you want seats.io to render the event manager. This is a required config option.
 
@@ -19,7 +19,7 @@ divId: 'event-manager'
 ```
 
 # secretKey
-**Type**: string
+**Type**: string  
 The secret key of a workspace, or the company admin key.
 
 :::danger Important
@@ -31,7 +31,7 @@ secretKey: 'my secret key'
 ```
 
 # event
-**Type**: string
+**Type**: string  
 
 The key of the event for which you want to render the event manager.
 
@@ -40,12 +40,12 @@ event: 'smallTheatreEvent1'
 ```
 
 # events
-**Type**: string[]
+**Type**: string[]  
 
 The keys of the events for which you want to render the event manager. Only `manageObjectStatuses` mode supports `events`.
 
 # mode
-**Type**: string
+**Type**: string  
 
 Can be either:
 
@@ -55,7 +55,7 @@ Can be either:
 - `'manageChannels'`: to manage the list of channels for the event, and to assign objects to channels. 
 
 # language
-**Type**: string
+**Type**: string  
 
 Currently supported languages are:
 - `'nl'` – Dutch
@@ -66,26 +66,26 @@ Currently supported languages are:
 - `'fr'` – French
 
 # messages
-**Type**: object
+**Type**: object  
 
 The messages parameter allows you to change all kinds of texts that are displayed on the chart: section labels, tooltip texts, static text objects ... you name it.
 Just pass in an object with the original texts as keys, and the translations as values.
 For a more detailed explanation, check [this page](http://support.seats.io/integrating-seats-io/multi-language-i18n-support).
 
 # tooltipInfo
-**Type**: function(object)
+**Type**: function(object)  
 **Return**: string
 
 A function whose result will be displayed as extra information on the cursor tooltip.
 See [https://docs.seats.io/docs/renderer-config-tooltipinfo](renderer-config-tooltipinfo) for more info.
 
 # showFullScreenButton
-**Type**: boolean
+**Type**: boolean  
 
 Whether to show the full screen button or not. Defaults to true.
 
 # fitTo
-**Type**: string
+**Type**: string  
 
 Whether to adapt to the container div width, or to its width and height.
 

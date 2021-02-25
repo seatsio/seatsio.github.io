@@ -9,7 +9,7 @@ updatedAt: "2018-08-03T13:48:57.508Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object)
+**Type**: function(object)  
 
 Fired when the user has selected an object that gets booked by another user.
 

@@ -9,5 +9,5 @@ updatedAt: "2019-12-10T12:43:03.433Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**type**: string
+**Type**: string  
 Always equal to 'section'

@@ -9,8 +9,8 @@ updatedAt: "2020-09-21T11:52:22.577Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 If true, users will get a button on the top left hand side they can use to switch between different selection modes: seat selection, rectangle selection or lasso selection.
 

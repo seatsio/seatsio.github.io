@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 **Deprecated.** See [changeConfig](https://docs.seats.io/docs/renderer-chart-properties-chartchangeconfig) instead.
 :::
 
-**type**: function(labelsOrIds)
+**Type**: function(labelsOrIds)  
 Leaves the specified categories normally visible, while making all others dimmed out. The parameter `labelsOrIds` must be an array of strings, which are the label or ID of the target categories to leave fully visible.
 
 ```javascript

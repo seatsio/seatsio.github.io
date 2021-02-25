@@ -9,7 +9,7 @@ updatedAt: "2018-10-12T09:07:57.076Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function()
+**Type**: function()  
 
 Callback function that's invoked when the user does an action that will lead to exiting the floor plan designer. E.g. when the user clicks on the "Exit" button. 
 

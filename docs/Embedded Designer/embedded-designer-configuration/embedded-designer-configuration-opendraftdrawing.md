@@ -9,8 +9,8 @@ updatedAt: "2018-12-30T21:55:59.036Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 By default, the chart designer opens the published version of a chart. If you want to open the draft version, you need to explicitly tell the chart designer so by passing in `openDraftDrawing: true`.   
  

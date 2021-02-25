@@ -9,7 +9,7 @@ updatedAt: "2020-02-17T08:21:19.952Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(gaArea, defaultValue, extraConfig, ticketType)
+**Type**: function(gaArea, defaultValue, extraConfig, ticketType)  
 
 This function is invoked when a user clicks on a GA area. If `canGASelectionBeIncreased` returns true, the user is able to increase the number of selected places by clicking on the + button of the ticket selector that pops up.
 

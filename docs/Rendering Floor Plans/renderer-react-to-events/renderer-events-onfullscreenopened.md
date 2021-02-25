@@ -9,6 +9,6 @@ updatedAt: "2019-12-10T12:43:03.421Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function()
+**Type**: function()  
 
 Triggered when the chart switches to full screen mode.

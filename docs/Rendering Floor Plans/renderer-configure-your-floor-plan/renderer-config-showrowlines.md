@@ -9,8 +9,8 @@ updatedAt: "2019-08-08T21:26:19.745Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 Set to true to show little lines between seats of the same row. This may help to indicate which seats belong to the same row.
 

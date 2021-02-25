@@ -9,8 +9,8 @@ updatedAt: "2019-12-10T12:41:04.318Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default** : empty
+**Type**: string  
+**Default**: : empty  
 
 The name of the hidden input field that contains the hold token. Only makes sense when a session is active. 
 

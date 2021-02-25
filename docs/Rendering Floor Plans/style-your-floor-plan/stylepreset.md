@@ -9,8 +9,8 @@ updatedAt: "2019-07-22T22:28:16.904Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: string
-**Default**: `"balance"`
+**Type**: string  
+**Default**: `"balance"`  
 
 Sets the preset of styles to use for the seating chart user interface.
 

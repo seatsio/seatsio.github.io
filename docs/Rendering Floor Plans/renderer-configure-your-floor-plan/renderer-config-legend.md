@@ -12,8 +12,8 @@ import TabItem from '@theme/TabItem';
 
 ## showLegend
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 If true, a legend with the category names and colors is rendered at the top of the chart.
 
@@ -23,8 +23,8 @@ showLegend: true
 
 ## legend.hideNonSelectableCategories
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 Set this property to true to hide non selectable categories in the legend. A non selectable category is a category for which there are no selectable objects on the chart.
  
@@ -40,8 +40,8 @@ legend: {
 
 ## legend.hidePricing
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 Set this property to true to only show category labels in the legend, without pricing information. Cannot be used in combination with `legend.hideCategoryName: true`. 
 
@@ -53,8 +53,8 @@ legend: {
 
 ## legend.hideCategoryName
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 Set this property to true to only show pricing information in the legend, without the category name. Cannot be used in combination with `legend.hidePricing: true`. 
 

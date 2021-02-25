@@ -9,8 +9,8 @@ updatedAt: "2018-08-23T14:42:44.611Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(object, defaultColor, extraConfig)
-**Default**: Grey if the object is not available for selection, the category color otherwise.
+**Type**: function(object, defaultColor, extraConfig)  
+**Default**: Grey if the object is not available for selection, the category color otherwise.  
 
 A function that determines the object color. Can be based on `object.status`, `object.category`, `object.isSelectable()` or on other criteria. 
 

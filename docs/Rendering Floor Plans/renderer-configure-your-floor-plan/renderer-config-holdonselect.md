@@ -9,8 +9,8 @@ updatedAt: "2019-12-10T12:38:48.182Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: boolean
-**Default**: false
+**Type**: boolean  
+**Default**: false  
 
 :::danger 
 **Deprecated**. Please use [session](renderer-config-session) instead.
