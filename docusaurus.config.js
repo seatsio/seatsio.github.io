@@ -43,7 +43,7 @@ module.exports = {
     },
     hideableSidebar: false,
     prism: {
-      additionalLanguages: ['csharp'],
+      additionalLanguages: ['csharp', 'ruby'],
     },
   },
   presets: [
