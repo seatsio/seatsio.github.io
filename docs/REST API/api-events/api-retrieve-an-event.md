@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 ### Retrieve an event
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -76,9 +77,13 @@ await client.events.retrieve('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/events/anEvent -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -113,6 +118,7 @@ curl https://api.seatsio.net/events/anEvent -u aSecretKey:
 }
 
 ```
+
 * **supportsBestAvailable**: true if the chart of the event has a focal point.
 
 * **forSaleConfig**: null, unless /mark-as-for-sale or /mark-as-not-for-sale have been called

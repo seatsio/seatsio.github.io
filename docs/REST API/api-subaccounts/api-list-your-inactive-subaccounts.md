@@ -9,10 +9,13 @@ updatedAt: "2020-02-28T13:15:07.713Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 Returns a paginated list of inactive subaccounts.
+
 
 
 <Tabs 
@@ -148,10 +151,14 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/subaccounts/inactive?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -173,3 +180,4 @@ curl https://api.seatsio.net/subaccounts/inactive?limit=100&start_after_id=34 \
     ]
 }
 ```
+

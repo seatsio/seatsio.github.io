@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 To add a tag, `POST` an empty body to this endpoint: 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -76,15 +77,20 @@ await client.charts.addTag('chartKey', 'tag1');
 
 
 
+
+
 :::info Tip
 Keep in mind that your tag needs to be [URI encoded](doc:api-uri-encoding)!
 :::
 
+
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/tags/tag1 \
 -u aSecretKey: -X POST
 ```
+
 
 **Response**
 

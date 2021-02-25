@@ -10,9 +10,12 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 A social distancing ruleset determines which seats should not be selectable for a ticket buyer. Something like: 'families of up to 4 people can sit next to each other, but there should be a gap of 2 seats to the left and to the right of them'.
+
 :::info Applying a ruleset to an event
 This article describes the call to add rulesets to a chart. To apply one of those rulesets to an event, use the [create event](doc:api-create-an-event) or[update event](doc:api-update-an-event) call.
 :::
+
+
 
 
 
@@ -203,7 +206,9 @@ client.charts.saveSocialDistancingRulesets(chart.key, { ruleset1: ruleset1, rule
 </Tabs>
 
 
+
 Returns 204 - No Content 
+
 ```json
 {
   "socialDistancingRulesets": {
@@ -227,6 +232,7 @@ Returns 204 - No Content
   }
 }
 ```
+
 * **name**: required. The name of the ruleset. Used to refer to it internally.
 * **index**: optional. Number that determines the order of the rulesets when displayed in a list. Lower indexes go to the top.
 * **numberOfDisabledSeatsToTheSides**: optional. The number of seats to disable to the left and right of a selected seat.
@@ -241,6 +247,7 @@ If you don't pass in `disableDiagonalSeatsInFrontAndBehind`, and `numberOfDisabl
 * **maxOccupancyPercentage**: optional. Integer between 1 and 100. The maximum number of people that are allowed for this event, expressed as a percentage of the total capacity of the venue.
 * **oneGroupPerTable**: optional boolean. Defaults to false. When true, table seats that are not booked are left empty. Only one group of people can sit at a table.
 * **fixedGroupLayout**: boolean. Defaults to false. Set to true to manually indicate which seats should be booked as a group (by passing in `disabledSeats`). When the ticket buyer clicks on a seat, all selectable seats next to that seat become selected as well.
+
 ```curl
 curl https://api.seatsio.net/charts/{chartKey}/social-distancing-rulesets \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{
@@ -261,3 +268,4 @@ curl https://api.seatsio.net/charts/{chartKey}/social-distancing-rulesets \
   }
 }'
 ```
+

@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 List all tags of all active (i.e. non-archived) charts.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -76,12 +77,17 @@ await client.charts.listAllTags();
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/charts/tags -u aSecretKey: 
 ```
+
+
 
 ```json
 {
     "tags": ["tag1", "tag2", "tag3"]
 }
 ```
+

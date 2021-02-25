@@ -11,9 +11,11 @@ import TabItem from '@theme/TabItem';
 
 **type**: array&lt;string&gt;
 Array containing the labels of the objects the user has selected.
+
 ```javascript
 var chart = new seatsio.SeatingChart({...}).render();
 // ... user selects objects ...
 console.log(chart.selectedObjects);
 
 ```
+

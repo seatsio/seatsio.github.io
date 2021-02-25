@@ -13,6 +13,7 @@ Updates the [extra data](api-extra-data) for an object in an event, without chan
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -85,9 +86,13 @@ await client.events.updateExtraData('eventKey', 'A-1', extraData);
 
 
 
+
+
 :::info Tip
 Keep in mind that certain characters need to be [URI encoded](doc:api-uri-encoding)!
 :::
+
+
 
 ```json
 {
@@ -97,14 +102,17 @@ Keep in mind that certain characters need to be [URI encoded](doc:api-uri-encodi
 }
 ```
 
+
 extraData must be a valid JSON object.
 
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/event34/objects/A-1/actions/update-extra-data \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"name": "John Doe"}}'
 
 ```
+
 **Response**
 
 204 - No Content

@@ -11,6 +11,8 @@ import TabItem from '@theme/TabItem';
 
 **Type**: boolean
 **Default**: false
+
 :::danger 
 **Deprecated**. Please use [session](renderer-config-session) instead.
 :::
+

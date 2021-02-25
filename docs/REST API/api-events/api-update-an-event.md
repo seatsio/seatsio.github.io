@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -147,6 +148,8 @@ await client.events.update('eventKey', null, null, null, '');
 
 
 
+
+
 ```json
 {
     "chartKey": "newChartKey",
@@ -162,6 +165,7 @@ await client.events.update('eventKey', null, null, null, '');
     "socialDistancingRulesetKey": "newSocialDistancingRulesetKey"
 }
 ```
+
 All fields are optional. If, for example, you don't specify an eventKey, the key of the event is not modified.
 
 Have a look at the docs for [creating an event](/docs/api-create-an-event) to know how tableBookingConfig works.
@@ -169,12 +173,15 @@ Have a look at the docs for [creating an event](/docs/api-create-an-event) to kn
 socialDistancingRulesetKey is the UUID which identifies a social distancing ruleset. You can get that key by [retrieving the chart](/docs/api-retrieve-a-chart) for the event.
 
 By passing in the empty string as socialDistancingRulesetKey, you remove the social distancing ruleset from the event.
+
 ```curl
 curl https://api.seatsio.net/events/event34 \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28"}'
 ```
 
+
 **Response**
+
 ```json
 {
     "id": 168,
@@ -208,3 +215,4 @@ curl https://api.seatsio.net/events/event34 \
 }
 
 ```
+

@@ -12,12 +12,15 @@ import TabItem from '@theme/TabItem';
 Objects can be held for a certain time period. During this period, other users cannot hold or book the same seats.
 
 By default the expiration time for held objects is 15 minutes, but this can be changed via [your company settings page](https://app.seats.io/company-settings).
+
 :::info Note
 You only need this API call when holding best available objects.
 
 If you render the chart with a [session](/docs/renderer-config-session) parameter, objects get held when the ticket buyer clicks on them. So no need to manually call `/hold` in that case.
 :::
+
 To hold objects using the manual API method, you first need to generate a hold token, which you then pass to the following API call:
+
 
 
 <Tabs 
@@ -133,7 +136,11 @@ await client.events.hold('eventKey', [object1, object2], holdToken.holdToken);
 
 
 
+
+
 ## Request
+
+
 
 ```json
 // No ticket types
@@ -162,6 +169,7 @@ await client.events.hold('eventKey', [object1, object2], holdToken.holdToken);
     "holdToken": "17378c14-ae6a-46a4-ada4-9c745a45e018"
 }
 ```
+
 After invoking this API call, the objects get the status `reservedByToken`. 
 (Note: this is a legacy status name: in the past, holding an object was known as reserving an object. We kept the status `reservedByToken` to maintain backwards compatibility, i.e. to not break existing integrations)
 
@@ -170,16 +178,21 @@ When you're ready to confirm the booking for a held object (e.g. after payment w
 If no definitive booking is made before the hold expires, the seat are released again. And if you want to cancel a hold before the hold period expires, you just [release](api-release-objects) the objects.
 
 Even for objects that are held, the hold token is an optional argument to `/book` and `/change-object-status`. You only need to pass it when it is the person that made the hold who triggers the API call. If on the other hand you implemented some back office functionality in which venue managers can change the status of held objects, you don't need to pass in the hold token.
+
 :::info 
 Holding also works for season tickets. Just pass in an array of events instead of a single event.
 :::
 
+
+
 ## Response
+
 *** Without expand=objects ***
 204 - No Content
 
 *** With expand=objects ***
 200 - ok
+
 
 
 ```json
@@ -232,3 +245,4 @@ Holding also works for season tickets. Just pass in an array of events instead o
   }
 }
 ```
+

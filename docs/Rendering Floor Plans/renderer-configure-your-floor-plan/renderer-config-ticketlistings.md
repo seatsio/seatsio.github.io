@@ -14,6 +14,7 @@ The `ticketListings` parameter is useful when you're selling tickets for which y
 If you pass in `ticketListings`, the sections that have tickets available become selectable. So clicking on a section selects the section, instead of zooming in to the seats inside that section.
 
 This parameter requires you to pass in a chart key instead of an event key.
+
 ```json
 chart: '6451436c-24fb-11e7-93ae-92361f002671',
 ticketListings: [
@@ -27,6 +28,7 @@ priceFormatter: function (price) {
   return price + '€';
 }
 ```
+
 
 
 ![Screenshot 2019-01-04 at 09.15.55.png](/img/readme/Screenshot-2019-01-04-at-09.15.55.png)

@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 ### Retrieve a workspace
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -77,10 +78,14 @@ await client.workspaces.retrieve(key);
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5 \
 -u anAdminKey:
 ```
+
+
 
 ```json
 {
@@ -94,4 +99,5 @@ curl https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5 \
 }
 
 ```
+
 Error 404 (Not Found) is returned when the workspace does not exist (or the passed in secret key doesn't give access to the workspace).

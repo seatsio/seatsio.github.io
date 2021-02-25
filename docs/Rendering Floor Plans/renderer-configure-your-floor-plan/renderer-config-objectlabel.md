@@ -24,9 +24,12 @@ The parameters that are passed to objectLabel are:
 * **object**: the current object
 * **defaultLabel**: the default object label (i.e. an empty string)
 * **extraConfig**: see [extraConfig](renderer-config-extraconfig) 
+
 :::caution Warning
 this function is called for each object on the chart; make sure it's fast, or chart rendering times will suffer. Avoid using slow methods such as Array.indexOf. Read more [here](http://support.seats.io/integrating-seats-io/performance-tips-for-renderer-callbacks).
 :::
+
+
 
 :::info 
 To show seat labels, pass in
@@ -36,7 +39,10 @@ objectLabel: object => object.labels.own
 ```
 :::
 
+
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/q6w0t3va/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 ```javascript
 
 ```

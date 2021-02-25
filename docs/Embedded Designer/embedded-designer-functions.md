@@ -13,9 +13,11 @@ These are the functions you can use to interact with an embedded floor plan desi
 
 
 
+
 ```javascript
 var designer = new seatsio.SeatingChartDesigner({...}).render();
 $('#myButton').on('click', function(){
    designer.destroy();
 });
 ```
+

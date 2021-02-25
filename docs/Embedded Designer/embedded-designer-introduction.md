@@ -17,8 +17,11 @@ Seats supports this by a combination of two features: an embeddable Designer, an
 
 * Workspaces: you can create a workspace for each of your users, so that they have their own secret key, and a separate set of floor plans, so that they can't see or edit each other's floor plans. 
 Check the [Workspaces API documentation](api-workspaces) for more information on how to create, update and retrieve workspaces. 
+
 ## Embedding the designer
+
 You can embed the floor plan designer in your backoffice with a piece of javascript, in much the same fashion as you would embed an interactive floor plan for your ticket buyers, but with some different configuration options:
+
 ```html
 <div id="chartDesigner"></div>
 <script src="https://cdn.seatsio.net/chart.js"></script>
@@ -31,6 +34,7 @@ You can embed the floor plan designer in your backoffice with a piece of javascr
     }).render();
 </script>
 ```
+
 ## Secret Key
 You need to provide the secret key (of your [workspace](api-workspaces)). Be sure to keep this key a secret: anyone who has access to this key can edit seating charts and can book seats. So please don't push it to code repositories and only use it in pages served over https.
 

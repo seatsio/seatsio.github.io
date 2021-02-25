@@ -17,4 +17,6 @@ As a minimal configuration, you need to provide 3 options:
 * `event`
 * `workspaceKey`
 
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/xjmk1g36/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

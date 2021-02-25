@@ -10,9 +10,11 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 **Type**: array of objects or object
+
 ```json
 [
   {ticketType: 'student', price: 10, formattedPrice: '10$'},
   {ticketType: 'normal', price: 20, formattedPrice: '20$'}
 ]
 ```
+

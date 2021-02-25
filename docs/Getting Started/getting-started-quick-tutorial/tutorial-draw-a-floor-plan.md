@@ -19,6 +19,8 @@ You can try it out for yourself using the [online demo](https://www.seats.io/dem
 ![ddee72f-designer2x.jpg](/img/readme/ddee72f-designer2x.jpg)
 
 
+
 :::tip 
 Alternatively, you can get readymade seating charts from [seatingcharts.io](https://www.seatingcharts.io/), straight into your seats.io account!
 :::
+

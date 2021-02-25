@@ -24,8 +24,12 @@ Can be formatted using a simple [BBCode](https://en.wikipedia.org/wiki/BBCode) f
 - `[br/]` - Inserts a break line.
 
 The code for the image above would be the following:
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/g16o4xfd/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
 
 :::caution 
 tooltipInfo is triggered for all objects, including sections. You can use object.objectType to distinguish between object types (e.g. to implement a specific tooltip for sections).
 :::
+

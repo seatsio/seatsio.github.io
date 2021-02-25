@@ -13,6 +13,7 @@ Changes the object status to ‘booked’. Booked objects are not selectable on 
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -120,9 +121,11 @@ await client.events.book('eventKey', [object1, object2]);
 </Tabs>
 
 
+
 You should use this API call to tell us whenever a ticket sale is confirmed. The exact definition of *confirmed* depends on your sales process, but this would typically be right before the payment has been processed (read more [here](http://support.seats.io/integrating-seats-io/when-should-i-book-my-seats)).
 
 You can change object status whenever you want. E.g. You could pre-book seats prior to opening up your sales page, to reserve VIP seats.
+
 
 
 
@@ -130,7 +133,11 @@ You can change object status whenever you want. E.g. You could pre-book seats pr
 All seats (or tables, booths or GA places) passed in to this API will be considered as "used seats" for [pricing purposes](https://www.seats.io/pricing).
 :::
 
+
+
 ## Request
+
+
 
 ```json
 // Minimal request
@@ -153,6 +160,7 @@ All seats (or tables, booths or GA places) passed in to this API will be conside
 }
 ```
 
+
 * **objects**: an array of object ids to book, or an array of object ids and ticket types
 * **holdToken** <i>(optional)</i>: the hold token must be supplied when you want to make sure that the same person that made the hold confirms his booking. If the seats were not held with this token, the API call doesn't book any seats and returns an error 400 (bad request).
 * **orderId** *(optional)*: an order id, defined by yourself, to be able to [retrieve the objects IDs per order](/docs/api-detailed-reports#detailed-report-by-order-id) later on.
@@ -160,13 +168,16 @@ All seats (or tables, booths or GA places) passed in to this API will be conside
 * **ignoreChannels** <i>(optional)</i>: if true, the booking call succeeds, even if the booked objects belong to a channel. Useful inside a back office application, in which the user is allowed to book any seat - no matter the channel.
 Should not be used in combination with `channelKeys`.
 * **ignoreSocialDistancing** <i>(optional)</i>: if true, social distancing rules are not checked for this booking.
+
 ## Response
+
 
 *** Without expand=objects ***
 204 - No Content
 
 *** With expand=objects ***
 200 - ok
+
 ```json
 {
   "A-3": {
@@ -223,3 +234,4 @@ Should not be used in combination with `channelKeys`.
   }
 }
 ```
+

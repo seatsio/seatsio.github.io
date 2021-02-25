@@ -13,6 +13,7 @@ You can assign objects to a channel by associating a channel key with a list of 
 Each object can only be assigned to a single channel. 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -97,6 +98,8 @@ await client.events.assignObjectsToChannel(event.key, {
 
 
 
+
+
 ```json
 {
     "channelConfig": {
@@ -112,6 +115,7 @@ await client.events.assignObjectsToChannel(event.key, {
     }
 }
 ```
+
 The request body should contain a json object with one property (`channelConfig`), that has a property per channel: the channel key as property name, and an array of object labels as property value.
 
 **Response**

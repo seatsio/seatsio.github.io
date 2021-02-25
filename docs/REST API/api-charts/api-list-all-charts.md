@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 Returns a paginated list of charts you’ve previously created in a workspace. The charts are returned in reverse chronological order: the most recently created charts will appear first in the list.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -146,11 +147,17 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 
+
+
 ## An example
+
+
 
 ```curl
 curl https://api.seatsio.net/charts -u aSecretKey: 
 ```
+
+
 
 ```json
  {
@@ -184,6 +191,7 @@ curl https://api.seatsio.net/charts -u aSecretKey:
 }
 ```
 
+
  
 The status of a chart can be either
 - "NOT_USED": there are no events linked to the chart
@@ -191,7 +199,9 @@ The status of a chart can be either
 - "PUBLISHED_WITH_DRAFT": there's an event linked to the chart, and a draft version exists
 
 publishedVersionThumbnailUrl (and draftVersionThumbnailUrl if applicable) are URLs that return a PNG thumbnail for the chart.
+
 ## Query parameters
+
 This is a paginated API endpoint, so the normal pagination query params (limit, start_after_id and end_before_id) are applicable. See [this page](api-pagination) for more info.
 
 * **filter** *(optional)*   
@@ -204,6 +214,7 @@ Specifying multiple tags will result in a 400 Bad Request.
 
 * **expand** *(optional)*
 Charts have events associated with them. You can expand the events for each chart by providing `expand=events`. 
+
 
 
 <Tabs 
@@ -294,6 +305,8 @@ await client.charts.listFirstPage(params);
 
 
 
+
+
 ```json
 {
     "items":[
@@ -333,3 +346,4 @@ await client.charts.listFirstPage(params);
     ]
 }
 ```
+

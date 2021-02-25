@@ -14,6 +14,7 @@ This endpoint retrieves the metadata that is shared between the published and dr
 To fetch the actual contents of the chart (including categories), use the endpoint to [retrieve a chart version](api-retrieve-a-chart-version)
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -92,16 +93,24 @@ await client.charts.retrieveWithEvents('749b9650-24fb-11e7-93ae-92361f002671');
 
 
 
+
+
 ## Query parameters
+
 * **expand** *(optional)*
 A chart can have events linked to it. By adding `expand=events`, the events are returned in the 'events' field in the response. 
+
 ## Example
+
+
 
 ```curl
 curl https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671 \
 -u aSecretKey:
 ```
+
 The response is a JSON object that represents the chart:
+
 ```json
 {
     "name":"chart2",
@@ -119,12 +128,14 @@ The response is a JSON object that represents the chart:
   }
 }
 ```
+
 `status` can take the following values:
 - NOT_USED: there's no event yet for the chart
 - PUBLISHED: there's an event for the chart, and there's no draft version
 - PUBLISHED_WITH_DRAFT: there's an event for the chart, and there's a draft version
 
 And with `expand=events`, it includes the events:
+
 ```json
 {
     "name":"chart2",
@@ -153,4 +164,5 @@ And with `expand=events`, it includes the events:
     ]
 }
 ```
+
 Error 404 (Not Found) is returned when the chart does not exist.

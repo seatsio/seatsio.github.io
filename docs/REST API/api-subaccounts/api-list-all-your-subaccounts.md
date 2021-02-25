@@ -9,12 +9,15 @@ updatedAt: "2020-02-28T13:14:48.278Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 Returns a paginated list of subaccounts you’ve previously created. The subaccounts are returned in reverse chronological order: the most recently created subaccounts will appear first in the list.
 
 Both active and inactive subaccounts are returned.
+
 
 
 <Tabs 
@@ -147,11 +150,15 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/subaccounts?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```
+
 The response will be a paginated JSON object that contains the subaccounts of the authenticated user: 
+
 ```json
 {
     "next_page_starts_after": 122,
@@ -177,3 +184,4 @@ The response will be a paginated JSON object that contains the subaccounts of th
 }
 
 ```
+

@@ -14,6 +14,7 @@ Workspaces are either active or inactive. All API calls on inactive workspaces f
 The call that lists workspaces returns both active and inactive ones. 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -80,10 +81,13 @@ await client.workspaces.deactivate(key);
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5/actions/deactivate \
 -u anAdminKey: -X POST
 ```
+
 **Response**
 
 204 - No Content

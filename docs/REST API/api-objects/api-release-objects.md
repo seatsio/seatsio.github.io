@@ -10,9 +10,12 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 Changes the object status to 'free'. Free seats are selectable on a rendered chart.
+
 :::info Note
 releasing objects can also be used to cancel objects that are [temporarily held](doc:api-temporarily-hold-objects) .
 :::
+
+
 
 
 
@@ -82,24 +85,32 @@ await client.events.release('eventKey', ['A-3', 'A-5']);
 
 
 
+
+
 ## Request
+
+
 
 ```json
 {
     'objects': ['A-3', 'A-5']
 }
 ```
+
 * **objects**: an array of object IDs to release
 * **holdToken** *(optional)*: the hold token must be supplied when you want to make sure that the same person that made the hold releases the objects.
 * **channelKeys** <i>(optional)</i>: an array of strings, i.e. the channel keys of the channel(s) to which the objects belong. If omitted, and the objects to be released are assigned to a channel, the request will fail with 400 Bad request. Pass in `NO_CHANNEL` as channel key to allow objects without a channel.
 * **ignoreChannels** <i>(optional)</i>: if true, the release call succeeds, even if the released objects belong to a channel. Useful inside a back office application, in which the user is allowed to release any seat - no matter the channel.
 Should not be used in combination with `channelKeys`.
+
 ## Response
+
 *** Without expand=objects ***
 204 - No Content
 
 *** With expand=objects ***
 200 - ok
+
 
 
 ```json
@@ -152,3 +163,4 @@ Should not be used in combination with `channelKeys`.
   }
 }
 ```
+

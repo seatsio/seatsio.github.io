@@ -16,6 +16,7 @@ GET /reports/usage/month/{month}
 ```
 
 E.g. `/reports/usage/month/2018-09`
+
 ```json
 [
   {
@@ -90,3 +91,4 @@ E.g. `/reports/usage/month/2018-09`
   }
 ]
 ```
+

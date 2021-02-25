@@ -19,9 +19,11 @@ style: {
 ```
 
 Sets the intention for certain style properties, allowing to override the current style preset.
+
 :::caution These are not CSS properties
 To ensure style does not break across multiple components and screen resolutions, these settings define intentions but not raw CSS values. Make sure to see the list of options below.
 :::
+
 # Style properties
 
 ## font

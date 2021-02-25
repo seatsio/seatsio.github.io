@@ -12,7 +12,10 @@ import TabItem from '@theme/TabItem';
 Summary reports are a summarised version of the [detailed event reports](api-detailed-reports). They indicate how many objects are in a certain status, category or section.
 
 They also allow you to drill down into the numbers: how many booked seats are there in category A? how many free seats are left in section B?
+
 ## Summary report by status
+
+
 
 
 
@@ -81,11 +84,15 @@ await client.eventReports.summaryByStatus('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byStatus/summary -u aSecretKey: 
 ```
 
+
 **Example response**
+
 ```json
 
 {
@@ -132,6 +139,7 @@ curl https://api.seatsio.net/reports/events/event34/byStatus/summary -u aSecretK
     }
 }
 ```
+
 ## Summary report by selectability
 This reports allows you to distinguish between selectable and non-selectable objects. An object is considered selectable if:
 
@@ -140,6 +148,7 @@ This reports allows you to distinguish between selectable and non-selectable obj
 - and it's not disabled by social distancing rules
 
 Selectable objects can be found under the selectable key, non-selectable objects under non_selectable.
+
 
 
 <Tabs 
@@ -207,9 +216,13 @@ await client.eventReports.summaryBySelectability('eventKey');
 
 
 
+
+
 ```text
 curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u aSecretKey: 
 ```
+
+
 
 ```json
 
@@ -258,7 +271,11 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u a
 }
 ```
 
+
+
 ## Summary report by category label
+
+
 
 
 
@@ -326,9 +343,13 @@ await client.eventReports.summaryByCategoryLabel('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -377,7 +398,11 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u a
 }
 ```
 
+
+
 ## Summary report by category key
+
+
 
 
 
@@ -445,9 +470,13 @@ await client.eventReports.summaryByCategoryKey('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -495,7 +524,11 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSe
 }
 ```
 
+
+
 ## Summary report by section
+
+
 
 
 
@@ -563,9 +596,13 @@ await client.eventReports.summaryBySection('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -621,7 +658,11 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecret
 }
 ```
 
+
+
 ## Summary report by channel
+
+
 
 
 
@@ -689,9 +730,13 @@ await client.eventReports.deepSummaryBySection('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byChannel/summary -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -739,3 +784,4 @@ curl https://api.seatsio.net/reports/events/event34/byChannel/summary -u aSecret
     }
 }
 ```
+

@@ -23,8 +23,12 @@ The parameters that are passed to objectColor are:
 * **object**: the current object
 * **defaultColor**: the default object color
 * **extraConfig**: see [extraConfig](renderer-config-extraconfig) 
+
 :::caution Warning
 this function is called for each object on the chart; make sure it's fast, or chart rendering times will suffer. Avoid using slow methods such as Array.indexOf. Read more [here](http://support.seats.io/integrating-seats-io/performance-tips-for-renderer-callbacks).
 :::
 
+
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/w73h60yg/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

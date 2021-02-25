@@ -13,6 +13,7 @@ import TabItem from '@theme/TabItem';
 The status and extra data for an object, per event. Useful when you pass in multiple events when rendering a chart.
 
 For GA areas, have a look at [this page](/docs/renderer-object-properties-ga-dataperevent).
+
 ```json
 {
   dataPerEvent: {
@@ -26,3 +27,4 @@ For GA areas, have a look at [this page](/docs/renderer-object-properties-ga-dat
   }
 }
 ```
+

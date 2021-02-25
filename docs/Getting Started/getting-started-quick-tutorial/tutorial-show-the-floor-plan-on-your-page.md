@@ -18,6 +18,7 @@ To do this, you need to:
 3. create a new `seatsio.SeatingChart` object, configure it and call its `render()` method
 
 So in short: just copy & paste this code snippet and adapt it to your needs:
+
 ```html
 <div id="chart"></div>
 <script src="https://cdn.seatsio.net/chart.js"></script>
@@ -30,6 +31,9 @@ So in short: just copy & paste this code snippet and adapt it to your needs:
 </script>
 ```
 
+
+
 :::info 
 If you're using React, the easiest way to show a seating chart is to use our React wrapper: https://www.npmjs.com/package/@seatsio/seatsio-react
 :::
+

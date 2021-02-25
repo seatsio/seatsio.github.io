@@ -9,7 +9,9 @@ updatedAt: "2021-01-29T08:10:45.700Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 ## selectionValidators
+
 **Type**: array
 **Default**: []
 
@@ -27,7 +29,9 @@ If the selection is valid, [onSelectionValid](renderer-events-onselectionvalid) 
 A typical way to use this is to disable the checkout button on your form and to show a warning when onSelectionInvalid is triggered.
 
 
+
 ## selectionValidators.noOrphanSeats
+
 ```javascript
 selectionValidators: [
     {type: 'noOrphanSeats'}
@@ -79,7 +83,9 @@ selectionValidators: [
     {type: 'noOrphanSeats', highlight: false}
 ]
 ```
+
 ## selectionValidators.consecutiveSeats
+
 Checks for seats that are not on the same row or not next to each other. Also, it checks for seats that don't have the same category.
 
 ```javascript

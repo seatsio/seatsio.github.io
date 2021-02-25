@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 Creates a workspace. Only the name is required.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -78,18 +79,24 @@ await client.workspaces.create('a workspace');
 
 
 
+
+
 ```json
 {
     "name": "a workspace",
     "isTest": false
 }
 ```
+
 * **name**: the name of the workspace. Can be any string (including spaces or special characters)
 * **isTest**: optional. Defaults to false.
+
 ```curl
 curl -X POST https://api.seatsio.net/workspaces \
 -u anAdminKey: -X POST -H 'Content-Type: application/json' -d '{"name": "a workspace"}'
 ```
+
+
 
 ```json
 {
@@ -103,3 +110,4 @@ curl -X POST https://api.seatsio.net/workspaces \
 }
 
 ```
+

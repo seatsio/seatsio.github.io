@@ -32,9 +32,12 @@ GET /reports/events/{eventKey}/{reportType}/{filter}
 ```
 
 E.g. `/reports/events/event34/byStatus/booked`
+
 :::info Note
 Keep in mind that certain characters need to be [URI encoded](doc:api-uri-encoding)!
 :::
+
+
 
 :::info Note
 The possible values for objectType are:
@@ -45,7 +48,11 @@ The possible values for objectType are:
 - `booth`
 :::
 
+
+
 ## Detailed report by status
+
+
 
 
 
@@ -124,9 +131,13 @@ await client.eventReports.byStatus('eventKey', 'booked');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byStatus -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -222,6 +233,7 @@ curl https://api.seatsio.net/reports/events/event34/byStatus -u aSecretKey:
     ]
 }
 ```
+
 ##  Detailed report by selectability 
 
 This reports allows you to distinguish between selectable and non-selectable objects. An object is considered selectable if:
@@ -231,6 +243,7 @@ This reports allows you to distinguish between selectable and non-selectable obj
 - and it's not disabled by social distancing rules
 
 Selectable objects can be found under the `selectable` key, non-selectable objects under `not_selectable`.
+
 
 
 <Tabs 
@@ -311,9 +324,13 @@ client.events.reports.by_selectability("event34", status="not_selectable")
 
 
 
+
+
 ```text
 curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -408,7 +425,11 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKe
 }
 ```
 
+
+
 ## Detailed report by category label
+
+
 
 
 
@@ -496,9 +517,13 @@ await client.eventReports.byCategoryLabel('eventKey', 'NO_CATEGORY');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -596,7 +621,11 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKe
 }
 ```
 
+
+
 ## Detailed report by category key
+
+
 
 
 
@@ -683,9 +712,13 @@ await client.eventReports.byCategoryKey('eventKey', 'NO_CATEGORY');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -783,7 +816,11 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey:
 }
 ```
 
+
+
 ## Detailed report by label
+
+
 
 
 
@@ -861,10 +898,14 @@ await client.eventReports.byLabel('eventKey', 'A-1');
 </Tabs>
 
 
+
 Multiple objects could have the same label, that's why they're returned as an array.
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -963,7 +1004,11 @@ curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey:
 }
 ```
 
+
+
 ## Detailed report by order id
+
+
 
 
 
@@ -1047,9 +1092,13 @@ let report = await client.eventReports.byOrderId('eventKey', 'NO_ORDER_ID');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -1149,7 +1198,11 @@ curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey:
 }
 ```
 
+
+
 ## Detailed report by section
+
+
 
 
 
@@ -1235,9 +1288,13 @@ await client.eventReports.bySection('eventKey', 'NO_SECTION');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/bySection -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -1338,7 +1395,11 @@ curl https://api.seatsio.net/reports/events/event34/bySection -u aSecretKey:
 }
 ```
 
+
+
 ## Detailed report by channel
+
+
 
 ```text
 GET https://api.seatsio.net/reports/events/{eventKey}/byChannel
@@ -1346,9 +1407,13 @@ GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/{channel}
 GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/NO_CHANNEL
 ```
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byChannel -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -1444,3 +1509,4 @@ curl https://api.seatsio.net/reports/events/event34/byChannel -u aSecretKey:
     "NO_CHANNEL": [ ... ]
 }
 ```
+

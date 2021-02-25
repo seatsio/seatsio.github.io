@@ -9,9 +9,11 @@ updatedAt: "2020-02-28T21:27:24.232Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 Use this call to copy a published chart version from a subaccount to another subaccount or to your parent account.
 
 subaccountIdOrParent is either the ID of the subaccount to copy to, or the string "parent".
@@ -21,6 +23,7 @@ Events and tags linked to the original chart are not copied.
 The response contains the chartKey of the new chart. You can store this in your database, and use it to refer to the newly created chart in the future.
 
 To authenticate, you need to use the secret key of the **parent account**, not one of the subaccounts. 
+
 
 
 <Tabs 
@@ -98,10 +101,14 @@ await client.subaccounts.copyChartToSubaccount('fromSubaccountId', 'toSubaccount
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/subaccounts/312/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/copy-to/324 \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -114,3 +121,4 @@ curl -X POST https://api.seatsio.net/subaccounts/312/charts/749b9650-24fb-11e7-9
     "publishedVersionThumbnailUrl": "https://cdn.seats.io/system/public/.../published/.../thumbnail"
 }
 ```
+

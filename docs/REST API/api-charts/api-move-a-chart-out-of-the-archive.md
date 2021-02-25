@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -74,9 +75,12 @@ await client.charts.moveOutOfArchive('chartKey');
 </Tabs>
 
 
+
 Returns 204 when the chart was successfully moved out of the archive, back to the active chart list. 
 Returns 400 (Bad Request) when the chart was not in the archive.
+
 ```text
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/move-out-of-archive \
 -u aSecretKey:
 ```
+

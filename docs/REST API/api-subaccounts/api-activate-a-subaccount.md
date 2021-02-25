@@ -9,10 +9,13 @@ updatedAt: "2020-02-28T13:16:13.633Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 ### Activate a subaccount
+
 
 
 <Tabs 
@@ -79,10 +82,13 @@ await client.subaccounts.activate('subaccountId');
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/subaccounts/169/actions/activate \
 -u aSecretKey:
 ```
+
 **Response**
 
 204 - No Content

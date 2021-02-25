@@ -10,7 +10,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 Deep summary reports contain the same kind of information as the [regular summary reports](api-summary-reports), but in a more detailed way. Summary reports can answer questions like "how many seats in Channel1 have the status 'booked'? The deep summary reports go further: "how many seats in Channel1 **within Section A** have the status 'booked'?
+
 ## Deep summary report by status
+
+
 
 
 
@@ -79,11 +82,15 @@ await client.eventReports.deepSummaryByStatus('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byStatus/summary/deep -u aSecretKey: 
 ```
 
+
 **Example response**
+
 ```json
 
 {
@@ -156,6 +163,7 @@ curl https://api.seatsio.net/reports/events/event34/byStatus/summary/deep -u aSe
   }
 }
 ```
+
 ## Deep summary report by selectability
 This reports allows you to distinguish between selectable and non-selectable objects. An object is considered selectable if:
 
@@ -164,6 +172,7 @@ This reports allows you to distinguish between selectable and non-selectable obj
 - and it's not disabled by social distancing rules
 
 Selectable objects can be found under the selectable key, non-selectable objects under non_selectable.
+
 
 
 <Tabs 
@@ -231,9 +240,13 @@ await client.eventReports.deepSummaryBySelectability('eventKey');
 
 
 
+
+
 ```text
 curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -312,7 +325,11 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep
 
 ```
 
+
+
 ## Deep summary report by category label
+
+
 
 
 
@@ -380,9 +397,13 @@ await client.eventReports.deepSummaryByCategoryLabel('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -438,7 +459,11 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep
 }
 ```
 
+
+
 ## Deep summary report by category key
+
+
 
 
 
@@ -506,9 +531,13 @@ await client.eventReports.deepSummaryByCategoryKey('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -564,7 +593,11 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -
 }
 ```
 
+
+
 ## Deep summary report by section
+
+
 
 
 
@@ -632,9 +665,13 @@ await client.eventReports.deepSummaryBySection('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -690,7 +727,11 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aS
 }
 ```
 
+
+
 ## Deep summary report by channel
+
+
 
 
 
@@ -758,9 +799,13 @@ await client.eventReports.deepSummaryByChannel('eventKey');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/reports/events/event34/byChannel/summary/deep -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -815,3 +860,4 @@ curl https://api.seatsio.net/reports/events/event34/byChannel/summary/deep -u aS
   },
 }
 ```
+

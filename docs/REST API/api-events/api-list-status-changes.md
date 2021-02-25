@@ -14,6 +14,7 @@ Each time the status of an object changes (e.g. by holding, booking or releasing
 Status changes are returned paginated, with the most recent ones first. Response body contains the hold token if a hold token was passed in when doing the status change (e.g. to hold an object, or to release an object that was previously held).
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -156,14 +157,18 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 </Tabs>
 
 
+
 - `filter`: use this parameter to filter on object labels. E.g. if you pass in 'A-1', all status changes for objects that have 'A-1' in their name will be returned (e.g. 'A-11', 'A-1', 'Section A-A-1').
 - `sort`: by default, status changes are sorted by date, with the newest status changes coming first. You can change this to sort by object label (`sort=objectLabel`) or by status (`sort=status`). Sorting by date with the oldest status changes first is also possible (`sort=date:asc`)
 
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/anEvent/status-changes?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -205,4 +210,5 @@ curl https://api.seatsio.net/events/anEvent/status-changes?limit=100&start_after
     ]
 }
 ```
+
 `origin` can be either `API_CALL`, `HELD_BY_USER`, `HOLD_RELEASED_BY_USER` or `HOLD_EXPIRED`. An `ip` property is present when the type equals `API_CALL`.

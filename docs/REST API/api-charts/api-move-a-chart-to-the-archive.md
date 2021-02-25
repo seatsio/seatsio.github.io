@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -74,10 +75,13 @@ client.charts.move_to_archive("749b9650-24fb-11e7-93ae-92361f002671")
 </Tabs>
 
 
+
 Returns 204 when the chart was successfully moved to the archive. 
 Returns 400 (Bad Request) when the chart was already moved to the archive.
+
 ```curl
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/move-to-archive \
 -u aSecretKey:
 
 ```
+

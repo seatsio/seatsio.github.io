@@ -20,6 +20,7 @@ Events linked to the original chart and the draft version are not copied.
 The response contains the chartKey of the new chart. You can store this in your database, and use it to refer to the newly created chart in the future.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -84,10 +85,14 @@ await client.charts.copy('chartKey')
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/published/actions/copy \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -100,3 +105,4 @@ curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671
     "publishedVersionThumbnailUrl": "https://cdn.seats.io/system/public/.../published/.../thumbnail"
 }
 ```
+

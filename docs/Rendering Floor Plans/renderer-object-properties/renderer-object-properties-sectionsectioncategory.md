@@ -10,6 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 **type**: object
+
 ```json
 {
   'accessible': false,
@@ -19,3 +20,4 @@ import TabItem from '@theme/TabItem';
   'pricing': {'price': 30, 'formattedPrice': '30€'}
 }
 ```
+

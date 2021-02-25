@@ -14,6 +14,7 @@ Returns a paginated list of workspaces you’ve previously created. The workspac
 Pass in a filter to only find the workspaces that have a matching name.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -144,11 +145,15 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/workspaces?limit=100&start_after_id=34 \
 -u anAdminKey:
 ```
+
 The response will be a paginated JSON object that contains all workspaces for the authenticated company:
+
 ```json
 {
     "next_page_starts_after": 122,
@@ -176,3 +181,4 @@ The response will be a paginated JSON object that contains all workspaces for th
 }
 
 ```
+

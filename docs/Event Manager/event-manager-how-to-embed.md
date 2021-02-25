@@ -16,6 +16,7 @@ To show the event manager to your admins or box office managers, you need to do 
 3. create a new `seatsio.EventManager` object, configure it and call its `render()` method
 
 So in short: just copy & paste this code snippet and adapt it to your needs.
+
 ```html
 <div id="event-manager"></div>
 
@@ -30,6 +31,8 @@ So in short: just copy & paste this code snippet and adapt it to your needs.
 </script>
 ```
 
+
+
 :::info A special note to React, Angular and Android users
 The easiest way to show the event manager is to use the official wrapper packages: 
 
@@ -38,3 +41,4 @@ The easiest way to show the event manager is to use the official wrapper package
 * **Android**: https://github.com/seatsio/seatsio-android
 * **TypeScript**: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/seatsio
 :::
+

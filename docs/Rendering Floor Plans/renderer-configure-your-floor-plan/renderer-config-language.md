@@ -17,4 +17,6 @@ Sets the language for built-in texts in seats.io.
 For the list of supported languages, check [this page](http://support.seats.io/integrating-seats-io/multi-language-i18n-support).
 
 To translate your own texts, such as the static texts you added on the chart, check the [messages](renderer-config-messages) configuration parameter.
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/ubvL0kzp/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

@@ -9,9 +9,11 @@ updatedAt: "2020-02-28T13:13:56.342Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 A subaccount is a special type of Seats.io user account. Its usage is billed to the *parent account* (i.e. your account). You can create it from within the seats.io webapp. 
 
 Other than that, subaccounts are normal and fully functional Seats accounts. Just like normal accounts, they:

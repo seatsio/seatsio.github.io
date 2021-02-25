@@ -13,6 +13,8 @@ import TabItem from '@theme/TabItem';
 
 The secret key of a workspace.
 
+
 :::danger Note
 `secretKey` is a required configuration option!
 :::
+

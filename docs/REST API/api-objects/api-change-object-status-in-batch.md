@@ -16,6 +16,7 @@ This is different from changing the object status in a season, in the sense that
 A good use case is a shopping basket, in which you allow your customers to select tickets for many events. Or a tool that allows swapping seats (i.e.: releasing some seats, and booking other seats).
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -145,15 +146,23 @@ client.events.changeObjectStatus([
 
 
 
+
+
 :::info Note
 All seats (or tables, booths or GA places) passed in to this API will be considered as "used seats" for [pricing purposes](https://www.seats.io/pricing).
 :::
+
+
 
 :::info Note
 This API call only supports events that belong to the same workspace. It's not possible to book objects in events across workspaces. To do so, you'll need to make multiple calls.
 :::
 
+
+
 ## Request
+
+
 
 ```json
 // Booking seats
@@ -177,6 +186,7 @@ This API call only supports events that belong to the same workspace. It's not p
   ]
 }
 ```
+
 The request is a JSON object with one property: `statusChanges`. This is an array of JSON objects, with the following properties:
 
 * **event**: the event key
@@ -188,7 +198,9 @@ The request is a JSON object with one property: `statusChanges`. This is an arra
 * **channelKeys** <i>(optional)</i>: an array of strings, i.e. the channel keys of the channel(s) to which the objects belong. If omitted, and the objects are assigned to a channel, the request will fail with 400 Bad request. Pass in `NO_CHANNEL` as channel key to allow objects without a channel.
 * **ignoreChannels** <i>(optional)</i>: if true, the status change call succeeds, even if the objects belong to a channel. Useful inside a back office application, in which the user is allowed to book any seat - no matter the channel.
 Should not be used in combination with `channelKeys`.
+
 ## Response
+
 *** Without expand=objects ***
 204 - No Content
 
@@ -196,6 +208,7 @@ Should not be used in combination with `channelKeys`.
 200 - ok
 
 * **results**: JSON array that contains detailed information about the objects. results[0] corresponds to the first status change request you passed in, results[1] to the second one etc.
+
 ```json
 {
   results: [
@@ -218,3 +231,4 @@ Should not be used in combination with `channelKeys`.
   ]
 }
 ```
+

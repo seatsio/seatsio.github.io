@@ -13,6 +13,8 @@ import TabItem from '@theme/TabItem';
 **Default**: []
 
 Leaves the specified categories normally visible, while making all others dimmed out. The array can be a list of category IDs or labels.
+
 :::info Notice
 This does not make any categories available or unavailable from selection, and it's meant to be used as a visual filter/aid only.
 :::
+

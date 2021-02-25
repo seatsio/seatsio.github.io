@@ -12,6 +12,8 @@ import TabItem from '@theme/TabItem';
 **Type**: string
 
 The key of the event for which you want to render the seating chart.
+
 ```javascript
 event: 'smallTheatreEvent1'
 ```
+

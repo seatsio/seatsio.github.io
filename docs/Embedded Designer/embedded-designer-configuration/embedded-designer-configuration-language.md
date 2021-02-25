@@ -21,6 +21,8 @@ Currently supported languages are:
 * French ('fr')
 * Portuguese ('pt') 
 * German ('de'). 
+
 :::info 
 If you want to help us to translate the designer in an other language, please <a href="mailto:support@seats.io">let us know</a>!
 :::
+

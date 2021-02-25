@@ -12,7 +12,10 @@ import TabItem from '@theme/TabItem';
 Each chart has a published version and an optional draft version. Those versions contain the actual contents of the chart: categories, rows, seats etc. The endpoints below allow you to fetch exactly that data.
 
 To retrieve properties that are shared between the draft and published version, call the endpoint to [retrieve a chart](api-retrieve-a-chart).
+
 ## Retrieve the published version of a chart
+
+
 
 
 
@@ -83,10 +86,14 @@ let drawing = await client.charts.retrievePublishedVersion('749b9650-24fb-11e7-9
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/charts/aChartKey/version/published \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -104,7 +111,11 @@ curl https://api.seatsio.net/charts/aChartKey/version/published \
 }
 ```
 
+
+
 ## Retrieve the draft version of a chart
+
+
 
 
 
@@ -160,10 +171,14 @@ drawing = client.charts.retrieve_draft_version("749b9650-24fb-11e7-93ae-92361f00
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/charts/aChartKey/version/draft \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -180,4 +195,5 @@ curl https://api.seatsio.net/charts/aChartKey/version/draft \
     ...
 }
 ```
+
 Error 404 (Not Found) is returned when the chart does not have a draft version.

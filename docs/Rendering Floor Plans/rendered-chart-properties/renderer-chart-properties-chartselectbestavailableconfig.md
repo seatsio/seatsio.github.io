@@ -14,6 +14,7 @@ import TabItem from '@theme/TabItem';
 Selects best available objects (and deselects any already selected objects). 
 
 The `config` parameter should be a JavaScript object that looks like this:
+
 ```javascript
 chart.selectBestAvailable({
     'number': 2,
@@ -21,8 +22,11 @@ chart.selectBestAvailable({
     'clearSelection': false // optional. Defaults to `true`
 });
 ```
+
 Have a look at the docs for the [selectBestAvailable rendering parameter](renderer-config-selectbestavailable) for more examples.
+
 :::caution Do not use this method if you expect high load on-sales
 `chart.selectBestAvailable()` calculates the best available seats in the ticket buyers browser, which means it will yield the same result for concurrent users. 
 Use the [server-side version ](https://docs.seats.io/docs/api-best-available) of the seats.io best available algorithm instead.
 :::
+

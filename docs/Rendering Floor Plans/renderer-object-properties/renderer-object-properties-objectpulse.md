@@ -10,6 +10,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 Shows a visual pulsing animation around the seat. 
+
 :::caution Note
 Only seats can be pulsed. Calling .pulse() on other objects will not have any effect.
 :::
+

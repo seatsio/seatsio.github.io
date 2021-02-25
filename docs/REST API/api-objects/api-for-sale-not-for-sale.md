@@ -20,6 +20,7 @@ For example:
 In those cases, you can use the 'for sale' and 'not for sale' API calls to mark sections, rows, seats or categories as for sale or not for sale, without having to change the status of those individual seats. Doing so is much more convenient and faster than sending status changes in batch.
 
 You can embed the [event manager](event-manager-introduction) to allow your admin users to modify the for sale configuration.
+
 :::caution 
 Note that ’for sale and ‘not for sale’ do not replace seat bookings. Each time you assign a seat to someone, you must also use our status change API, otherwise the availability management will not work properly. One of the reasons is that changes made by ‘for sale’ and ‘not for sale’ don’t support live updates, so they are not pushed to all ticket buyers. As a result, ticket buyers may not see the correct availability information unless there is also the correct status change API call.
 
@@ -29,12 +30,18 @@ There’s a rate limit of 10 calls per event per day on the for sale/not for sal
 See below for more info.
 :::
 
+
+
 :::info Tip This endpoint does not validate whether or not seats exist. This is intentional.
 This means you can mark seats as not-for-sale even before they are created. This allows you to add extra seats to a chart, that are immediately unavailable for sale: just mark them as not-for-sale first, then draw them on the seating chart.
 :::
 
+
+
 ## Mark objects as not-for-sale
+
 This API call marks the passed in objects and categories as not for sale, while marking all other objects as for sale.
+
 
 
 <Tabs 
@@ -100,13 +107,16 @@ await client.events.markAsNotForSale('eventKey', ['section1', 'section2'], ['cat
 </Tabs>
 
 
+
 **Request**
+
 ```json
 {
     "objects": ["section1", "section2"],
     "categories": ["category1", "category2"]
 }
 ```
+
 * **objects**: optional array of strings. Can contain section labels, row labels, table labels, booth labels, GA area labels or seat labels.
 * **categories** optional array of strings. Can contain category keys or labels.
 
@@ -115,6 +125,7 @@ Only objects that satisfy 'objects' or 'categories' will become unselectable. Al
 **Examples**
 
 To mark all objects that are either inside 'section1' or that have 'category1' as not for sale:
+
 ```json
 {
     "objects": ["section1"],
@@ -122,34 +133,46 @@ To mark all objects that are either inside 'section1' or that have 'category1' a
 }
 ```
 
+
 To mark seat A-1 and A-2 as not for sale:
+
 ```json
 {
     "objects": ["A-1", "A-2"]
 }
 ```
 
+
 To mark all seats in row A as not for sale:
+
 ```json
 {
     "objects": ["A"]
 }
 ```
 
+
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/event34/actions/mark-as-not-for-sale \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"objects": {"section1"}}'
 ```
+
 **Response**
 
 204 - No Content
+
 :::caution Warning
 There's a rate limit of 10 calls per day per event. If that rate limit if reached, a 429 (Too Many Requests) is returned. The Retry-After header indicates how many seconds you have to wait before trying again.
 :::
 
+
+
 ## Mark objects as for sale
+
 This API call marks the passed in objects and categories as for sale, while marking all other objects as not for sale.
+
 
 
 <Tabs 
@@ -216,13 +239,16 @@ await client.events.markAsForSale('eventKey', ['section1', 'section2'], ['catego
 
 
 
+
 **Request**
+
 ```json
 {
     "objects": ["section1", "section2"],
     "categories": ["category1", "category2"]
 }
 ```
+
 * **objects**: optional array of strings. Can contain section labels, row labels, table labels, booth labels, GA area labels or seat labels.
 * **categories** optional array of strings. Can contain category keys or labels.
 
@@ -233,6 +259,7 @@ Note that even though object is marked for sale, it's still not selectable if it
 **Examples**
 
 To mark all objects for sale that are either inside 'section1' or that have 'category1':
+
 ```json
 {
     "objects": ["section1"],
@@ -240,33 +267,45 @@ To mark all objects for sale that are either inside 'section1' or that have 'cat
 }
 ```
 
+
 To mark seat A-1 and A-2 for sale:
+
 ```json
 {
     "objects": ["A-1", "A-2"]
 }
 ```
+
 To mark all seats in row A for sale:
+
 ```json
 {
     "objects": ["A"]
 }
 ```
 
+
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/event34/actions/mark-as-for-sale \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"objects": {"section1"}}'
 ```
+
 **Response**
 
 204 - No Content
+
 :::caution Warning
 There's a rate limit of 10 calls per day per event. If that rate limit if reached, a 429 (Too Many Requests) is returned. The Retry-After header indicates how many seconds you have to wait before trying again.
 :::
 
+
+
 ## Mark all objects as for sale
+
 This API call marks all objects as for sale, which means resetting the list of objects and categories that were previously passed in by mark-as-for-sale or mark-as-not-for-sale.
+
 
 
 <Tabs 
@@ -332,18 +371,23 @@ await client.events.markEverythingAsForSale('eventKey');
 </Tabs>
 
 
+
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/event34/actions/mark-everything-as-for-sale \
 -u aSecretKey: -X POST
 ```
+
 **Response**
 
 204 - No Content
 
 
 
+
 ## Rate limiting
+
 The above API endpoints are rate limited: you can only call it 10 times per 24 hours.  
 
 Of course, this rate limit applies **per event**: If you have used up all 10 saves for event A, you will still be able to change the for-sale configuration for event B. 
@@ -355,6 +399,7 @@ If that limit of 10 is reached, a 429 (Too Many Requests) is returned.
 The `Retry-After` header indicates how many seconds you have to wait before trying again.
 
 
+
 :::info An exception
 If you **only** mark seats as for-sale, that were previously marked as not-for-sale, the call is not counted for the rate limit. 
 
@@ -362,6 +407,7 @@ In other words: you can always change the for-sale configuration of an event to 
 
 This allows you to start sales with just a portion of your floor plan as available, and then to gradually open up the rest of the seats.
 :::
+
 So this operation will count for the rate limit: 
 
 ![Screenshot 2019-06-14 11.46.56.png](/img/readme/Screenshot-2019-06-14-11.46.56.png)

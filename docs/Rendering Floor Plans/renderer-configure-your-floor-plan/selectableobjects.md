@@ -20,6 +20,8 @@ You can pass object labels inside the array, like this:
 ```javascript
 selectableObjects: ['A-1', 'A-2']
 ```
+
 :::caution Note
 `selectableObjects` has no effect on objects that are not-for-sale, nor on objects that are blocked by social distancing rules.
 :::
+

@@ -16,6 +16,7 @@ To show the chart manager to your admins or box office managers, you need to do 
 3. create a new `seatsio.ChartManager` object, configure it and call its `render()` method
 
 So in short: just copy & paste this code snippet and adapt it to your needs.
+
 ```html
 <div id="chart-manager"></div>
 
@@ -30,6 +31,8 @@ So in short: just copy & paste this code snippet and adapt it to your needs.
 </script>
 ```
 
+
+
 :::info A special note to React or Angular users
 The easiest way to show the chart manager is to use the official wrapper package: 
 
@@ -37,3 +40,4 @@ The easiest way to show the chart manager is to use the official wrapper package
 * **Angular**: https://github.com/seatsio/seatsio-angular
 * **TypeScript**: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/seatsio
 :::
+

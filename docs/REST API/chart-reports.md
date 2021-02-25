@@ -17,7 +17,10 @@ For example, the `byLabel` report will give you an overview of all seats per sea
 The following report types are available: `byLabel`, `byCategoryKey` and `byCategoryLabel`. 
 
 
+
 ## byLabel
+
+
 
 
 
@@ -106,10 +109,14 @@ await client.chartReports.byLabel('chartKey', 'false');
 </Tabs>
 
 
+
 Multiple objects could have the same label, that's why they're returned as an array.
+
 ```curl
 curl https://api.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f1cb479421/byLabel -u aSecretKey: 
 ```
+
+
 
 ```json
 {
@@ -174,21 +181,27 @@ curl https://api.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f1cb479421
     ]
 }
 ```
+
 ## A note on tables
 
 If your floor plan contains tables, those are returned as separate objects. You can control this behaviour by passing in an optional *bookWholeTables* query parameter: 
 
 
+
 ```text
 GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=chart
 ```
+
 * with `bookWholeTables=chart`, the report respects the table booking settings defined on the chart. If a table is bookable as a whole, the report contains the table (and not the seats). If a table is not bookable as a whole, the report contains the seats (and not the table).
 * without the `bookWholeTables` query param, both seats at tables, and the tables themselves will be returned in the response
 * with `bookWholeTables=true`, the response will only contain the tables, and not the seats. 
 * with `bookWholeTables=false`, the response will only contain the seats at the tables, and not the tables.
 
 
+
 ## byCategoryKey
+
+
 
 
 
@@ -277,7 +290,9 @@ await client.chartReports.byCategoryKey('chartKey', 'false');
 </Tabs>
 
 
+
 The response is a JSON object where all the keys are category keys, and the values an array of objects that represent the seats belonging to that category. 
+
 ```json
 {
   "8": [
@@ -343,7 +358,11 @@ The response is a JSON object where all the keys are category keys, and the valu
 
 ```
 
+
+
 ## byCategoryLabel
+
+
 
 
 
@@ -432,7 +451,9 @@ await client.chartReports.byCategoryLabel('chartKey', 'false');
 </Tabs>
 
 
+
 The response has the same structure as the `byCategoryKey` endpoint, but JSON object's keys are category labels in this case: 
+
 
 ```json
 {
@@ -498,3 +519,4 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
 }
 
 ```
+

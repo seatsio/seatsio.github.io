@@ -19,6 +19,7 @@ Note that the total maximum validity of a hold token is 2 hours. That means that
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -84,12 +85,16 @@ await client.holdTokens.expiresInMinutes('holdToken', 30);
 
 
 
+
 To change the expiration date of hold token, send a `POST` to https://api.seatsio.net/hold-tokens/{token}. The request body must be a JSON object containing an expiresInMinutes property:
+
 ```json
 {
   expiresInMinutes: 30
 }
 ```
+
+
 
 ```curl
 curl -X POST https://api.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d5fe66 \
@@ -98,6 +103,8 @@ curl -X POST https://api.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d
 -d "{'expiresInMinutes': 30}"
 ```
 
+
+
 ```json
  {    
      "holdToken": "a6ec0bc0-4c43-11e7-b114-b2f933d5fe66",
@@ -105,3 +112,4 @@ curl -X POST https://api.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d
      "expiresInSeconds": 768
  }
 ```
+

@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -75,10 +76,14 @@ await client.holdTokens.retrieve('holdToken');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/hold-tokens/18725661-36d6-4755-905a-28ce82d0c2d5 \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -87,4 +92,5 @@ curl https://api.seatsio.net/hold-tokens/18725661-36d6-4755-905a-28ce82d0c2d5 \
     "expiresInSeconds": 768
 }
 ```
+
 Error 404 (Not Found) is returned if the hold token does not exist, or does not exist anymore.

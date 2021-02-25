@@ -16,10 +16,14 @@ A function that formats a price when it's shown to an end user. This is notably 
 
 This function is executed in the context of your page, meaning you can use a library like [accounting.js](https://github.com/openexchangerates/accounting.js) in your implementation.
 
+
 :::caution A word on encoding
 The result of this function will be escaped. This means you can't use html entities or codes (respectively `&dollar;`and `&#36;` for $). 
 
 This might now work if you're not encoding your page as UTF-8. In that case, you should be able to use the unicode value (e.g. `\u0024` for $)
 :::
+
 Note that the result of this function will be escaped, meaning you can't use html entities such as `&#36;`
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/tsd62gpb/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

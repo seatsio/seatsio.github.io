@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -122,7 +123,9 @@ await client.events.create(
 </Tabs>
 
 
+
 **Request**
+
 ```json
 {
     "chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28",
@@ -134,6 +137,7 @@ await client.events.create(
     "socialDistancingRulesetKey": "9350fffc-e41f-c7cb-986a-2c5e728b8c2b"
 }
 ```
+
 * **chartKey**: chart key to which the event will be linked. Required.
 
 * **eventKey**: the key of the event. This is the unique identifier of the event in your own database. Optional, if you don't pass in your own event key, seats.io will generate one.
@@ -153,10 +157,13 @@ If both `bookWholeTables` and `tableBookingModes` are omitted, the table booking
 If both `bookWholeTables` and `tableBookingModes` are omitted, the table booking modes from the chart are inherited.
 
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28"}'
 ```
+
+
 
 ```json
 {
@@ -171,3 +178,4 @@ curl https://api.seatsio.net/events \
     "createdOn": "2017-05-05T10:58:44.715Z"
 }
 ```
+

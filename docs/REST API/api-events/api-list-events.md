@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 List non-deleted events, sorted by newest event first.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -143,10 +144,14 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/events \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -178,3 +183,4 @@ curl https://api.seatsio.net/events \
     ]
 }
 ```
+

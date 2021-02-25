@@ -18,6 +18,7 @@ There are 3 options:
 
 ### using selectedObjectsInputName
 If you add `selectedObjectsInputName:"aFormFieldNameYouChooseYourself"` to the seating chart configuration, the Seats Renderer will add a hidden input field with that name to your form. Note that the div in which you render the chart needs to be embedded in a &lt;form&gt;  tag for this to work. Like so: 
+
 ```html
 <form id="myTicketBuyerForm">
     <div id="chart"></div>
@@ -33,8 +34,10 @@ If you add `selectedObjectsInputName:"aFormFieldNameYouChooseYourself"` to the s
     }).render();
 </script>
 ```
+
 ### using chart.selectedObjects 
 new seatsio.SeatingChart({}).render(); returns a seatsio.SeatingChart object, that has a selectedObjects property. This is a JavaScript array of strings that contains the selected object labels. Of course, we update the value on each select and deselect. 
+
 ```javascript
 var seatingChart = new seatsio.SeatingChart({
     divId: 'chart',
@@ -44,8 +47,10 @@ var seatingChart = new seatsio.SeatingChart({
 
 console.log(seatingChart.selectedObjects); 
 ```
+
 ### using onObjectSelected and onObjectDeselected
 by listening to the `onObjectSelected` and `onObjectDeselected` events, you can keep track of the selected objects yourself in your code. 
+
 
 ```javascript
 var selectedSeats = [];
@@ -65,3 +70,4 @@ new seatsio.SeatingChart({
     }
 }).render();
 ```
+

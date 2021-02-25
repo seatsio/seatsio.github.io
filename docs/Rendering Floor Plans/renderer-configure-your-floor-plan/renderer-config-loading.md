@@ -22,6 +22,8 @@ var chart = new seatsio.SeatingChart({
 ```
 
 
+
 :::info Note
 Note that the `loader` css class in the above example can be defined in the styling of your own page.
 :::
+

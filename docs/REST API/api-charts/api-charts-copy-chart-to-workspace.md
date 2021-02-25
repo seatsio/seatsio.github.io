@@ -14,6 +14,7 @@ Use this call to copy a published chart version from its workspace to another wo
 The response contains the chartKey of the new chart. You can store this in your database, and use it to refer to the newly created chart in the future.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -78,10 +79,14 @@ await client.charts.copyToWorkspace('chartKey', '18725661-36d6-4755-905a-28ce82d
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/published/actions/copy-to-workspace/18725661-36d6-4755-905a-28ce82d0c2d5 \
 -u anAdminKey:
 ```
+
+
 
 ```json
 {
@@ -95,6 +100,9 @@ curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671
 }
 ```
 
+
+
 :::danger A note about authentication
 Because copying a chart between workspaces is an operation that requires privileges on both workspaces, you'll need to use your [company admin](https://docs.seats.io/docs/api-authentication#using-the-company-admin-key) key as a secret key. You can find the admin key at your [company settings page](https://app.seats.io/company-settings).
 :::
+

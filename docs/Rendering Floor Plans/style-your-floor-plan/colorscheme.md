@@ -21,8 +21,12 @@ You can pick between:
 - `light` - **Default.** Ideal for applications with light backdrops.
 - `dark` - Ideal for applications with dark backdrops.
 
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/j63n5Loc/21/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
 
 :::info Notice about dark background
 When using the `dark` setting, notice that the background remains transparent. Make sure that the color of chart container is also a dark shade.
 :::
+

@@ -21,9 +21,11 @@ divId: 'event-manager'
 # secretKey
 **Type**: string
 The secret key of a workspace, or the company admin key.
+
 :::danger Important
 Never expose this secret key on a public web page! Only use the event manager behind a login wall.
 :::
+
 ```javascript
 secretKey: 'my secret key'
 ```

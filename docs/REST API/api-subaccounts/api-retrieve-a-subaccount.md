@@ -9,10 +9,13 @@ updatedAt: "2020-02-28T13:15:18.522Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 ### Retrieve a subaccount
+
 
 
 <Tabs 
@@ -80,10 +83,14 @@ await client.subaccounts.retrieve('subaccountId');
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/subaccounts/169 \
 -u aSecretKey:
 ```
+
+
 
 ```json
 {
@@ -95,4 +102,5 @@ curl https://api.seatsio.net/subaccounts/169 \
     "active": true
 }
 ```
+
 Error 404 (Not Found) is returned when the subaccount does not exist (or when it belongs to another parent user)

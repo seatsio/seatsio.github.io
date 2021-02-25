@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 Use this API call to create multiple events at once for a chart. The maximum number of events that can be created with a single API call is 100.  
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -105,7 +106,9 @@ Creating multiple events is currently not supported in the JS client
 </Tabs>
 
 
+
 **Request**
+
 ```json
 {
     "chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28",
@@ -123,13 +126,17 @@ Creating multiple events is currently not supported in the JS client
     ]
 }
 ```
+
 The docs for the call to [create a single event](/docs/api-create-an-event) explain these request parameters.
 
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/actions/create-multiple \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28", "events": [{}, {}]}'
 ```
+
+
 
 ```json
 {
@@ -151,3 +158,4 @@ curl https://api.seatsio.net/events/actions/create-multiple \
   ]
 }
 ```
+

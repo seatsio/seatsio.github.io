@@ -13,9 +13,12 @@ To book general admission places (let's say 5), you can either:
 
 - pass in the label of the general admission area 5 times 
 - or pass in the label of the general admission area and a quantity (e.g. 5)
+
 :::info Note
 All GA places passed in to this API will be considered as "used seats" for [pricing purposes](https://www.seats.io/pricing).
 :::
+
+
 
 
 
@@ -89,7 +92,11 @@ await client.events.changeObjectStatus('eventKey', {'objectId' : 'GeneralAdmissi
 
 
 
+
+
 ## Request without quantity
+
+
 
 ```json
 {
@@ -98,7 +105,11 @@ await client.events.changeObjectStatus('eventKey', {'objectId' : 'GeneralAdmissi
 }
 ```
 
+
+
 ## Request with quantity
+
+
 
 ```json
 {
@@ -107,5 +118,8 @@ await client.events.changeObjectStatus('eventKey', {'objectId' : 'GeneralAdmissi
 }
 ```
 
+
+
 ## Temporarily holding places in a GA area
+
 Holds for GA areas work in the same way as regular objects. Have a look at our [documentation](/docs/api-temporarily-hold-objects) for more details.

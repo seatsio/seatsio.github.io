@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 When you don't want a chart to show up on your dashboard, you have to move it to the archive. It will stay there forever, unless you decide to move it out of the archive again. Charts cannot be hard deleted. 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -138,9 +139,13 @@ client.charts.archive.pageBefore(beforeId, parameters?, pageSize?)
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/charts/archive -u aSecretKey: 
 ```
+
+
 
 ```json
  {
@@ -167,3 +172,4 @@ curl https://api.seatsio.net/charts/archive -u aSecretKey:
     ]
 }
 ```
+

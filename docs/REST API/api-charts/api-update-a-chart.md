@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 The name and categories of a chart can be updated by posting to /charts/{chart key}.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -93,28 +94,39 @@ await client.charts.update('chartKey', 'New name for my chart', [cat1, cat2]);
 
 
 
+
+
 :::info Note
 Seats.io creates a draft chart version when you update a chart. If a draft version already exists, that draft gets updated.
 
 This does not apply to charts without events. For those charts we don't create a draft version.
 :::
 
+
+
 ## Update the chart name
+
 To update the name of a chart, send the new name in the request body. If you don't send a name, it will not change.
+
 ```json
 {
     "name": "New name for my chart"
 }
 ```
 
+
+
 ## Update chart categories
+
 To update categories, you must send an updated array of categories, for example: 
+
 ```json
 [
     { "key": 1, "label": "Category 1", "color": "#aaaaaa"},
     { "key": 2, "label": "Category 2", "color": "#bbbbbb", "accessible": true}
 ]
 ```
+
 The fields are: 
 
 * **key**: a number or a string that uniquely identifies the category in the chart. Note that when passing in a number, it cannot exceed the value of Number.MAX_SAFE_INTEGER (i.e. 2^32 = 9007199254740991)
@@ -129,6 +141,7 @@ Updating categories works as follows:
 - All other categories, which are not included in the array, are deleted. Sending an empty array of categories removes all categories.
  
 Suppose that this is the list of existing categories:
+
 ```json
 {
     "categories": [
@@ -137,7 +150,9 @@ Suppose that this is the list of existing categories:
     ]
 }
 ```
+
 and you send this update chart request:
+
 ```json
 {
     "categories": [
@@ -145,7 +160,9 @@ and you send this update chart request:
     ]
 }
 ```
+
 then category 1 will be deleted, the label for category 2 will be set to "My category 2", and the color of category 2 is left unchanged.
+
 ```json
 {
     "categories": [
@@ -154,10 +171,13 @@ then category 1 will be deleted, the label for category 2 will be set to "My cat
 }
 ```
 
+
+
 ```curl
 curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28 \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "New name for my chart"}'
 ```
+
 **Response**
 
 204 - No Content

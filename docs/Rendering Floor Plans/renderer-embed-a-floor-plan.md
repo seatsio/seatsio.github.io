@@ -18,6 +18,7 @@ To do this, you need to:
 3. create a new `seatsio.SeatingChart` object, configure it and call its `render()` method
 
 So in short: just copy & paste this code snippet and adapt it to your needs: 
+
 ```html
 <div id="chart"></div>
 <script src="https://cdn.seatsio.net/chart.js"></script>
@@ -30,6 +31,8 @@ So in short: just copy & paste this code snippet and adapt it to your needs:
 </script>
 ```
 
+
+
 :::info 
 If you're developing a *React* application, consider using our React wrapper: https://github.com/seatsio/seatsio-react
 
@@ -39,7 +42,10 @@ For *iOS* https://github.com/seatsio/seatsio-ios
 
 In *TypeScript* https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/seatsio
 :::
+
 In the rest of the documentation, code examples will be presented in interactive code editors like the one below. 
 
 Feel free to play around! 
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/xjmk1g36/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

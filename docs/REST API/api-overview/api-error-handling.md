@@ -21,6 +21,7 @@ For example:
 Have a look at the response body to see what went wrong exactly (except in case of 401 or 403 errors, in that case the response body is empty). 
 
 Here is an example of the response body of a failed request. The request in this example failed because the event, specified in the request, does not exist. 
+
 ```json
 {
   "status": 404,
@@ -38,6 +39,7 @@ Here is an example of the response body of a failed request. The request in this
   "requestId": "27378c14-ae6a-46a4-ada4-9c745a45e018"
 }
 ```
+
 In general, the response body contains:
 
 1. **status** the http status code. 400 for Bad Request, 404 for Not Found, etc. 

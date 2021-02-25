@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -80,12 +81,16 @@ await client.holdTokens.create(5); // sets expiration date to 5 minutes in the f
 </Tabs>
 
 
+
 You can pass in an optional `expiresInMinutes` value if the expiration date is different from the default value set for you account:
+
 ```json
 {
   "expiresInMinutes": 30
 }
 ```
+
+
 
 ```text
 curl -X POST https://api.seatsio.net/hold-tokens \
@@ -94,6 +99,8 @@ curl -X POST https://api.seatsio.net/hold-tokens \
 -d "{'expiresInMinutes': 30}"
 ```
 
+
+
 ```json
 {    
     "holdToken": "71f0fc20-3c3b-4f9f-a38b-ed350ba564e7",
@@ -101,3 +108,4 @@ curl -X POST https://api.seatsio.net/hold-tokens \
     "expiresInSeconds": 768
 }
 ```
+

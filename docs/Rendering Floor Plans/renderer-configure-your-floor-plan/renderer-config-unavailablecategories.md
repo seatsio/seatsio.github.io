@@ -13,8 +13,12 @@ import TabItem from '@theme/TabItem';
 **Default**: []
 
 Makes the specified categories unavailable from selection. The array can be a list of category IDs or labels.
+
 :::caution Important note
 Important note: you should also validate this server side; a somewhat clever user can change this value right from the browser to bypass the validation.
 :::
 
+
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/hvojq3a8/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

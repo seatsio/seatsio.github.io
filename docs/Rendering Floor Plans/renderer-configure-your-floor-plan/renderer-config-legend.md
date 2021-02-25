@@ -9,7 +9,9 @@ updatedAt: "2020-10-13T07:13:39.903Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 ## showLegend
+
 **Type**: boolean
 **Default**: false
 
@@ -18,7 +20,9 @@ If true, a legend with the category names and colors is rendered at the top of t
 ```javascript
 showLegend: true
 ```
+
 ## legend.hideNonSelectableCategories
+
 **Type**: boolean
 **Default**: false
 
@@ -33,7 +37,9 @@ legend: {
 ```
 
 
+
 ## legend.hidePricing
+
 **Type**: boolean
 **Default**: false
 
@@ -44,7 +50,9 @@ legend: {
     hidePricing: true
 }
 ```
+
 ## legend.hideCategoryName
+
 **Type**: boolean
 **Default**: false
 

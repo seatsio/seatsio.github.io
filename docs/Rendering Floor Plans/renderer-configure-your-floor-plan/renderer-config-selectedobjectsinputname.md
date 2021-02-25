@@ -30,6 +30,8 @@ then a hidden form field with the name "selectedSeats" will be added to your for
   <input type="hidden" name="selectedSeats" value="E-6,E-4,E-2">
 </form>
 ```
+
 :::caution Note
 You don't have to create the hidden form field yourself, seats.io will generate it for you.
 :::
+

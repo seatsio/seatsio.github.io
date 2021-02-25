@@ -14,6 +14,7 @@ Report with number of used seats, aggregated per month.
 ```
 GET /reports/usage
 ```
+
 ```json
 [
   {
@@ -32,3 +33,4 @@ GET /reports/usage
   },
 ]
 ```
+

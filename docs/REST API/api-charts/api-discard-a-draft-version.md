@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 If you're not happy with a draft version, you can choose to discard it. Discarding means deleting the draft version. This cannot be undone!
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -77,7 +78,10 @@ await client.charts.discardDraftVersion('chartKey');
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/discard \
 -u aSecretKey:
 ```
+

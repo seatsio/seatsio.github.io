@@ -13,6 +13,8 @@ import TabItem from '@theme/TabItem';
 **Default**: false
 
 Set to true to show little lines between seats of the same row. This may help to indicate which seats belong to the same row.
+
 :::caution 
 `showRowLines` is not supported on mobile. Passing it in has no effect.
 :::
+

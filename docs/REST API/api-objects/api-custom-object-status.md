@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 If you need more statuses than just booked and free, you can use this API call to change the status of a seat, table or booth to your own custom status.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -123,11 +124,17 @@ await client.events.changeObjectStatus('eventKey', [object1, object2], 'myCustom
 
 
 
+
+
 :::info Note
 All seats (or tables, booths or GA places) passed in to this API will be considered as "used seats" for [pricing purposes](https://www.seats.io/pricing).
 :::
 
+
+
 ## Request
+
+
 
 ```json
 // No ticket types
@@ -146,6 +153,7 @@ All seats (or tables, booths or GA places) passed in to this API will be conside
 }
 ```
 
+
 * **objects**: an array of object ids to release
 * **status**: the status you want to assign to an object
 * **holdToken** *(optional)*: the hold token must be supplied when you want to make sure that the same person that made the hold confirms his booking.
@@ -154,12 +162,15 @@ All seats (or tables, booths or GA places) passed in to this API will be conside
 * **ignoreChannels** <i>(optional)</i>: if true, the status change call succeeds, even if the objects belong to a channel. Useful inside a back office application, in which the user is allowed to book any seat - no matter the channel.
 Should not be used in combination with `channelKeys`.
 * **ignoreSocialDistancing** <i>(optional)</i>: if true, social distancing rules are not checked for this status change.
+
 ## Response
+
 *** Without expand=objects ***
 204 - No Content
 
 *** With expand=objects ***
 200 - ok
+
 
 
 <Tabs 
@@ -331,6 +342,7 @@ Should not be used in combination with `channelKeys`.
 
 </TabItem>
 </Tabs>
+
 
 
 * **objects**: JSON object that contains detailed information about the objects

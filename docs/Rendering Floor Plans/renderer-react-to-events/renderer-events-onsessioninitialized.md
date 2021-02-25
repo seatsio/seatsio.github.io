@@ -16,6 +16,7 @@ Fired when a session is initialized. This is either when:
 * or when the chart is (re-)rendered with an already active session, e.g. after a browser refresh. 
 
 The `holdToken` parameter that gets passed into this callback is an object with the following structure: 
+
 ```json
 {    
     "holdToken": "71f0fc20-3c3b-4f9f-a38b-ed350ba564e7",
@@ -23,4 +24,5 @@ The `holdToken` parameter that gets passed into this callback is an object with 
     "expiresInSeconds": 599
 }
 ```
+
 You can listen to this event to update a timer in your host page.

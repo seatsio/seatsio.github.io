@@ -9,12 +9,15 @@ updatedAt: "2020-02-28T13:16:03.882Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 ### Deactivate a subaccount
 
 Subaccounts are either active or inactive. Inactive subaccounts do not have the permission to create charts, create events, book seats, in short: to do anything meaningful.
+
 
 
 <Tabs 
@@ -81,11 +84,14 @@ await client.subaccounts.deactivate(169);
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/subaccounts/169/actions/deactivate \
 -u aSecretKey:
 
 ```
+
 **Response**
 
 204 - No Content

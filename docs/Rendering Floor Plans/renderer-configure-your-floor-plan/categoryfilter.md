@@ -38,6 +38,8 @@ Supported parameters are:
 ![Category filters - mobile 2.gif](/img/readme/Category-filters---mobile-2.gif)
 
 
+
 :::info Notice
 To use the two-step layout, where the categories filter is fully displayed on the left side, the embed must be wide enough to support this. It will otherwise dock to the top of the screen.
 :::
+

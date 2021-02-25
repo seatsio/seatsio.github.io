@@ -9,12 +9,15 @@ updatedAt: "2020-02-28T13:15:31.839Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+
 :::caution 
 Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 :::
+
 Creates a subaccount with an e-mail address and a name. Both the e-mail and the name are optional.
  
 If you do pass in an e-mail, the subaccount receives a message with a link to set the initital password. From that point on, he can log in to the [dashboard](https://app.seats.io) to manage charts and events.
+
 
 
 <Tabs 
@@ -88,18 +91,24 @@ await client.subaccounts.createWithEmail('test@test.com', 'a subaccount');
 
 
 
+
+
 ```json
 {
     "email": "test@test.com",
     "name": "a subaccount"
 }
 ```
+
 * **email**: the e-mail address of the subaccount. Optional. Must be filled in if you want the subaccount to manage charts and events via the [dashboard](https://app.seats.io). 
 * **name**: the name of the subaccount. Optional. Can be any string (including spaces or special characters)
+
 ```curl
 curl -X POST https://api.seatsio.net/subaccounts \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"email": "test@test.com", "name": "a subaccount"}'
 ```
+
+
 
 ```json
 {
@@ -112,3 +121,4 @@ curl -X POST https://api.seatsio.net/subaccounts \
 }
 
 ```
+

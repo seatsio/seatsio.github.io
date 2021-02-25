@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 Charts can be created by posting a JSON object that represents the chart to `/charts`. This request body is optional: an empty untitled chart is created when an empty request body is sent.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -93,6 +94,8 @@ await client.charts.create('my chart', 'MIXED', [cat1, cat2]);
 
 
 
+
+
 ```json
 {
     "name": "my chart",
@@ -103,16 +106,20 @@ await client.charts.create('my chart', 'MIXED', [cat1, cat2]);
     ]
 }
 ```
+
 * **name**: the name of the chart. Optional. Defaults to 'Untitled chart'.
 * **venueType**: the kind of venue you're creating. Depending on the venue type you choose, drawing sections will or will not be possible in the designer.
 Valid venue types are "MIXED" (chart without sections) and "ROWS_WITH_SECTIONS" (chart with sections). If you don't pass in a venue type, "MIXED" is used.
 * **categories**: optional array of categories. Each category contains a key (required), label (required) and color (optional). The key needs to be a number or a string. If it's a number, it cannot exceed `Number.MAX_SAFE_INTEGER` (i.e. 9007199254740991). A default color is assigned if you don't specify one. 
 
 
+
 ```curl
 curl https://api.seatsio.net/charts \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "my chart"}'
 ```
+
+
 
 ```json
 {
@@ -125,3 +132,4 @@ curl https://api.seatsio.net/charts \
     "publishedVersionThumbnailUrl": "https://cdn.seats.io/system/public/.../published/.../thumbnail"
 }
 ```
+

@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 Publishing a draft version means replacing the currently published version by the draft version. The draft version is deleted afterwards. This cannot be undone!
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -76,15 +77,21 @@ client.charts.publish_draft_version("4250fffc-e41f-c7cb-986a-2c5e728b8c28")
 
 
 
+
+
 ```curl
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/publish \
 -u aSecretKey:
 ```
 
+
+
 ## Response
+
 If everything goes well and the draft chart is published, you'll get a **204** No Content response. 
 
 If, however, the chart contains validation errors, the chart is not published and a **400** Bad Request response is issued. The response body contains details of why the validation failed and looks like this: 
+
 
 
 ```json
@@ -122,6 +129,7 @@ If, however, the chart contains validation errors, the chart is not published an
     "requestId": "<request id>"
 }
 ```
+
 Currently the following validators are supported: 
 
 * VALIDATE_UNLABELED_OBJECTS: can a chart contain unlabeled seats? 
@@ -130,6 +138,8 @@ Currently the following validators are supported:
 * VALIDATE_FOCAL_POINT: Is a focal point required for a seating chart to be valid? Charts without focal point cannot use Best Available seat selection.
 * VALIDATE_OBJECT_TYPES_PER_CATEGORY: Is it allowed to, for example, apply a category A to both seats and booths?
 
+
 :::info Tip
 You can set the validation level for each of them via your settings page.
 :::
+

@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -76,11 +77,14 @@ await client.events.delete('eventKey');
 
 
 
+
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/event34 \
 -u aSecretKey: -X DELETE -H 'Content-Type: application/json'
 ```
+
 **Response**
 
 204 - No Content

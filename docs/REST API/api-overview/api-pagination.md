@@ -13,7 +13,9 @@ All resources that have support for bulk fetches (i.e. `GET`ting a list of resou
 
 Seats.io uses *cursor-based pagination*: the `start_after_id` takes an existing object ID value.
    
+
 ## Arguments
+
 
 * **limit** *(optional)*   
 A limit on the number of objects to be returned. 
@@ -29,7 +31,9 @@ A cursor for use in pagination, which allows you to fetch the previous page if i
 If you make a list request and receive a paginated response that contains a `previous_page_ends_before` value of 987, you can use `end_before_id=987` on your next call to fetch the previous page of the list.
 `end_before_id` cannot be used together with `start_after_id`.
 
+
 ## Response format
+
 * **items** *(array)*
 An array containing the actual response items. Each item is identified by an `id` property of type string.   
  

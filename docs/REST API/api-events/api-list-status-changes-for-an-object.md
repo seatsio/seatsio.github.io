@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 Lists status changes for an object in the event, with the most recent ones first.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -145,11 +146,15 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/events/event34/objects/A-1/status-changes?limit=100&start_after_id=34 \
 -u aSecretKey:
 
 ```
+
+
 
 ```json
 {
@@ -190,4 +195,5 @@ curl https://api.seatsio.net/events/event34/objects/A-1/status-changes?limit=100
     ]
 }
 ```
+
 `origin` can be either `API_CALL`, `HELD_BY_USER`, `HOLD_RELEASED_BY_USER` or `HOLD_EXPIRED`. An `ip` property is present when the type equals `API_CALL`.

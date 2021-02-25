@@ -31,6 +31,8 @@ If an array of objects is passed, these objects should have the following struct
     amount: Number (optional)
 }
 ```
+
 :::info Held objects will be released
 If the objects were temporarily held, `deselectObjects()` releases them again.
 :::
+

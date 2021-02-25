@@ -13,6 +13,8 @@ import TabItem from '@theme/TabItem';
 **Default**: []
 
 Makes the specified categories available from selection, while making all others unavailable from selection. The array can be a list of category IDs or labels.
+
 :::caution Important note
 Important note: you should also validate this server side; a somewhat clever user can change this value right from the browser to bypass the validation.
 :::
+

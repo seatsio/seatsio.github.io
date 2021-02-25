@@ -18,8 +18,10 @@ The Seats API provides 2 types of reports:
 
 You can retrieve each of these reports in different representations, which we call report types. For example, the *byLabel* report will give you an overview of all seats per seat label, whereas the "byStatus" report will give you an overview of all different seat statuses present on the event, together with a list of the seats that have that status. 
 
+
 :::danger Important: Do not use these endpoints to check whether a seat is free before trying to book it!
 Not only is it unnecessary to pre-check the seat status, it is actually harmful: **you will get double bookings** if you do so. 
 
 Read more on the topic [here](http://support.seats.io/integrating-seats-io/faq/why-am-i-seeing-double-bookings-in-my-system).
 :::
+

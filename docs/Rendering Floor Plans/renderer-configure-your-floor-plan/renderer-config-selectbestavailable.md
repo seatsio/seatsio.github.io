@@ -16,10 +16,12 @@ Automatically pre-select the best available objects (and deselect already select
 The object you pass in must contain the number of objects to select, either by specifying a plain number, or a number per ticket type. It can have an optional category key or label, to auto select only objects in that category.
 
 This works for seats in rows, seats at tables, whole tables (if the table is bookable by table), booths and general admission (GA) areas. 
+
 :::caution Do not use this config param if you expect high load on-sales
 If you use this config parameter, the best available seats are calculated within the ticket buyers browser, which means it will yield the same result for concurrent users. 
 Use the [server-side version ](https://docs.seats.io/docs/api-best-available) of the seats.io best available algorithm instead.
 :::
+
 To select 2 objects (or places, in the case of a GA) in any category:
 
 ```javascript

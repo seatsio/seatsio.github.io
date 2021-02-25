@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 The secret key of a workspace should be kept secret at all times. If it does get compromised, you can generate a new one.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -77,14 +78,19 @@ await client.workspaces.regenerateSecretKey(key);
 </Tabs>
 
 
+
 * **name**: the name of the workspace. Can be any string (including spaces or special characters)
+
 ```curl
 curl -X POST https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5/actions/regenerate-secret-key \
 -u anAdminKey: -X POST
 ```
+
 **Response**
+
 ```json
 {
   secretKey: "79425661-36d6-4755-905a-28ce82d0c8c1"
 }
 ```
+

@@ -11,6 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -75,18 +76,28 @@ await client.events.retrieveObjectStatus('eventKey', 'A-1');
 
 
 
+
+
 :::info Tip
 Keep in mind that certain characters need to be [URI encoded](doc:api-uri-encoding)!
 :::
 
+
+
 ## Example request
+
+
 
 ```curl
 curl https://api.seatsio.net/events/event34/objects/A-1 -u aSecretKey: 
 ```
 
+
+
 ## Example response
+
 Regular, non-GA object:
+
 ```json
 {
     "status": "booked",
@@ -100,9 +111,11 @@ Regular, non-GA object:
 }
 
 ```
+
 When the object is held (status `reservedByToken`), there's an additional property `holdToken` which is the hold token string that was used to hold the object.
 
 A general admission area will yield this response: 
+
 
 ```json
 {
@@ -110,4 +123,5 @@ A general admission area will yield this response:
     "quantity": 10
 }
 ```
+
 GA areas remain in status 'free' as long as they are not fully booked. `quantity` is the number of booked places.

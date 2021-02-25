@@ -12,7 +12,10 @@ import TabItem from '@theme/TabItem';
 Seats.io does not allow creating events for invalid charts. You can configure what 'invalid' means through the settings page at https://app.seats.io/company-settings.
 
 The API call documented below returns the list of validation errors and warnings for a draft or published chart. 
+
 ## Validate a chart version
+
+
 
 
 
@@ -88,11 +91,15 @@ await client.charts.validatePublishedVersion('749b9650-24fb-11e7-93ae-92361f0026
 
 
 
+
+
 ```curl
 curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/version/draft/actions/validate \
 -X POST -u aSecretKey:
 ```
+
 **Example response**
+
 ```json
 // valid drawing
 {
@@ -106,3 +113,4 @@ curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/version
   "warnings": ["VALIDATE_DUPLICATE_LABELS"]
 }
 ```
+

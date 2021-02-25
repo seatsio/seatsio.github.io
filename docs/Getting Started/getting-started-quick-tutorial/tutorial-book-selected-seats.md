@@ -17,6 +17,7 @@ Here are some examples using the respective [API Client libraries](api-client-li
 
 
 
+
 <Tabs 
   defaultValue="php"
   values={[
@@ -62,6 +63,7 @@ await client.events.book('eventKey', ['A-3', 'A-5', 'A-7']);
 
 </TabItem>
 </Tabs>
+
 
 
 ## When should I book?

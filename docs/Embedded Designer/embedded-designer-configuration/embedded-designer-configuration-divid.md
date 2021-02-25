@@ -12,10 +12,14 @@ import TabItem from '@theme/TabItem';
 **Type**: string
 
 The id of the `<div>`element on your page in which you want seats.io to render the Designer.
+
 :::danger Note
 divId is a required configuration option!
 :::
 
+
+
 ```javascript
 divId: 'designer'
 ```
+

@@ -16,6 +16,7 @@ GET /reports/usage/month/{month}/event/{eventId}
 ```
 
 E.g. `/reports/usage/month/2018-09/event/32429`
+
 ```json
 [
   {
@@ -40,3 +41,4 @@ E.g. `/reports/usage/month/2018-09/event/32429`
   }
 ]
 ```
+

@@ -13,6 +13,7 @@ Updates the [extra data](api-extra-data) for a bunch of objects in an event, wit
 
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -103,6 +104,8 @@ await client.events.updateExtraDatas('eventKey', {'A-1': extraData1, 'A-2': extr
 
 
 
+
+
 ```json
 {
     "extraData": {
@@ -116,14 +119,17 @@ await client.events.updateExtraDatas('eventKey', {'A-1': extraData1, 'A-2': extr
 }
 ```
 
+
 extraData is a mapping between object labels and extra data objects. The extra data objects must be valid JSON objects.
 
 **Example request**
+
 ```curl
 curl https://api.seatsio.net/events/event34/actions/update-extra-data \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"A-1": {"name": "John Doe"}, "A-2": {"name": "Jane Doe"}}}'
 
 ```
+
 **Response**
 
 204 - No Content, or 404 when one or more objects don't exist on the chart.

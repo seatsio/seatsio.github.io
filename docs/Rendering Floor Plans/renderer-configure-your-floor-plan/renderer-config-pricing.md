@@ -19,11 +19,15 @@ Seats supports two types of pricing: *simple pricing* and *multi-level pricing*.
 
 You can read a more in-depth descussion about pricing categories and ticket types [here](http://support.seats.io/integrating-seats-io/multilevel-pricing).
 
+
 :::info Note
 For information about the priceFormatter parameter used in the examples below, see [this page](doc:renderer-config-priceformatter)
 :::
 
+
+
 ## Simple pricing
+
 For single price points per category, simply pass a `pricing` array of js objects like so: 
 
 ```
@@ -44,16 +48,28 @@ Note that you can also use the category labels instead of their keys:
         ]
 ```
 
+
 :::caution Category labels need to be 100% correct when used as keys
 They are cAsE sEnSiTiVe: a category label "Balcony" is not the same as "balcony".
 :::
 
+
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/tsd62gpb/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
 
 ## Multi-level pricing
 
+
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/c56bw8dg/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 You can also pass in labels for the ticket types. Ticket buyers will see the label in tooltips, instead of the technical ID:
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/u7hs9L02/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 Longer descriptions are possible as well:
+
 <iframe width="100%" height="580" src="//jsfiddle.net/seatsio/q38fczru/embedded/js,html,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

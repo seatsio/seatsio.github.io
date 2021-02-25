@@ -12,6 +12,7 @@ import TabItem from '@theme/TabItem';
 Updates the channels for an event, without touching the assigned objects to those channels.
 
 
+
 <Tabs 
   defaultValue="text"
   values={[
@@ -105,6 +106,8 @@ await client.events.updateChannels(event.key, {
 
 
 
+
+
 ```json
 {
     "channels": {
@@ -126,6 +129,7 @@ await client.events.updateChannels(event.key, {
     }
 }
 ```
+
 The request body should contain a json object with one property (`channels`), that has a property per channel: the channel key as property name, and the channel configuration as property value. 
 
 A channel configuration has the following properties: 

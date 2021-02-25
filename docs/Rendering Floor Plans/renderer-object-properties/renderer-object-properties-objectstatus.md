@@ -15,8 +15,10 @@ import TabItem from '@theme/TabItem';
 - `'reservedByToken'`
 - `'booked'`
 - a custom status
+
 :::info Custom values possible
 Besides the built-in statuses, this property might also be set to any if the custom statuses you are setting your objects to.
 
 [Read more about custom object statuses](https://docs.seats.io/docs/api-custom-object-status)
 :::
+
