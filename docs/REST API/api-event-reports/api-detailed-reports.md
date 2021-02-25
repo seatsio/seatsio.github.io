@@ -3,7 +3,7 @@ title: "Detailed reports"
 slug: "/api-detailed-reports"
 hidden: false
 createdAt: "2018-08-02T10:10:05.573Z"
-updatedAt: "2021-02-25T11:11:19.934Z"
+updatedAt: "2021-02-25T12:55:01.362Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -16,14 +16,14 @@ GET /reports/events/{eventKey}/{reportType}
 ```
 
 The report types you can choose from are:
-- [byStatus](api-detailed-reports#section-detailed-report-by-status) 
-- [bySelectability](api-detailed-reports#section-detailed-report-by-selectability) 
-- [byCategoryLabel](api-detailed-reports#section-detailed-report-by-category-label) 
-- [byCategoryKey](api-detailed-reports#section-detailed-report-by-category-key) 
-- [byLabel](api-detailed-reports#section-detailed-report-by-label) 
-- [byOrderId](api-detailed-reports#section-detailed-report-by-order-id) 
-- [bySection](api-detailed-reports#section-detailed-report-by-section)
-- [byChannel](api-detailed-reports#section-detailed-report-by-channel)  
+- byStatus
+- bySelectability
+- byCategoryLabel
+- byCategoryKey
+- byLabel
+- byOrderId
+- bySection
+- byChannel
 
 You can also pass in an optional filter, for example to retrieve only the objects in a certain status:
 

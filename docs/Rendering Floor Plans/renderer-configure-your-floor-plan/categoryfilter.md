@@ -10,7 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 **Type**: object  
-**Default**: 
+**Default**:  
 ```javascript
 {
     enabled: false,
