@@ -3,7 +3,7 @@ title: "Detailed reports"
 slug: "/api-detailed-reports"
 hidden: false
 createdAt: "2018-08-02T10:10:05.573Z"
-updatedAt: "2021-02-09T11:43:58.063Z"
+updatedAt: "2021-02-25T11:11:19.934Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -250,12 +250,12 @@ Selectable objects can be found under the `selectable` key, non-selectable objec
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
-{ label: 'Text', value: 'shell', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Javascript', value: 'javascript', },
+{ label: 'Python', value: 'python', },
 ]}>
 <TabItem value='shell'>
 
@@ -264,18 +264,18 @@ GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='php'>
 
-```shell
+```php
 $seatsioClient->eventReports->bySelectability("event34");
 $seatsioClient->eventReports->bySelectability("event34", "selectable");
 $seatsioClient->eventReports->bySelectability("event34", "not_selectable");
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='csharp'>
 
-```shell
+```csharp
 Client.EventReports.BySelectability("event34");
 Client.EventReports.BySelectability("event34", "selectable");
 Client.EventReports.BySelectability("event34", "not_selectable");
@@ -283,9 +283,9 @@ Client.EventReports.BySelectability("event34", "not_selectable");
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='java'>
 
-```shell
+```java
 client.eventReports.bySelectability("event34");
 client.eventReports.bySelectability("event34", "selectable");
 client.eventReports.bySelectability("event34", "not_selectable");
@@ -293,27 +293,27 @@ client.eventReports.bySelectability("event34", "not_selectable");
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='ruby'>
 
-```shell
+```ruby
 client.event_reports.by_selectability("event34")
 client.event_reports.by_selectability("event34", "selectable")
 client.event_reports.by_selectability("event34", "not_selectable")
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='javascript'>
 
-```shell
+```javascript
 await client.eventReports.bySelectability('eventKey');
 await client.eventReports.bySelectability('eventKey', 'selectable');
 await client.eventReports.bySelectability('eventKey', 'not_selectable');
 ```
 
 </TabItem>
-<TabItem value='shell'>
+<TabItem value='python'>
 
-```shell
+```python
 client.events.reports.by_selectability("event34")
 client.events.reports.by_selectability("event34", status="selectable")
 client.events.reports.by_selectability("event34", status="not_selectable")
