@@ -20,9 +20,9 @@ This article describes the call to add rulesets to a chart. To apply one of thos
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -30,9 +30,9 @@ This article describes the call to add rulesets to a chart. To apply one of thos
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/charts/{chartKey}/social-distancing-rulesets
 ```
 
@@ -248,7 +248,7 @@ If you don't pass in `disableDiagonalSeatsInFrontAndBehind`, and `numberOfDisabl
 * **oneGroupPerTable**: optional boolean. Defaults to false. When true, table seats that are not booked are left empty. Only one group of people can sit at a table.
 * **fixedGroupLayout**: boolean. Defaults to false. Set to true to manually indicate which seats should be booked as a group (by passing in `disabledSeats`). When the ticket buyer clicks on a seat, all selectable seats next to that seat become selected as well.
 
-```curl
+```shell
 curl https://api.seatsio.net/charts/{chartKey}/social-distancing-rulesets \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{
   "socialDistancingRulesets": {

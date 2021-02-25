@@ -57,9 +57,9 @@ The possible values for objectType are:
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -67,9 +67,9 @@ The possible values for objectType are:
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byStatus
 GET https://api.seatsio.net/reports/events/{eventKey}/byStatus/{status}
 ```
@@ -133,7 +133,7 @@ await client.eventReports.byStatus('eventKey', 'booked');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byStatus -u aSecretKey: 
 ```
 
@@ -247,35 +247,35 @@ Selectable objects can be found under the `selectable` key, non-selectable objec
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 $seatsioClient->eventReports->bySelectability("event34");
 $seatsioClient->eventReports->bySelectability("event34", "selectable");
 $seatsioClient->eventReports->bySelectability("event34", "not_selectable");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 Client.EventReports.BySelectability("event34");
 Client.EventReports.BySelectability("event34", "selectable");
 Client.EventReports.BySelectability("event34", "not_selectable");
@@ -283,9 +283,9 @@ Client.EventReports.BySelectability("event34", "not_selectable");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.eventReports.bySelectability("event34");
 client.eventReports.bySelectability("event34", "selectable");
 client.eventReports.bySelectability("event34", "not_selectable");
@@ -293,27 +293,27 @@ client.eventReports.bySelectability("event34", "not_selectable");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.event_reports.by_selectability("event34")
 client.event_reports.by_selectability("event34", "selectable")
 client.event_reports.by_selectability("event34", "not_selectable")
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 await client.eventReports.bySelectability('eventKey');
 await client.eventReports.bySelectability('eventKey', 'selectable');
 await client.eventReports.bySelectability('eventKey', 'not_selectable');
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.events.reports.by_selectability("event34")
 client.events.reports.by_selectability("event34", status="selectable")
 client.events.reports.by_selectability("event34", status="not_selectable")
@@ -326,7 +326,7 @@ client.events.reports.by_selectability("event34", status="not_selectable")
 
 
 
-```text
+```shell
 curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKey: 
 ```
 
@@ -434,9 +434,9 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKe
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -444,9 +444,9 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKe
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/{categoryLabel}
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/NO_CATEGORY
@@ -519,7 +519,7 @@ await client.eventReports.byCategoryLabel('eventKey', 'NO_CATEGORY');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKey: 
 ```
 
@@ -630,9 +630,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKe
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -640,9 +640,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKe
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/{categoryKey}
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/NO_CATEGORY
@@ -714,7 +714,7 @@ await client.eventReports.byCategoryKey('eventKey', 'NO_CATEGORY');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey: 
 ```
 
@@ -825,9 +825,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey:
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -835,9 +835,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey:
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byLabel
 GET https://api.seatsio.net/reports/events/{eventKey}/byLabel/{label}
 ```
@@ -901,7 +901,7 @@ await client.eventReports.byLabel('eventKey', 'A-1');
 
 Multiple objects could have the same label, that's why they're returned as an array.
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey: 
 ```
 
@@ -1013,9 +1013,9 @@ curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey:
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -1023,9 +1023,9 @@ curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey:
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byOrderId
 GET https://api.seatsio.net/reports/events/{eventKey}/byOrderId/{orderId}
 GET https://api.seatsio.net/reports/events/{eventKey}/byOrderId/NO_ORDER_ID
@@ -1094,7 +1094,7 @@ let report = await client.eventReports.byOrderId('eventKey', 'NO_ORDER_ID');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey: 
 ```
 
@@ -1207,9 +1207,9 @@ curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey:
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -1217,9 +1217,9 @@ curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey:
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/bySection
 GET https://api.seatsio.net/reports/events/{eventKey}/bySection/{section}
 GET https://api.seatsio.net/reports/events/{eventKey}/bySection/NO_SECTION
@@ -1290,7 +1290,7 @@ await client.eventReports.bySection('eventKey', 'NO_SECTION');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/bySection -u aSecretKey: 
 ```
 
@@ -1401,7 +1401,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection -u aSecretKey:
 
 
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byChannel
 GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/{channel}
 GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/NO_CHANNEL
@@ -1409,7 +1409,7 @@ GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/NO_CHANNEL
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byChannel -u aSecretKey: 
 ```
 

@@ -14,9 +14,9 @@ List non-deleted events, sorted by newest event first.
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -24,9 +24,9 @@ List non-deleted events, sorted by newest event first.
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/events
 
 More info: https://docs.seats.io/docs/api-pagination
@@ -146,7 +146,7 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/events \
 -u aSecretKey:
 ```

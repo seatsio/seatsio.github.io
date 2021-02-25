@@ -14,9 +14,9 @@ Returns a paginated list of charts you’ve previously created in a workspace. T
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -24,9 +24,9 @@ Returns a paginated list of charts you’ve previously created in a workspace. T
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/charts
 
 GET https://api.seatsio.net/charts?filter=london
@@ -153,7 +153,7 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/charts -u aSecretKey: 
 ```
 

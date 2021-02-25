@@ -22,9 +22,9 @@ The response contains the chartKey of the new chart. You can store this in your 
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -32,9 +32,9 @@ The response contains the chartKey of the new chart. You can store this in your 
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/charts/{chartKey}/version/published/actions/copy
 ```
 
@@ -87,7 +87,7 @@ await client.charts.copy('chartKey')
 
 
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/published/actions/copy \
 -u aSecretKey:
 ```

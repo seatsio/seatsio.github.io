@@ -16,9 +16,9 @@ The call that lists workspaces returns both active and inactive ones.
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -26,9 +26,9 @@ The call that lists workspaces returns both active and inactive ones.
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/workspaces/{key}/actions/deactivate
 ```
 
@@ -83,7 +83,7 @@ await client.workspaces.deactivate(key);
 
 
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5/actions/deactivate \
 -u anAdminKey: -X POST
 ```

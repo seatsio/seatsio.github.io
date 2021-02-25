@@ -22,9 +22,9 @@ calling this API will be considered as a "booking" for each event in the season 
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -32,9 +32,9 @@ calling this API will be considered as a "booking" for each event in the season 
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/seasons/actions/change-object-status
 POST https://api.seatsio.net/seasons/actions/book
 POST https://api.seatsio.net/seasons/actions/release

@@ -20,9 +20,9 @@ releasing objects can also be used to cancel objects that are [temporarily held]
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -30,9 +30,9 @@ releasing objects can also be used to cancel objects that are [temporarily held]
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/release
 
 POST https://api.seatsio.net/events/{eventKey}/actions/release?expand=objects

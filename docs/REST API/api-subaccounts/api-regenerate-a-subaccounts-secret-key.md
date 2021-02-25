@@ -21,9 +21,9 @@ The secret key of a subaccount should be kept secret at all times. If it does ge
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -31,9 +31,9 @@ The secret key of a subaccount should be kept secret at all times. If it does ge
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/subaccounts/{id}/secret-key/actions/regenerate
 ```
 
@@ -86,7 +86,7 @@ await client.subaccounts.regenerateSecretKey('subaccountId');
 
 
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/subaccounts/169/secret-key/actions/regenerate \
 -u aSecretKey:
 ```

@@ -21,9 +21,9 @@ Subaccounts are either active or inactive. Inactive subaccounts do not have the 
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -31,9 +31,9 @@ Subaccounts are either active or inactive. Inactive subaccounts do not have the 
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/subaccounts/{id}/actions/deactivate
 ```
 
@@ -86,7 +86,7 @@ await client.subaccounts.deactivate(169);
 
 
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/subaccounts/169/actions/deactivate \
 -u aSecretKey:
 

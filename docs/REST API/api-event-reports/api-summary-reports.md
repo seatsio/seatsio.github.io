@@ -20,9 +20,9 @@ They also allow you to drill down into the numbers: how many booked seats are th
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -30,9 +30,9 @@ They also allow you to drill down into the numbers: how many booked seats are th
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byStatus/summary
 ```
 
@@ -86,7 +86,7 @@ await client.eventReports.summaryByStatus('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byStatus/summary -u aSecretKey: 
 ```
 
@@ -152,62 +152,62 @@ Selectable objects can be found under the selectable key, non-selectable objects
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability/summary
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 $seatsioClient->eventReports->summaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 Client.EventReports.SummaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.eventReports.summaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.event_reports.summary_by_selectability("event34")
 
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.events.reports.summary_by_selectability("event34")
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 await client.eventReports.summaryBySelectability('eventKey');
 ```
 
@@ -218,7 +218,7 @@ await client.eventReports.summaryBySelectability('eventKey');
 
 
 
-```text
+```shell
 curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u aSecretKey: 
 ```
 
@@ -280,9 +280,9 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u a
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -290,9 +290,9 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u a
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/summary
 ```
 
@@ -345,7 +345,7 @@ await client.eventReports.summaryByCategoryLabel('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u aSecretKey: 
 ```
 
@@ -407,9 +407,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u a
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -417,9 +417,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u a
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/summary
 ```
 
@@ -472,7 +472,7 @@ await client.eventReports.summaryByCategoryKey('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSecretKey: 
 ```
 
@@ -533,9 +533,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSe
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -543,9 +543,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSe
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/bySection/summary
 ```
 
@@ -598,7 +598,7 @@ await client.eventReports.summaryBySection('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecretKey: 
 ```
 
@@ -667,9 +667,9 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecret
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -677,9 +677,9 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecret
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/summary
 ```
 
@@ -732,7 +732,7 @@ await client.eventReports.deepSummaryBySection('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byChannel/summary -u aSecretKey: 
 ```
 

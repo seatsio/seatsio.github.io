@@ -25,9 +25,9 @@ The following report types are available: `byLabel`, `byCategoryKey` and `byCate
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -35,9 +35,9 @@ The following report types are available: `byLabel`, `byCategoryKey` and `byCate
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=chart
 GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel
 GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=true
@@ -112,7 +112,7 @@ await client.chartReports.byLabel('chartKey', 'false');
 
 Multiple objects could have the same label, that's why they're returned as an array.
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f1cb479421/byLabel -u aSecretKey: 
 ```
 
@@ -188,7 +188,7 @@ If your floor plan contains tables, those are returned as separate objects. You 
 
 
 
-```text
+```shell
 GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=chart
 ```
 
@@ -206,9 +206,9 @@ GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=ch
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -216,9 +216,9 @@ GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=ch
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=chart
 GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryKey
 GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=true
@@ -367,9 +367,9 @@ The response is a JSON object where all the keys are category keys, and the valu
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -377,9 +377,9 @@ The response is a JSON object where all the keys are category keys, and the valu
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=chart
 GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryLabel
 GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=true

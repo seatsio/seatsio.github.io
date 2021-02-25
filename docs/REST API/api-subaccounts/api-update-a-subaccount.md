@@ -19,9 +19,9 @@ Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -29,9 +29,9 @@ Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/subaccounts/{id}
 ```
 
@@ -94,7 +94,7 @@ client.subaccounts.update id: 169, name: "a new subaccount name", email: "joe@te
 * **name**: the new name of the subaccount. Optional. Can be any string (including spaces or special characters)
 * **email**: the new name of the subaccount. Optional. If you pass in a new e-mail address (which is different from the existing one), seats.io sends a mail to that address. That mail contains a link to a page which allows the user to choose a password to log in to the [dashboard](https://app.seats.io).
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/subaccounts/34 \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "a new subaccount name", "email": "joe@test.com"}'
 ```

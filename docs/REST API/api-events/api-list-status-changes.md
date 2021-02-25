@@ -16,9 +16,9 @@ Status changes are returned paginated, with the most recent ones first. Response
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -26,9 +26,9 @@ Status changes are returned paginated, with the most recent ones first. Response
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/events/{eventKey}/status-changes
 
 GET https://api.seatsio.net/events/{eventKey}/status-changes?filter=A-1
@@ -163,7 +163,7 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 
 **Example request**
 
-```curl
+```shell
 curl https://api.seatsio.net/events/anEvent/status-changes?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```

@@ -13,9 +13,9 @@ import TabItem from '@theme/TabItem';
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -23,9 +23,9 @@ import TabItem from '@theme/TabItem';
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 DELETE https://api.seatsio.net/charts/{chartKey}/tags/{chartName}
 ```
 
@@ -84,7 +84,7 @@ Keep in mind that your tag needs to be [URI encoded](doc:api-uri-encoding)!
 
 **Example request**
 
-```curl
+```shell
 curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/tags/tag1 \
 -u aSecretKey: -X DELETE
 ```

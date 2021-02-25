@@ -14,9 +14,9 @@ List all tags of all active (i.e. non-archived) charts.
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -24,9 +24,9 @@ List all tags of all active (i.e. non-archived) charts.
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/charts/tags
 ```
 
@@ -79,7 +79,7 @@ await client.charts.listAllTags();
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/charts/tags -u aSecretKey: 
 ```
 

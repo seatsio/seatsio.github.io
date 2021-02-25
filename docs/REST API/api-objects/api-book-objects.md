@@ -15,9 +15,9 @@ Changes the object status to ‘booked’. Booked objects are not selectable on 
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -25,9 +25,9 @@ Changes the object status to ‘booked’. Booked objects are not selectable on 
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/book
 
 POST https://api.seatsio.net/events/{eventKey}/actions/book?expand=objects

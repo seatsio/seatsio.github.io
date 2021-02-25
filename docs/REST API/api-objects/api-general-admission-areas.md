@@ -23,9 +23,9 @@ All GA places passed in to this API will be considered as "used seats" for [pric
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -33,9 +33,9 @@ All GA places passed in to this API will be considered as "used seats" for [pric
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/change-object-status
 POST https://api.seatsio.net/events/{eventKey}/actions/book
 POST https://api.seatsio.net/events/{eventKey}/actions/hold

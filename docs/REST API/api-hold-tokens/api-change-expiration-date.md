@@ -21,9 +21,9 @@ Note that the total maximum validity of a hold token is 2 hours. That means that
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -31,9 +31,9 @@ Note that the total maximum validity of a hold token is 2 hours. That means that
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/hold-tokens/{token}
 ```
 
@@ -96,7 +96,7 @@ To change the expiration date of hold token, send a `POST` to https://api.seatsi
 
 
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d5fe66 \
 -u aSecretKey: \
 -H "Content-Type: application/json" \

@@ -19,9 +19,9 @@ Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -29,9 +29,9 @@ Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/subaccounts/{id}
 ```
 
@@ -85,7 +85,7 @@ await client.subaccounts.retrieve('subaccountId');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/subaccounts/169 \
 -u aSecretKey:
 ```

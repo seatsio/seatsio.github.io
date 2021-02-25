@@ -27,9 +27,9 @@ To authenticate, you need to use the secret key of the **parent account**, not o
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -37,9 +37,9 @@ To authenticate, you need to use the secret key of the **parent account**, not o
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 // Copy a chart to parent: 
 POST https://api.seatsio.net/subaccounts/{id}/charts/{chartKey}/actions/copy-to/parent
 
@@ -103,7 +103,7 @@ await client.subaccounts.copyChartToSubaccount('fromSubaccountId', 'toSubaccount
 
 
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/subaccounts/312/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/copy-to/324 \
 -u aSecretKey:
 ```

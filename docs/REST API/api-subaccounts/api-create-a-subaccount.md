@@ -21,9 +21,9 @@ If you do pass in an e-mail, the subaccount receives a message with a link to se
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -31,9 +31,9 @@ If you do pass in an e-mail, the subaccount receives a message with a link to se
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/subaccounts
 ```
 
@@ -103,7 +103,7 @@ await client.subaccounts.createWithEmail('test@test.com', 'a subaccount');
 * **email**: the e-mail address of the subaccount. Optional. Must be filled in if you want the subaccount to manage charts and events via the [dashboard](https://app.seats.io). 
 * **name**: the name of the subaccount. Optional. Can be any string (including spaces or special characters)
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/subaccounts \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"email": "test@test.com", "name": "a subaccount"}'
 ```

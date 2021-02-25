@@ -45,9 +45,9 @@ This API call marks the passed in objects and categories as not for sale, while 
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -55,9 +55,9 @@ This API call marks the passed in objects and categories as not for sale, while 
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/mark-as-not-for-sale
 ```
 
@@ -154,7 +154,7 @@ To mark all seats in row A as not for sale:
 
 **Example request**
 
-```curl
+```shell
 curl https://api.seatsio.net/events/event34/actions/mark-as-not-for-sale \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"objects": {"section1"}}'
 ```
@@ -176,9 +176,9 @@ This API call marks the passed in objects and categories as for sale, while mark
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -186,9 +186,9 @@ This API call marks the passed in objects and categories as for sale, while mark
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/mark-as-for-sale
 ```
 
@@ -287,7 +287,7 @@ To mark all seats in row A for sale:
 
 **Example request**
 
-```curl
+```shell
 curl https://api.seatsio.net/events/event34/actions/mark-as-for-sale \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"objects": {"section1"}}'
 ```
@@ -309,9 +309,9 @@ This API call marks all objects as for sale, which means resetting the list of o
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -319,9 +319,9 @@ This API call marks all objects as for sale, which means resetting the list of o
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/mark-everything-as-for-sale
 ```
 
@@ -374,7 +374,7 @@ await client.events.markEverythingAsForSale('eventKey');
 
 **Example request**
 
-```curl
+```shell
 curl https://api.seatsio.net/events/event34/actions/mark-everything-as-for-sale \
 -u aSecretKey: -X POST
 ```

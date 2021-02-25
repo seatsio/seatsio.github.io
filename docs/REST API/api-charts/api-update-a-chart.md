@@ -14,9 +14,9 @@ The name and categories of a chart can be updated by posting to /charts/{chart k
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -24,9 +24,9 @@ The name and categories of a chart can be updated by posting to /charts/{chart k
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/charts/{chartKey}
 ```
 
@@ -173,7 +173,7 @@ then category 1 will be deleted, the label for category 2 will be set to "My cat
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28 \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "New name for my chart"}'
 ```

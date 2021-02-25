@@ -19,9 +19,9 @@ Returns a paginated list of inactive subaccounts.
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -29,9 +29,9 @@ Returns a paginated list of inactive subaccounts.
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/subaccounts/inactive
 
 More info: https://docs.seats.io/docs/api-pagination
@@ -153,7 +153,7 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/subaccounts/inactive?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```

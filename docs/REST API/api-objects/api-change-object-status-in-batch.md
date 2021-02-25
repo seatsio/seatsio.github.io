@@ -18,9 +18,9 @@ A good use case is a shopping basket, in which you allow your customers to selec
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -28,9 +28,9 @@ A good use case is a shopping basket, in which you allow your customers to selec
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/actions/change-object-status
 
 POST https://api.seatsio.net/events/actions/change-object-status?expand=objects

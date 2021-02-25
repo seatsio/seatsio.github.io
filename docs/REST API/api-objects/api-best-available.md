@@ -40,9 +40,9 @@ An example. Suppose your chart contains both GA areas and seats in blocks of row
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -50,9 +50,9 @@ An example. Suppose your chart contains both GA areas and seats in blocks of row
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/change-object-status
 
 POST https://api.seatsio.net/events/{eventKey}/actions/book

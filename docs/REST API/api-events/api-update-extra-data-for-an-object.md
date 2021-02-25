@@ -15,9 +15,9 @@ Updates the [extra data](api-extra-data) for an object in an event, without chan
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -25,9 +25,9 @@ Updates the [extra data](api-extra-data) for an object in an event, without chan
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/objects/{objectLabel}/actions/update-extra-data
 ```
 
@@ -107,7 +107,7 @@ extraData must be a valid JSON object.
 
 **Example request**
 
-```curl
+```shell
 curl https://api.seatsio.net/events/event34/objects/A-1/actions/update-extra-data \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"name": "John Doe"}}'
 

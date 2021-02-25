@@ -24,9 +24,9 @@ To hold objects using the manual API method, you first need to generate a hold t
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -34,9 +34,9 @@ To hold objects using the manual API method, you first need to generate a hold t
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/hold
 
 POST https://api.seatsio.net/events/{eventKey}/actions/hold?expand=objects

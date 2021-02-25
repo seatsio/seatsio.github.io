@@ -15,9 +15,9 @@ Updates the [extra data](api-extra-data) for a bunch of objects in an event, wit
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -25,9 +25,9 @@ Updates the [extra data](api-extra-data) for a bunch of objects in an event, wit
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/events/{eventKey}/actions/update-extra-data
 ```
 
@@ -124,7 +124,7 @@ extraData is a mapping between object labels and extra data objects. The extra d
 
 **Example request**
 
-```curl
+```shell
 curl https://api.seatsio.net/events/event34/actions/update-extra-data \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"A-1": {"name": "John Doe"}, "A-2": {"name": "Jane Doe"}}}'
 

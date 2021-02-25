@@ -14,9 +14,9 @@ Charts can be created by posting a JSON object that represents the chart to `/ch
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -24,9 +24,9 @@ Charts can be created by posting a JSON object that represents the chart to `/ch
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/charts
 ```
 
@@ -114,7 +114,7 @@ Valid venue types are "MIXED" (chart without sections) and "ROWS_WITH_SECTIONS" 
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/charts \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "my chart"}'
 ```

@@ -20,9 +20,9 @@ To retrieve properties that are shared between the draft and published version, 
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -30,9 +30,9 @@ To retrieve properties that are shared between the draft and published version, 
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/charts/{chartKey}/version/published
 ```
 
@@ -88,7 +88,7 @@ let drawing = await client.charts.retrievePublishedVersion('749b9650-24fb-11e7-9
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/charts/aChartKey/version/published \
 -u aSecretKey:
 ```
@@ -120,17 +120,17 @@ curl https://api.seatsio.net/charts/aChartKey/version/published \
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
 { label: 'Python', value: 'python', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/charts/{chartKey}/version/draft
 ```
 
@@ -173,7 +173,7 @@ drawing = client.charts.retrieve_draft_version("749b9650-24fb-11e7-93ae-92361f00
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/charts/aChartKey/version/draft \
 -u aSecretKey:
 ```

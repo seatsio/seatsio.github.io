@@ -13,9 +13,9 @@ import TabItem from '@theme/TabItem';
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -23,9 +23,9 @@ import TabItem from '@theme/TabItem';
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/charts/{chartKey}/actions/move-out-of-archive
 ```
 
@@ -79,7 +79,7 @@ await client.charts.moveOutOfArchive('chartKey');
 Returns 204 when the chart was successfully moved out of the archive, back to the active chart list. 
 Returns 400 (Bad Request) when the chart was not in the archive.
 
-```text
+```shell
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/move-out-of-archive \
 -u aSecretKey:
 ```

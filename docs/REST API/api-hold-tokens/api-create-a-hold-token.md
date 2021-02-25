@@ -13,9 +13,9 @@ import TabItem from '@theme/TabItem';
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -23,9 +23,9 @@ import TabItem from '@theme/TabItem';
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/hold-tokens
 ```
 
@@ -92,7 +92,7 @@ You can pass in an optional `expiresInMinutes` value if the expiration date is d
 
 
 
-```text
+```shell
 curl -X POST https://api.seatsio.net/hold-tokens \
 -u aSecretKey: \
 -H "Content-Type: application/json" \

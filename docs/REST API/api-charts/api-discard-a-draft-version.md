@@ -14,9 +14,9 @@ If you're not happy with a draft version, you can choose to discard it. Discardi
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -24,9 +24,9 @@ If you're not happy with a draft version, you can choose to discard it. Discardi
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/charts/{chartKey}/version/draft/actions/discard
 ```
 
@@ -80,7 +80,7 @@ await client.charts.discardDraftVersion('chartKey');
 
 
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/discard \
 -u aSecretKey:
 ```

@@ -14,9 +14,9 @@ Creates a workspace. Only the name is required.
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -24,9 +24,9 @@ Creates a workspace. Only the name is required.
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 POST https://api.seatsio.net/workspaces
 ```
 
@@ -91,7 +91,7 @@ await client.workspaces.create('a workspace');
 * **name**: the name of the workspace. Can be any string (including spaces or special characters)
 * **isTest**: optional. Defaults to false.
 
-```curl
+```shell
 curl -X POST https://api.seatsio.net/workspaces \
 -u anAdminKey: -X POST -H 'Content-Type: application/json' -d '{"name": "a workspace"}'
 ```

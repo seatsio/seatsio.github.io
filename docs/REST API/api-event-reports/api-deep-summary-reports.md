@@ -18,9 +18,9 @@ Deep summary reports contain the same kind of information as the [regular summar
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -28,9 +28,9 @@ Deep summary reports contain the same kind of information as the [regular summar
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byStatus/summary/deep
 ```
 
@@ -84,7 +84,7 @@ await client.eventReports.deepSummaryByStatus('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byStatus/summary/deep -u aSecretKey: 
 ```
 
@@ -176,62 +176,62 @@ Selectable objects can be found under the selectable key, non-selectable objects
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
+{ label: 'Text', value: 'shell', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability/summary/deep
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 $seatsioClient->eventReports->deepSummaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 Client.EventReports.DeepSummaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.eventReports.deepSummaryBySelectability("event34");
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.event_reports.deep_summary_by_selectability("event34")
 
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 client.events.reports.deep_summary_by_selectability("event34")
 ```
 
 </TabItem>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 await client.eventReports.deepSummaryBySelectability('eventKey');
 ```
 
@@ -242,7 +242,7 @@ await client.eventReports.deepSummaryBySelectability('eventKey');
 
 
 
-```text
+```shell
 curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep -u aSecretKey: 
 ```
 
@@ -334,9 +334,9 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -344,9 +344,9 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/summary/deep
 ```
 
@@ -399,7 +399,7 @@ await client.eventReports.deepSummaryByCategoryLabel('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep -u aSecretKey: 
 ```
 
@@ -468,9 +468,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -478,9 +478,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/summary/deep
 ```
 
@@ -533,7 +533,7 @@ await client.eventReports.deepSummaryByCategoryKey('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -u aSecretKey: 
 ```
 
@@ -602,9 +602,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -612,9 +612,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -
 { label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/bySection/summary/deep
 ```
 
@@ -667,7 +667,7 @@ await client.eventReports.deepSummaryBySection('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aSecretKey: 
 ```
 
@@ -736,9 +736,9 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aS
 
 
 <Tabs 
-  defaultValue="text"
+  defaultValue="shell"
   values={[
-{ label: 'Text', value: 'text', },
+{ label: 'Text', value: 'shell', },
 { label: 'PHP', value: 'php', },
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
@@ -746,9 +746,9 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aS
 { label: '', value: 'rust', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
-<TabItem value='text'>
+<TabItem value='shell'>
 
-```text
+```shell
 GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/summary/deep
 ```
 
@@ -801,7 +801,7 @@ await client.eventReports.deepSummaryByChannel('eventKey');
 
 
 
-```curl
+```shell
 curl https://api.seatsio.net/reports/events/event34/byChannel/summary/deep -u aSecretKey: 
 ```
 
