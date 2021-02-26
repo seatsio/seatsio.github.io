@@ -16,6 +16,13 @@
   --ifm-color-primary-lightest: #e48b88;
   --ifm-code-font-size: 95%;
   --ifm-font-size-base: 95%;
+
+  --ifm-alert-color: var(--ifm-color-black);
+  --ifm-color-info: var(--ifm-color-info-lightest);
+  --ifm-color-success: var(--ifm-color-success-lightest);
+  --ifm-color-danger: var(--ifm-color-danger-lightest);
+  --ifm-color-warning: var(--ifm-color-warning-lightest);
+
   --doc-sidebar-width: 400px !important;
 }
 
