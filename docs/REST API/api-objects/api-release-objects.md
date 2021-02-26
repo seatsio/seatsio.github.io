@@ -3,7 +3,7 @@ title: "Release objects"
 slug: "/api-release-objects"
 hidden: false
 createdAt: "2018-07-31T09:11:57.723Z"
-updatedAt: "2020-10-13T07:32:57.352Z"
+updatedAt: "2021-02-26T11:55:27.063Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -136,7 +136,8 @@ Should not be used in combination with `channelKeys`.
       "forSale": true,
       "objectType": "seat",
       "leftNeighbour": "A-2",
-      "rightNeighbour": "A-4"
+      "rightNeighbour": "A-4",
+      "entrance": "Blue"
     },
     "A-5": {
       "label": "A-5",
@@ -158,7 +159,8 @@ Should not be used in combination with `channelKeys`.
       "forSale": true,
       "objectType": "seat",
       "leftNeighbour": "A-4",
-      "rightNeighbour": "A-6"
+      "rightNeighbour": "A-6",
+      "entrance": "Blue"
     }
   }
 }

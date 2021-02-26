@@ -3,7 +3,7 @@ title: "Temporarily hold objects"
 slug: "/api-temporarily-hold-objects"
 hidden: false
 createdAt: "2018-07-31T09:20:48.306Z"
-updatedAt: "2020-10-05T09:37:42.286Z"
+updatedAt: "2021-02-26T11:55:58.267Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -218,7 +218,8 @@ Holding also works for season tickets. Just pass in an array of events instead o
     "forSale": true,
     "objectType": "seat",
     "leftNeighbour": "A-2",
-    "rightNeighbour": "A-4"
+    "rightNeighbour": "A-4",
+    "entrance": "Blue"
   },
   "A-5": {
     "label": "A-5",
@@ -241,7 +242,8 @@ Holding also works for season tickets. Just pass in an array of events instead o
     "forSale": true,
     "objectType": "seat",
     "leftNeighbour": "A-4",
-    "rightNeighbour": "A-6"
+    "rightNeighbour": "A-6",
+    "entrance": "Blue"
   }
 }
 ```

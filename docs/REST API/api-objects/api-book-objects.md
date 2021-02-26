@@ -3,7 +3,7 @@ title: "Book objects"
 slug: "/api-book-objects"
 hidden: false
 createdAt: "2018-07-31T08:46:42.677Z"
-updatedAt: "2021-02-19T07:47:32.665Z"
+updatedAt: "2021-02-26T11:54:38.499Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -204,7 +204,8 @@ Should not be used in combination with `channelKeys`.
     "isCompanionSeat": false,
     "hasRestrictedView": false,
     "leftNeighbour": "Section A-A-2",
-    "rightNeighbour": "Section A-A-4"
+    "rightNeighbour": "Section A-A-4",
+    "entrance": "Blue"
   },
   "A-5": {
     "label": "Section A-A-5",
@@ -230,7 +231,8 @@ Should not be used in combination with `channelKeys`.
     "isCompanionSeat": false,
     "hasRestrictedView": false,
     "leftNeighbour": "Section A-A-4",
-    "rightNeighbour": "Section A-A-6"
+    "rightNeighbour": "Section A-A-6",
+    "entrance": "Blue"
   }
 }
 ```

@@ -3,7 +3,7 @@ title: "Custom object status"
 slug: "/api-custom-object-status"
 hidden: false
 createdAt: "2018-07-31T10:13:43.779Z"
-updatedAt: "2020-12-11T15:24:20.399Z"
+updatedAt: "2021-02-26T11:56:47.776Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -208,7 +208,8 @@ Should not be used in combination with `channelKeys`.
     "isCompanionSeat": false,
     "hasRestrictedView": false,
     "leftNeighbour": "A-2",
-    "rightNeighbour": "A-4"
+    "rightNeighbour": "A-4",
+    "entrance": "Blue"
   }
 }
 ```

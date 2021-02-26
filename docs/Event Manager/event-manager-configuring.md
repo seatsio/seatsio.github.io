@@ -3,13 +3,13 @@ title: "Configuring the Event Manager"
 slug: "/event-manager-configuring"
 hidden: false
 createdAt: "2018-07-27T11:38:28.723Z"
-updatedAt: "2021-02-22T15:24:08.408Z"
+updatedAt: "2021-02-26T13:31:42.027Z"
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# divId
+## divId
 **Type**: string  
 
 The id of the div on your page in which you want seats.io to render the event manager. This is a required config option.
@@ -18,7 +18,7 @@ The id of the div on your page in which you want seats.io to render the event ma
 divId: 'event-manager'
 ```
 
-# secretKey
+## secretKey
 **Type**: string  
 The secret key of a workspace, or the company admin key.
 
@@ -30,7 +30,7 @@ Never expose this secret key on a public web page! Only use the event manager be
 secretKey: 'my secret key'
 ```
 
-# event
+## event
 **Type**: string  
 
 The key of the event for which you want to render the event manager.
@@ -39,12 +39,12 @@ The key of the event for which you want to render the event manager.
 event: 'smallTheatreEvent1'
 ```
 
-# events
+## events
 **Type**: string[]  
 
 The keys of the events for which you want to render the event manager. Only `manageObjectStatuses` mode supports `events`.
 
-# mode
+## mode
 **Type**: string  
 
 Can be either:
@@ -54,7 +54,7 @@ Can be either:
 - `'manageTableBooking'`: to indicate which tables are bookable as a whole, and which ones are bookable by seat
 - `'manageChannels'`: to manage the list of channels for the event, and to assign objects to channels. 
 
-# language
+## language
 **Type**: string  
 
 Currently supported languages are:
@@ -65,26 +65,26 @@ Currently supported languages are:
 - `'es'` – Spanish
 - `'fr'` – French
 
-# messages
+## messages
 **Type**: object  
 
 The messages parameter allows you to change all kinds of texts that are displayed on the chart: section labels, tooltip texts, static text objects ... you name it.
 Just pass in an object with the original texts as keys, and the translations as values.
 For a more detailed explanation, check [this page](http://support.seats.io/integrating-seats-io/multi-language-i18n-support).
 
-# tooltipInfo
+## tooltipInfo
 **Type**: function(object)  
 **Return**: string
 
 A function whose result will be displayed as extra information on the cursor tooltip.
 See [https://docs.seats.io/docs/renderer-config-tooltipinfo](renderer-config-tooltipinfo) for more info.
 
-# showFullScreenButton
+## showFullScreenButton
 **Type**: boolean  
 
 Whether to show the full screen button or not. Defaults to true.
 
-# fitTo
+## fitTo
 **Type**: string  
 
 Whether to adapt to the container div width, or to its width and height.

@@ -3,7 +3,7 @@ title: "Best Available"
 slug: "/api-best-available"
 hidden: false
 createdAt: "2018-08-01T12:42:25.055Z"
-updatedAt: "2020-12-08T08:06:30.108Z"
+updatedAt: "2021-02-26T11:57:09.285Z"
 ---
 
 import Tabs from '@theme/Tabs';
@@ -233,7 +233,8 @@ Should not be used in combination with `channelKeys`.
         "isCompanionSeat": false,
         "hasRestrictedView": false,
         "leftNeighbour": "A-2",
-        "rightNeighbour": "A-4"
+        "rightNeighbour": "A-4",
+        "entrance": "Blue"
       },
       ...
     }
