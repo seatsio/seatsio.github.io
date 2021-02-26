@@ -36,7 +36,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} seats.io`,
+      copyright: `Copyright © ${new Date().getFullYear()} seats.io BV`,
     },
     colorMode: {
       disableSwitch: true,
