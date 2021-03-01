@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'seatsio.github.io',
   themeConfig: {
     algolia: {
-      apiKey: '740ce00fa55b27a462b2ce15c0222d3c',
+      apiKey: '1697ee210aa8dadfcd94ee592de32299',
       indexName: 'seatsio',
     },
     navbar: {
