@@ -19,6 +19,7 @@ Here are some examples using the respective [API Client libraries](api-client-li
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="php"
   values={[
 { label: 'PHP', value: 'php', },

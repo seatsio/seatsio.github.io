@@ -18,6 +18,7 @@ Deep summary reports contain the same kind of information as the [regular summar
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -176,6 +177,7 @@ Selectable objects can be found under the selectable key, non-selectable objects
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -334,6 +336,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -468,6 +471,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -602,6 +606,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -736,6 +741,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aS
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

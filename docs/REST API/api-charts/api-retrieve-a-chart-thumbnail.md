@@ -26,6 +26,7 @@ To use the thumbnail in an `<img>` tag, use the publicly accessible `publishedVe
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

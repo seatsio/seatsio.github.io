@@ -25,6 +25,7 @@ The following report types are available: `byLabel`, `byCategoryKey` and `byCate
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -206,6 +207,7 @@ GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=ch
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -367,6 +369,7 @@ The response is a JSON object where all the keys are category keys, and the valu
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

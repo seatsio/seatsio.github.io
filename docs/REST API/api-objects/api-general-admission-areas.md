@@ -23,6 +23,7 @@ All GA places passed in to this API will be considered as "used seats" for [pric
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

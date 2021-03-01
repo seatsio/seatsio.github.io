@@ -21,6 +21,7 @@ Note that the total maximum validity of a hold token is 2 hours. That means that
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

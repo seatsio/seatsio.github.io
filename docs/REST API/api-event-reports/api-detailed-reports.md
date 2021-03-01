@@ -57,6 +57,7 @@ The possible values for objectType are:
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -247,6 +248,7 @@ Selectable objects can be found under the `selectable` key, non-selectable objec
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -434,6 +436,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKe
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -630,6 +633,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKe
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -825,6 +829,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey:
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -1013,6 +1018,7 @@ curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey:
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -1207,6 +1213,7 @@ curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey:
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

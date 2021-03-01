@@ -18,6 +18,7 @@ A good use case is a shopping basket, in which you allow your customers to selec
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

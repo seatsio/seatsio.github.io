@@ -16,6 +16,7 @@ The response contains the chartKey of the new chart. You can store this in your 
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

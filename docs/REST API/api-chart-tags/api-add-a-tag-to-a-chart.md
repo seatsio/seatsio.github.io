@@ -14,6 +14,7 @@ To add a tag, `POST` an empty body to this endpoint:
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

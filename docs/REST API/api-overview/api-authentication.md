@@ -64,6 +64,7 @@ All of the seats.io [client libraries](api-client-libraries) support authenticat
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="php"
   values={[
 { label: 'PHP', value: 'php', },

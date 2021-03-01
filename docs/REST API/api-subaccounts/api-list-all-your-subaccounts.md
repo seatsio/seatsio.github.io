@@ -21,6 +21,7 @@ Both active and inactive subaccounts are returned.
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

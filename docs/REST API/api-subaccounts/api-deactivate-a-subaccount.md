@@ -21,6 +21,7 @@ Subaccounts are either active or inactive. Inactive subaccounts do not have the 
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

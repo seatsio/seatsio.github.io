@@ -40,6 +40,7 @@ An example. Suppose your chart contains both GA areas and seats in blocks of row
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

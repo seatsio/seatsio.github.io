@@ -27,6 +27,7 @@ To authenticate, you need to use the secret key of the **parent account**, not o
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

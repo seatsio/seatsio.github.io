@@ -20,6 +20,7 @@ They also allow you to drill down into the numbers: how many booked seats are th
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -152,6 +153,7 @@ Selectable objects can be found under the selectable key, non-selectable objects
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -280,6 +282,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u a
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -407,6 +410,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u a
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -533,6 +537,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSe
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -667,6 +672,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecret
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

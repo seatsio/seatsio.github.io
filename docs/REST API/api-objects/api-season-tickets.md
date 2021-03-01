@@ -22,6 +22,7 @@ calling this API will be considered as a "booking" for each event in the season 
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

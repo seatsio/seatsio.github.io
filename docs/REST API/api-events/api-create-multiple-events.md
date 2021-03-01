@@ -14,6 +14,7 @@ Use this API call to create multiple events at once for a chart. The maximum num
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

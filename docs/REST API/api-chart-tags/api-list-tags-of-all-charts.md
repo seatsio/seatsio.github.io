@@ -14,6 +14,7 @@ List all tags of all active (i.e. non-archived) charts.
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

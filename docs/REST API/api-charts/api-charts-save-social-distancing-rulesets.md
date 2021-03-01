@@ -20,6 +20,7 @@ This article describes the call to add rulesets to a chart. To apply one of thos
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

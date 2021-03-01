@@ -14,6 +14,7 @@ The secret key of a workspace should be kept secret at all times. If it does get
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

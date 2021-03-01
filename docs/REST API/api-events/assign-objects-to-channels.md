@@ -15,6 +15,7 @@ Each object can only be assigned to a single channel.
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

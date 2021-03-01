@@ -21,6 +21,7 @@ The secret key of a subaccount should be kept secret at all times. If it does ge
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

@@ -14,6 +14,7 @@ Creates a workspace. Only the name is required.
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

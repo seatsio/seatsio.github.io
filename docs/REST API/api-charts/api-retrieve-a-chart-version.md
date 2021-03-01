@@ -20,6 +20,7 @@ To retrieve properties that are shared between the draft and published version, 
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -120,6 +121,7 @@ curl https://api.seatsio.net/charts/aChartKey/version/published \
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

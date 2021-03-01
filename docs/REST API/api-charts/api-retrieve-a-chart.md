@@ -16,6 +16,7 @@ To fetch the actual contents of the chart (including categories), use the endpoi
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

@@ -45,6 +45,7 @@ This API call marks the passed in objects and categories as not for sale, while 
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -176,6 +177,7 @@ This API call marks the passed in objects and categories as for sale, while mark
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -309,6 +311,7 @@ This API call marks all objects as for sale, which means resetting the list of o
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

@@ -14,6 +14,7 @@ List non-deleted events, sorted by newest event first.
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

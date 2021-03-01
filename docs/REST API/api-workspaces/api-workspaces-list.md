@@ -16,6 +16,7 @@ Pass in a filter to only find the workspaces that have a matching name.
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

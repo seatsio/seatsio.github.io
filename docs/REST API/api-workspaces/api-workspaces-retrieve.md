@@ -14,6 +14,7 @@ import TabItem from '@theme/TabItem';
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

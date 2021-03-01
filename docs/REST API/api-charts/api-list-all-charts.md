@@ -14,6 +14,7 @@ Returns a paginated list of charts you’ve previously created in a workspace. T
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
@@ -218,6 +219,7 @@ Charts have events associated with them. You can expand the events for each char
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="php"
   values={[
 { label: 'PHP', value: 'php', },

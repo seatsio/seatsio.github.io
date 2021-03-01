@@ -24,6 +24,7 @@ To hold objects using the manual API method, you first need to generate a hold t
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

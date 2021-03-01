@@ -14,6 +14,7 @@ The name and categories of a chart can be updated by posting to /charts/{chart k
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

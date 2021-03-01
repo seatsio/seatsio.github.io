@@ -15,6 +15,7 @@ Updates the [extra data](api-extra-data) for a bunch of objects in an event, wit
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

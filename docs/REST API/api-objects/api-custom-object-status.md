@@ -14,6 +14,7 @@ If you need more statuses than just booked and free, you can use this API call t
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

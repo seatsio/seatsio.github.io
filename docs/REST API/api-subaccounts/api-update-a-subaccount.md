@@ -19,6 +19,7 @@ Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

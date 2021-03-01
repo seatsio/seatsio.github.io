@@ -14,6 +14,7 @@ Lists status changes for an object in the event, with the most recent ones first
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

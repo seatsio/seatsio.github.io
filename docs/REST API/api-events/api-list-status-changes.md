@@ -16,6 +16,7 @@ Status changes are returned paginated, with the most recent ones first. Response
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

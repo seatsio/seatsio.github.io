@@ -14,6 +14,7 @@ If you're not happy with a draft version, you can choose to discard it. Discardi
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },

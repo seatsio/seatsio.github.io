@@ -14,6 +14,7 @@ When you don't want a chart to show up on your dashboard, you have to move it to
 
 
 <Tabs 
+  groupId="serverside-code-samples"
   defaultValue="shell"
   values={[
 { label: 'Text', value: 'shell', },
