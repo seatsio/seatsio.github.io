@@ -71,7 +71,7 @@ module.exports = {
       {
         redirects: [
           {
-            to: '/changelog/',
+            to: '/changelog',
             from: ['/page/changelog', '/page/changelog/'],
           },
         ],
