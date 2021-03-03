@@ -64,4 +64,18 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      // This plugin only generates redirects for production builds! So it doesn't work when running docs locally.
+      {
+        redirects: [
+          {
+            to: '/changelog/',
+            from: ['/page/changelog', '/page/changelog/'],
+          },
+        ],
+      },
+    ],
+  ]
 };
