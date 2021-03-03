@@ -1,6 +1,6 @@
 ---
 title: "Assign objects to channels"
-slug: "/assign-objects-to-channels"
+slug: "/api/assign-objects-to-channels"
 hidden: false
 createdAt: "2020-06-22T08:21:09.332Z"
 updatedAt: "2020-06-22T09:59:52.975Z"

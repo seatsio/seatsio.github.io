@@ -1,6 +1,6 @@
 ---
 title: "colorScheme"
-slug: "/colorscheme"
+slug: "/renderer/colorscheme"
 hidden: false
 createdAt: "2019-07-22T20:53:35.661Z"
 updatedAt: "2019-10-03T16:40:03.957Z"

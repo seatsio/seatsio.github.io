@@ -34,7 +34,7 @@ GET /reports/events/{eventKey}/{reportType}/{filter}
 E.g. `/reports/events/event34/byStatus/booked`
 
 :::info Note
-Keep in mind that certain characters need to be [URI encoded](doc:api-uri-encoding)!
+Keep in mind that certain characters need to be [URI encoded](/docs/api/uri-encoding)!
 :::
 
 

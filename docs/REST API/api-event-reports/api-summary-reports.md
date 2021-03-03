@@ -9,7 +9,7 @@ updatedAt: "2021-02-25T11:14:35.413Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Summary reports are a summarised version of the [detailed event reports](api-detailed-reports). They indicate how many objects are in a certain status, category or section.
+Summary reports are a summarised version of the [detailed event reports](/docs/api/detailed-reports). They indicate how many objects are in a certain status, category or section.
 
 They also allow you to drill down into the numbers: how many booked seats are there in category A? how many free seats are left in section B?
 

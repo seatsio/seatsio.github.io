@@ -14,6 +14,6 @@ import TabItem from '@theme/TabItem';
 Whether the object can be selected by the user.
 
 :::info Notice
-Does not take into account if an object is marked as for sale or not for sale. You can still check that separately by checking [object.forSale](https://docs.seats.io/docs/renderer-object-properties-objectforsale)
+Does not take into account if an object is marked as for sale or not for sale. You can still check that separately by checking [object.forSale](/docs/renderer/object-properties-objectforsale)
 :::
 

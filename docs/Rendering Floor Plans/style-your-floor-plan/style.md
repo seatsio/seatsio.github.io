@@ -1,6 +1,6 @@
 ---
 title: "style"
-slug: "/style"
+slug: "/renderer/style"
 hidden: false
 createdAt: "2019-07-22T20:53:58.402Z"
 updatedAt: "2019-07-22T22:18:21.539Z"

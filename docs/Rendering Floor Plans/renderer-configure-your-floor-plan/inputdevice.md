@@ -1,6 +1,6 @@
 ---
 title: "inputDevice"
-slug: "/inputdevice"
+slug: "/renderer/inputdevice"
 hidden: false
 createdAt: "2020-12-05T23:05:33.832Z"
 updatedAt: "2020-12-05T23:05:33.832Z"

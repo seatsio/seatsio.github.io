@@ -1,6 +1,6 @@
 ---
 title: "seat.parent"
-slug: "/seatparent"
+slug: "/renderer/seatparent"
 hidden: false
 createdAt: "2019-03-18T10:30:18.635Z"
 updatedAt: "2019-03-18T10:31:00.417Z"

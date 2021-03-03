@@ -104,6 +104,6 @@ curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671
 
 
 :::danger A note about authentication
-Because copying a chart between workspaces is an operation that requires privileges on both workspaces, you'll need to use your [company admin](https://docs.seats.io/docs/api-authentication#using-the-company-admin-key) key as a secret key. You can find the admin key at your [company settings page](https://app.seats.io/company-settings).
+Because copying a chart between workspaces is an operation that requires privileges on both workspaces, you'll need to use your [company admin](/docs/api/authentication#using-the-company-admin-key) key as a secret key. You can find the admin key at your [company settings page](https://app.seats.io/company-settings).
 :::
 

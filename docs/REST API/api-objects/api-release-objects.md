@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 Changes the object status to 'free'. Free seats are selectable on a rendered chart.
 
 :::info Note
-releasing objects can also be used to cancel objects that are [temporarily held](doc:api-temporarily-hold-objects) .
+releasing objects can also be used to cancel objects that are [temporarily held](/docs/api/temporarily-hold-objects) .
 :::
 
 

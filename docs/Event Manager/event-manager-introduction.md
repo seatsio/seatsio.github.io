@@ -15,7 +15,7 @@ booking or releasing seats or marking seats as not for sale.
 
 That’s where the event manager comes in handy: it's a special tool for your admin users, that you can embed in your backoffice application. 
 
-You can set the Event Manager to different [*modes*](event-manager-configuring#mode), each mode offering different functionality. 
+You can set the Event Manager to different [*modes*](/docs/event-manager/configuring#mode), each mode offering different functionality. 
 
 Currently, you can use the Event Manager to: 
 

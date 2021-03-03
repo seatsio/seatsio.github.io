@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 **Type**: function(objects, ticketTypes)  
 
-When in a [`session`](renderer-config-session), the user's browser will automatically hold selected places for a period of time.  
+When in a [`session`](/docs/renderer/config-session), the user's browser will automatically hold selected places for a period of time.  
 
 If everything goes well, i.e. when the seats.io server indicates that a hold was successful, onHoldSucceeded is called.
 

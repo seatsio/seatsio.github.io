@@ -22,7 +22,7 @@ This feature is unavailable on events using either:
 
 If you pass in `numberOfPlacesToSelect: 3`, the ticket buyer only needs to click once to select 3 places. Previously selected places are deselected automatically.
 
-The ticket buyer is not allowed to leave orphan seats, unless it's not possible to select seats in that row without leaving orphans. At that point, a warning is triggered if you activated the [`noOrphanSeats` selection validator](/docs/renderer-config-selectionvalidators).
+The ticket buyer is not allowed to leave orphan seats, unless it's not possible to select seats in that row without leaving orphans. At that point, a warning is triggered if you activated the [`noOrphanSeats` selection validator](/docs/renderer/config-selectionvalidators).
 
 `numberOfPlacesToSelect` works for seats (both row and table seats) and general admission areas. It has no effect when selecting booths or entirely selectable tables.
 

@@ -13,6 +13,6 @@ import TabItem from '@theme/TabItem';
 **Default**: false  
 
 :::danger 
-**Deprecated**. Please use [session](renderer-config-session) instead.
+**Deprecated**. Please use [session](/docs/renderer/config-session) instead.
 :::
 

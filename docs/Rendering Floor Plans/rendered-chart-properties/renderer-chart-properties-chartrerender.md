@@ -13,6 +13,6 @@ Re-initializes and redraws the chart.
 Previously selected objects become unselected. 
 
 :::caution Note
-Do not use this method if your only intent is to clear the selection and get a new hold token. Use `chart.startNewSession()` instead, see [this page](https://docs.seats.io/docs/chartstartnewsession) for more.
+Do not use this method if your only intent is to clear the selection and get a new hold token. Use `chart.startNewSession()` instead, see [this page](chartstartnewsession) for more.
 :::
 

@@ -16,7 +16,7 @@ By default the expiration time for held objects is 15 minutes, but this can be c
 :::info Note
 You only need this API call when holding best available objects.
 
-If you render the chart with a [session](/docs/renderer-config-session) parameter, objects get held when the ticket buyer clicks on them. So no need to manually call `/hold` in that case.
+If you render the chart with a [session](/docs/renderer/config-session) parameter, objects get held when the ticket buyer clicks on them. So no need to manually call `/hold` in that case.
 :::
 
 To hold objects using the manual API method, you first need to generate a hold token, which you then pass to the following API call:
@@ -176,7 +176,7 @@ After invoking this API call, the objects get the status `reservedByToken`.
 
 When you're ready to confirm the booking for a held object (e.g. after payment was received), issue a `/book` or `/change-object-status` call, passing in the same hold token that was used for acquiring the hold.
  
-If no definitive booking is made before the hold expires, the seat are released again. And if you want to cancel a hold before the hold period expires, you just [release](api-release-objects) the objects.
+If no definitive booking is made before the hold expires, the seat are released again. And if you want to cancel a hold before the hold period expires, you just [release](/docs/api/release-objects) the objects.
 
 Even for objects that are held, the hold token is an optional argument to `/book` and `/change-object-status`. You only need to pass it when it is the person that made the hold who triggers the API call. If on the other hand you implemented some back office functionality in which venue managers can change the status of held objects, you don't need to pass in the hold token.
 

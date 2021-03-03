@@ -1,6 +1,6 @@
 ---
 title: "availableCategories"
-slug: "/availablecategories"
+slug: "/renderer/availablecategories"
 hidden: false
 createdAt: "2019-03-05T17:52:26.893Z"
 updatedAt: "2019-12-10T12:43:03.386Z"

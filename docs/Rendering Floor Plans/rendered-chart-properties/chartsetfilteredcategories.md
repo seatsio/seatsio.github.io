@@ -1,6 +1,6 @@
 ---
 title: "chart.setFilteredCategories()"
-slug: "/chartsetfilteredcategories"
+slug: "/renderer/chartsetfilteredcategories"
 hidden: false
 createdAt: "2019-04-08T23:45:13.309Z"
 updatedAt: "2019-08-16T06:25:57.524Z"
@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 :::danger 
-**Deprecated.** See [changeConfig](https://docs.seats.io/docs/renderer-chart-properties-chartchangeconfig) instead.
+**Deprecated.** See [changeConfig](/docs/renderer/chart-properties-chartchangeconfig) instead.
 :::
 
 **Type**: function(labelsOrIds)  

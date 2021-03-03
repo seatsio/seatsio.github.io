@@ -1,6 +1,6 @@
 ---
 title: "chart.setAvailableCategories()"
-slug: "/chartsetavailablecategories"
+slug: "/renderer/chartsetavailablecategories"
 hidden: false
 createdAt: "2019-03-05T18:00:08.078Z"
 updatedAt: "2020-03-19T09:54:36.776Z"
@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 :::danger 
-**Deprecated.** See [changeConfig](https://docs.seats.io/docs/renderer-chart-properties-chartchangeconfig) instead.
+**Deprecated.** See [changeConfig](/docs/renderer/chart-properties-chartchangeconfig) instead.
 :::
 
 **Type**: function(labelsOrIds)  

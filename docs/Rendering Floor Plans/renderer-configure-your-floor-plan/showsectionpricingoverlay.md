@@ -1,6 +1,6 @@
 ---
 title: "showSectionPricingOverlay"
-slug: "/showsectionpricingoverlay"
+slug: "/renderer/showsectionpricingoverlay"
 hidden: false
 createdAt: "2020-11-05T13:17:46.367Z"
 updatedAt: "2020-11-05T13:17:46.367Z"

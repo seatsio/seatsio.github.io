@@ -23,10 +23,10 @@ chart.selectBestAvailable({
 });
 ```
 
-Have a look at the docs for the [selectBestAvailable rendering parameter](renderer-config-selectbestavailable) for more examples.
+Have a look at the docs for the [selectBestAvailable rendering parameter](/docs/renderer/config-selectbestavailable) for more examples.
 
 :::caution Do not use this method if you expect high load on-sales
 `chart.selectBestAvailable()` calculates the best available seats in the ticket buyers browser, which means it will yield the same result for concurrent users. 
-Use the [server-side version ](https://docs.seats.io/docs/api-best-available) of the seats.io best available algorithm instead.
+Use the [server-side version ](/docs/api/best-available) of the seats.io best available algorithm instead.
 :::
 

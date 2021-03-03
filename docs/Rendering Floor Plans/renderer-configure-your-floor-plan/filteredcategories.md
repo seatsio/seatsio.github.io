@@ -1,6 +1,6 @@
 ---
 title: "filteredCategories"
-slug: "/filteredcategories"
+slug: "/renderer/filteredcategories"
 hidden: false
 createdAt: "2019-04-08T23:41:52.604Z"
 updatedAt: "2019-04-08T23:42:59.727Z"

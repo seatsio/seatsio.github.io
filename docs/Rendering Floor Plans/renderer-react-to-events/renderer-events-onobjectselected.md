@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 Fired when the user selects an object. The selected object is passed into this function as a parameter. 
 
-selectedTicketType is only passed when using [multi-level pricing](renderer-config-pricing). The ticketType object contains a price and a ticketType property: 
+selectedTicketType is only passed when using [multi-level pricing](/docs/renderer/config-pricing). The ticketType object contains a price and a ticketType property: 
 
 ```javascript
 {

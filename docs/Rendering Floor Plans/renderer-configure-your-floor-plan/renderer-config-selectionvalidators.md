@@ -24,7 +24,7 @@ selectionValidators: [
 
 Selection validators run every time a seat is selected or deselected. They check whether there are no orphan seats, and/or whether all selected seats are consecutive (meaning: next to each other and in the same category).
 
-If the selection is valid, [onSelectionValid](renderer-events-onselectionvalid) is triggered. If not, [onSelectionInvalid](renderer-events-onselectioninvalid) is triggered. 
+If the selection is valid, [onSelectionValid](/docs/renderer/events-onselectionvalid) is triggered. If not, [onSelectionInvalid](/docs/renderer/events-onselectioninvalid) is triggered. 
 
 A typical way to use this is to disable the checkout button on your form and to show a warning when onSelectionInvalid is triggered.
 

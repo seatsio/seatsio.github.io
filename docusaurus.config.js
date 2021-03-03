@@ -105,6 +105,11 @@ module.exports = {
             from: '/page/changelog'
           },
         ],
+        createRedirects: function (existingPath) {
+            if (existingPath.startsWith("tutorial/")) {
+                return existingPath.replace("tutorial/", "tutorial-");
+            }
+        },
       },
     ],
   ]

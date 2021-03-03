@@ -19,7 +19,7 @@ This function is invoked when a user clicks on a GA area. If `canGASelectionBeIn
 
 * **gaArea**: the GA area that has been selected
 * **defaultValue**: a boolean that indicates if additional GA places can be selected. This is determined by whether the number of selected places plus the number places booked by other users is smaller than the capacity of the GA area.
-* **extraConfig**: see [extraConfig](renderer-config-extraconfig)
+* **extraConfig**: see [extraConfig](/docs/renderer/config-extraconfig)
 * **ticketType**: the ticket type for which the user clicked on the plus button. Optional. 
 
 The default value is determined by evaluating:

@@ -14,6 +14,6 @@ import TabItem from '@theme/TabItem';
 Whether this seat is disabled by social distancing rules.
 
 :::info 
-Make sure that [`unifiedObjectPropertiesInCallbacks`](https://docs.seats.io/docs/renderer-config-unifiedobjectpropertiesincallbacks) is enabled to use this property from in-iFrame callbacks.
+Make sure that [`unifiedObjectPropertiesInCallbacks`](/docs/renderer/config-unifiedobjectpropertiesincallbacks) is enabled to use this property from in-iFrame callbacks.
 :::
 

@@ -19,7 +19,7 @@ For example:
 
 In those cases, you can use the 'for sale' and 'not for sale' API calls to mark sections, rows, seats or categories as for sale or not for sale, without having to change the status of those individual seats. Doing so is much more convenient and faster than sending status changes in batch.
 
-You can embed the [event manager](event-manager-introduction) to allow your admin users to modify the for sale configuration.
+You can embed the [event manager](/docs/event-manager/introduction) to allow your admin users to modify the for sale configuration.
 
 :::caution 
 Note that ’for sale and ‘not for sale’ do not replace seat bookings. Each time you assign a seat to someone, you must also use our status change API, otherwise the availability management will not work properly. One of the reasons is that changes made by ‘for sale’ and ‘not for sale’ don’t support live updates, so they are not pushed to all ticket buyers. As a result, ticket buyers may not see the correct availability information unless there is also the correct status change API call.

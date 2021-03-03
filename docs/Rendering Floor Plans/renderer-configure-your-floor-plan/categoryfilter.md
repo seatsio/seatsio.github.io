@@ -1,6 +1,6 @@
 ---
 title: "categoryFilter"
-slug: "/categoryfilter"
+slug: "/renderer/categoryfilter"
 hidden: false
 createdAt: "2019-04-09T00:05:52.232Z"
 updatedAt: "2019-04-09T00:20:07.144Z"

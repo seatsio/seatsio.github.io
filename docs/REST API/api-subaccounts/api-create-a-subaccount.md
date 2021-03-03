@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 :::caution 
-Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
+Subaccounts are deprecated. Please use [workspaces](/docs/api/workspaces) instead.
 :::
 
 Creates a subaccount with an e-mail address and a name. Both the e-mail and the name are optional.

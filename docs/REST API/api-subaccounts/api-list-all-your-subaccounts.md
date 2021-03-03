@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 :::caution 
-Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
+Subaccounts are deprecated. Please use [workspaces](/docs/api/workspaces) instead.
 :::
 
 Returns a paginated list of subaccounts you’ve previously created. The subaccounts are returned in reverse chronological order: the most recently created subaccounts will appear first in the list.

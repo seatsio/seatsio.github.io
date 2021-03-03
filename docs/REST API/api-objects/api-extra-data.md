@@ -125,6 +125,6 @@ await client.events.book('eventKey', objects);
 
 
 :::caution Updating extra data
-You can update extra data for objects without changing their status too. Check [https://docs.seats.io/docs/api-update-extra-data-for-an-object](https://docs.seats.io/docs/api-update-extra-data-for-an-object) and [https://docs.seats.io/docs/api-update-extra-data-for-multiple-objects](https://docs.seats.io/docs/api-update-extra-data-for-multiple-objects) for more information. 
+You can update extra data for objects without changing their status too. Check [https://docs.seats.io/docs/api-update-extra-data-for-an-object](/docs/api/update-extra-data-for-an-object) and [https://docs.seats.io/docs/api-update-extra-data-for-multiple-objects](/docs/api/update-extra-data-for-multiple-objects) for more information. 
 :::
 

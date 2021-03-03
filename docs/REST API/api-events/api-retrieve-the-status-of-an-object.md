@@ -80,7 +80,7 @@ await client.events.retrieveObjectStatus('eventKey', 'A-1');
 
 
 :::info Tip
-Keep in mind that certain characters need to be [URI encoded](doc:api-uri-encoding)!
+Keep in mind that certain characters need to be [URI encoded](/docs/api/uri-encoding)!
 :::
 
 

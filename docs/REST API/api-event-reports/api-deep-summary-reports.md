@@ -9,7 +9,7 @@ updatedAt: "2021-02-25T11:15:38.880Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Deep summary reports contain the same kind of information as the [regular summary reports](api-summary-reports), but in a more detailed way. Summary reports can answer questions like "how many seats in Channel1 have the status 'booked'? The deep summary reports go further: "how many seats in Channel1 **within Section A** have the status 'booked'?
+Deep summary reports contain the same kind of information as the [regular summary reports](/docs/api/summary-reports), but in a more detailed way. Summary reports can answer questions like "how many seats in Channel1 have the status 'booked'? The deep summary reports go further: "how many seats in Channel1 **within Section A** have the status 'booked'?
 
 ## Deep summary report by status
 

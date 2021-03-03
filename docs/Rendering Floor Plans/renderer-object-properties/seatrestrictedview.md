@@ -1,6 +1,6 @@
 ---
 title: "seat.restrictedView"
-slug: "/seatrestrictedview"
+slug: "/renderer/seatrestrictedview"
 hidden: false
 createdAt: "2020-03-24T23:36:01.563Z"
 updatedAt: "2020-03-24T23:36:01.563Z"

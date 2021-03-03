@@ -27,7 +27,7 @@ The parameters that are passed to `objectIcon` are:
 
 * **object**: the current object
 * **defaultIcon**: the default icon (e.g. 'check' in case of a selected object)
-* **extraConfig**: see [extraConfig](renderer-config-extraconfig) 
+* **extraConfig**: see [extraConfig](/docs/renderer/config-extraconfig) 
 
 :::caution Warning
 this function is called for each object on the chart; make sure it's fast, or chart rendering times will suffer. Read more [here](http://support.seats.io/integrating-seats-io/performance-tips-for-renderer-callbacks).

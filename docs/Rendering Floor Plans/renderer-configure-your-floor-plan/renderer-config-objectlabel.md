@@ -23,7 +23,7 @@ The parameters that are passed to objectLabel are:
 
 * **object**: the current object
 * **defaultLabel**: the default object label (i.e. an empty string)
-* **extraConfig**: see [extraConfig](renderer-config-extraconfig) 
+* **extraConfig**: see [extraConfig](/docs/renderer/config-extraconfig) 
 
 :::caution Warning
 this function is called for each object on the chart; make sure it's fast, or chart rendering times will suffer. Avoid using slow methods such as Array.indexOf. Read more [here](http://support.seats.io/integrating-seats-io/performance-tips-for-renderer-callbacks).

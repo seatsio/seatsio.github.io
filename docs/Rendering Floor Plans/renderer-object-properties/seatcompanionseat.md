@@ -1,6 +1,6 @@
 ---
 title: "seat.companionSeat"
-slug: "/seatcompanionseat"
+slug: "/renderer/seatcompanionseat"
 hidden: false
 createdAt: "2020-03-25T05:00:49.308Z"
 updatedAt: "2020-03-25T09:18:14.344Z"

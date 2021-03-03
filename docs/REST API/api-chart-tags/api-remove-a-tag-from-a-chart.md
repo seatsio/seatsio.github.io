@@ -80,7 +80,7 @@ await client.charts.removeTag('chartKey', 'tag1');
 
 
 :::info Tip
-Keep in mind that your tag needs to be [URI encoded](doc:api-uri-encoding)!
+Keep in mind that your tag needs to be [URI encoded](/docs/api/uri-encoding)!
 :::
 
 **Example request**

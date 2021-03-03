@@ -14,4 +14,4 @@ import TabItem from '@theme/TabItem';
 
 By default, the chart designer opens the published version of a chart. If you want to open the draft version, you need to explicitly tell the chart designer so by passing in `openDraftDrawing: true`.   
  
-Note that this requires the chart to have a draft version. You can check whether that's the case by using [this API call](api-retrieve-a-chart).
+Note that this requires the chart to have a draft version. You can check whether that's the case by using [this API call](/docs/api/retrieve-a-chart).

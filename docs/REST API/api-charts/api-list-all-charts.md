@@ -203,7 +203,7 @@ publishedVersionThumbnailUrl (and draftVersionThumbnailUrl if applicable) are UR
 
 ## Query parameters
 
-This is a paginated API endpoint, so the normal pagination query params (limit, start_after_id and end_before_id) are applicable. See [this page](api-pagination) for more info.
+This is a paginated API endpoint, so the normal pagination query params (limit, start_after_id and end_before_id) are applicable. See [this page](/docs/api/pagination) for more info.
 
 * **filter** *(optional)*   
 Allows you to filter on chart name (case insensitive).

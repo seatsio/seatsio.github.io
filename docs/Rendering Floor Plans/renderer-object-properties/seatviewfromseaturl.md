@@ -1,6 +1,6 @@
 ---
 title: "seat.viewFromSeatUrl"
-slug: "/seatviewfromseaturl"
+slug: "/renderer/seatviewfromseaturl"
 hidden: false
 createdAt: "2020-03-24T23:36:03.944Z"
 updatedAt: "2020-03-25T09:17:55.272Z"

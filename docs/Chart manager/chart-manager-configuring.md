@@ -68,7 +68,7 @@ For a more detailed explanation, check [this page](http://support.seats.io/integ
 **Return**: string
 
 A function whose result will be displayed as extra information on the cursor tooltip.
-See [https://docs.seats.io/docs/renderer-config-tooltipinfo](renderer-config-tooltipinfo) for more info.
+See [https://docs.seats.io/docs/renderer-config-tooltipinfo](/docs/renderer/config-tooltipinfo) for more info.
 
 ## showFullScreenButton
 **Type**: boolean  
@@ -80,4 +80,4 @@ Whether to show the full screen button or not. Defaults to true.
 
 Whether to adapt to the container div width, or to its width and height.
 
-See [https://docs.seats.io/docs/renderer-config-fitto](renderer-config-fitto)
+See [https://docs.seats.io/docs/renderer-config-fitto](/docs/renderer/config-fitto)

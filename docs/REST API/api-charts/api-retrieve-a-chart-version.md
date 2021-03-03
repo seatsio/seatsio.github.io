@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 Each chart has a published version and an optional draft version. Those versions contain the actual contents of the chart: categories, rows, seats etc. The endpoints below allow you to fetch exactly that data.
 
-To retrieve properties that are shared between the draft and published version, call the endpoint to [retrieve a chart](api-retrieve-a-chart).
+To retrieve properties that are shared between the draft and published version, call the endpoint to [retrieve a chart](/docs/api/retrieve-a-chart).
 
 ## Retrieve the published version of a chart
 

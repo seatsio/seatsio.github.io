@@ -12,4 +12,4 @@ import TabItem from '@theme/TabItem';
 **Type**: boolean  
 **Default**: `true`  
 
-This is determined by the [For sale / not for sale](api-for-sale-not-for-sale) API calls.
+This is determined by the [For sale / not for sale](/docs/api/for-sale-not-for-sale) API calls.

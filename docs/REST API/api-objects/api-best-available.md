@@ -199,7 +199,7 @@ await client.events.holdBestAvailable('eventKey', 10, holdToken, ['balcony', 'st
 * **bestAvailable.extraData** optional array of [extraData](#core-resources-objects-extra-data) elements. The first extraData element gets assigned to the first best available object, the second extraData element to the second best available object and so on. That's why the number of extraData elements must match the number of requested objects.
 * **bestAvailable.ticketTypes** optional array of ticket type strings. The first ticket type gets assigned to the first best available object, the second ticket type to the second best available object and so on. That's why the number of ticket types must match the number of requested objects.
 * **holdToken** <i>(optional)</i>: the hold token must be supplied when temporarily holding best available objects.
-* **orderId** *(optional)*: an order id, defined by yourself, to be able to [retrieve the objects IDs per order](/docs/api-detailed-reports#detailed-report-by-order-id) later on.
+* **orderId** *(optional)*: an order id, defined by yourself, to be able to [retrieve the objects IDs per order](/docs/api/detailed-reports#detailed-report-by-order-id) later on.
 * **channelKeys** <i>(optional)</i>: an array of channel key strings. The best available algorithm will only look for objects within those channels. Pass in `NO_CHANNEL` to allow finding best available objects without a channel.
 * **ignoreChannels** <i>(optional)</i>: if true, the best available algorithm searches across all channels.
 Should not be used in combination with `channelKeys`.
@@ -245,7 +245,7 @@ Should not be used in combination with `channelKeys`.
 
 
 * **objects**: array of strings, containing the labels of the objects that were chosen as best available
-* **objectDetails**: same as in the [change object status response](/docs/api-custom-object-status#section-response).
+* **objectDetails**: same as in the [change object status response](/docs/api/custom-object-status#section-response).
 * **nextToEachOther**: boolean that indicates if the best available seats are next to each other. When the algorithm picks booths or tables, nextToEachOther is not present in the response.
 
 

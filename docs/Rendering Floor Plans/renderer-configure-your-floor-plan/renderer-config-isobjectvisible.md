@@ -20,7 +20,7 @@ By default, all objects are visible.
 The parameters that are passed to isObjectVisible are:
 
 * **object**: the current object
-* **extraConfig**: see [extraConfig](renderer-config-extraconfig) 
+* **extraConfig**: see [extraConfig](/docs/renderer/config-extraconfig) 
 
 ```javascript
 isObjectVisible: function(object, extraConfig) {

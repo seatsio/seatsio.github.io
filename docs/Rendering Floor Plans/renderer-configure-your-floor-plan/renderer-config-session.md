@@ -21,7 +21,7 @@ A session is identified by a hold token. Consider this the session ID. When star
 
 - `'continue'`: continue a previously started session by using the hold token in session storage, or start a new session if there's no hold token.
 - `'start'`: start a new session (and generate a new hold token).
-- `'manual'`: continue the session identified by [`holdToken`](renderer-config-holdtoken). Use this when you generated a hold token through our backend API.
+- `'manual'`: continue the session identified by [`holdToken`](/docs/renderer/config-holdtoken). Use this when you generated a hold token through our backend API.
 - `'none'`: session is disabled. Objects don't get held on click.
 
 [This article](http://support.seats.io/integrating-seats-io/holding-seats) gives a more in-depth overview of the holding seats functionality.

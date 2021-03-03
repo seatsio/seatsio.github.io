@@ -1,6 +1,6 @@
 ---
 title: "colors"
-slug: "/colors"
+slug: "/renderer/colors"
 hidden: false
 createdAt: "2019-07-22T20:53:47.490Z"
 updatedAt: "2020-10-09T06:06:42.520Z"

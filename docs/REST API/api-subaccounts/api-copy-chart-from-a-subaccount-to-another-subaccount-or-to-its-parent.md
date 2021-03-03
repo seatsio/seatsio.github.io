@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 :::caution 
-Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
+Subaccounts are deprecated. Please use [workspaces](/docs/api/workspaces) instead.
 :::
 
 Use this call to copy a published chart version from a subaccount to another subaccount or to your parent account.

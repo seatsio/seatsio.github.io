@@ -1,6 +1,6 @@
 ---
 title: "openLatestDrawing"
-slug: "/openlatestdrawing"
+slug: "/embedded-designer/openlatestdrawing"
 hidden: false
 createdAt: "2019-01-09T02:37:29.034Z"
 updatedAt: "2019-01-09T02:39:43.295Z"

@@ -1,6 +1,6 @@
 ---
 title: "selectableObjects"
-slug: "/selectableobjects"
+slug: "/renderer/selectableobjects"
 hidden: false
 createdAt: "2020-10-26T08:23:23.224Z"
 updatedAt: "2020-10-26T08:24:12.259Z"

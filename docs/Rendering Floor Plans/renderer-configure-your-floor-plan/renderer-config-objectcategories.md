@@ -31,4 +31,4 @@ objectCategories: {
 }
 ```
 
-Objects that are missing from objectCategories are rendered without a category. That means the ticket buyer won't see the ticket price when hovering that object. If you prefer a safety net, disable the [objectWithoutCategorySelectable](renderer-config-objectwithoutcategoryselectable) flag.
+Objects that are missing from objectCategories are rendered without a category. That means the ticket buyer won't see the ticket price when hovering that object. If you prefer a safety net, disable the [objectWithoutCategorySelectable](/docs/renderer/config-objectwithoutcategoryselectable) flag.

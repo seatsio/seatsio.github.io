@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 
 :::caution 
-Subaccounts are deprecated. Please use [workspaces](api-workspaces) instead.
+Subaccounts are deprecated. Please use [workspaces](/docs/api/workspaces) instead.
 :::
 
 ### Retrieve a subaccount

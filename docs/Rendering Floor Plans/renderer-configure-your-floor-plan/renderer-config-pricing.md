@@ -21,7 +21,7 @@ You can read a more in-depth descussion about pricing categories and ticket type
 
 
 :::info Note
-For information about the priceFormatter parameter used in the examples below, see [this page](doc:renderer-config-priceformatter)
+For information about the priceFormatter parameter used in the examples below, see [this page](/docs/renderer/config-priceformatter)
 :::
 
 

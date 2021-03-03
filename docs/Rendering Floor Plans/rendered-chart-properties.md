@@ -1,6 +1,6 @@
 ---
 title: "Rendered Chart Properties"
-slug: "/rendered-chart-properties"
+slug: "/renderer/rendered-chart-properties"
 hidden: false
 createdAt: "2018-08-24T08:28:11.933Z"
 updatedAt: "2018-08-24T08:42:22.408Z"

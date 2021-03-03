@@ -14,7 +14,7 @@ An interactive floor plan is only useful to a ticket buyer if they can see which
 That is what the concept of an *event* is for. 
 In seats.io speak, an event is a single instance of a concert, show or sports match. An event is used to keep track of which seat is booked or free; this allows you to re-use the same floor plan for multiple events, without having to go over the design process again.
 
-You can create an event for a floor plan in 2 ways: either through the seats.io web application, or using the [create event API endpoint](api-create-an-event).
+You can create an event for a floor plan in 2 ways: either through the seats.io web application, or using the [create event API endpoint](/docs/api/create-an-event).
 
 
 

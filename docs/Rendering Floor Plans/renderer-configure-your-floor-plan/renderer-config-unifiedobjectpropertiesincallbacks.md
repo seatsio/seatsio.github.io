@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 **Type**: boolean  
 **Default**: `true` if account created after May 15th 2019, `false` otherwise.  
 
-If set to `true`, callbacks that are executed within the seats.io iFrame (e.g. `objectColor` and `objectIcon`) receive an object that has the same properties as objects passed to callbacks that are executed outside of the iFrame (e.g. `onObjectSelected`). Check our docs for a [complete list of properties](/docs/renderer-object-properties).
+If set to `true`, callbacks that are executed within the seats.io iFrame (e.g. `objectColor` and `objectIcon`) receive an object that has the same properties as objects passed to callbacks that are executed outside of the iFrame (e.g. `onObjectSelected`). Check our docs for a [complete list of properties](/docs/renderer/object-properties).
 
 If `false`, the structure of inner-iFrame objects differs slightly from outer-iFrame objects.
 

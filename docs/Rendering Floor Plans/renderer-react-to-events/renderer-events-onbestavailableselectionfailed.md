@@ -13,4 +13,4 @@ import TabItem from '@theme/TabItem';
 
 Fired when no best available objects could be found, because there are not enough selectable objects available.
 
-You should implement this callback if you're using [Best Available seat selection](renderer-config-selectbestavailable).
+You should implement this callback if you're using [Best Available seat selection](/docs/renderer/config-selectbestavailable).

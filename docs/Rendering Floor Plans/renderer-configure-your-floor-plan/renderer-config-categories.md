@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 
 The array of categories that you pass in to `categories` replaces the list of categories that were set through the designer.
 
-This is mostly useful in combination with the [objectCategories](renderer-config-objectcategories) parameter.
+This is mostly useful in combination with the [objectCategories](/docs/renderer/config-objectcategories) parameter.
 
 ```javascript
 categories: [

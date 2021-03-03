@@ -50,7 +50,7 @@ The keys of the events for which you want to render the event manager. Only `man
 Can be either:
 
 - `'manageObjectStatuses'`: to book and release seats
-- `'manageForSaleConfig'`: to mark seats as [for sale / not for sale](api-for-sale-not-for-sale).
+- `'manageForSaleConfig'`: to mark seats as [for sale / not for sale](/docs/api/for-sale-not-for-sale).
 - `'manageTableBooking'`: to indicate which tables are bookable as a whole, and which ones are bookable by seat
 - `'manageChannels'`: to manage the list of channels for the event, and to assign objects to channels. 
 
@@ -77,7 +77,7 @@ For a more detailed explanation, check [this page](http://support.seats.io/integ
 **Return**: string
 
 A function whose result will be displayed as extra information on the cursor tooltip.
-See [https://docs.seats.io/docs/renderer-config-tooltipinfo](renderer-config-tooltipinfo) for more info.
+See [https://docs.seats.io/docs/renderer-config-tooltipinfo](/docs/renderer/config-tooltipinfo) for more info.
 
 ## showFullScreenButton
 **Type**: boolean  
@@ -89,4 +89,4 @@ Whether to show the full screen button or not. Defaults to true.
 
 Whether to adapt to the container div width, or to its width and height.
 
-See [https://docs.seats.io/docs/renderer-config-fitto](renderer-config-fitto)
+See [https://docs.seats.io/docs/renderer-config-fitto](/docs/renderer/config-fitto)

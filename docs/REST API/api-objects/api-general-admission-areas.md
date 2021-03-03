@@ -123,4 +123,4 @@ await client.events.changeObjectStatus('eventKey', {'objectId' : 'GeneralAdmissi
 
 ## Temporarily holding places in a GA area
 
-Holds for GA areas work in the same way as regular objects. Have a look at our [documentation](/docs/api-temporarily-hold-objects) for more details.
+Holds for GA areas work in the same way as regular objects. Have a look at our [documentation](/docs/api/temporarily-hold-objects) for more details.

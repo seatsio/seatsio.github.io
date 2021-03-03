@@ -11,9 +11,9 @@ import TabItem from '@theme/TabItem';
 
 **Type**: function(violations)  
 
-- **violations**: an array of violations against the passed in [selectionValidators](renderer-config-selectionvalidators) E.g. `['noOrphanSeats', 'consecutiveSeats']` if the selected seats contain orphans AND non-consecutive seats.
+- **violations**: an array of violations against the passed in [selectionValidators](/docs/renderer/config-selectionvalidators) E.g. `['noOrphanSeats', 'consecutiveSeats']` if the selected seats contain orphans AND non-consecutive seats.
 
-Triggered when one or more [selectionValidators](renderer-config-selectionvalidators) are passed in, and the selection is invalid.
+Triggered when one or more [selectionValidators](/docs/renderer/config-selectionvalidators) are passed in, and the selection is invalid.
 
 You should use this callback to prevent a ticket buyer from submitting the ticketing form, and to show a warning message. For example: 
 

@@ -128,7 +128,7 @@ Creating multiple events is currently not supported in the JS client
 }
 ```
 
-The docs for the call to [create a single event](/docs/api-create-an-event) explain these request parameters.
+The docs for the call to [create a single event](/docs/api/create-an-event) explain these request parameters.
 
 **Example request**
 

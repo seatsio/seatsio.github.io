@@ -19,7 +19,7 @@ This works for seats in rows, seats at tables, whole tables (if the table is boo
 
 :::caution Do not use this config param if you expect high load on-sales
 If you use this config parameter, the best available seats are calculated within the ticket buyers browser, which means it will yield the same result for concurrent users. 
-Use the [server-side version ](https://docs.seats.io/docs/api-best-available) of the seats.io best available algorithm instead.
+Use the [server-side version ](/docs/api/best-available) of the seats.io best available algorithm instead.
 :::
 
 To select 2 objects (or places, in the case of a GA) in any category:

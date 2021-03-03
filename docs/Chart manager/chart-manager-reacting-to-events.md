@@ -41,6 +41,6 @@ Fired when the chart manager failed to save its state on the seats.io servers: e
 :::info Object Properties
 Some of these callbacks take a bookable object (i.e. a seat, a table, a booth)  as a parameter.
 
-To see the different properties available on these objects, please refer to [Renderer Object Properties](doc:renderer-object-properties).
+To see the different properties available on these objects, please refer to [Renderer Object Properties](/docs/renderer/object-properties).
 :::
 

@@ -9,4 +9,4 @@ updatedAt: "2018-12-27T21:30:47.858Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Deprecated.** Settings are inherited directly from the newer [objectTooltip](renderer-config-objecttooltip) setting.
+**Deprecated.** Settings are inherited directly from the newer [objectTooltip](/docs/renderer/config-objecttooltip) setting.

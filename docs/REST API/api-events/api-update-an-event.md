@@ -169,9 +169,9 @@ await client.events.update('eventKey', null, null, null, '');
 
 All fields are optional. If, for example, you don't specify an eventKey, the key of the event is not modified.
 
-Have a look at the docs for [creating an event](/docs/api-create-an-event) to know how tableBookingConfig works.
+Have a look at the docs for [creating an event](/docs/api/create-an-event) to know how tableBookingConfig works.
 
-socialDistancingRulesetKey is the UUID which identifies a social distancing ruleset. You can get that key by [retrieving the chart](/docs/api-retrieve-a-chart) for the event.
+socialDistancingRulesetKey is the UUID which identifies a social distancing ruleset. You can get that key by [retrieving the chart](/docs/api/retrieve-a-chart) for the event.
 
 By passing in the empty string as socialDistancingRulesetKey, you remove the social distancing ruleset from the event.
 

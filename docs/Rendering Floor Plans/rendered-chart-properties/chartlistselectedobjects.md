@@ -1,6 +1,6 @@
 ---
 title: "chart.listSelectedObjects()"
-slug: "/chartlistselectedobjects"
+slug: "/renderer/chartlistselectedobjects"
 hidden: false
 createdAt: "2018-10-24T11:28:22.522Z"
 updatedAt: "2018-10-24T11:46:56.482Z"

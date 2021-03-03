@@ -1,6 +1,6 @@
 ---
 title: "stylePreset"
-slug: "/stylepreset"
+slug: "/renderer/stylepreset"
 hidden: false
 createdAt: "2019-07-22T20:53:54.085Z"
 updatedAt: "2019-07-22T22:28:16.904Z"
@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 Sets the preset of styles to use for the seating chart user interface.
 
-Styles can still be overwritten by using the [style](/docs/style) setting.
+Styles can still be overwritten by using the [style](/docs/renderer/style) setting.
 
 # List of style presets:
 

@@ -9,7 +9,7 @@ updatedAt: "2018-11-15T10:21:33.072Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Updates the [extra data](api-extra-data) for an object in an event, without changing the object status.
+Updates the [extra data](/docs/api/extra-data) for an object in an event, without changing the object status.
 
 
 
@@ -90,7 +90,7 @@ await client.events.updateExtraData('eventKey', 'A-1', extraData);
 
 
 :::info Tip
-Keep in mind that certain characters need to be [URI encoded](doc:api-uri-encoding)!
+Keep in mind that certain characters need to be [URI encoded](/docs/api/uri-encoding)!
 :::
 
 

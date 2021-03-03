@@ -1,6 +1,6 @@
 ---
 title: "Style your floor plan"
-slug: "/style-your-floor-plan"
+slug: "/renderer/style-your-floor-plan"
 hidden: false
 createdAt: "2019-07-22T20:52:30.003Z"
 updatedAt: "2019-07-22T22:20:48.941Z"

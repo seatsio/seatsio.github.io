@@ -18,7 +18,7 @@ The parameters that are passed to sectionColor are:
 
 * **section**: the current section
 * **defaultColor**: the default section color
-* **extraConfig**: see [extraConfig](renderer-config-extraconfig) 
+* **extraConfig**: see [extraConfig](/docs/renderer/config-extraconfig) 
 
 ```javascript
 sectionColor: function(section, defaultColor, extraConfig) {

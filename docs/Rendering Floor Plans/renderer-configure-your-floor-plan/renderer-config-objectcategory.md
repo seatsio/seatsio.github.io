@@ -17,7 +17,7 @@ The objectCategory function allows the default category of an object to be overr
 * `object`: the current object
 * `categories`: all categories of the chart. This object has a method called `categories.get(categoryKeyOrLabel)`, which takes a category key or label as a parameter, and which returns a category object based on that input.
 * `defaultCategory`: this is either the category assigned to the object, or if it's not set, the category assigned to the section of the object.
-* `extraConfig`: see [extraConfig](renderer-config-extraconfig) 
+* `extraConfig`: see [extraConfig](/docs/renderer/config-extraconfig) 
 
 objectCategory must return a category object, either one retrieved from `categories`, or the `defaultCategory`.
 

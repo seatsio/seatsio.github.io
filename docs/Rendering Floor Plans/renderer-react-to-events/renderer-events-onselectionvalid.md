@@ -11,6 +11,6 @@ import TabItem from '@theme/TabItem';
 
 **Type**: function()  
 
-Triggered when one or more [selectionValidators](renderer-config-selectionvalidators) are passed in, and the selection is valid.
+Triggered when one or more [selectionValidators](/docs/renderer/config-selectionvalidators) are passed in, and the selection is valid.
 
-To be used in combination with [onSelectionInvalid](renderer-events-onselectioninvalid).
+To be used in combination with [onSelectionInvalid](/docs/renderer/events-onselectioninvalid).

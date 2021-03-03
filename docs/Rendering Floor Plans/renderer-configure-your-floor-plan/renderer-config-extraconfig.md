@@ -18,10 +18,10 @@ With extraConfig, you can pass in an object to which the callbacks do have acces
 
 The following callbacks are executed within the iFrame and they receive an extraConfig parameter:
 
-- [`objectColor`](renderer-config-objectcolor) 
-- [`sectionColor`](renderer-config-sectioncolor) 
-- [`objectLabel`](renderer-config-objectlabel) 
-- [`objectIcon`](renderer-config-objecticon) 
-- [`objectCategory`](renderer-config-objectcategory) 
-- [`isObjectVisible`](renderer-config-isobjectvisible) 
-- [`canGASelectionBeIncreased`](renderer-config-cangaselectionbeincreased)
+- [`objectColor`](/docs/renderer/config-objectcolor) 
+- [`sectionColor`](/docs/renderer/config-sectioncolor) 
+- [`objectLabel`](/docs/renderer/config-objectlabel) 
+- [`objectIcon`](/docs/renderer/config-objecticon) 
+- [`objectCategory`](/docs/renderer/config-objectcategory) 
+- [`isObjectVisible`](/docs/renderer/config-isobjectvisible) 
+- [`canGASelectionBeIncreased`](/docs/renderer/config-cangaselectionbeincreased)

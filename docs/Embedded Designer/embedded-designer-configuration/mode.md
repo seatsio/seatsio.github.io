@@ -1,6 +1,6 @@
 ---
 title: "mode"
-slug: "/mode"
+slug: "/embedded-designer/mode"
 hidden: false
 createdAt: "2020-11-23T13:18:01.329Z"
 updatedAt: "2020-11-23T13:18:01.329Z"

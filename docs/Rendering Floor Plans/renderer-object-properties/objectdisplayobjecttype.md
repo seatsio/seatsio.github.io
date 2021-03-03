@@ -1,6 +1,6 @@
 ---
 title: "object.displayObjectType"
-slug: "/objectdisplayobjecttype"
+slug: "/renderer/objectdisplayobjecttype"
 hidden: false
 createdAt: "2020-03-24T23:36:01.806Z"
 updatedAt: "2020-03-25T09:21:33.524Z"
