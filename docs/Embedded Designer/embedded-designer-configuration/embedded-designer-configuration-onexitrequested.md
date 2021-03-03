@@ -1,6 +1,6 @@
 ---
 title: "onExitRequested"
-slug: "/embedded-designer-configuration-onexitrequested"
+slug: "/embedded-designer/configuration-onexitrequested"
 hidden: false
 createdAt: "2018-08-21T13:03:39.514Z"
 updatedAt: "2018-10-12T09:07:57.076Z"

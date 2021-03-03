@@ -1,6 +1,6 @@
 ---
 title: "objectTooltip"
-slug: "/renderer-config-objecttooltip"
+slug: "/renderer/config-objecttooltip"
 hidden: false
 createdAt: "2018-08-03T09:26:15.684Z"
 updatedAt: "2020-07-09T20:31:29.385Z"

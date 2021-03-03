@@ -1,6 +1,6 @@
 ---
 title: "Retrieve a workspace"
-slug: "/api-workspaces-retrieve"
+slug: "/api/workspaces-retrieve"
 hidden: false
 createdAt: "2020-02-27T22:00:24.127Z"
 updatedAt: "2020-07-03T16:00:51.844Z"

@@ -1,6 +1,6 @@
 ---
 title: "chart.rerender()"
-slug: "/renderer-chart-properties-chartrerender"
+slug: "/renderer/chart-properties-chartrerender"
 hidden: false
 createdAt: "2018-08-24T08:45:59.828Z"
 updatedAt: "2019-12-10T12:48:03.816Z"

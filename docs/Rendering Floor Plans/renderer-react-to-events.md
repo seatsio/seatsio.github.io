@@ -1,6 +1,6 @@
 ---
 title: "React to events"
-slug: "/renderer-react-to-events"
+slug: "/renderer/react-to-events"
 hidden: false
 createdAt: "2018-08-03T06:50:25.148Z"
 updatedAt: "2020-03-03T10:51:29.328Z"

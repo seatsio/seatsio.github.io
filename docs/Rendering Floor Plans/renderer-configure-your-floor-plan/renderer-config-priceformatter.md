@@ -1,6 +1,6 @@
 ---
 title: "priceFormatter"
-slug: "/renderer-config-priceformatter"
+slug: "/renderer/config-priceformatter"
 hidden: false
 createdAt: "2018-08-03T09:05:21.924Z"
 updatedAt: "2020-10-02T12:55:00.332Z"

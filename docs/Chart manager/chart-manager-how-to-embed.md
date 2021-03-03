@@ -1,6 +1,6 @@
 ---
 title: "How to embed the Chart Manager"
-slug: "/chart-manager-how-to-embed"
+slug: "/chart-manager/how-to-embed"
 hidden: false
 createdAt: "2020-06-19T07:55:47.553Z"
 updatedAt: "2020-09-02T09:28:07.979Z"

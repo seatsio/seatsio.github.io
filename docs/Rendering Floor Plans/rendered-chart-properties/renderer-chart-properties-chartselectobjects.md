@@ -1,6 +1,6 @@
 ---
 title: "chart.selectObjects()"
-slug: "/renderer-chart-properties-chartselectobjects"
+slug: "/renderer/chart-properties-chartselectobjects"
 hidden: false
 createdAt: "2018-08-24T09:31:33.192Z"
 updatedAt: "2021-01-06T14:09:33.649Z"

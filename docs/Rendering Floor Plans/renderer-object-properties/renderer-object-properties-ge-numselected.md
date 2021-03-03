@@ -1,6 +1,6 @@
 ---
 title: "ga.numSelected"
-slug: "/renderer-object-properties-ge-numselected"
+slug: "/renderer/object-properties-ge-numselected"
 hidden: false
 createdAt: "2018-08-24T08:13:35.020Z"
 updatedAt: "2018-08-24T08:13:46.124Z"

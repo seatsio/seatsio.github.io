@@ -1,6 +1,6 @@
 ---
 title: "Chart designer functions"
-slug: "/embedded-designer-functions"
+slug: "/embedded-designer/functions"
 hidden: false
 createdAt: "2018-08-21T13:04:00.134Z"
 updatedAt: "2018-08-21T13:55:33.346Z"

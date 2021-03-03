@@ -1,6 +1,6 @@
 ---
 title: "Retrieve a hold token"
-slug: "/api-retrieve-a-hold-token"
+slug: "/api/retrieve-a-hold-token"
 hidden: false
 createdAt: "2018-08-02T13:33:21.572Z"
 updatedAt: "2021-01-26T14:54:44.290Z"

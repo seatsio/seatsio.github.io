@@ -1,6 +1,6 @@
 ---
 title: "showMinimap"
-slug: "/renderer-config-showminimap"
+slug: "/renderer/config-showminimap"
 hidden: false
 createdAt: "2018-08-03T12:02:50.728Z"
 updatedAt: "2018-08-03T13:17:03.918Z"

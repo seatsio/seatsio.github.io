@@ -1,6 +1,6 @@
 ---
 title: "Season tickets"
-slug: "/api-season-tickets"
+slug: "/api/season-tickets"
 hidden: false
 createdAt: "2018-08-01T12:52:04.225Z"
 updatedAt: "2020-10-05T10:15:17.605Z"

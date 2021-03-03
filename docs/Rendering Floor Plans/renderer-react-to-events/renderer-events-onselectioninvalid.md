@@ -1,6 +1,6 @@
 ---
 title: "onSelectionInvalid"
-slug: "/renderer-events-onselectioninvalid"
+slug: "/renderer/events-onselectioninvalid"
 hidden: false
 createdAt: "2018-08-03T13:35:37.572Z"
 updatedAt: "2018-08-23T14:21:19.984Z"

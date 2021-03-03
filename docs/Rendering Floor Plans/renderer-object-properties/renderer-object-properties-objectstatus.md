@@ -1,6 +1,6 @@
 ---
 title: "object.status"
-slug: "/renderer-object-properties-objectstatus"
+slug: "/renderer/object-properties-objectstatus"
 hidden: false
 createdAt: "2018-08-24T08:00:13.435Z"
 updatedAt: "2019-04-16T23:34:31.339Z"

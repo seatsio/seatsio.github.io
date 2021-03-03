@@ -1,6 +1,6 @@
 ---
 title: "channels"
-slug: "/renderer-config-channels"
+slug: "/renderer/config-channels"
 hidden: false
 createdAt: "2020-06-17T12:18:26.392Z"
 updatedAt: "2020-10-13T07:30:09.628Z"

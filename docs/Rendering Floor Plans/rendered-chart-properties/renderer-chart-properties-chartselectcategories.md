@@ -1,6 +1,6 @@
 ---
 title: "chart.selectCategories()"
-slug: "/renderer-chart-properties-chartselectcategories"
+slug: "/renderer/chart-properties-chartselectcategories"
 hidden: false
 createdAt: "2018-08-24T09:32:53.024Z"
 updatedAt: "2019-11-19T08:53:34.386Z"

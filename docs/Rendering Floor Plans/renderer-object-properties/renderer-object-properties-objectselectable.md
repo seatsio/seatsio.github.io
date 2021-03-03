@@ -1,6 +1,6 @@
 ---
 title: "object.selectable"
-slug: "/renderer-object-properties-objectselectable"
+slug: "/renderer/object-properties-objectselectable"
 hidden: false
 createdAt: "2018-08-24T08:06:41.572Z"
 updatedAt: "2019-04-16T00:02:07.664Z"

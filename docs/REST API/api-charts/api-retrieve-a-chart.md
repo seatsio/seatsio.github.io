@@ -1,6 +1,6 @@
 ---
 title: "Retrieve a chart"
-slug: "/api-retrieve-a-chart"
+slug: "/api/retrieve-a-chart"
 hidden: false
 createdAt: "2018-08-01T13:26:15.595Z"
 updatedAt: "2020-07-01T07:43:44.474Z"

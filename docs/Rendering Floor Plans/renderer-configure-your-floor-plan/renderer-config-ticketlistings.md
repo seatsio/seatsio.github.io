@@ -1,6 +1,6 @@
 ---
 title: "ticketListings"
-slug: "/renderer-config-ticketlistings"
+slug: "/renderer/config-ticketlistings"
 hidden: false
 createdAt: "2019-01-04T08:13:18.331Z"
 updatedAt: "2019-09-05T12:05:08.787Z"

@@ -1,6 +1,6 @@
 ---
 title: "holdOnSelectForGAs"
-slug: "/renderer-config-holdonselectforgas"
+slug: "/renderer/config-holdonselectforgas"
 hidden: false
 createdAt: "2018-11-23T08:59:33.842Z"
 updatedAt: "2019-12-10T12:40:40.958Z"

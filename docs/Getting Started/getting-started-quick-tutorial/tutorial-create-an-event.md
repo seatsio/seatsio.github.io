@@ -1,6 +1,6 @@
 ---
 title: "2. Create an event"
-slug: "/tutorial-create-an-event"
+slug: "/tutorial/create-an-event"
 hidden: false
 createdAt: "2018-08-21T09:07:21.083Z"
 updatedAt: "2018-08-23T14:13:17.396Z"

@@ -1,6 +1,6 @@
 ---
 title: "extraConfig"
-slug: "/renderer-config-extraconfig"
+slug: "/renderer/config-extraconfig"
 hidden: false
 createdAt: "2018-08-03T12:05:15.196Z"
 updatedAt: "2018-08-23T14:26:57.355Z"

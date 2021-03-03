@@ -1,6 +1,6 @@
 ---
 title: "Deactivate workspace"
-slug: "/api-workspace-deactivate"
+slug: "/api/workspace-deactivate"
 hidden: false
 createdAt: "2020-07-03T15:59:00.375Z"
 updatedAt: "2020-07-03T16:03:30.262Z"

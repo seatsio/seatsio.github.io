@@ -1,6 +1,6 @@
 ---
 title: "chart.selectBestAvailable()"
-slug: "/renderer-chart-properties-chartselectbestavailableconfig"
+slug: "/renderer/chart-properties-chartselectbestavailableconfig"
 hidden: false
 createdAt: "2018-08-24T08:46:34.631Z"
 updatedAt: "2019-12-02T12:56:16.020Z"

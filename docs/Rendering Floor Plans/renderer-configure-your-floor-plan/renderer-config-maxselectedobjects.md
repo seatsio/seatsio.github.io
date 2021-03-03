@@ -1,6 +1,6 @@
 ---
 title: "maxSelectedObjects"
-slug: "/renderer-config-maxselectedobjects"
+slug: "/renderer/config-maxselectedobjects"
 hidden: false
 createdAt: "2018-08-03T10:08:12.717Z"
 updatedAt: "2021-02-12T09:02:00.160Z"

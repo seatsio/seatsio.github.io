@@ -1,6 +1,6 @@
 ---
 title: "Update an event"
-slug: "/api-update-an-event"
+slug: "/api/update-an-event"
 hidden: false
 createdAt: "2018-08-02T09:57:30.397Z"
 updatedAt: "2021-02-05T06:59:12.710Z"

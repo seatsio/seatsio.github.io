@@ -1,6 +1,6 @@
 ---
 title: "isObjectVisible"
-slug: "/renderer-config-isobjectvisible"
+slug: "/renderer/config-isobjectvisible"
 hidden: false
 createdAt: "2018-08-03T11:54:35.867Z"
 updatedAt: "2018-08-23T14:39:53.794Z"

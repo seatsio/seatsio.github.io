@@ -1,6 +1,6 @@
 ---
 title: "objectLabel"
-slug: "/renderer-config-objectlabel"
+slug: "/renderer/config-objectlabel"
 hidden: false
 createdAt: "2018-08-03T11:53:58.437Z"
 updatedAt: "2021-02-25T08:02:12.065Z"

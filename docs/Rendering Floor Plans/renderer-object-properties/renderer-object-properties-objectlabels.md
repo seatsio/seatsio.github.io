@@ -1,6 +1,6 @@
 ---
 title: "object.labels"
-slug: "/renderer-object-properties-objectlabels"
+slug: "/renderer/object-properties-objectlabels"
 hidden: false
 createdAt: "2018-08-24T07:58:23.960Z"
 updatedAt: "2019-04-16T00:03:10.728Z"

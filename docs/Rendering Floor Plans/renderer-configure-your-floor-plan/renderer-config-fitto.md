@@ -1,6 +1,6 @@
 ---
 title: "fitTo"
-slug: "/renderer-config-fitto"
+slug: "/renderer/config-fitto"
 hidden: false
 createdAt: "2018-08-03T12:06:04.968Z"
 updatedAt: "2021-02-08T13:06:21.959Z"

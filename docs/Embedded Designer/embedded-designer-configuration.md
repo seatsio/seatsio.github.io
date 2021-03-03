@@ -1,6 +1,6 @@
 ---
 title: "Configuration"
-slug: "/embedded-designer-configuration"
+slug: "/embedded-designer/configuration"
 hidden: false
 createdAt: "2018-08-21T12:58:50.561Z"
 updatedAt: "2019-11-28T11:06:24.639Z"

@@ -1,6 +1,6 @@
 ---
 title: "numberOfPlacesToSelect"
-slug: "/renderer-config-numberofplacestoselect"
+slug: "/renderer/config-numberofplacestoselect"
 hidden: false
 createdAt: "2019-07-05T09:09:48.989Z"
 updatedAt: "2020-10-27T18:14:14.532Z"

@@ -1,6 +1,6 @@
 ---
 title: "Validate a chart version"
-slug: "/api-validate-a-chart-version"
+slug: "/api/validate-a-chart-version"
 hidden: false
 createdAt: "2019-04-09T10:44:01.774Z"
 updatedAt: "2020-01-27T21:57:12.141Z"

@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-slug: "/embedded-designer-introduction"
+slug: "/embedded-designer/introduction"
 hidden: false
 createdAt: "2018-08-21T12:48:15.319Z"
 updatedAt: "2020-02-28T21:33:37.473Z"

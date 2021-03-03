@@ -1,6 +1,6 @@
 ---
 title: "Usage details for a single month"
-slug: "/api-usage-report-single-month"
+slug: "/api/usage-report-single-month"
 hidden: false
 createdAt: "2019-05-28T13:31:15.295Z"
 updatedAt: "2020-12-29T07:33:51.721Z"

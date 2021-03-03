@@ -1,6 +1,6 @@
 ---
 title: "language"
-slug: "/renderer-config-language"
+slug: "/renderer/config-language"
 hidden: false
 createdAt: "2018-08-03T09:40:25.203Z"
 updatedAt: "2018-08-23T14:39:01.703Z"

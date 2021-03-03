@@ -1,6 +1,6 @@
 ---
 title: "API Client libraries"
-slug: "/api-client-libraries"
+slug: "/api/client-libraries"
 hidden: false
 createdAt: "2018-07-31T08:41:40.668Z"
 updatedAt: "2021-02-23T11:04:57.829Z"

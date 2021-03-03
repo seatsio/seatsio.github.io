@@ -1,6 +1,6 @@
 ---
 title: "section.isInteractive"
-slug: "/renderer-object-properties-sectionisinteractive"
+slug: "/renderer/object-properties-sectionisinteractive"
 hidden: false
 createdAt: "2018-08-24T08:16:08.224Z"
 updatedAt: "2019-12-10T12:43:03.437Z"

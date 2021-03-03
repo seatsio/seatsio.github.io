@@ -1,6 +1,6 @@
 ---
 title: "Copy a chart to a workspace"
-slug: "/api-charts-copy-chart-to-workspace"
+slug: "/api/charts-copy-chart-to-workspace"
 hidden: false
 createdAt: "2018-08-01T13:30:54.934Z"
 updatedAt: "2020-10-28T09:21:28.178Z"

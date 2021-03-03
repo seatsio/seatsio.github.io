@@ -1,6 +1,6 @@
 ---
 title: "The hold token object"
-slug: "/api-the-hold-token-object"
+slug: "/api/the-hold-token-object"
 hidden: false
 createdAt: "2018-08-02T10:11:50.290Z"
 updatedAt: "2018-09-28T11:32:20.284Z"

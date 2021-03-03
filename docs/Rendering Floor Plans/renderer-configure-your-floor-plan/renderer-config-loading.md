@@ -1,6 +1,6 @@
 ---
 title: "loading"
-slug: "/renderer-config-loading"
+slug: "/renderer/config-loading"
 hidden: false
 createdAt: "2018-08-03T12:05:49.078Z"
 updatedAt: "2018-08-03T13:25:55.582Z"

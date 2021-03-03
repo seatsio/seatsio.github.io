@@ -1,6 +1,6 @@
 ---
 title: "onChartRenderingFailed"
-slug: "/renderer-events-onchartrenderingfailed"
+slug: "/renderer/events-onchartrenderingfailed"
 hidden: false
 createdAt: "2018-08-03T13:33:19.814Z"
 updatedAt: "2018-08-03T13:43:59.856Z"

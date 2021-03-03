@@ -1,6 +1,6 @@
 ---
 title: "objectIcon"
-slug: "/renderer-config-objecticon"
+slug: "/renderer/config-objecticon"
 hidden: false
 createdAt: "2018-08-03T11:54:13.794Z"
 updatedAt: "2020-12-10T20:49:00.218Z"

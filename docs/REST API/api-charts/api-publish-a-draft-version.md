@@ -1,6 +1,6 @@
 ---
 title: "Publish a draft version"
-slug: "/api-publish-a-draft-version"
+slug: "/api/publish-a-draft-version"
 hidden: false
 createdAt: "2018-08-01T13:28:46.462Z"
 updatedAt: "2019-03-28T10:13:48.008Z"

@@ -1,6 +1,6 @@
 ---
 title: "Deactivate a subaccount"
-slug: "/api-deactivate-a-subaccount"
+slug: "/api/deactivate-a-subaccount"
 hidden: false
 createdAt: "2018-08-02T10:17:59.933Z"
 updatedAt: "2020-02-28T13:16:03.882Z"

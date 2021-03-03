@@ -1,6 +1,6 @@
 ---
 title: "Configuring the Chart Manager"
-slug: "/chart-manager-configuring"
+slug: "/chart-manager/configuring"
 hidden: false
 createdAt: "2020-06-19T07:59:54.831Z"
 updatedAt: "2021-02-26T13:34:10.920Z"

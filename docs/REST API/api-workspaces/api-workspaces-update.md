@@ -1,6 +1,6 @@
 ---
 title: "Update a workspace"
-slug: "/api-workspaces-update"
+slug: "/api/workspaces-update"
 hidden: false
 createdAt: "2020-02-27T22:00:24.807Z"
 updatedAt: "2020-02-28T12:51:41.416Z"

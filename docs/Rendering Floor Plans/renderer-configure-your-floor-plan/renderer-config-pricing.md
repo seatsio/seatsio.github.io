@@ -1,6 +1,6 @@
 ---
 title: "pricing"
-slug: "/renderer-config-pricing"
+slug: "/renderer/config-pricing"
 hidden: false
 createdAt: "2018-08-03T07:40:53.601Z"
 updatedAt: "2020-10-20T08:44:07.465Z"

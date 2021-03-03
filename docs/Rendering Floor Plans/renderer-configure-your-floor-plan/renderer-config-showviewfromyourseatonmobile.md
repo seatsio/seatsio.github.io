@@ -1,6 +1,6 @@
 ---
 title: "showViewFromYourSeatOnMobile"
-slug: "/renderer-config-showviewfromyourseatonmobile"
+slug: "/renderer/config-showviewfromyourseatonmobile"
 hidden: false
 createdAt: "2018-08-03T12:03:25.670Z"
 updatedAt: "2018-08-03T13:17:19.405Z"

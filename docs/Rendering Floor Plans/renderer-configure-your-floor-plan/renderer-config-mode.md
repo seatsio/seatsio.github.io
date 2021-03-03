@@ -1,6 +1,6 @@
 ---
 title: "mode"
-slug: "/renderer-config-mode"
+slug: "/renderer/config-mode"
 hidden: false
 createdAt: "2018-08-03T12:05:27.222Z"
 updatedAt: "2018-08-03T13:23:40.073Z"

@@ -1,6 +1,6 @@
 ---
 title: "session"
-slug: "/renderer-config-session"
+slug: "/renderer/config-session"
 hidden: false
 createdAt: "2019-12-10T12:29:10.105Z"
 updatedAt: "2019-12-10T13:00:59.831Z"

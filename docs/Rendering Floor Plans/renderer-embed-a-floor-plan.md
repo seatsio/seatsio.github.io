@@ -1,6 +1,6 @@
 ---
 title: "Embed a floor plan in your page"
-slug: "/renderer-embed-a-floor-plan"
+slug: "/renderer/embed-a-floor-plan"
 hidden: false
 createdAt: "2018-08-03T06:50:06.440Z"
 updatedAt: "2020-08-31T10:50:36.479Z"

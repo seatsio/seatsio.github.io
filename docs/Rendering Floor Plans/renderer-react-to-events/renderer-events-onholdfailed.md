@@ -1,6 +1,6 @@
 ---
 title: "onHoldFailed"
-slug: "/renderer-events-onholdfailed"
+slug: "/renderer/events-onholdfailed"
 hidden: false
 createdAt: "2018-08-03T13:34:53.659Z"
 updatedAt: "2020-10-21T08:35:44.303Z"

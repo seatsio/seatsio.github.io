@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-slug: "/chart-manager-introduction"
+slug: "/chart-manager/introduction"
 hidden: false
 createdAt: "2020-06-19T07:51:42.172Z"
 updatedAt: "2020-06-19T07:52:57.896Z"

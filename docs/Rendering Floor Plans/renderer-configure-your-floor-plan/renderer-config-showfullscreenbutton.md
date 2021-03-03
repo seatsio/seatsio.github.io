@@ -1,6 +1,6 @@
 ---
 title: "showFullScreenButton"
-slug: "/renderer-config-showfullscreenbutton"
+slug: "/renderer/config-showfullscreenbutton"
 hidden: false
 createdAt: "2019-09-12T08:56:00.296Z"
 updatedAt: "2019-09-12T10:09:06.177Z"

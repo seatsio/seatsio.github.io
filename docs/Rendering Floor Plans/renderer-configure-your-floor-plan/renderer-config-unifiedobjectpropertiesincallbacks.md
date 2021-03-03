@@ -1,6 +1,6 @@
 ---
 title: "unifiedObjectPropertiesInCallbacks"
-slug: "/renderer-config-unifiedobjectpropertiesincallbacks"
+slug: "/renderer/config-unifiedobjectpropertiesincallbacks"
 hidden: false
 createdAt: "2019-05-15T20:55:00.486Z"
 updatedAt: "2020-07-27T06:17:22.664Z"

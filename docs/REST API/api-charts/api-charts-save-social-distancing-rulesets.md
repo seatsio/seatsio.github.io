@@ -1,6 +1,6 @@
 ---
 title: "Save social distancing rulesets"
-slug: "/api-charts-save-social-distancing-rulesets"
+slug: "/api/charts-save-social-distancing-rulesets"
 hidden: false
 createdAt: "2020-06-19T07:17:22.286Z"
 updatedAt: "2021-02-23T13:15:04.769Z"

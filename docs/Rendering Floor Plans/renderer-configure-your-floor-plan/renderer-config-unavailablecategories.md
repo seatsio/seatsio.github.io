@@ -1,6 +1,6 @@
 ---
 title: "unavailableCategories"
-slug: "/renderer-config-unavailablecategories"
+slug: "/renderer/config-unavailablecategories"
 hidden: false
 createdAt: "2018-08-03T11:49:03.282Z"
 updatedAt: "2019-03-05T17:51:43.499Z"

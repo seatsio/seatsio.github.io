@@ -1,6 +1,6 @@
 ---
 title: "showViewFromYourSeatOnDesktop"
-slug: "/renderer-config-showviewfromyourseatondesktop"
+slug: "/renderer/config-showviewfromyourseatondesktop"
 hidden: false
 createdAt: "2018-08-03T12:03:42.697Z"
 updatedAt: "2018-08-03T13:17:26.836Z"

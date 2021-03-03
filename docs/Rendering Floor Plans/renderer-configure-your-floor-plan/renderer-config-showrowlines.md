@@ -1,6 +1,6 @@
 ---
 title: "showRowLines"
-slug: "/renderer-config-showrowlines"
+slug: "/renderer/config-showrowlines"
 hidden: false
 createdAt: "2018-08-03T11:57:57.950Z"
 updatedAt: "2019-08-08T21:26:19.745Z"

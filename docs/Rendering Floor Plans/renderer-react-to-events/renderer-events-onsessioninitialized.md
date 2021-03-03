@@ -1,6 +1,6 @@
 ---
 title: "onSessionInitialized"
-slug: "/renderer-events-onsessioninitialized"
+slug: "/renderer/events-onsessioninitialized"
 hidden: false
 createdAt: "2021-01-06T10:45:54.944Z"
 updatedAt: "2021-01-06T10:56:37.737Z"

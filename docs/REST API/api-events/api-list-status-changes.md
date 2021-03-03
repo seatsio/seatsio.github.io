@@ -1,6 +1,6 @@
 ---
 title: "List status changes"
-slug: "/api-list-status-changes"
+slug: "/api/list-status-changes"
 hidden: false
 createdAt: "2018-08-02T10:08:44.047Z"
 updatedAt: "2019-06-25T18:23:26.722Z"

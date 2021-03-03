@@ -1,6 +1,6 @@
 ---
 title: "onChartRendered"
-slug: "/renderer-events-onchartrendered"
+slug: "/renderer/events-onchartrendered"
 hidden: false
 createdAt: "2018-08-03T13:33:09.142Z"
 updatedAt: "2018-08-03T13:41:06.661Z"

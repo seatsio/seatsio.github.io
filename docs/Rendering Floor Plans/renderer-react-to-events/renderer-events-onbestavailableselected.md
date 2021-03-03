@@ -1,6 +1,6 @@
 ---
 title: "onBestAvailableSelected"
-slug: "/renderer-events-onbestavailableselected"
+slug: "/renderer/events-onbestavailableselected"
 hidden: false
 createdAt: "2018-08-03T13:34:14.188Z"
 updatedAt: "2018-08-03T13:49:30.940Z"

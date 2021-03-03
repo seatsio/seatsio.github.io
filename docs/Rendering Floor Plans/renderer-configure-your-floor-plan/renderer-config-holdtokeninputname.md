@@ -1,6 +1,6 @@
 ---
 title: "holdTokenInputName"
-slug: "/renderer-config-holdtokeninputname"
+slug: "/renderer/config-holdtokeninputname"
 hidden: false
 createdAt: "2018-08-03T12:00:26.773Z"
 updatedAt: "2019-12-10T12:41:04.318Z"

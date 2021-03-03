@@ -1,6 +1,6 @@
 ---
 title: "onHoldSucceeded"
-slug: "/renderer-events-onholdsucceeded"
+slug: "/renderer/events-onholdsucceeded"
 hidden: false
 createdAt: "2018-08-03T13:34:42.314Z"
 updatedAt: "2019-12-10T12:47:09.816Z"

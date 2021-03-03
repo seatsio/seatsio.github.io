@@ -1,6 +1,6 @@
 ---
 title: "events"
-slug: "/renderer-config-events"
+slug: "/renderer/config-events"
 hidden: false
 createdAt: "2018-08-03T07:40:42.030Z"
 updatedAt: "2020-10-27T18:15:12.547Z"

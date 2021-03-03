@@ -1,6 +1,6 @@
 ---
 title: "object.category"
-slug: "/renderer-object-properties-objectcategory"
+slug: "/renderer/object-properties-objectcategory"
 hidden: false
 createdAt: "2018-08-24T07:55:23.049Z"
 updatedAt: "2018-09-06T08:39:22.008Z"

@@ -1,6 +1,6 @@
 ---
 title: "onReleaseHoldFailed"
-slug: "/renderer-events-onreleaseholdfailed"
+slug: "/renderer/events-onreleaseholdfailed"
 hidden: false
 createdAt: "2018-08-03T13:35:12.995Z"
 updatedAt: "2020-10-21T08:35:22.230Z"

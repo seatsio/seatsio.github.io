@@ -1,6 +1,6 @@
 ---
 title: "List status changes for an object"
-slug: "/api-list-status-changes-for-an-object"
+slug: "/api/list-status-changes-for-an-object"
 hidden: false
 createdAt: "2018-08-02T10:09:04.228Z"
 updatedAt: "2019-06-25T18:24:21.711Z"

@@ -1,6 +1,6 @@
 ---
 title: "object.pulse()"
-slug: "/renderer-object-properties-objectpulse"
+slug: "/renderer/object-properties-objectpulse"
 hidden: false
 createdAt: "2018-08-24T08:10:35.598Z"
 updatedAt: "2019-12-10T12:43:03.429Z"

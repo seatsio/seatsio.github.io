@@ -1,6 +1,6 @@
 ---
 title: "features"
-slug: "/embedded-designer-configuration-features"
+slug: "/embedded-designer/configuration-features"
 hidden: false
 createdAt: "2018-08-21T13:02:56.568Z"
 updatedAt: "2021-02-08T13:35:34.543Z"

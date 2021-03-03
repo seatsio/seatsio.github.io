@@ -1,6 +1,6 @@
 ---
 title: "selectionValidators"
-slug: "/renderer-config-selectionvalidators"
+slug: "/renderer/config-selectionvalidators"
 hidden: false
 createdAt: "2018-08-03T12:04:00.243Z"
 updatedAt: "2021-01-29T08:10:45.700Z"

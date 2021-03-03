@@ -21,10 +21,39 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: 'docs/tutorial/draw-a-floor-plan', // TODO bver replace with docs/tutorial and redirect from the redirect plugin
+          activeBasePath: "docs/tutorial",
+          label: 'First steps'
+        },
+        {
+          to: 'docs/renderer/embed-a-floor-plan',  // TODO bver replace with docs/renderer and redirect from the redirect plugin
+          activeBasePath: "docs/renderer",
+          label: 'Renderer'
+        },
+        {
+          to: 'docs/api/authentication',  // TODO bver replace with docs/api and redirect from the redirect plugin
+          activeBasePath: "docs/api",
+          label: 'API'
+        },
+        {
+          label: "Tools",
+          items: [
+            {
+              to: 'docs/event-manager/introduction',  // TODO bver replace with docs/api and redirect from the redirect plugin
+              activeBasePath: "docs/event-manager",
+              label: 'Event Manager'
+            },
+            {
+              to: 'docs/chart-manager/introduction',  // TODO bver replace with docs/api and redirect from the redirect plugin
+              activeBasePath: "docs/chart-manager",
+              label: 'Chart Manager'
+            },
+            {
+              to: 'docs/embedded-designer/introduction',  // TODO bver replace with docs/api and redirect from the redirect plugin
+              activeBasePath: "docs/embedded-designer",
+              label: 'Embedded Designer'
+            },
+          ]
         },
         {
           to: 'changelog/',

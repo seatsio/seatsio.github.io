@@ -1,6 +1,6 @@
 ---
 title: "Object Properties"
-slug: "/renderer-object-properties"
+slug: "/renderer/object-properties"
 hidden: false
 createdAt: "2018-08-24T07:49:59.418Z"
 updatedAt: "2018-08-24T07:52:14.187Z"

@@ -1,6 +1,6 @@
 ---
 title: "1. Draw a floor plan"
-slug: "/tutorial-draw-a-floor-plan"
+slug: "/tutorial/draw-a-floor-plan"
 hidden: false
 createdAt: "2018-08-21T09:07:07.198Z"
 updatedAt: "2018-08-21T09:38:20.856Z"

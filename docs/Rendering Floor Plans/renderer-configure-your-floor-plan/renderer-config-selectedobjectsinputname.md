@@ -1,6 +1,6 @@
 ---
 title: "selectedObjectsInputName"
-slug: "/renderer-config-selectedobjectsinputname"
+slug: "/renderer/config-selectedobjectsinputname"
 hidden: false
 createdAt: "2018-08-03T11:15:31.442Z"
 updatedAt: "2018-08-03T11:44:34.870Z"

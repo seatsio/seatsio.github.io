@@ -1,6 +1,6 @@
 ---
 title: "chart.destroy()"
-slug: "/renderer-chart-properties-chartdestroy"
+slug: "/renderer/chart-properties-chartdestroy"
 hidden: false
 createdAt: "2018-08-24T08:45:27.791Z"
 updatedAt: "2019-03-01T08:57:30.153Z"

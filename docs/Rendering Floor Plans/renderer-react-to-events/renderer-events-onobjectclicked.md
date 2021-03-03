@@ -1,6 +1,6 @@
 ---
 title: "onObjectClicked"
-slug: "/renderer-events-onobjectclicked"
+slug: "/renderer/events-onobjectclicked"
 hidden: false
 createdAt: "2018-08-03T13:33:25.172Z"
 updatedAt: "2018-08-23T14:18:25.409Z"

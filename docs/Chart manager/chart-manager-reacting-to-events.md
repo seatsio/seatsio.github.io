@@ -1,6 +1,6 @@
 ---
 title: "Reacting to events"
-slug: "/chart-manager-reacting-to-events"
+slug: "/chart-manager/reacting-to-events"
 hidden: false
 createdAt: "2020-06-19T08:02:55.035Z"
 updatedAt: "2021-02-26T13:35:40.211Z"

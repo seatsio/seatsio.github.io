@@ -1,6 +1,6 @@
 ---
 title: "legend"
-slug: "/renderer-config-legend"
+slug: "/renderer/config-legend"
 hidden: false
 createdAt: "2018-08-03T12:01:27.368Z"
 updatedAt: "2020-10-13T07:13:39.903Z"

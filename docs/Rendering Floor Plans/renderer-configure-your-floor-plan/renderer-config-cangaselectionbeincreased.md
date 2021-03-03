@@ -1,6 +1,6 @@
 ---
 title: "canGASelectionBeIncreased"
-slug: "/renderer-config-cangaselectionbeincreased"
+slug: "/renderer/config-cangaselectionbeincreased"
 hidden: false
 createdAt: "2018-08-03T11:54:53.330Z"
 updatedAt: "2020-02-17T08:21:19.952Z"

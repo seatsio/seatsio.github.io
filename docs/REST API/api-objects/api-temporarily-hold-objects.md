@@ -1,6 +1,6 @@
 ---
 title: "Temporarily hold objects"
-slug: "/api-temporarily-hold-objects"
+slug: "/api/temporarily-hold-objects"
 hidden: false
 createdAt: "2018-07-31T09:20:48.306Z"
 updatedAt: "2021-02-26T11:55:58.267Z"

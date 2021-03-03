@@ -1,6 +1,6 @@
 ---
 title: "Authentication"
-slug: "/api-authentication"
+slug: "/api/authentication"
 hidden: false
 createdAt: "2018-07-30T18:27:03.091Z"
 updatedAt: "2020-09-29T09:39:59.250Z"

@@ -1,6 +1,6 @@
 ---
 title: "URI encoding"
-slug: "/api-uri-encoding"
+slug: "/api/uri-encoding"
 hidden: false
 createdAt: "2018-07-31T08:40:44.718Z"
 updatedAt: "2018-07-31T08:42:08.582Z"

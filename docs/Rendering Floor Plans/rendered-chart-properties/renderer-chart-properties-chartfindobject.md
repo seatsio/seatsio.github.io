@@ -1,6 +1,6 @@
 ---
 title: "chart.findObject()"
-slug: "/renderer-chart-properties-chartfindobject"
+slug: "/renderer/chart-properties-chartfindobject"
 hidden: false
 createdAt: "2018-08-24T09:34:58.262Z"
 updatedAt: "2019-12-10T12:43:03.455Z"

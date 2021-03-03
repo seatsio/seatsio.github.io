@@ -1,6 +1,6 @@
 ---
 title: "seat.disabledBySocialDistancingRules"
-slug: "/renderer-seat-properties-disabledbysocialdistancingrules"
+slug: "/renderer/seat-properties-disabledbysocialdistancingrules"
 hidden: false
 createdAt: "2020-07-14T08:36:36.331Z"
 updatedAt: "2020-07-27T06:16:40.941Z"

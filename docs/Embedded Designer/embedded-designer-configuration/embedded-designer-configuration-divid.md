@@ -1,6 +1,6 @@
 ---
 title: "divId"
-slug: "/embedded-designer-configuration-divid"
+slug: "/embedded-designer/configuration-divid"
 hidden: false
 createdAt: "2018-08-21T13:01:23.690Z"
 updatedAt: "2018-08-21T13:15:06.222Z"

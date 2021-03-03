@@ -1,6 +1,6 @@
 ---
 title: "divId"
-slug: "/renderer-config-divid"
+slug: "/renderer/config-divid"
 hidden: false
 createdAt: "2018-08-03T07:36:28.770Z"
 updatedAt: "2018-08-03T07:42:42.467Z"

@@ -1,6 +1,6 @@
 ---
 title: "Move a chart out of the archive"
-slug: "/api-move-a-chart-out-of-the-archive"
+slug: "/api/move-a-chart-out-of-the-archive"
 hidden: false
 createdAt: "2018-08-01T13:30:04.894Z"
 updatedAt: "2019-03-28T15:44:42.320Z"

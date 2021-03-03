@@ -1,6 +1,6 @@
 ---
 title: "chart.deselectObjects()"
-slug: "/renderer-chart-properties-chartdeselectobjects"
+slug: "/renderer/chart-properties-chartdeselectobjects"
 hidden: false
 createdAt: "2018-08-24T09:31:56.731Z"
 updatedAt: "2019-12-10T12:51:52.799Z"

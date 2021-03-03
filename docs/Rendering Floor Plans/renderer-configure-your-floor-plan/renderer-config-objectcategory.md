@@ -1,6 +1,6 @@
 ---
 title: "objectCategory"
-slug: "/renderer-config-objectcategory"
+slug: "/renderer/config-objectcategory"
 hidden: false
 createdAt: "2018-08-03T12:04:53.051Z"
 updatedAt: "2019-10-31T15:12:47.144Z"

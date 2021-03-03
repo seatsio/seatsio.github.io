@@ -1,6 +1,6 @@
 ---
 title: "openDraftDrawing"
-slug: "/embedded-designer-configuration-opendraftdrawing"
+slug: "/embedded-designer/configuration-opendraftdrawing"
 hidden: false
 createdAt: "2018-08-21T13:03:17.714Z"
 updatedAt: "2018-12-30T21:55:59.036Z"

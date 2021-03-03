@@ -1,6 +1,6 @@
 ---
 title: "Configuring the Event Manager"
-slug: "/event-manager-configuring"
+slug: "/event-manager/configuring"
 hidden: false
 createdAt: "2018-07-27T11:38:28.723Z"
 updatedAt: "2021-02-26T13:31:42.027Z"

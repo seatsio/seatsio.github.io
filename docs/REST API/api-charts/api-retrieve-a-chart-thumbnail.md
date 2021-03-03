@@ -1,6 +1,6 @@
 ---
 title: "Retrieve a chart thumbnail"
-slug: "/api-retrieve-a-chart-thumbnail"
+slug: "/api/retrieve-a-chart-thumbnail"
 hidden: false
 createdAt: "2018-08-01T13:28:21.844Z"
 updatedAt: "2019-08-21T11:51:33.873Z"

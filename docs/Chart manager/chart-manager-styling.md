@@ -1,6 +1,6 @@
 ---
 title: "Styling the Chart Manager"
-slug: "/chart-manager-styling"
+slug: "/chart-manager/styling"
 hidden: false
 createdAt: "2020-06-19T08:02:10.316Z"
 updatedAt: "2021-02-26T13:34:32.626Z"

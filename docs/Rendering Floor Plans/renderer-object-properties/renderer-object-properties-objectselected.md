@@ -1,6 +1,6 @@
 ---
 title: "object.selected"
-slug: "/renderer-object-properties-objectselected"
+slug: "/renderer/object-properties-objectselected"
 hidden: false
 createdAt: "2018-08-24T08:07:07.722Z"
 updatedAt: "2019-04-16T00:01:55.963Z"

@@ -1,6 +1,6 @@
 ---
 title: "Create a hold token"
-slug: "/api-create-a-hold-token"
+slug: "/api/create-a-hold-token"
 hidden: false
 createdAt: "2018-08-02T10:12:11.240Z"
 updatedAt: "2020-09-24T15:00:18.121Z"

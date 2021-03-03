@@ -1,6 +1,6 @@
 ---
 title: "tooltipInfo"
-slug: "/renderer-config-tooltipinfo"
+slug: "/renderer/config-tooltipinfo"
 hidden: false
 createdAt: "2018-08-03T09:32:26.720Z"
 updatedAt: "2018-09-03T09:10:21.259Z"

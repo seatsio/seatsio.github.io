@@ -1,6 +1,6 @@
 ---
 title: "onObjectDeselected"
-slug: "/renderer-events-onobjectdeselected"
+slug: "/renderer/events-onobjectdeselected"
 hidden: false
 createdAt: "2018-08-03T13:33:38.708Z"
 updatedAt: "2018-08-23T14:18:50.706Z"

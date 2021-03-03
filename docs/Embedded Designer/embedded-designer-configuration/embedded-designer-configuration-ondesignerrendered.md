@@ -1,6 +1,6 @@
 ---
 title: "onDesignerRendered"
-slug: "/embedded-designer-configuration-ondesignerrendered"
+slug: "/embedded-designer/configuration-ondesignerrendered"
 hidden: false
 createdAt: "2020-02-10T00:59:54.155Z"
 updatedAt: "2020-02-10T00:59:54.155Z"

@@ -1,6 +1,6 @@
 ---
 title: "chartKey"
-slug: "/embedded-designer-configuration-chartkey"
+slug: "/embedded-designer/configuration-chartkey"
 hidden: false
 createdAt: "2018-08-21T13:02:33.491Z"
 updatedAt: "2018-08-21T13:19:34.883Z"

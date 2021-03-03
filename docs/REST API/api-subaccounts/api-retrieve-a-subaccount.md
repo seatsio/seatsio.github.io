@@ -1,6 +1,6 @@
 ---
 title: "Retrieve a subaccount"
-slug: "/api-retrieve-a-subaccount"
+slug: "/api/retrieve-a-subaccount"
 hidden: false
 createdAt: "2018-08-02T10:16:08.374Z"
 updatedAt: "2020-02-28T13:15:18.522Z"

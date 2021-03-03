@@ -1,6 +1,6 @@
 ---
 title: "selectedObjects"
-slug: "/renderer-config-selectedobjects"
+slug: "/renderer/config-selectedobjects"
 hidden: false
 createdAt: "2018-08-03T09:21:56.568Z"
 updatedAt: "2019-04-26T14:42:37.873Z"

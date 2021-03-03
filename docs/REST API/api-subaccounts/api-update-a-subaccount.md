@@ -1,6 +1,6 @@
 ---
 title: "Update a subaccount"
-slug: "/api-update-a-subaccount"
+slug: "/api/update-a-subaccount"
 hidden: false
 createdAt: "2018-08-02T10:16:44.053Z"
 updatedAt: "2020-02-28T13:15:42.049Z"

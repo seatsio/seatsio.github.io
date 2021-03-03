@@ -1,6 +1,6 @@
 ---
 title: "selectBestAvailable"
-slug: "/renderer-config-selectbestavailable"
+slug: "/renderer/config-selectbestavailable"
 hidden: false
 createdAt: "2018-08-03T11:55:23.746Z"
 updatedAt: "2019-12-02T12:57:29.735Z"

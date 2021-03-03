@@ -1,6 +1,6 @@
 ---
 title: "object.forSale"
-slug: "/renderer-object-properties-objectforsale"
+slug: "/renderer/object-properties-objectforsale"
 hidden: false
 createdAt: "2018-08-24T08:00:43.031Z"
 updatedAt: "2019-04-16T00:00:59.338Z"

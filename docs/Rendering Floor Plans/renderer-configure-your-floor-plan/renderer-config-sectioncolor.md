@@ -1,6 +1,6 @@
 ---
 title: "sectionColor"
-slug: "/renderer-config-sectioncolor"
+slug: "/renderer/config-sectioncolor"
 hidden: false
 createdAt: "2018-08-03T11:53:43.140Z"
 updatedAt: "2018-08-23T14:42:34.304Z"

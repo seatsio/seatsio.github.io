@@ -1,6 +1,6 @@
 ---
 title: "holdToken"
-slug: "/renderer-config-holdtoken"
+slug: "/renderer/config-holdtoken"
 hidden: false
 createdAt: "2018-08-03T12:00:46.621Z"
 updatedAt: "2020-08-26T10:24:07.993Z"

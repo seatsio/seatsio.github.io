@@ -1,6 +1,6 @@
 ---
 title: "showRowLabels"
-slug: "/renderer-config-showrowlabels"
+slug: "/renderer/config-showrowlabels"
 hidden: false
 createdAt: "2018-08-03T11:58:18.028Z"
 updatedAt: "2018-10-29T12:42:03.407Z"

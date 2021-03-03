@@ -1,6 +1,6 @@
 ---
 title: "multiSelectEnabled"
-slug: "/renderer-config-multiselectenabled"
+slug: "/renderer/config-multiselectenabled"
 hidden: false
 createdAt: "2018-08-03T12:02:34.048Z"
 updatedAt: "2020-09-21T11:52:22.577Z"

@@ -1,6 +1,6 @@
 ---
 title: "onChartPublished"
-slug: "/embedded-designer-configuration-onchartpublished"
+slug: "/embedded-designer/configuration-onchartpublished"
 hidden: false
 createdAt: "2018-08-21T13:03:35.069Z"
 updatedAt: "2018-08-21T13:53:51.935Z"

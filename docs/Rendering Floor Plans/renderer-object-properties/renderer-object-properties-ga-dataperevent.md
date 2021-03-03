@@ -1,6 +1,6 @@
 ---
 title: "ga.dataPerEvent"
-slug: "/renderer-object-properties-ga-dataperevent"
+slug: "/renderer/object-properties-ga-dataperevent"
 hidden: false
 createdAt: "2019-05-03T11:18:42.927Z"
 updatedAt: "2019-05-03T11:22:10.380Z"

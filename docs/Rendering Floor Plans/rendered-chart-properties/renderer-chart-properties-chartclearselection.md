@@ -1,6 +1,6 @@
 ---
 title: "chart.clearSelection()"
-slug: "/renderer-chart-properties-chartclearselection"
+slug: "/renderer/chart-properties-chartclearselection"
 hidden: false
 createdAt: "2018-08-24T09:30:21.160Z"
 updatedAt: "2019-12-10T12:48:43.766Z"

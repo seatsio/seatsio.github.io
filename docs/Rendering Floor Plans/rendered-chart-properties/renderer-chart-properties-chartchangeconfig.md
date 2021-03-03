@@ -1,6 +1,6 @@
 ---
 title: "chart.changeConfig()"
-slug: "/renderer-chart-properties-chartchangeconfig"
+slug: "/renderer/chart-properties-chartchangeconfig"
 hidden: false
 createdAt: "2018-08-24T09:34:23.174Z"
 updatedAt: "2020-10-20T10:15:09.894Z"

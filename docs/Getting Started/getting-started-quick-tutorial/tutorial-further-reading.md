@@ -1,6 +1,6 @@
 ---
 title: "6. Further reading"
-slug: "/tutorial-further-reading"
+slug: "/tutorial/further-reading"
 hidden: false
 createdAt: "2019-12-02T13:21:40.933Z"
 updatedAt: "2019-12-10T12:43:03.366Z"

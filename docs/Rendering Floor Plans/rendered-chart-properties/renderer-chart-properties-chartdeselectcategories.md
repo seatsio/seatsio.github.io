@@ -1,6 +1,6 @@
 ---
 title: "chart.deselectCategories()"
-slug: "/renderer-chart-properties-chartdeselectcategories"
+slug: "/renderer/chart-properties-chartdeselectcategories"
 hidden: false
 createdAt: "2018-08-24T09:33:31.944Z"
 updatedAt: "2019-11-19T08:53:42.158Z"

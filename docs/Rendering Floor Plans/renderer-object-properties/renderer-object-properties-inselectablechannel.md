@@ -1,6 +1,6 @@
 ---
 title: "object.inSelectableChannel"
-slug: "/renderer-object-properties-inselectablechannel"
+slug: "/renderer/object-properties-inselectablechannel"
 hidden: false
 createdAt: "2020-07-28T12:11:07.837Z"
 updatedAt: "2020-07-28T12:22:43.774Z"

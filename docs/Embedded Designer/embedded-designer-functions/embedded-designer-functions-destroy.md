@@ -1,6 +1,6 @@
 ---
 title: "designer.destroy()"
-slug: "/embedded-designer-functions-destroy"
+slug: "/embedded-designer/functions-destroy"
 hidden: false
 createdAt: "2018-08-21T13:04:10.312Z"
 updatedAt: "2018-08-21T13:56:09.561Z"

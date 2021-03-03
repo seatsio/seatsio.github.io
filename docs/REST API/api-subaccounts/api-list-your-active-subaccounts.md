@@ -1,6 +1,6 @@
 ---
 title: "List your active subaccounts"
-slug: "/api-list-your-active-subaccounts"
+slug: "/api/list-your-active-subaccounts"
 hidden: false
 createdAt: "2018-08-02T10:15:26.988Z"
 updatedAt: "2020-02-28T13:14:57.976Z"

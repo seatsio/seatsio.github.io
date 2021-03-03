@@ -1,6 +1,6 @@
 ---
 title: "Subaccounts"
-slug: "/api-subaccounts"
+slug: "/api/subaccounts"
 hidden: false
 createdAt: "2018-08-02T10:12:51.493Z"
 updatedAt: "2020-02-28T13:13:56.342Z"

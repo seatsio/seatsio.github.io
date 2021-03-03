@@ -1,6 +1,6 @@
 ---
 title: "Objects"
-slug: "/api-objects"
+slug: "/api/objects"
 hidden: false
 createdAt: "2018-07-31T08:44:07.224Z"
 updatedAt: "2019-12-10T12:52:35.458Z"

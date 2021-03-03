@@ -1,6 +1,6 @@
 ---
 title: "Copy a chart"
-slug: "/api-copy-a-chart"
+slug: "/api/copy-a-chart"
 hidden: false
 createdAt: "2018-08-01T13:30:19.941Z"
 updatedAt: "2018-11-15T09:57:39.023Z"

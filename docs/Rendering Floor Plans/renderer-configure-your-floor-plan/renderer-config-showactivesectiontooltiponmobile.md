@@ -1,6 +1,6 @@
 ---
 title: "showActiveSectionTooltipOnMobile"
-slug: "/renderer-config-showactivesectiontooltiponmobile"
+slug: "/renderer/config-showactivesectiontooltiponmobile"
 hidden: false
 createdAt: "2018-08-03T12:03:06.640Z"
 updatedAt: "2018-08-03T13:17:14.363Z"

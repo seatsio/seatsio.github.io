@@ -1,6 +1,6 @@
 ---
 title: "section.sectionCategory"
-slug: "/renderer-object-properties-sectionsectioncategory"
+slug: "/renderer/object-properties-sectionsectioncategory"
 hidden: false
 createdAt: "2018-09-06T08:34:06.763Z"
 updatedAt: "2018-09-06T08:38:43.098Z"

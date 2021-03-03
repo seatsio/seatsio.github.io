@@ -1,6 +1,6 @@
 ---
 title: "Regenerate secret key of workspace"
-slug: "/api-workspaces-regenerate-secret-key"
+slug: "/api/workspaces-regenerate-secret-key"
 hidden: false
 createdAt: "2020-04-26T22:22:47.954Z"
 updatedAt: "2020-04-27T10:28:22.904Z"

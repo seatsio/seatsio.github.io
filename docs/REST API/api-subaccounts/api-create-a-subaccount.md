@@ -1,6 +1,6 @@
 ---
 title: "Create a subaccount"
-slug: "/api-create-a-subaccount"
+slug: "/api/create-a-subaccount"
 hidden: false
 createdAt: "2018-08-02T10:16:26.967Z"
 updatedAt: "2020-02-28T13:15:31.839Z"

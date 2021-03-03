@@ -1,6 +1,6 @@
 ---
 title: "Activate workspace"
-slug: "/api-workspace-activate"
+slug: "/api/workspace-activate"
 hidden: false
 createdAt: "2020-07-03T15:57:22.898Z"
 updatedAt: "2020-07-03T16:03:22.100Z"

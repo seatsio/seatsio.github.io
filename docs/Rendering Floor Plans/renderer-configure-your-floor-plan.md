@@ -1,6 +1,6 @@
 ---
 title: "Configure your floor plan"
-slug: "/renderer-configure-your-floor-plan"
+slug: "/renderer/configure-your-floor-plan"
 hidden: false
 createdAt: "2018-08-03T06:50:18.811Z"
 updatedAt: "2020-08-26T10:16:52.752Z"

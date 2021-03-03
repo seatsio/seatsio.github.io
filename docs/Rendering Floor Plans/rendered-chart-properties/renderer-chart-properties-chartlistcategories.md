@@ -1,6 +1,6 @@
 ---
 title: "chart.listCategories()"
-slug: "/renderer-chart-properties-chartlistcategories"
+slug: "/renderer/chart-properties-chartlistcategories"
 hidden: false
 createdAt: "2018-08-24T09:35:48.476Z"
 updatedAt: "2019-12-10T12:43:03.456Z"

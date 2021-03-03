@@ -1,6 +1,6 @@
 ---
 title: "objectColor"
-slug: "/renderer-config-objectcolor"
+slug: "/renderer/config-objectcolor"
 hidden: false
 createdAt: "2018-08-03T11:50:07.159Z"
 updatedAt: "2018-08-23T14:42:44.611Z"

@@ -1,6 +1,6 @@
 ---
 title: "messages"
-slug: "/renderer-config-messages"
+slug: "/renderer/config-messages"
 hidden: false
 createdAt: "2018-08-03T09:41:23.906Z"
 updatedAt: "2018-08-03T09:51:07.478Z"

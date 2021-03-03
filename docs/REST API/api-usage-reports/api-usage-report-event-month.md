@@ -1,6 +1,6 @@
 ---
 title: "Usage details for event in month"
-slug: "/api-usage-report-event-month"
+slug: "/api/usage-report-event-month"
 hidden: false
 createdAt: "2019-05-28T14:02:20.780Z"
 updatedAt: "2019-06-04T14:17:41.026Z"

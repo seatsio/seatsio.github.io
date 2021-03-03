@@ -1,6 +1,6 @@
 ---
 title: "categories"
-slug: "/renderer-config-categories"
+slug: "/renderer/config-categories"
 hidden: false
 createdAt: "2018-08-28T11:01:58.279Z"
 updatedAt: "2019-12-05T08:46:22.779Z"

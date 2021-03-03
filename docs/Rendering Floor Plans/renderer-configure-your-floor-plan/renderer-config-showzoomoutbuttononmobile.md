@@ -1,6 +1,6 @@
 ---
 title: "showZoomOutButtonOnMobile"
-slug: "/renderer-config-showzoomoutbuttononmobile"
+slug: "/renderer/config-showzoomoutbuttononmobile"
 hidden: false
 createdAt: "2019-01-18T08:29:34.840Z"
 updatedAt: "2019-12-10T12:43:03.408Z"
