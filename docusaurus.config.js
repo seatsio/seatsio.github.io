@@ -17,6 +17,7 @@ module.exports = {
       logo: {
         alt: 'Seats.io developer docs',
         src: 'img/seatsio-black.svg',
+        href: '/docs/'
       },
       items: [
         {
