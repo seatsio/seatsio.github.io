@@ -67,7 +67,8 @@ module.exports = {
   plugins: [
     [
       '@docusaurus/plugin-client-redirects',
-      // This plugin only generates redirects for production builds! So it doesn't work when running docs locally.
+      // This plugin only generates redirects for production builds!
+      // => yarn run build && yarn run serve
       {
         redirects: [
           {
