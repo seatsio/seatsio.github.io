@@ -2,6 +2,8 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 411 - 20/02/2021
+- renderer: `chart.selectObjects()` and `chart.deselectObjects()` now play nice with group selection. E.g. if you pass in `numberOfPlacesToSelect: 5` to the chart, `chart.selectObjects(['A-1'])` will select 5 seats.
 
 ### Version 410 - 12/02/2021
 - renderer: `maxSelectedObjects` now supports a combination of categories/ticket types AND a max total
