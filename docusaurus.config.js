@@ -30,7 +30,7 @@ module.exports = {
           to: 'changelog/',
           activeBasePath: 'changelog',
           label: 'Changelog',
-          position: 'left'
+          position: 'right'
         },
         {
           to: 'https://support.seats.io/en/',
