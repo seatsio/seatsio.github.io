@@ -28,7 +28,7 @@ Use this API call to create multiple events at once for a chart. The maximum num
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/actions/create-multiple
+POST https://api-{region}.seatsio.net/events/actions/create-multiple
 ```
 
 </TabItem>
@@ -133,7 +133,7 @@ The docs for the call to [create a single event](/docs/api/create-an-event) expl
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events/actions/create-multiple \
+curl https://api-{region}.seatsio.net/events/actions/create-multiple \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28", "events": [{}, {}]}'
 ```
 

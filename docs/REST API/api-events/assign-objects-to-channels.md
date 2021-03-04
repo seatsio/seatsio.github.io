@@ -29,7 +29,7 @@ Each object can only be assigned to a single channel.
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/channels/assign-objects
+POST https://api-{region}.seatsio.net/events/{eventKey}/channels/assign-objects
 ```
 
 </TabItem>

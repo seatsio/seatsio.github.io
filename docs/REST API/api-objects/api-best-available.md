@@ -54,11 +54,11 @@ An example. Suppose your chart contains both GA areas and seats in blocks of row
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/change-object-status
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/change-object-status
 
-POST https://api.seatsio.net/events/{eventKey}/actions/book
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/book
 
-POST https://api.seatsio.net/events/{eventKey}/actions/hold
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/hold
 ```
 
 </TabItem>

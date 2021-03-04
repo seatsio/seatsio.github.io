@@ -24,7 +24,7 @@ You can embed the floor plan designer in your backoffice with a piece of javascr
 
 ```html
 <div id="chartDesigner"></div>
-<script src="https://cdn.seatsio.net/chart.js"></script>
+<script src="https://cdn-{region}.seatsio.net/chart.js"></script>
 
 <script>
     new seatsio.SeatingChartDesigner({
@@ -34,6 +34,13 @@ You can embed the floor plan designer in your backoffice with a piece of javascr
     }).render();
 </script>
 ```
+
+The `chart.js` URL depends on the region of your account:
+
+- `https://cdn-eu.seatsio.net/chart.js` (Europe)
+- `https://cdn-na.seatsio.net/chart.js` (North America)
+- `https://cdn-sa.seatsio.net/chart.js` (South America)
+- `https://cdn-oc.seatsio.net/chart.js` (Oceania)
 
 ## Secret Key
 You need to provide the secret key (of your [workspace](/docs/api/workspaces)). Be sure to keep this key a secret: anyone who has access to this key can edit seating charts and can book seats. So please don't push it to code repositories and only use it in pages served over https.

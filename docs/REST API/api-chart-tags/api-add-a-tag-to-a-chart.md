@@ -28,7 +28,7 @@ To add a tag, `POST` an empty body to this endpoint:
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}/tags/{tag}
+POST https://api-{region}.seatsio.net/charts/{chartKey}/tags/{tag}
 ```
 
 </TabItem>
@@ -88,7 +88,7 @@ Keep in mind that your tag needs to be [URI encoded](/docs/api/uri-encoding)!
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/tags/tag1 \
+curl https://api-{region}.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/tags/tag1 \
 -u aSecretKey: -X POST
 ```
 

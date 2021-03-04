@@ -28,9 +28,9 @@ If you need more statuses than just booked and free, you can use this API call t
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/change-object-status
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/change-object-status
 
-POST https://api.seatsio.net/events/{eventKey}/actions/change-object-status?expand=objects
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/change-object-status?expand=objects
 
 ```
 

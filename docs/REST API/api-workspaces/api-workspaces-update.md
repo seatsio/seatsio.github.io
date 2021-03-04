@@ -28,7 +28,7 @@ Creates a workspace. Only the name is required.
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/workspaces/{key}
+POST https://api-{region}.seatsio.net/workspaces/{key}
 ```
 
 </TabItem>
@@ -91,7 +91,7 @@ await client.workspaces.update(key, 'a workspace');
 * **name**: the name of the workspace. Can be any string (including spaces or special characters)
 
 ```shell
-curl -X POST https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5 \
+curl -X POST https://api-{region}.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5 \
 -u anAdminKey: -X POST -H 'Content-Type: application/json' -d '{"name": "a workspace"}'
 ```
 

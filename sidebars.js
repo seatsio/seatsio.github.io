@@ -177,8 +177,8 @@ module.exports = {
         }
     ],
     api: [
+        "REST API/api-overview/api-introduction",
         "REST API/api-overview/api-authentication",
-        "REST API/api-overview/api-https",
         "REST API/api-overview/api-gzip",
         "REST API/api-overview/api-error-handling",
         "REST API/api-overview/api-pagination",

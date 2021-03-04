@@ -35,7 +35,7 @@ Note that the total maximum validity of a hold token is 2 hours. That means that
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/hold-tokens/{token}
+POST https://api-{region}.seatsio.net/hold-tokens/{token}
 ```
 
 </TabItem>
@@ -87,7 +87,7 @@ await client.holdTokens.expiresInMinutes('holdToken', 30);
 
 
 
-To change the expiration date of hold token, send a `POST` to https://api.seatsio.net/hold-tokens/{token}. The request body must be a JSON object containing an expiresInMinutes property:
+To change the expiration date of hold token, send a `POST` to https://api-{region}.seatsio.net/hold-tokens/{token}. The request body must be a JSON object containing an expiresInMinutes property:
 
 ```json
 {
@@ -98,7 +98,7 @@ To change the expiration date of hold token, send a `POST` to https://api.seatsi
 
 
 ```shell
-curl -X POST https://api.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d5fe66 \
+curl -X POST https://api-{region}.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d5fe66 \
 -u aSecretKey: \
 -H "Content-Type: application/json" \
 -d "{'expiresInMinutes': 30}"

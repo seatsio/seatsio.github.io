@@ -34,7 +34,7 @@ To retrieve properties that are shared between the draft and published version, 
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/charts/{chartKey}/version/published
+GET https://api-{region}.seatsio.net/charts/{chartKey}/version/published
 ```
 
 </TabItem>
@@ -90,7 +90,7 @@ let drawing = await client.charts.retrievePublishedVersion('749b9650-24fb-11e7-9
 
 
 ```shell
-curl https://api.seatsio.net/charts/aChartKey/version/published \
+curl https://api-{region}.seatsio.net/charts/aChartKey/version/published \
 -u aSecretKey:
 ```
 
@@ -133,7 +133,7 @@ curl https://api.seatsio.net/charts/aChartKey/version/published \
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/charts/{chartKey}/version/draft
+GET https://api-{region}.seatsio.net/charts/{chartKey}/version/draft
 ```
 
 </TabItem>
@@ -176,7 +176,7 @@ drawing = client.charts.retrieve_draft_version("749b9650-24fb-11e7-93ae-92361f00
 
 
 ```shell
-curl https://api.seatsio.net/charts/aChartKey/version/draft \
+curl https://api-{region}.seatsio.net/charts/aChartKey/version/draft \
 -u aSecretKey:
 ```
 

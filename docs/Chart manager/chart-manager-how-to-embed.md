@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 To show the chart manager to your admins or box office managers, you need to do the following:
 
 1. add an empty div to your page and give it an id (‘chart-manager’ is a good choice)
-2. load https://cdn.seatsio.net/chart.js
+2. load https://cdn-{region}.seatsio.net/chart.js
 3. create a new `seatsio.ChartManager` object, configure it and call its `render()` method
 
 So in short: just copy & paste this code snippet and adapt it to your needs.
@@ -20,7 +20,7 @@ So in short: just copy & paste this code snippet and adapt it to your needs.
 ```html
 <div id="chart-manager"></div>
 
-<script src="https://cdn.seatsio.net/chart.js"></script>
+<script src="https://cdn-{region}.seatsio.net/chart.js"></script>
 <script>
     new seatsio.ChartManager({
         divId: 'chart-manager',
@@ -31,7 +31,12 @@ So in short: just copy & paste this code snippet and adapt it to your needs.
 </script>
 ```
 
+The `chart.js` URL depends on the region of your account:
 
+- `https://cdn-eu.seatsio.net/chart.js` (Europe)
+- `https://cdn-na.seatsio.net/chart.js` (North America)
+- `https://cdn-sa.seatsio.net/chart.js` (South America)
+- `https://cdn-oc.seatsio.net/chart.js` (Oceania)
 
 :::info A special note to React or Angular users
 The easiest way to show the chart manager is to use the official wrapper package: 

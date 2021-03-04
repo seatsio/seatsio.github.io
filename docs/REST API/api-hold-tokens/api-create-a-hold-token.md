@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/hold-tokens
+POST https://api-{region}.seatsio.net/hold-tokens
 ```
 
 </TabItem>
@@ -94,7 +94,7 @@ You can pass in an optional `expiresInMinutes` value if the expiration date is d
 
 
 ```shell
-curl -X POST https://api.seatsio.net/hold-tokens \
+curl -X POST https://api-{region}.seatsio.net/hold-tokens \
 -u aSecretKey: \
 -H "Content-Type: application/json" \
 -d "{'expiresInMinutes': 30}"

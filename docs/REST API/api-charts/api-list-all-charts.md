@@ -28,11 +28,11 @@ Returns a paginated list of charts you’ve previously created in a workspace. T
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/charts
+GET https://api-{region}.seatsio.net/charts
 
-GET https://api.seatsio.net/charts?filter=london
-GET https://api.seatsio.net/charts?tag=WestEnd
-GET https://api.seatsio.net/charts?expand=events
+GET https://api-{region}.seatsio.net/charts?filter=london
+GET https://api-{region}.seatsio.net/charts?tag=WestEnd
+GET https://api-{region}.seatsio.net/charts?expand=events
 
 More info: https://docs.seats.io/docs/api-pagination
 ```
@@ -155,7 +155,7 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 ```shell
-curl https://api.seatsio.net/charts -u aSecretKey: 
+curl https://api-{region}.seatsio.net/charts -u aSecretKey: 
 ```
 
 

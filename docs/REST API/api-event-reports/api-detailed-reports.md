@@ -71,8 +71,8 @@ The possible values for objectType are:
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byStatus
-GET https://api.seatsio.net/reports/events/{eventKey}/byStatus/{status}
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byStatus
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byStatus/{status}
 ```
 
 </TabItem>
@@ -135,7 +135,7 @@ await client.eventReports.byStatus('eventKey', 'booked');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byStatus -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecretKey: 
 ```
 
 
@@ -262,7 +262,7 @@ Selectable objects can be found under the `selectable` key, non-selectable objec
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySelectability
 ```
 
 </TabItem>
@@ -329,7 +329,7 @@ client.events.reports.by_selectability("event34", status="not_selectable")
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u aSecretKey: 
 ```
 
 
@@ -450,9 +450,9 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability -u aSecretKe
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/{categoryLabel}
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/NO_CATEGORY
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryLabel
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryLabel/{categoryLabel}
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryLabel/NO_CATEGORY
 ```
 
 </TabItem>
@@ -523,7 +523,7 @@ await client.eventReports.byCategoryLabel('eventKey', 'NO_CATEGORY');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKey: 
 ```
 
 
@@ -647,9 +647,9 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel -u aSecretKe
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/{categoryKey}
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/NO_CATEGORY
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryKey
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryKey/{categoryKey}
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryKey/NO_CATEGORY
 ```
 
 </TabItem>
@@ -719,7 +719,7 @@ await client.eventReports.byCategoryKey('eventKey', 'NO_CATEGORY');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey: 
 ```
 
 
@@ -843,8 +843,8 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey -u aSecretKey:
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byLabel
-GET https://api.seatsio.net/reports/events/{eventKey}/byLabel/{label}
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byLabel
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byLabel/{label}
 ```
 
 </TabItem>
@@ -907,7 +907,7 @@ await client.eventReports.byLabel('eventKey', 'A-1');
 Multiple objects could have the same label, that's why they're returned as an array.
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretKey: 
 ```
 
 
@@ -1032,9 +1032,9 @@ curl https://api.seatsio.net/reports/events/event34/byLabel -u aSecretKey:
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byOrderId
-GET https://api.seatsio.net/reports/events/{eventKey}/byOrderId/{orderId}
-GET https://api.seatsio.net/reports/events/{eventKey}/byOrderId/NO_ORDER_ID
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byOrderId
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byOrderId/{orderId}
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byOrderId/NO_ORDER_ID
 ```
 
 </TabItem>
@@ -1101,7 +1101,7 @@ let report = await client.eventReports.byOrderId('eventKey', 'NO_ORDER_ID');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecretKey: 
 ```
 
 
@@ -1227,9 +1227,9 @@ curl https://api.seatsio.net/reports/events/event34/byOrderId -u aSecretKey:
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/bySection
-GET https://api.seatsio.net/reports/events/{eventKey}/bySection/{section}
-GET https://api.seatsio.net/reports/events/{eventKey}/bySection/NO_SECTION
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySection
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySection/{section}
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySection/NO_SECTION
 
 ```
 
@@ -1298,7 +1298,7 @@ await client.eventReports.bySection('eventKey', 'NO_SECTION');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/bySection -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecretKey: 
 ```
 
 
@@ -1409,15 +1409,15 @@ curl https://api.seatsio.net/reports/events/event34/bySection -u aSecretKey:
 
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byChannel
-GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/{channel}
-GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/NO_CHANNEL
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byChannel
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byChannel/{channel}
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byChannel/NO_CHANNEL
 ```
 
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byChannel -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecretKey: 
 ```
 
 

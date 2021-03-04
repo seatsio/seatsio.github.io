@@ -33,7 +33,7 @@ Returns a paginated list of inactive subaccounts.
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/subaccounts/inactive
+GET https://api-{region}.seatsio.net/subaccounts/inactive
 
 More info: https://docs.seats.io/docs/api-pagination
 
@@ -155,7 +155,7 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 
 
 ```shell
-curl https://api.seatsio.net/subaccounts/inactive?limit=100&start_after_id=34 \
+curl https://api-{region}.seatsio.net/subaccounts/inactive?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```
 

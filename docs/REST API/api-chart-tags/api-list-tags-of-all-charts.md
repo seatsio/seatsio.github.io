@@ -28,7 +28,7 @@ List all tags of all active (i.e. non-archived) charts.
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/charts/tags
+GET https://api-{region}.seatsio.net/charts/tags
 ```
 
 </TabItem>
@@ -81,7 +81,7 @@ await client.charts.listAllTags();
 
 
 ```shell
-curl https://api.seatsio.net/charts/tags -u aSecretKey: 
+curl https://api-{region}.seatsio.net/charts/tags -u aSecretKey: 
 ```
 
 

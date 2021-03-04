@@ -30,11 +30,11 @@ Status changes are returned paginated, with the most recent ones first. Response
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/events/{eventKey}/status-changes
+GET https://api-{region}.seatsio.net/events/{eventKey}/status-changes
 
-GET https://api.seatsio.net/events/{eventKey}/status-changes?filter=A-1
+GET https://api-{region}.seatsio.net/events/{eventKey}/status-changes?filter=A-1
 
-GET https://api.seatsio.net/events/{eventKey}/status-changes?sort=objectLabel:desc
+GET https://api-{region}.seatsio.net/events/{eventKey}/status-changes?sort=objectLabel:desc
 
 More info: https://docs.seats.io/docs/api-pagination
 
@@ -165,7 +165,7 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events/anEvent/status-changes?limit=100&start_after_id=34 \
+curl https://api-{region}.seatsio.net/events/anEvent/status-changes?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```
 

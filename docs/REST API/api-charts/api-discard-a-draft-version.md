@@ -28,7 +28,7 @@ If you're not happy with a draft version, you can choose to discard it. Discardi
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}/version/draft/actions/discard
+POST https://api-{region}.seatsio.net/charts/{chartKey}/version/draft/actions/discard
 ```
 
 </TabItem>
@@ -82,7 +82,7 @@ await client.charts.discardDraftVersion('chartKey');
 
 
 ```shell
-curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/discard \
+curl -X POST https://api-{region}.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/discard \
 -u aSecretKey:
 ```
 

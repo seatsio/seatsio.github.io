@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/workspace/{key}
+GET https://api-{region}.seatsio.net/workspace/{key}
 ```
 
 </TabItem>
@@ -82,7 +82,7 @@ await client.workspaces.retrieve(key);
 
 
 ```shell
-curl https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5 \
+curl https://api-{region}.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5 \
 -u anAdminKey:
 ```
 

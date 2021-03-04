@@ -59,7 +59,7 @@ This API call marks the passed in objects and categories as not for sale, while 
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/mark-as-not-for-sale
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/mark-as-not-for-sale
 ```
 
 </TabItem>
@@ -156,7 +156,7 @@ To mark all seats in row A as not for sale:
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events/event34/actions/mark-as-not-for-sale \
+curl https://api-{region}.seatsio.net/events/event34/actions/mark-as-not-for-sale \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"objects": {"section1"}}'
 ```
 
@@ -191,7 +191,7 @@ This API call marks the passed in objects and categories as for sale, while mark
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/mark-as-for-sale
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/mark-as-for-sale
 ```
 
 </TabItem>
@@ -290,7 +290,7 @@ To mark all seats in row A for sale:
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events/event34/actions/mark-as-for-sale \
+curl https://api-{region}.seatsio.net/events/event34/actions/mark-as-for-sale \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"objects": {"section1"}}'
 ```
 
@@ -325,7 +325,7 @@ This API call marks all objects as for sale, which means resetting the list of o
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/mark-everything-as-for-sale
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/mark-everything-as-for-sale
 ```
 
 </TabItem>
@@ -378,7 +378,7 @@ await client.events.markEverythingAsForSale('eventKey');
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events/event34/actions/mark-everything-as-for-sale \
+curl https://api-{region}.seatsio.net/events/event34/actions/mark-everything-as-for-sale \
 -u aSecretKey: -X POST
 ```
 

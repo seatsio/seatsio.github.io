@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/events/{eventKey}/objects/{objectLabel}
+GET https://api-{region}.seatsio.net/events/{eventKey}/objects/{objectLabel}
 ```
 
 </TabItem>
@@ -90,7 +90,7 @@ Keep in mind that certain characters need to be [URI encoded](/docs/api/uri-enco
 
 
 ```shell
-curl https://api.seatsio.net/events/event34/objects/A-1 -u aSecretKey: 
+curl https://api-{region}.seatsio.net/events/event34/objects/A-1 -u aSecretKey: 
 ```
 
 

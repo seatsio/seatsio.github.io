@@ -33,7 +33,7 @@ Subaccounts are deprecated. Please use [workspaces](/docs/api/workspaces) instea
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/subaccounts/{id}
+POST https://api-{region}.seatsio.net/subaccounts/{id}
 ```
 
 </TabItem>
@@ -96,7 +96,7 @@ client.subaccounts.update id: 169, name: "a new subaccount name", email: "joe@te
 * **email**: the new name of the subaccount. Optional. If you pass in a new e-mail address (which is different from the existing one), seats.io sends a mail to that address. That mail contains a link to a page which allows the user to choose a password to log in to the [dashboard](https://app.seats.io).
 
 ```shell
-curl -X POST https://api.seatsio.net/subaccounts/34 \
+curl -X POST https://api-{region}.seatsio.net/subaccounts/34 \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "a new subaccount name", "email": "joe@test.com"}'
 ```
 

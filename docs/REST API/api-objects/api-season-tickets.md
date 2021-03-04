@@ -36,10 +36,10 @@ calling this API will be considered as a "booking" for each event in the season 
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/seasons/actions/change-object-status
-POST https://api.seatsio.net/seasons/actions/book
-POST https://api.seatsio.net/seasons/actions/release
-POST https://api.seatsio.net/seasons/actions/hold
+POST https://api-{region}.seatsio.net/seasons/actions/change-object-status
+POST https://api-{region}.seatsio.net/seasons/actions/book
+POST https://api-{region}.seatsio.net/seasons/actions/release
+POST https://api-{region}.seatsio.net/seasons/actions/hold
 ```
 
 </TabItem>

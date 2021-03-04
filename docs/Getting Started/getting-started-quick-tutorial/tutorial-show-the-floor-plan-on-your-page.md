@@ -14,14 +14,20 @@ You have created a seating chart, and you've created an event for it. Great, you
 To do this, you need to: 
 
 1. add an empty div to your page and give it an id. `chart` is an excellent choice.
-2. load [https://cdn.seatsio.net/chart.js](https://cdn.seatsio.net/chart.js)
+2. load `chart.js` from our CDN. The URL depends on the region of your account:
+   
+   - `https://cdn-eu.seatsio.net/chart.js` (Europe) 
+   - `https://cdn-na.seatsio.net/chart.js` (North America) 
+   - `https://cdn-sa.seatsio.net/chart.js` (South America) 
+   - `https://cdn-oc.seatsio.net/chart.js` (Oceania)
+   
 3. create a new `seatsio.SeatingChart` object, configure it and call its `render()` method
 
 So in short: just copy & paste this code snippet and adapt it to your needs:
 
 ```html
 <div id="chart"></div>
-<script src="https://cdn.seatsio.net/chart.js"></script>
+<script src="https://cdn-{region}.seatsio.net/chart.js"></script>
 <script>
     new seatsio.SeatingChart({
         divId: 'chart',

@@ -33,7 +33,7 @@ Subaccounts are deprecated. Please use [workspaces](/docs/api/workspaces) instea
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/subaccounts/{id}
+GET https://api-{region}.seatsio.net/subaccounts/{id}
 ```
 
 </TabItem>
@@ -87,7 +87,7 @@ await client.subaccounts.retrieve('subaccountId');
 
 
 ```shell
-curl https://api.seatsio.net/subaccounts/169 \
+curl https://api-{region}.seatsio.net/subaccounts/169 \
 -u aSecretKey:
 ```
 

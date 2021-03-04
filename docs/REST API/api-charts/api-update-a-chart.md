@@ -28,7 +28,7 @@ The name and categories of a chart can be updated by posting to /charts/{chart k
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}
+POST https://api-{region}.seatsio.net/charts/{chartKey}
 ```
 
 </TabItem>
@@ -175,7 +175,7 @@ then category 1 will be deleted, the label for category 2 will be set to "My cat
 
 
 ```shell
-curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28 \
+curl https://api-{region}.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28 \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "New name for my chart"}'
 ```
 

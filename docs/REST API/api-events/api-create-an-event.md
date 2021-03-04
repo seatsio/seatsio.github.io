@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events
+POST https://api-{region}.seatsio.net/events
 ```
 
 </TabItem>
@@ -160,7 +160,7 @@ If both `bookWholeTables` and `tableBookingModes` are omitted, the table booking
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events \
+curl https://api-{region}.seatsio.net/events \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28"}'
 ```
 

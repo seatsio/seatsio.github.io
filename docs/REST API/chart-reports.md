@@ -39,10 +39,10 @@ The following report types are available: `byLabel`, `byCategoryKey` and `byCate
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=chart
-GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel
-GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=true
-GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=false
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=chart
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byLabel
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=true
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=false
 ```
 
 </TabItem>
@@ -114,7 +114,7 @@ await client.chartReports.byLabel('chartKey', 'false');
 Multiple objects could have the same label, that's why they're returned as an array.
 
 ```shell
-curl https://api.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f1cb479421/byLabel -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f1cb479421/byLabel -u aSecretKey: 
 ```
 
 
@@ -190,7 +190,7 @@ If your floor plan contains tables, those are returned as separate objects. You 
 
 
 ```shell
-GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=chart
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=chart
 ```
 
 * with `bookWholeTables=chart`, the report respects the table booking settings defined on the chart. If a table is bookable as a whole, the report contains the table (and not the seats). If a table is not bookable as a whole, the report contains the seats (and not the table).
@@ -221,10 +221,10 @@ GET https://api.seatsio.net/reports/charts/{chartKey}/byLabel?bookWholeTables=ch
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=chart
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryKey
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=true
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=false
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=chart
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryKey
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=true
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryKey?bookWholeTables=false
 ```
 
 </TabItem>
@@ -383,10 +383,10 @@ The response is a JSON object where all the keys are category keys, and the valu
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=chart
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryLabel
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=true
-GET https://api.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=false
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=chart
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryLabel
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=true
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byCategoryLabel?bookWholeTables=false
 ```
 
 </TabItem>

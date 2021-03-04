@@ -29,9 +29,9 @@ Changes the object status to ‘booked’. Booked objects are not selectable on 
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/book
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/book
 
-POST https://api.seatsio.net/events/{eventKey}/actions/book?expand=objects
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/book?expand=objects
 ```
 
 </TabItem>
