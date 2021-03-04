@@ -42,6 +42,7 @@ module.exports = {
                 "Rendering Floor Plans/renderer-configure-your-floor-plan/renderer-config-showrowlines",
                 "Rendering Floor Plans/renderer-configure-your-floor-plan/renderer-config-showrowlabels", // TODO DEPRECATED
                 "Rendering Floor Plans/renderer-configure-your-floor-plan/renderer-config-alwaysshowsectioncontents",
+                "Rendering Floor Plans/renderer-configure-your-floor-plan/renderer-config-showsectioncontents",
                 "Rendering Floor Plans/renderer-configure-your-floor-plan/renderer-config-session",
                 "Rendering Floor Plans/renderer-configure-your-floor-plan/renderer-config-holdtoken",
                 "Rendering Floor Plans/renderer-configure-your-floor-plan/renderer-config-holdtokeninputname",
