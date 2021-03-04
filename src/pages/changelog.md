@@ -2,6 +2,11 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 412 - 04/03/2021
+- renderer: new parameter `showSectionContents`. Can be set to `auto`, `always` and `onlyAfterZoom`
+- designer: tweaked reference chart calibration wizard
+- webapp: bug fix: on Windows, some dropdowns (e.g. the one to select a social distancing ruleset) contained invisible text.
+
 ### Version 411 - 20/02/2021
 - renderer: `chart.selectObjects()` and `chart.deselectObjects()` now play nice with group selection. E.g. if you pass in `numberOfPlacesToSelect: 5` to the chart, `chart.selectObjects(['A-1'])` will select 5 seats.
 
