@@ -95,7 +95,7 @@ curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671
 
 
 
-```json
+```javascript
 {
     "name":"chart2 (copy)",
     "id":"19",

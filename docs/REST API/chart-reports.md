@@ -119,7 +119,7 @@ curl https://api.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f1cb479421
 
 
 
-```json
+```javascript
 {
     "C-11": [
         {
@@ -295,7 +295,7 @@ await client.chartReports.byCategoryKey('chartKey', 'false');
 
 The response is a JSON object where all the keys are category keys, and the values an array of objects that represent the seats belonging to that category. 
 
-```json
+```javascript
 {
   "8": [
     {
@@ -458,7 +458,7 @@ await client.chartReports.byCategoryLabel('chartKey', 'false');
 The response has the same structure as the `byCategoryKey` endpoint, but JSON object's keys are category labels in this case: 
 
 
-```json
+```javascript
 {
   "Golden Circle": [
     {

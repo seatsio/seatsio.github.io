@@ -85,7 +85,7 @@ client.subaccounts.update id: 169, name: "a new subaccount name", email: "joe@te
 
 
 
-```json
+```javascript
 {
     "name": "a new subaccount name",
     "email": "joe@test.com"

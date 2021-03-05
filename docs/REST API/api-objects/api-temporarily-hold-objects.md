@@ -143,7 +143,7 @@ await client.events.hold('eventKey', [object1, object2], holdToken.holdToken);
 
 
 
-```json
+```javascript
 // No ticket types
 {
     "objects": ["A-3", "A-5"],
@@ -196,7 +196,7 @@ Holding also works for season tickets. Just pass in an array of events instead o
 
 
 
-```json
+```javascript
 {
   "A-3": {
     "label": "A-3",

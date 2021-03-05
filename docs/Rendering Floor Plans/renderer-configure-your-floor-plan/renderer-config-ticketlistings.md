@@ -15,7 +15,7 @@ If you pass in `ticketListings`, the sections that have tickets available become
 
 This parameter requires you to pass in a chart key instead of an event key.
 
-```json
+```javascript
 chart: '6451436c-24fb-11e7-93ae-92361f002671',
 ticketListings: [
   {section: '108', quantity: 4, price: 25},

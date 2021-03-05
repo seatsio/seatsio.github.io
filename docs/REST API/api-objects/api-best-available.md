@@ -159,7 +159,7 @@ await client.events.holdBestAvailable('eventKey', 10, holdToken, ['balcony', 'st
 
 
 
-```json
+```javascript
 {
     "bestAvailable": {
         number: 2,
@@ -172,7 +172,7 @@ await client.events.holdBestAvailable('eventKey', 10, holdToken, ['balcony', 'st
 
 
 
-```json
+```javascript
 // Temporarily holding best available seats
 {
     "bestAvailable": {
@@ -184,7 +184,7 @@ await client.events.holdBestAvailable('eventKey', 10, holdToken, ['balcony', 'st
 
 
 
-```json
+```javascript
 // Finding best available objects within channel
 {
     "bestAvailable": {
@@ -209,7 +209,7 @@ Should not be used in combination with `channelKeys`.
 200 OK: if everything went ok and the best available seats were booked/held/changed status. 
 400 Bad Request: if there were not enough available seats, if there was no focal point specified on the seating chart, or for other reasons. Check the response body for details. 
 
-```json
+```javascript
 {
     "objects": ["A-1", "A-2"],
   	"objectDetails": {

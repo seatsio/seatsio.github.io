@@ -89,7 +89,7 @@ await client.holdTokens.expiresInMinutes('holdToken', 30);
 
 To change the expiration date of hold token, send a `POST` to https://api.seatsio.net/hold-tokens/{token}. The request body must be a JSON object containing an expiresInMinutes property:
 
-```json
+```javascript
 {
   expiresInMinutes: 30
 }
@@ -106,7 +106,7 @@ curl -X POST https://api.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d
 
 
 
-```json
+```javascript
  {    
      "holdToken": "a6ec0bc0-4c43-11e7-b114-b2f933d5fe66",
      "expiresAt": "2017-05-05T10:58:44.715Z",

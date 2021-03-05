@@ -171,7 +171,7 @@ curl https://api.seatsio.net/events/anEvent/status-changes?limit=100&start_after
 
 
 
-```json
+```javascript
 {
     "next_page_starts_after": 122,
     "items": [

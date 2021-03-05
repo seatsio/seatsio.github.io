@@ -210,7 +210,7 @@ client.charts.saveSocialDistancingRulesets(chart.key, { ruleset1: ruleset1, rule
 
 Returns 204 - No Content 
 
-```json
+```javascript
 {
   "socialDistancingRulesets": {
     "ruleset1": {

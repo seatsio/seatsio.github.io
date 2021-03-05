@@ -160,7 +160,7 @@ curl https://api.seatsio.net/charts -u aSecretKey:
 
 
 
-```json
+```javascript
  {
     "next_page_starts_after": 12,
     "items":[
@@ -309,7 +309,7 @@ await client.charts.listFirstPage(params);
 
 
 
-```json
+```javascript
 {
     "items":[
         {

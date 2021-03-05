@@ -155,7 +155,7 @@ curl https://api.seatsio.net/workspaces?limit=100&start_after_id=34 \
 
 The response will be a paginated JSON object that contains all workspaces for the authenticated company:
 
-```json
+```javascript
 {
     "next_page_starts_after": 122,
     "items": [

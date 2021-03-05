@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 **Type**: object  
 The status for a GA area, per event. Useful when you pass in multiple events when rendering a chart.
 
-```json
+```javascript
 {
   dataPerEvent: {
     eventKey1: {
