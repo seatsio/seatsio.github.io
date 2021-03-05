@@ -95,7 +95,7 @@ Keep in mind that certain characters need to be [URI encoded](/docs/api/uri-enco
 
 
 
-```json
+```javascript
 {
     "extraData": {
         "name": "John Doe"

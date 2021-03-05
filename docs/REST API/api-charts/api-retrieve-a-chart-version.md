@@ -96,7 +96,7 @@ curl https://api.seatsio.net/charts/aChartKey/version/published \
 
 
 
-```json
+```javascript
 {
     "name": "A demo chart",
     "categories": {
@@ -182,7 +182,7 @@ curl https://api.seatsio.net/charts/aChartKey/version/draft \
 
 
 
-```json
+```javascript
 {
     "name": "A draft chart",
     "categories": {

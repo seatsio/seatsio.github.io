@@ -82,7 +82,7 @@ await client.workspaces.create('a workspace');
 
 
 
-```json
+```javascript
 {
     "name": "a workspace",
     "isTest": false
@@ -99,7 +99,7 @@ curl -X POST https://api.seatsio.net/workspaces \
 
 
 
-```json
+```javascript
 {
     "id": 169,
     "name": "a workspace",

@@ -151,7 +151,7 @@ await client.events.update('eventKey', null, null, null, '');
 
 
 
-```json
+```javascript
 {
     "chartKey": "newChartKey",
     "eventKey": "newEventKey",
@@ -183,7 +183,7 @@ curl https://api.seatsio.net/events/event34 \
 
 **Response**
 
-```json
+```javascript
 {
     "id": 168,
     "key": "newEventKey",

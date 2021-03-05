@@ -13,7 +13,7 @@ Sometimes it's necessary to pass in some custom data when changing the object st
 
 `/change-object-status`, `/book`, `/release` and `/hold` take an optional extraData object for each object ID in the request. `extraData` must be a JSON object with key value pairs, not a JSON primitive.
 
-```json
+```javascript
 // /book, /release, /hold or /change-object-status
 {
     'objects': [
@@ -111,7 +111,7 @@ await client.events.book('eventKey', objects);
 
 - API: added `keepExtraData` flag to calls that change the object status. If set to `true`, the existing extra data doesn't get cleared
 
-```json
+```javascript
 // /book, /release, /hold or /change-object-status
 {
     'objects': [

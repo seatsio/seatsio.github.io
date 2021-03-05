@@ -97,7 +97,7 @@ await client.charts.create('my chart', 'MIXED', [cat1, cat2]);
 
 
 
-```json
+```javascript
 {
     "name": "my chart",
     "venueType": "TABLES",
@@ -122,7 +122,7 @@ curl https://api.seatsio.net/charts \
 
 
 
-```json
+```javascript
 {
     "name":"chart2",
     "id":"19",

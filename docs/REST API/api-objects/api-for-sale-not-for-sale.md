@@ -111,7 +111,7 @@ await client.events.markAsNotForSale('eventKey', ['section1', 'section2'], ['cat
 
 **Request**
 
-```json
+```javascript
 {
     "objects": ["section1", "section2"],
     "categories": ["category1", "category2"]
@@ -127,7 +127,7 @@ Only objects that satisfy 'objects' or 'categories' will become unselectable. Al
 
 To mark all objects that are either inside 'section1' or that have 'category1' as not for sale:
 
-```json
+```javascript
 {
     "objects": ["section1"],
     "categories": ["category1"]
@@ -137,7 +137,7 @@ To mark all objects that are either inside 'section1' or that have 'category1' a
 
 To mark seat A-1 and A-2 as not for sale:
 
-```json
+```javascript
 {
     "objects": ["A-1", "A-2"]
 }
@@ -146,7 +146,7 @@ To mark seat A-1 and A-2 as not for sale:
 
 To mark all seats in row A as not for sale:
 
-```json
+```javascript
 {
     "objects": ["A"]
 }
@@ -244,7 +244,7 @@ await client.events.markAsForSale('eventKey', ['section1', 'section2'], ['catego
 
 **Request**
 
-```json
+```javascript
 {
     "objects": ["section1", "section2"],
     "categories": ["category1", "category2"]
@@ -262,7 +262,7 @@ Note that even though object is marked for sale, it's still not selectable if it
 
 To mark all objects for sale that are either inside 'section1' or that have 'category1':
 
-```json
+```javascript
 {
     "objects": ["section1"],
     "categories": ["category1"]
@@ -272,7 +272,7 @@ To mark all objects for sale that are either inside 'section1' or that have 'cat
 
 To mark seat A-1 and A-2 for sale:
 
-```json
+```javascript
 {
     "objects": ["A-1", "A-2"]
 }
@@ -280,7 +280,7 @@ To mark seat A-1 and A-2 for sale:
 
 To mark all seats in row A for sale:
 
-```json
+```javascript
 {
     "objects": ["A"]
 }

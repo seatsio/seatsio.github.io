@@ -99,7 +99,7 @@ await client.events.changeObjectStatus('eventKey', {'objectId' : 'GeneralAdmissi
 
 
 
-```json
+```javascript
 {
     'objects': ['GA1', 'GA1', 'GA1', 'GA1', 'GA1'],
     'status': 'myCustomStatus'
@@ -112,7 +112,7 @@ await client.events.changeObjectStatus('eventKey', {'objectId' : 'GeneralAdmissi
 
 
 
-```json
+```javascript
 {
     'objects': [{'objectId': 'GA1', 'quantity': 5}],
     'status': 'myCustomStatus'

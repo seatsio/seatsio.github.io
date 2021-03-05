@@ -161,7 +161,7 @@ curl https://api.seatsio.net/subaccounts/active?limit=100&start_after_id=34 \
 
 
 
-```json
+```javascript
 {
     "next_page_starts_after": 122,
     "items": [

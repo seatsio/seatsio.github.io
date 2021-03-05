@@ -94,7 +94,7 @@ curl https://api.seatsio.net/reports/events/event34/byStatus/summary -u aSecretK
 
 **Example response**
 
-```json
+```javascript
 
 {
     "booked": {
@@ -226,7 +226,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u a
 
 
 
-```json
+```javascript
 
 {
     "selectable": {
@@ -354,7 +354,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u a
 
 
 
-```json
+```javascript
 {
     "premium": {
         "count": 34,
@@ -482,7 +482,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSe
 
 
 
-```json
+```javascript
 {
     "1": {
         "count": 34,
@@ -609,7 +609,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecret
 
 
 
-```json
+```javascript
 {
     "Floor": {
         "count": 34,
@@ -744,7 +744,7 @@ curl https://api.seatsio.net/reports/events/event34/byChannel/summary -u aSecret
 
 
 
-```json
+```javascript
 {
     "channel1": {
         "count": 34,

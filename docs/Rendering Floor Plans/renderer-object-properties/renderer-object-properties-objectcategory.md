@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 **Type**: object  
 
-```json
+```javascript
 {
   'accessible': false,
   'color': '#E9B64D',

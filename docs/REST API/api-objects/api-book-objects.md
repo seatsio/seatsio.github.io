@@ -140,7 +140,7 @@ All seats (or tables, booths or GA places) passed in to this API will be conside
 
 
 
-```json
+```javascript
 // Minimal request
 {
     'objects': ['A-3', 'A-5']
@@ -179,7 +179,7 @@ Should not be used in combination with `channelKeys`.
 *** With expand=objects ***
 200 - ok
 
-```json
+```javascript
 {
   "A-3": {
     "label": "Section A-A-3",

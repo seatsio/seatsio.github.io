@@ -14,7 +14,7 @@ The status and extra data for an object, per event. Useful when you pass in mult
 
 For GA areas, have a look at [this page](/docs/renderer/object-properties-ga-dataperevent).
 
-```json
+```javascript
 {
   dataPerEvent: {
     eventKey1: {
