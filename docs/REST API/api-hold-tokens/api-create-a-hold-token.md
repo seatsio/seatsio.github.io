@@ -85,7 +85,7 @@ await client.holdTokens.create(5); // sets expiration date to 5 minutes in the f
 
 You can pass in an optional `expiresInMinutes` value if the expiration date is different from the default value set for you account:
 
-```json
+```javascript
 {
   "expiresInMinutes": 30
 }
@@ -102,7 +102,7 @@ curl -X POST https://api-{region}.seatsio.net/hold-tokens \
 
 
 
-```json
+```javascript
 {    
     "holdToken": "71f0fc20-3c3b-4f9f-a38b-ed350ba564e7",
     "expiresAt": "2017-05-05T10:58:44.715Z",

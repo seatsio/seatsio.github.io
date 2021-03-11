@@ -86,7 +86,7 @@ curl https://api-{region}.seatsio.net/charts/tags -u aSecretKey:
 
 
 
-```json
+```javascript
 {
     "tags": ["tag1", "tag2", "tag3"]
 }

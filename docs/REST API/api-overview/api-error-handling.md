@@ -22,7 +22,7 @@ Have a look at the response body to see what went wrong exactly (except in case 
 
 Here is an example of the response body of a failed request. The request in this example failed because the event, specified in the request, does not exist. 
 
-```json
+```javascript
 {
   "status": 404,
   "messages": [ "Event not found: event-key-123" ],

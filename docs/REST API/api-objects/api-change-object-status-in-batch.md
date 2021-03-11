@@ -165,7 +165,7 @@ This API call only supports events that belong to the same workspace. It's not p
 
 
 
-```json
+```javascript
 // Booking seats
 {
   statusChanges: [
@@ -210,7 +210,7 @@ Should not be used in combination with `channelKeys`.
 
 * **results**: JSON array that contains detailed information about the objects. results[0] corresponds to the first status change request you passed in, results[1] to the second one etc.
 
-```json
+```javascript
 {
   results: [
     {

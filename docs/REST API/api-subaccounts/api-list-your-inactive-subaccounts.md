@@ -161,7 +161,7 @@ curl https://api-{region}.seatsio.net/subaccounts/inactive?limit=100&start_after
 
 
 
-```json
+```javascript
 {
     "next_page_starts_after": 122,
     "items": [

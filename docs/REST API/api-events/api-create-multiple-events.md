@@ -110,7 +110,7 @@ Creating multiple events is currently not supported in the JS client
 
 **Request**
 
-```json
+```javascript
 {
     "chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28",
     "events": [
@@ -139,7 +139,7 @@ curl https://api-{region}.seatsio.net/events/actions/create-multiple \
 
 
 
-```json
+```javascript
 {
   "events": [
     {

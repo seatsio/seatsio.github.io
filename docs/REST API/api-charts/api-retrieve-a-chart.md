@@ -112,7 +112,7 @@ curl https://api-{region}.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f00267
 
 The response is a JSON object that represents the chart:
 
-```json
+```javascript
 {
     "name":"chart2",
     "id":"19",
@@ -137,7 +137,7 @@ The response is a JSON object that represents the chart:
 
 And with `expand=events`, it includes the events:
 
-```json
+```javascript
 {
     "name":"chart2",
     "id":"19",

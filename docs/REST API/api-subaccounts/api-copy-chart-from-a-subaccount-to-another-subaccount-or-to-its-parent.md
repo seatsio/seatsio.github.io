@@ -111,7 +111,7 @@ curl -X POST https://api-{region}.seatsio.net/subaccounts/312/charts/749b9650-24
 
 
 
-```json
+```javascript
 {
     "name":"chart2",
     "id":"19",

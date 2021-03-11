@@ -9,7 +9,6 @@ updatedAt: "2020-12-10T20:49:00.218Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-### objectIcon
 **Type**: function(object, defaultIcon, extraConfig)  
 
 By default, no icon is shown on rendered floor plans, except for: 

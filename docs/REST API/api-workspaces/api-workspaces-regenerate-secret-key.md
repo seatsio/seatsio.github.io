@@ -89,7 +89,7 @@ curl -X POST https://api-{region}.seatsio.net/workspaces/18725661-36d6-4755-905a
 
 **Response**
 
-```json
+```javascript
 {
   secretKey: "79425661-36d6-4755-905a-28ce82d0c8c1"
 }

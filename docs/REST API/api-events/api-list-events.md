@@ -154,7 +154,7 @@ curl https://api-{region}.seatsio.net/events \
 
 
 
-```json
+```javascript
 {
     "next_page_starts_after": 122,
     "items": [

@@ -92,7 +92,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/de
 
 **Example response**
 
-```json
+```javascript
 
 {
   "booked": {
@@ -250,7 +250,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/sum
 
 
 
-```json
+```javascript
 {
   "selectable": {
     "count": 15,
@@ -408,7 +408,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel/sum
 
 
 
-```json
+```javascript
 {
   "count": 2,
   "cat1": {
@@ -543,7 +543,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summa
 
 
 
-```json
+```javascript
 {
   "count": 2,
   "1": {
@@ -678,7 +678,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary/d
 
 
 
-```json
+```javascript
 {
   "section1": {
     "count": 2,
@@ -813,7 +813,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/d
 
 
 
-```json
+```javascript
 {
   "channel1": {
     "count": 2,

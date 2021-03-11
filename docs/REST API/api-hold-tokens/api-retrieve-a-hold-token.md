@@ -86,7 +86,7 @@ curl https://api-{region}.seatsio.net/hold-tokens/18725661-36d6-4755-905a-28ce82
 
 
 
-```json
+```javascript
 {
     "holdToken": "18725661-36d6-4755-905a-28ce82d0c2d5",
     "expiresAt": "2017-05-05T10:58:44.715Z",

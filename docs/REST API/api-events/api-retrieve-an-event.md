@@ -86,7 +86,7 @@ curl https://api-{region}.seatsio.net/events/anEvent -u aSecretKey:
 
 
 
-```json
+```javascript
 {
     "id": 168,
     "key": "anotherEvent",

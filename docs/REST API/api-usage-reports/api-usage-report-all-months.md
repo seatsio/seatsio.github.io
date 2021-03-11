@@ -15,7 +15,7 @@ Report with number of used seats, aggregated per month.
 GET /reports/usage
 ```
 
-```json
+```javascript
 [
   {
     month: { month: 10, year: 2018 },

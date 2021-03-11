@@ -92,7 +92,7 @@ await client.events.release('eventKey', ['A-3', 'A-5']);
 
 
 
-```json
+```javascript
 {
     'objects': ['A-3', 'A-5']
 }
@@ -114,7 +114,7 @@ Should not be used in combination with `channelKeys`.
 
 
 
-```json
+```javascript
 {
   "objects": {
     "A-3": {

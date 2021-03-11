@@ -148,7 +148,7 @@ curl https://api-{region}.seatsio.net/charts/archive -u aSecretKey:
 
 
 
-```json
+```javascript
  {
     "next_page_starts_after": 12,
     "items":[

@@ -137,7 +137,7 @@ All seats (or tables, booths or GA places) passed in to this API will be conside
 
 
 
-```json
+```javascript
 // No ticket types
 {
     'objects': ['A-3', 'A-5'],
@@ -186,7 +186,7 @@ Should not be used in combination with `channelKeys`.
 ]}>
 <TabItem value='json'>
 
-```json
+```javascript
 {
   "A-3": {
     "label": "A-3",
@@ -218,7 +218,7 @@ Should not be used in combination with `channelKeys`.
 </TabItem>
 <TabItem value='json'>
 
-```json
+```javascript
 {
   "T1-3": {
     "label": "T1-3",
@@ -247,7 +247,7 @@ Should not be used in combination with `channelKeys`.
 </TabItem>
 <TabItem value='json'>
 
-```json
+```javascript
 {
   "STA-A-3": {
     "label": "A-3",
@@ -279,7 +279,7 @@ Should not be used in combination with `channelKeys`.
 </TabItem>
 <TabItem value='json'>
 
-```json
+```javascript
 {
   "B1": {
     "label": "B1",
@@ -301,7 +301,7 @@ Should not be used in combination with `channelKeys`.
 </TabItem>
 <TabItem value='json'>
 
-```json
+```javascript
 {
   "T1": {
     "label": "T1",
@@ -323,7 +323,7 @@ Should not be used in combination with `channelKeys`.
 </TabItem>
 <TabItem value='json'>
 
-```json
+```javascript
 {
   "GA1": {
     "label": "GA1",

@@ -82,7 +82,7 @@ await client.workspaces.update(key, 'a workspace');
 
 
 
-```json
+```javascript
 {
     "name": "a workspace",
 }

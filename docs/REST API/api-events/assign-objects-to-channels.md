@@ -101,7 +101,7 @@ await client.events.assignObjectsToChannel(event.key, {
 
 
 
-```json
+```javascript
 {
     "channelConfig": {
         "fc34bdf0-0175-5a0a-e9af-9b0310585056": [

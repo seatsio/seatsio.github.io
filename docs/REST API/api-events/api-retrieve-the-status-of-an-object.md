@@ -99,7 +99,7 @@ curl https://api-{region}.seatsio.net/events/event34/objects/A-1 -u aSecretKey:
 
 Regular, non-GA object:
 
-```json
+```javascript
 {
     "status": "booked",
     "ticketType": "adult",
@@ -118,7 +118,7 @@ When the object is held (status `reservedByToken`), there's an additional proper
 A general admission area will yield this response: 
 
 
-```json
+```javascript
 {
     "status": "free",
     "quantity": 10

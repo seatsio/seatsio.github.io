@@ -95,7 +95,7 @@ If, however, the chart contains validation errors, the chart is not published an
 
 
 
-```json
+```javascript
 {
     "status": 400,
     "messages": [

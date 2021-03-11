@@ -98,7 +98,7 @@ await client.events.changeObjectStatus(['event1Key', 'event2Key', 'event3Key'], 
 
 
 
-```json
+```javascript
 {
     'objects': ['A-3', 'A-5', 'A-7'],
     'events': ['event1', 'event2', 'event3'],

@@ -127,7 +127,7 @@ await client.events.create(
 
 **Request**
 
-```json
+```javascript
 {
     "chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28",
     "eventKey": "event34",
@@ -166,7 +166,7 @@ curl https://api-{region}.seatsio.net/events \
 
 
 
-```json
+```javascript
 {
     "id": 169,
     "eventKey": "event34",

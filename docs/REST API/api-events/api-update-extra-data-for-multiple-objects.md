@@ -107,7 +107,7 @@ await client.events.updateExtraDatas('eventKey', {'A-1': extraData1, 'A-2': extr
 
 
 
-```json
+```javascript
 {
     "extraData": {
         "A-1": {

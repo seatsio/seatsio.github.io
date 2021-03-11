@@ -94,7 +94,7 @@ await client.subaccounts.createWithEmail('test@test.com', 'a subaccount');
 
 
 
-```json
+```javascript
 {
     "email": "test@test.com",
     "name": "a subaccount"
@@ -111,7 +111,7 @@ curl -X POST https://api-{region}.seatsio.net/subaccounts \
 
 
 
-```json
+```javascript
 {
     "id": 169,
     "secretKey": "7c647eed-0880-4118-9459-82757579703e",

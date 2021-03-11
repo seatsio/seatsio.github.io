@@ -88,7 +88,7 @@ curl https://api-{region}.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d
 
 
 
-```json
+```javascript
 {
     "id": 169,
     "name": "a workspace",

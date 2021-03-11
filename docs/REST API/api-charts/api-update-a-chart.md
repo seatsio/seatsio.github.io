@@ -109,7 +109,7 @@ This does not apply to charts without events. For those charts we don't create a
 
 To update the name of a chart, send the new name in the request body. If you don't send a name, it will not change.
 
-```json
+```javascript
 {
     "name": "New name for my chart"
 }
@@ -121,7 +121,7 @@ To update the name of a chart, send the new name in the request body. If you don
 
 To update categories, you must send an updated array of categories, for example: 
 
-```json
+```javascript
 [
     { "key": 1, "label": "Category 1", "color": "#aaaaaa"},
     { "key": 2, "label": "Category 2", "color": "#bbbbbb", "accessible": true}
@@ -143,7 +143,7 @@ Updating categories works as follows:
  
 Suppose that this is the list of existing categories:
 
-```json
+```javascript
 {
     "categories": [
         { "key": 1, "label": "Category 1", "color": "#aaaaaa"},
@@ -154,7 +154,7 @@ Suppose that this is the list of existing categories:
 
 and you send this update chart request:
 
-```json
+```javascript
 {
     "categories": [
         { "key": 2, "label": "My category 2"}
@@ -164,7 +164,7 @@ and you send this update chart request:
 
 then category 1 will be deleted, the label for category 2 will be set to "My category 2", and the color of category 2 is left unchanged.
 
-```json
+```javascript
 {
     "categories": [
         { "key": 2, "label": "My category 2", "color": "#bbbbbb"}

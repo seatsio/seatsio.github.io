@@ -93,7 +93,7 @@ curl https://api-{region}.seatsio.net/subaccounts/169 \
 
 
 
-```json
+```javascript
 {
     "id": 169,
     "secretKey": "7c647eed-0880-4118-9459-82757579703e",

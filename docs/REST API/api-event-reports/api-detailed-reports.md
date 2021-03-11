@@ -140,7 +140,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
 
 
 
-```json
+```javascript
 {
     "free": [
         {
@@ -334,7 +334,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
 
 
 
-```json
+```javascript
 {
     "selectable": [
         {
@@ -528,7 +528,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
 
 
 
-```json
+```javascript
 {
     "Ground Floor": [
         {
@@ -724,7 +724,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
 
 
 
-```json
+```javascript
 {
     "4": [
         {
@@ -912,7 +912,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
 
 
 
-```json
+```javascript
 {
     "C-11": [
         {
@@ -1106,7 +1106,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
 
 
 
-```json
+```javascript
 {
     "order1": [
         {
@@ -1303,7 +1303,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
 
 
 
-```json
+```javascript
 {
     "Floor": [
         {
@@ -1422,7 +1422,7 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
 
 
 
-```json
+```javascript
 {
     "channel1": [
         {
