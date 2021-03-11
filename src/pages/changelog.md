@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 413 - 11/03/2021
+- designer: bug fix: background image was counted twice when calculating total image size
+
 ### Version 412 - 04/03/2021
 - renderer: new parameter `showSectionContents`. Can be set to `auto`, `always` and `onlyAfterZoom`
 - designer: tweaked reference chart calibration wizard
