@@ -31,7 +31,7 @@ module.exports = {
                     label: 'Renderer'
                 },
                 {
-                    to: 'docs/api/authentication',  // TODO bver replace with docs/api and redirect from the redirect plugin
+                    to: 'docs/api/introduction',  // TODO bver replace with docs/api and redirect from the redirect plugin
                     activeBasePath: "docs/api",
                     label: 'API'
                 },
