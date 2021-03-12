@@ -31,7 +31,7 @@ Fired when the user clicks the fullscreen button.
 ## onFullScreenClosed()
 Fired when the user closes the fullscreen view. 
 
-## onSubmitSucceed()
+## onSubmitSucceeded()
 Fired when the event manager state is successfully saved on the seats.io servers: e.g. when the user clicks the 'apply changes' button (any mode), when the user adds a new channel (in `manageChannels` mode).
 
 ## onSubmitFailed()
