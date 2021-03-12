@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 414 - 12/03/2021
+- new signups can choose the region in which they would like to store their data. Currently supported regions are Europe, North America, South America and Oceania. 
+
 ### Version 413 - 11/03/2021
 - designer: bug fix: background image was counted twice when calculating total image size
 
