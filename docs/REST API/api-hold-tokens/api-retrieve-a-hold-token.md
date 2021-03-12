@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/hold-tokens/{token}
+GET https://api-{region}.seatsio.net/hold-tokens/{token}
 ```
 
 </TabItem>
@@ -80,7 +80,7 @@ await client.holdTokens.retrieve('holdToken');
 
 
 ```shell
-curl https://api.seatsio.net/hold-tokens/18725661-36d6-4755-905a-28ce82d0c2d5 \
+curl https://api-{region}.seatsio.net/hold-tokens/18725661-36d6-4755-905a-28ce82d0c2d5 \
 -u aSecretKey:
 ```
 

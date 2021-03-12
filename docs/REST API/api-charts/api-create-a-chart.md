@@ -28,7 +28,7 @@ Charts can be created by posting a JSON object that represents the chart to `/ch
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts
+POST https://api-{region}.seatsio.net/charts
 ```
 
 </TabItem>
@@ -116,7 +116,7 @@ Valid venue types are "MIXED" (chart without sections) and "ROWS_WITH_SECTIONS" 
 
 
 ```shell
-curl https://api.seatsio.net/charts \
+curl https://api-{region}.seatsio.net/charts \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"name": "my chart"}'
 ```
 

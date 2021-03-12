@@ -28,7 +28,7 @@ When you don't want a chart to show up on your dashboard, you have to move it to
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/charts/archive
+GET https://api-{region}.seatsio.net/charts/archive
 
 More info: https://docs.seats.io/docs/api-pagination
 
@@ -143,7 +143,7 @@ client.charts.archive.pageBefore(beforeId, parameters?, pageSize?)
 
 
 ```shell
-curl https://api.seatsio.net/charts/archive -u aSecretKey: 
+curl https://api-{region}.seatsio.net/charts/archive -u aSecretKey: 
 ```
 
 

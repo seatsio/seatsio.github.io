@@ -74,7 +74,7 @@ client.events.book("event1", objects);
 <TabItem value='python'>
 
 ```python
-objects= [
+objects = [
     ObjectProperties("A-5", extra_data={"name": "John Doe"}),
     ObjectProperties("A-6", extra_data={"name": "Jane Doe"})
 ]
@@ -97,9 +97,10 @@ client.events.book('event1', objects)
 <TabItem value='javascript'>
 
 ```javascript
-let objects =[
+let objects = [
   {'objectId' : 'A-5', 'extraData' : {'name' : 'John Doe'}}, 
-  {'objectId' : 'A-6', 'extraData' : {'name' : 'John Doe'}}];
+  {'objectId' : 'A-6', 'extraData' : {'name' : 'John Doe'}}
+];
 
 await client.events.book('eventKey', objects);
 ```

@@ -34,9 +34,9 @@ releasing objects can also be used to cancel objects that are [temporarily held]
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/release
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/release
 
-POST https://api.seatsio.net/events/{eventKey}/actions/release?expand=objects
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/release?expand=objects
 ```
 
 </TabItem>

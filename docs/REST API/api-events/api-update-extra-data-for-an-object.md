@@ -29,7 +29,7 @@ Updates the [extra data](/docs/api/extra-data) for an object in an event, withou
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/objects/{objectLabel}/actions/update-extra-data
+POST https://api-{region}.seatsio.net/events/{eventKey}/objects/{objectLabel}/actions/update-extra-data
 ```
 
 </TabItem>
@@ -109,7 +109,7 @@ extraData must be a valid JSON object.
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events/event34/objects/A-1/actions/update-extra-data \
+curl https://api-{region}.seatsio.net/events/event34/objects/A-1/actions/update-extra-data \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"name": "John Doe"}}'
 
 ```

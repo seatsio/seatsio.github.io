@@ -35,7 +35,7 @@ Both active and inactive subaccounts are returned.
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/subaccounts
+GET https://api-{region}.seatsio.net/subaccounts
 
 More info: https://docs.seats.io/docs/api-pagination
 ```
@@ -154,7 +154,7 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 ```shell
-curl https://api.seatsio.net/subaccounts?limit=100&start_after_id=34 \
+curl https://api-{region}.seatsio.net/subaccounts?limit=100&start_after_id=34 \
 -u aSecretKey:
 ```
 

@@ -35,7 +35,7 @@ If you do pass in an e-mail, the subaccount receives a message with a link to se
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/subaccounts
+POST https://api-{region}.seatsio.net/subaccounts
 ```
 
 </TabItem>
@@ -105,7 +105,7 @@ await client.subaccounts.createWithEmail('test@test.com', 'a subaccount');
 * **name**: the name of the subaccount. Optional. Can be any string (including spaces or special characters)
 
 ```shell
-curl -X POST https://api.seatsio.net/subaccounts \
+curl -X POST https://api-{region}.seatsio.net/subaccounts \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"email": "test@test.com", "name": "a subaccount"}'
 ```
 

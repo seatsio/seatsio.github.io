@@ -35,7 +35,7 @@ Subaccounts are either active or inactive. Inactive subaccounts do not have the 
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/subaccounts/{id}/actions/deactivate
+POST https://api-{region}.seatsio.net/subaccounts/{id}/actions/deactivate
 ```
 
 </TabItem>
@@ -88,7 +88,7 @@ await client.subaccounts.deactivate(169);
 
 
 ```shell
-curl -X POST https://api.seatsio.net/subaccounts/169/actions/deactivate \
+curl -X POST https://api-{region}.seatsio.net/subaccounts/169/actions/deactivate \
 -u aSecretKey:
 
 ```

@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-DELETE https://api.seatsio.net/events/{eventKey}
+DELETE https://api-{region}.seatsio.net/events/{eventKey}
 ```
 
 </TabItem>
@@ -82,7 +82,7 @@ await client.events.delete('eventKey');
 **Example request**
 
 ```shell
-curl https://api.seatsio.net/events/event34 \
+curl https://api-{region}.seatsio.net/events/event34 \
 -u aSecretKey: -X DELETE -H 'Content-Type: application/json'
 ```
 

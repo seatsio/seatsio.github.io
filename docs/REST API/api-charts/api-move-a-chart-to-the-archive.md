@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}/actions/move-to-archive
+POST https://api-{region}.seatsio.net/charts/{chartKey}/actions/move-to-archive
 ```
 
 </TabItem>
@@ -81,7 +81,7 @@ Returns 204 when the chart was successfully moved to the archive.
 Returns 400 (Bad Request) when the chart was already moved to the archive.
 
 ```shell
-curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/move-to-archive \
+curl -X POST https://api-{region}.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/move-to-archive \
 -u aSecretKey:
 
 ```

@@ -34,7 +34,7 @@ They also allow you to drill down into the numbers: how many booked seats are th
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byStatus/summary
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byStatus/summary
 ```
 
 </TabItem>
@@ -88,7 +88,7 @@ await client.eventReports.summaryByStatus('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byStatus/summary -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary -u aSecretKey: 
 ```
 
 
@@ -167,7 +167,7 @@ Selectable objects can be found under the selectable key, non-selectable objects
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability/summary
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySelectability/summary
 ```
 
 </TabItem>
@@ -221,7 +221,7 @@ await client.eventReports.summaryBySelectability('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/summary -u aSecretKey: 
 ```
 
 
@@ -296,7 +296,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary -u a
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/summary
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryLabel/summary
 ```
 
 </TabItem>
@@ -349,7 +349,7 @@ await client.eventReports.summaryByCategoryLabel('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel/summary -u aSecretKey: 
 ```
 
 
@@ -424,7 +424,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary -u a
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/summary
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryKey/summary
 ```
 
 </TabItem>
@@ -477,7 +477,7 @@ await client.eventReports.summaryByCategoryKey('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSecretKey: 
 ```
 
 
@@ -551,7 +551,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary -u aSe
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/bySection/summary
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySection/summary
 ```
 
 </TabItem>
@@ -604,7 +604,7 @@ await client.eventReports.summaryBySection('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary -u aSecretKey: 
 ```
 
 
@@ -686,7 +686,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary -u aSecret
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/summary
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byChannel/summary
 ```
 
 </TabItem>
@@ -739,7 +739,7 @@ await client.eventReports.deepSummaryBySection('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byChannel/summary -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary -u aSecretKey: 
 ```
 
 

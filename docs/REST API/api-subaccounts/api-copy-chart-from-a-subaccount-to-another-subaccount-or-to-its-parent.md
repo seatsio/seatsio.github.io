@@ -42,10 +42,10 @@ To authenticate, you need to use the secret key of the **parent account**, not o
 
 ```shell
 // Copy a chart to parent: 
-POST https://api.seatsio.net/subaccounts/{id}/charts/{chartKey}/actions/copy-to/parent
+POST https://api-{region}.seatsio.net/subaccounts/{id}/charts/{chartKey}/actions/copy-to/parent
 
 // Copy a chart from subaccount A to subaccount B
-POST https://api.seatsio.net/subaccounts/{id_of_subaccount_A}/charts/{chartKey}/actions/copy-to/{id_of_subaccount_B}
+POST https://api-{region}.seatsio.net/subaccounts/{id_of_subaccount_A}/charts/{chartKey}/actions/copy-to/{id_of_subaccount_B}
 ```
 
 </TabItem>
@@ -105,7 +105,7 @@ await client.subaccounts.copyChartToSubaccount('fromSubaccountId', 'toSubaccount
 
 
 ```shell
-curl -X POST https://api.seatsio.net/subaccounts/312/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/copy-to/324 \
+curl -X POST https://api-{region}.seatsio.net/subaccounts/312/charts/749b9650-24fb-11e7-93ae-92361f002671/actions/copy-to/324 \
 -u aSecretKey:
 ```
 

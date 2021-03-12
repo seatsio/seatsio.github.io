@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/events/{eventKey}
+GET https://api-{region}.seatsio.net/events/{eventKey}
 ```
 
 </TabItem>
@@ -81,7 +81,7 @@ await client.events.retrieve('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/events/anEvent -u aSecretKey: 
+curl https://api-{region}.seatsio.net/events/anEvent -u aSecretKey: 
 ```
 
 

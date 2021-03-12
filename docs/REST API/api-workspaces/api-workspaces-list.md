@@ -30,7 +30,7 @@ Pass in a filter to only find the workspaces that have a matching name.
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/workspaces
+GET https://api-{region}.seatsio.net/workspaces
 
 More info: https://docs.seats.io/docs/api-pagination
 ```
@@ -149,7 +149,7 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 ```shell
-curl https://api.seatsio.net/workspaces?limit=100&start_after_id=34 \
+curl https://api-{region}.seatsio.net/workspaces?limit=100&start_after_id=34 \
 -u anAdminKey:
 ```
 

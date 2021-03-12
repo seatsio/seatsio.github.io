@@ -30,7 +30,7 @@ The call that lists workspaces returns both active and inactive ones.
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/workspaces/{key}/actions/activate
+POST https://api-{region}.seatsio.net/workspaces/{key}/actions/activate
 ```
 
 </TabItem>
@@ -85,7 +85,7 @@ await client.workspaces.activate(key);
 
 
 ```shell
-curl -X POST https://api.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5/actions/activate \
+curl -X POST https://api-{region}.seatsio.net/workspaces/18725661-36d6-4755-905a-28ce82d0c2d5/actions/activate \
 -u anAdminKey: -X POST
 ```
 

@@ -33,7 +33,7 @@ Subaccounts are deprecated. Please use [workspaces](/docs/api/workspaces) instea
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/subaccounts/{id}/actions/activate
+POST https://api-{region}.seatsio.net/subaccounts/{id}/actions/activate
 ```
 
 </TabItem>
@@ -86,7 +86,7 @@ await client.subaccounts.activate('subaccountId');
 
 
 ```shell
-curl -X POST https://api.seatsio.net/subaccounts/169/actions/activate \
+curl -X POST https://api-{region}.seatsio.net/subaccounts/169/actions/activate \
 -u aSecretKey:
 ```
 

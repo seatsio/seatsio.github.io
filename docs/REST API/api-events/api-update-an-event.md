@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}
+POST https://api-{region}.seatsio.net/events/{eventKey}
 ```
 
 </TabItem>
@@ -176,7 +176,7 @@ socialDistancingRulesetKey is the UUID which identifies a social distancing rule
 By passing in the empty string as socialDistancingRulesetKey, you remove the social distancing ruleset from the event.
 
 ```shell
-curl https://api.seatsio.net/events/event34 \
+curl https://api-{region}.seatsio.net/events/event34 \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"chartKey": "4250fffc-e41f-c7cb-986a-2c5e728b8c28"}'
 ```
 

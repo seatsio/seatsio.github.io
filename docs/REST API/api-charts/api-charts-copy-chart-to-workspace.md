@@ -30,7 +30,7 @@ The response contains the chartKey of the new chart. You can store this in your 
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}/version/published/actions/copy-to-workspace/{workspaceKey}
+POST https://api-{region}.seatsio.net/charts/{chartKey}/version/published/actions/copy-to-workspace/{workspaceKey}
 ```
 
 </TabItem>
@@ -83,7 +83,7 @@ await client.charts.copyToWorkspace('chartKey', '18725661-36d6-4755-905a-28ce82d
 
 
 ```shell
-curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/published/actions/copy-to-workspace/18725661-36d6-4755-905a-28ce82d0c2d5 \
+curl -X POST https://api-{region}.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/published/actions/copy-to-workspace/18725661-36d6-4755-905a-28ce82d0c2d5 \
 -u anAdminKey:
 ```
 

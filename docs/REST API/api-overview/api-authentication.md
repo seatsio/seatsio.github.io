@@ -30,7 +30,7 @@ curl uses the -u flag to pass basic auth credentials.
 Adding a colon (:) after your API key prevents cURL from asking for a password.
 
 ```shell
-curl https://api.seatsio.net/charts -u 550e8400-e29b-41d4-a716-446655440000:
+curl https://api-{region}.seatsio.net/charts -u 550e8400-e29b-41d4-a716-446655440000:
 ```
 
 
@@ -52,7 +52,7 @@ Steps|Example|
 
 
 ```shell
-curl https://api.seatsio.net/charts -H "Authorization: Basic NTUwZTg0MDAtZTI5Yi00MWQ0LWE3MTYtNDQ2NjU1NDQwMDAwOg=="
+curl https://api-{region}.seatsio.net/charts -H "Authorization: Basic NTUwZTg0MDAtZTI5Yi00MWQ0LWE3MTYtNDQ2NjU1NDQwMDAwOg=="
 ```
 
 

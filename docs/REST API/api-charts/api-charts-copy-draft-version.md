@@ -36,7 +36,7 @@ The response contains the chartKey of the new chart. You can store this in your 
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}/version/draft/actions/copy
+POST https://api-{region}.seatsio.net/charts/{chartKey}/version/draft/actions/copy
 ```
 
 </TabItem>
@@ -89,7 +89,7 @@ await client.charts.copyDraftVersion('chartKey');
 
 
 ```shell
-curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/copy \
+curl -X POST https://api-{region}.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/copy \
 -u aSecretKey:
 ```
 

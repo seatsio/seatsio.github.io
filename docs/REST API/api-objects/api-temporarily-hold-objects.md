@@ -38,9 +38,9 @@ To hold objects using the manual API method, you first need to generate a hold t
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/hold
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/hold
 
-POST https://api.seatsio.net/events/{eventKey}/actions/hold?expand=objects
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/hold?expand=objects
 ```
 
 </TabItem>

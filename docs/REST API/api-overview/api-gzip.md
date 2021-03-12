@@ -1,5 +1,5 @@
 ---
-title: "gzip"
+title: "GZIP"
 slug: "/api/gzip"
 hidden: false
 createdAt: "2018-07-31T08:17:28.059Z"

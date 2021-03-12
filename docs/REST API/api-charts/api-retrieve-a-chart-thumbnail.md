@@ -40,7 +40,7 @@ To use the thumbnail in an `<img>` tag, use the publicly accessible `publishedVe
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/charts/{chartKey}/version/published/thumbnail
+GET https://api-{region}.seatsio.net/charts/{chartKey}/version/published/thumbnail
 ```
 
 </TabItem>
@@ -101,7 +101,7 @@ For a publicly available URL, use the publishedVersionThumbnailUrl that is retur
 
 
 ```shell
-curl https://api.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/version/published/thumbnail \
+curl https://api-{region}.seatsio.net/charts/4250fffc-e41f-c7cb-986a-2c5e728b8c28/version/published/thumbnail \
 -u aSecretKey:
 ```
 

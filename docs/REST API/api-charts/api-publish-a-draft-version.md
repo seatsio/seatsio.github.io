@@ -28,7 +28,7 @@ Publishing a draft version means replacing the currently published version by th
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}/version/draft/actions/publish
+POST https://api-{region}.seatsio.net/charts/{chartKey}/version/draft/actions/publish
 ```
 
 </TabItem>
@@ -81,7 +81,7 @@ client.charts.publish_draft_version("4250fffc-e41f-c7cb-986a-2c5e728b8c28")
 
 
 ```shell
-curl -X POST https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/publish \
+curl -X POST https://api-{region}.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671/version/draft/actions/publish \
 -u aSecretKey:
 ```
 

@@ -32,7 +32,7 @@ Deep summary reports contain the same kind of information as the [regular summar
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byStatus/summary/deep
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byStatus/summary/deep
 ```
 
 </TabItem>
@@ -86,7 +86,7 @@ await client.eventReports.deepSummaryByStatus('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byStatus/summary/deep -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/deep -u aSecretKey: 
 ```
 
 
@@ -191,7 +191,7 @@ Selectable objects can be found under the selectable key, non-selectable objects
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/bySelectability/summary/deep
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySelectability/summary/deep
 ```
 
 </TabItem>
@@ -245,7 +245,7 @@ await client.eventReports.deepSummaryBySelectability('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/summary/deep -u aSecretKey: 
 ```
 
 
@@ -350,7 +350,7 @@ curl https://api.seatsio.net/reports/events/event34/bySelectability/summary/deep
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryLabel/summary/deep
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryLabel/summary/deep
 ```
 
 </TabItem>
@@ -403,7 +403,7 @@ await client.eventReports.deepSummaryByCategoryLabel('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep -u aSecretKey: 
 ```
 
 
@@ -485,7 +485,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryLabel/summary/deep
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byCategoryKey/summary/deep
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byCategoryKey/summary/deep
 ```
 
 </TabItem>
@@ -538,7 +538,7 @@ await client.eventReports.deepSummaryByCategoryKey('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -u aSecretKey: 
 ```
 
 
@@ -620,7 +620,7 @@ curl https://api.seatsio.net/reports/events/event34/byCategoryKey/summary/deep -
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/bySection/summary/deep
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/bySection/summary/deep
 ```
 
 </TabItem>
@@ -673,7 +673,7 @@ await client.eventReports.deepSummaryBySection('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary/deep -u aSecretKey: 
 ```
 
 
@@ -755,7 +755,7 @@ curl https://api.seatsio.net/reports/events/event34/bySection/summary/deep -u aS
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/reports/events/{eventKey}/byChannel/summary/deep
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byChannel/summary/deep
 ```
 
 </TabItem>
@@ -808,7 +808,7 @@ await client.eventReports.deepSummaryByChannel('eventKey');
 
 
 ```shell
-curl https://api.seatsio.net/reports/events/event34/byChannel/summary/deep -u aSecretKey: 
+curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/deep -u aSecretKey: 
 ```
 
 

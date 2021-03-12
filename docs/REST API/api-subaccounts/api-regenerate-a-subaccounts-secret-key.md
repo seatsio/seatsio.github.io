@@ -35,7 +35,7 @@ The secret key of a subaccount should be kept secret at all times. If it does ge
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/subaccounts/{id}/secret-key/actions/regenerate
+POST https://api-{region}.seatsio.net/subaccounts/{id}/secret-key/actions/regenerate
 ```
 
 </TabItem>
@@ -88,7 +88,7 @@ await client.subaccounts.regenerateSecretKey('subaccountId');
 
 
 ```shell
-curl -X POST https://api.seatsio.net/subaccounts/169/secret-key/actions/regenerate \
+curl -X POST https://api-{region}.seatsio.net/subaccounts/169/secret-key/actions/regenerate \
 -u aSecretKey:
 ```
 

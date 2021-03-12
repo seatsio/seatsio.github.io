@@ -34,7 +34,7 @@ This article describes the call to add rulesets to a chart. To apply one of thos
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/charts/{chartKey}/social-distancing-rulesets
+POST https://api-{region}.seatsio.net/charts/{chartKey}/social-distancing-rulesets
 ```
 
 </TabItem>
@@ -250,7 +250,7 @@ If you don't pass in `disableDiagonalSeatsInFrontAndBehind`, and `numberOfDisabl
 * **fixedGroupLayout**: boolean. Defaults to false. Set to true to manually indicate which seats should be booked as a group (by passing in `disabledSeats`). When the ticket buyer clicks on a seat, all selectable seats next to that seat become selected as well.
 
 ```shell
-curl https://api.seatsio.net/charts/{chartKey}/social-distancing-rulesets \
+curl https://api-{region}.seatsio.net/charts/{chartKey}/social-distancing-rulesets \
 -u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{
   "socialDistancingRulesets": {
     "ruleset1": {

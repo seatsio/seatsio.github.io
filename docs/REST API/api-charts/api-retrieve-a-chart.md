@@ -30,9 +30,9 @@ To fetch the actual contents of the chart (including categories), use the endpoi
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/charts/{key}
+GET https://api-{region}.seatsio.net/charts/{key}
 
-GET https://api.seatsio.net/charts/{key}?expand=events
+GET https://api-{region}.seatsio.net/charts/{key}?expand=events
 ```
 
 </TabItem>
@@ -106,7 +106,7 @@ A chart can have events linked to it. By adding `expand=events`, the events are 
 
 
 ```shell
-curl https://api.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671 \
+curl https://api-{region}.seatsio.net/charts/749b9650-24fb-11e7-93ae-92361f002671 \
 -u aSecretKey:
 ```
 

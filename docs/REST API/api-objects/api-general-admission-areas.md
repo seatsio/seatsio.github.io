@@ -37,10 +37,10 @@ All GA places passed in to this API will be considered as "used seats" for [pric
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/actions/change-object-status
-POST https://api.seatsio.net/events/{eventKey}/actions/book
-POST https://api.seatsio.net/events/{eventKey}/actions/hold
-POST https://api.seatsio.net/events/{eventKey}/actions/release
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/change-object-status
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/book
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/hold
+POST https://api-{region}.seatsio.net/events/{eventKey}/actions/release
 ```
 
 </TabItem>

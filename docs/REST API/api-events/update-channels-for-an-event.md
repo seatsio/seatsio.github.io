@@ -28,7 +28,7 @@ Updates the channels for an event, without touching the assigned objects to thos
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/{eventKey}/channels/update
+POST https://api-{region}.seatsio.net/events/{eventKey}/channels/update
 ```
 
 </TabItem>

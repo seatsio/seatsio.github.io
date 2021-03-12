@@ -32,9 +32,9 @@ A good use case is a shopping basket, in which you allow your customers to selec
 <TabItem value='shell'>
 
 ```shell
-POST https://api.seatsio.net/events/actions/change-object-status
+POST https://api-{region}.seatsio.net/events/actions/change-object-status
 
-POST https://api.seatsio.net/events/actions/change-object-status?expand=objects
+POST https://api-{region}.seatsio.net/events/actions/change-object-status?expand=objects
 
 ```
 

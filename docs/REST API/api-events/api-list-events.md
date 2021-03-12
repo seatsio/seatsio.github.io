@@ -28,7 +28,7 @@ List non-deleted events, sorted by newest event first.
 <TabItem value='shell'>
 
 ```shell
-GET https://api.seatsio.net/events
+GET https://api-{region}.seatsio.net/events
 
 More info: https://docs.seats.io/docs/api-pagination
 
@@ -148,7 +148,7 @@ https://github.com/seatsio/seatsio-js/blob/master/README.md#listing-all-charts
 
 
 ```shell
-curl https://api.seatsio.net/events \
+curl https://api-{region}.seatsio.net/events \
 -u aSecretKey:
 ```
 

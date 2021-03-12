@@ -24,7 +24,7 @@ If you add `selectedObjectsInputName:"aFormFieldNameYouChooseYourself"` to the s
     <div id="chart"></div>
 </form>
 
-<script src="https://cdn.seatsio.net/chart.js"></script>
+<script src="https://cdn-{region}.seatsio.net/chart.js"></script>
 <script>
     new seatsio.SeatingChart({
         divId: 'chart',
