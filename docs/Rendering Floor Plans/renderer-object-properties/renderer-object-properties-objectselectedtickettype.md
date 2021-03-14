@@ -12,3 +12,9 @@ import TabItem from '@theme/TabItem';
 **Type**: string  
 
 The name of the ticket type the user selected.
+
+:::info Notice
+Do not rely on this property for GA areas. It only contains the latest ticket type that was selected for this GA.
+
+Use [selectionPerTicketType](/docs/renderer/object-properties-ga-selection-per-ticket-type) instead.
+:::
