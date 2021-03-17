@@ -36,6 +36,15 @@ legend: {
 }
 ```
 
+## legend.hideUnavailableLegendItem
+
+**Type**: boolean   
+**Default**: false
+
+Set this property to true to hide the gray "Not Available" item in the legend:   
+![hideUnavailableLegendItem.png](/img/readme/hideUnavailableLegendItem.png)
+
+
 
 
 ## legend.hidePricing
