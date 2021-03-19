@@ -90,3 +90,11 @@ Whether to show the full screen button or not. Defaults to true.
 Whether to adapt to the container div width, or to its width and height.
 
 See [https://docs.seats.io/docs/renderer-config-fitto](/docs/renderer/config-fitto)
+
+## objectColor
+**Type**: function(object, defaultColor, extraConfig)
+**Default**: depends on the event manager mode (e.g. in `manageChannels` mode, a seat gets the color of its assigned channel)
+
+A function that determines the object color. 
+
+See [https://docs.seats.io/docs/renderer/config-objectcolor](/docs/renderer/config-objectcolor)
