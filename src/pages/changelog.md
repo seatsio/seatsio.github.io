@@ -2,6 +2,11 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 415 - 19/03/2021
+- renderer: performance improvements for large events with social distancing enabled
+- event manager: `objectColor()` can now be passed in
+- website: added media kit
+
 ### Version 414 - 12/03/2021
 - new signups can choose the region in which they would like to store their data. Currently supported regions are Europe, North America, South America and Oceania. 
 
