@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 416 - 24/03/2021
+- renderer: big charts (1000s of places) with many booked seats load faster
+- renderer: `maxSelectedObjects` per ticket type now plays nicely with GAs that are bookable as a whole
+
 ### Version 415 - 19/03/2021
 - renderer: performance improvements for large events with social distancing enabled
 - event manager: `objectColor()` can now be passed in
