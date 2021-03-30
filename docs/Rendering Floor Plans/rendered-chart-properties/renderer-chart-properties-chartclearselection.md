@@ -9,21 +9,19 @@ updatedAt: "2019-12-10T12:48:43.766Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(successCallback, failedCallback)  
+**Type**: function()  
+**Returns**: Promise&lt;void&gt;
 
 Deselects the currently selected objects.
 
-The optional successCallback is invoked when the selection was successfully cleared. This means that the objects are not selected anymore, and that they have been released if they were temporarily held.
+The promise resolves when the selection was successfully cleared. This means that the objects are not selected anymore, and that they have been released if they were temporarily held.
 
-failedCallback is invoked when releasing the held seats fails (e.g. due to a network issue). This callback is optional, just like successCallback.
-
-```javascript
-chart.clearSelection(
-    () => console.log('ok'),
-    () => console.log('not ok')
-);
-```
+It gets rejected when releasing the held seats fails (e.g. due to a network issue).
 
 ```javascript
-
+try {
+  await chart.clearSelection();
+} catch {
+    // whoops ... something went wrong
+}
 ```

@@ -10,6 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 **Type**: function(config)  
+**Returns**: Promise&lt;void&gt;
 
 Change the configuration of the chart. Currently supported parameters are:
 

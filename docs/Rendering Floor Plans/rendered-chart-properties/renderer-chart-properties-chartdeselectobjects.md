@@ -9,7 +9,8 @@ updatedAt: "2019-12-10T12:51:52.799Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(objects, successCallback, failedCallback)  
+**Type**: function(objects)  
+**Returns**: Promise&lt;void&gt;
 
 Deselects matched objects. The parameter `objects` must be an array of strings or an array of objects.
 
@@ -31,6 +32,8 @@ If an array of objects is passed, these objects should have the following struct
     amount: Number (optional)
 }
 ```
+
+Note that the promise does not resolve to an array of deselected objects. Use [onObjectDeselected](/docs/renderer/events-onobjectdeselected) for that.
 
 :::info Held objects will be released
 If the objects were temporarily held, `deselectObjects()` releases them again.

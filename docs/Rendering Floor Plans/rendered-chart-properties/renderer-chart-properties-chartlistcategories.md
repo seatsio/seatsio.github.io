@@ -9,15 +9,16 @@ updatedAt: "2019-12-10T12:43:03.456Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(callback)  
+**Type**: function()  
+**Returns**: Promise&lt;Category[]&gt;
 
 ```javascript
-chart.listCategories(categories => { ... })
+const categories = await chart.listCategories()
 ```
 
 Asynchronously fetches the chart categories. Useful to build a custom chart legend.
 
-listCategories takes a callback function, which receives an array of categories. For example:
+The promise resolves to an array of categories. For example:
 
 ```javascript
 [

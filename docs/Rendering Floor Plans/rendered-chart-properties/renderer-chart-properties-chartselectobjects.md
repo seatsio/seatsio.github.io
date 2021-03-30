@@ -9,7 +9,9 @@ updatedAt: "2021-01-06T14:09:33.649Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(objects, successCallback, failedCallback)  
+**Type**: function()  
+**Returns**: Promise&lt;void&gt;
+
 Selects matched objects. The parameter `objects` must be an array of strings or an array of objects.
 
 ```javascript
@@ -31,3 +33,5 @@ If an array of objects is passed, these objects should have the following struct
     amount: Number (optional)
 }
 ```
+
+Note that the promise does not resolve to an array of selected objects. Use [onObjectSelected](/docs/renderer/events-onobjectselected) for that.

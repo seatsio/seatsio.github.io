@@ -9,19 +9,16 @@ updatedAt: "2018-10-24T11:46:56.482Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(selectedObjectsCallback)  
+**Type**: function()  
+**Returns**: Promise&lt;Object[]&gt;
+
+Asynchronously lists all selected objects with their properties. The promise gets resolved to an array of selected objects. 
 
 ```javascript
-chart.listSelectedObjects(callback)
+const selectedObjects = await chart.listSelectedObjects()
 ```
 
-Asynchronously lists all selected objects with their properties. The provided callback is invoked on each selected object. 
-
-```javascript
-chart.listSelectedObjects(selectedObject => console.log(selectedObject.label));
-```
-
-The objects passed to the callback contain many useful properties, such as: 
+The objects contain many useful properties, such as: 
 
 * the object's category 
 * optional extraData

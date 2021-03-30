@@ -9,18 +9,12 @@ updatedAt: "2019-12-10T12:43:03.455Z"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Type**: function(label, successCallback, objectNotFoundCallback)  
+**Type**: function(label)  
+**Returns**: Promise&lt;Object&gt;
+
+Asynchronously finds an object on the chart. If the object was found, the promise resolves to the object. Otherwise, the promise gets rejected.
 
 ```javascript
-chart.findObject(label, successCallback, objectNotFoundCallback)
-```
-
-Asynchronously finds an object on the chart. If the object was found, successCallback is invoked with the object as parameter. Otherwise, objectNotFoundCallback is invoked.
-
-```javascript
-chart.findObject(
-    'A-35',
-     (object) => console.log("found"),
-     () => console.log("not found")
-);
+const object = await chart.findObject(label)
+console.log(object.label)
 ```

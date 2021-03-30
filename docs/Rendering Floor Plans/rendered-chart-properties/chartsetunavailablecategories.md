@@ -15,6 +15,8 @@ import TabItem from '@theme/TabItem';
 :::
 
 **Type**: function(labelsOrIds)  
+**Returns**: Promise&lt;void&gt;
+
 Makes the specified categories unavailable from selection. The parameter `labelsOrIds` must be an array of strings, which are the label or ID of the target categories to disable.
 
 ```javascript

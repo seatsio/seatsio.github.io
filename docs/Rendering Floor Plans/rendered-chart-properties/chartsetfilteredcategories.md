@@ -15,6 +15,8 @@ import TabItem from '@theme/TabItem';
 :::
 
 **Type**: function(labelsOrIds)  
+**Returns**: Promise&lt;void&gt;
+
 Leaves the specified categories normally visible, while making all others dimmed out. The parameter `labelsOrIds` must be an array of strings, which are the label or ID of the target categories to leave fully visible.
 
 ```javascript

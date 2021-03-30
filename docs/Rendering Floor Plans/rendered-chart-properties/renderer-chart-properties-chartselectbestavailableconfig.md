@@ -10,6 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 **Type**: function(config)  
+**Returns**: Promise&lt;void&gt;
 
 Selects best available objects (and deselects any already selected objects). 
 
@@ -30,3 +31,4 @@ Have a look at the docs for the [selectBestAvailable rendering parameter](/docs/
 Use the [server-side version ](/docs/api/best-available) of the seats.io best available algorithm instead.
 :::
 
+Note that the promise does not resolve to an array of selected objects. Use [onObjectSelected](/docs/renderer/events-onobjectselected) for that.

@@ -10,6 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 **Type**: function()  
+**Returns**: Promise&lt;Object&gt;
 
 Zooms to the currently selected objects, adjusting zoom level and viewport position.
 If no objects are selected, no zooming is done.
