@@ -2,6 +2,11 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 417 - 30/03/2021
+- renderer: chart functions such as `chart.findObject` now return a promise, so there's no need to pass in callbacks 
+- renderer: calling `changeConfig` on an invisible chart in Firefox doesn't lead to an error anymore
+- event manager: when managing object statuses, seats disabled by social distancing within a channel are shown properly
+
 ### Version 416 - 24/03/2021
 - renderer: big charts (1000s of places) with many booked seats load faster
 - renderer: `maxSelectedObjects` per ticket type now plays nicely with GAs that are bookable as a whole
