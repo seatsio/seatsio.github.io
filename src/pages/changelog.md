@@ -2,6 +2,11 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 418 - 30/03/2021
+- API: performance enhancements when changing object status for events with many seats not for sale, or many seats in channels
+- API: chart reports expose `bookAsAWhole` flag for tables
+- renderer: exposed `bookAsAWhole` property on GAs
+
 ### Version 417 - 30/03/2021
 - renderer: chart functions such as `chart.findObject` now return a promise, so there's no need to pass in callbacks 
 - renderer: calling `changeConfig` on an invisible chart in Firefox doesn't lead to an error anymore
