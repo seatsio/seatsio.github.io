@@ -2,6 +2,11 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 419 - 02/04/2021
+- renderer: `numberOfPlacesToSelect` now works properly for GAs that are bookable as a whole
+- renderer: no more console warning when using the category filter
+- API: best available algorithm selects multiple blocks of seats, if the event has a fixed social distancing ruleset, and a single block doesn't fit the request. E.g. if 4 best available seats are requested, the algorithm now finds 2 blocks of 2 seats.
+
 ### Version 418 - 30/03/2021
 - API: performance enhancements when changing object status for events with many seats not for sale, or many seats in channels
 - API: chart reports expose `bookAsAWhole` flag for tables
