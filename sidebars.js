@@ -123,6 +123,7 @@ module.exports = {
                 "Rendering Floor Plans/renderer-object-properties/renderer-object-properties-objectselectable",
                 "Rendering Floor Plans/renderer-object-properties/renderer-object-properties-objectselected",
                 "Rendering Floor Plans/renderer-object-properties/renderer-object-properties-objectselectedtickettype",
+                "Rendering Floor Plans/renderer-object-properties/renderer-object-properties-objectisinchannel",
                 "Rendering Floor Plans/renderer-object-properties/renderer-object-properties-inselectablechannel",
                 "Rendering Floor Plans/renderer-object-properties/renderer-object-properties-objectobjecttype",
                 "Rendering Floor Plans/renderer-object-properties/renderer-object-properties-objectselect",
