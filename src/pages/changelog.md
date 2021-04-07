@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 420 - 07/04/2021
+- renderer: added `object.isInChannel()` method
+ 
 ### Version 419 - 02/04/2021
 - renderer: `numberOfPlacesToSelect` now works properly for GAs that are bookable as a whole
 - renderer: no more console warning when using the category filter
