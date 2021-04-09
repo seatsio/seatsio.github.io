@@ -2,6 +2,19 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 420 - 07/04/2021
+- renderer: added `object.isInChannel()` method
+ 
+### Version 419 - 02/04/2021
+- renderer: `numberOfPlacesToSelect` now works properly for GAs that are bookable as a whole
+- renderer: no more console warning when using the category filter
+- API: best available algorithm selects multiple blocks of seats, if the event has a fixed social distancing ruleset, and a single block doesn't fit the request. E.g. if 4 best available seats are requested, the algorithm now finds 2 blocks of 2 seats.
+
+### Version 418 - 30/03/2021
+- API: performance enhancements when changing object status for events with many seats not for sale, or many seats in channels
+- API: chart reports expose `bookAsAWhole` flag for tables
+- renderer: exposed `bookAsAWhole` property on GAs
+
 ### Version 417 - 30/03/2021
 - renderer: chart functions such as `chart.findObject` now return a promise, so there's no need to pass in callbacks 
 - renderer: calling `changeConfig` on an invisible chart in Firefox doesn't lead to an error anymore
