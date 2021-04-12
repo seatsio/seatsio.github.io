@@ -40,7 +40,7 @@ So in short: just copy & paste this code snippet and adapt it to your needs:
 
 
 :::info 
-If you're developing a *React* application, consider using our React wrapper: https://github.com/seatsio/seatsio-react
+If you're developing a *React* application, consider using our React wrapper: https://github.com/seatsio/seatsio-react. For *react-native*, this proof-of-concept should get you started: https://github.com/seatsio/seatsio-react-native.
 
 For *Android* there's https://github.com/seatsio/seatsio-android
 
