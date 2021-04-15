@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 421 - 15/04/2021
+- API: improved performance of calls that book multiple GA places
+- API: improved performance of reporting call, when many places in a GA area are held
+
 ### Version 420 - 07/04/2021
 - renderer: added `object.isInChannel()` method
  
