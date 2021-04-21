@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 422 - 21/04/2021
+- API: improved performance of chart and event reporting calls (especially for large charts)
+- designer: improved row labeling UI
+
 ### Version 421 - 15/04/2021
 - API: improved performance of calls that book multiple GA places
 - API: improved performance of reporting call, when many places in a GA area are held
