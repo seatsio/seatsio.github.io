@@ -24,6 +24,7 @@ The report types you can choose from are:
 - byOrderId
 - bySection
 - byChannel
+- byObjectType
 
 You can also pass in an optional filter, for example to retrieve only the objects in a certain status:
 
@@ -1514,6 +1515,188 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
         }
     ],
     "NO_CHANNEL": [ ... ]
+}
+```
+
+
+## Detailed report by object type
+
+<Tabs 
+  groupId="serverside-code-samples"
+  defaultValue="shell"
+  values={[
+{ label: 'Text', value: 'shell', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Python', value: 'python', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Javascript', value: 'javascript', },
+]}>
+<TabItem value='shell'>
+
+```shell
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byObjectType
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byObjectType/{status}
+```
+
+</TabItem>
+<TabItem value='php'>
+
+```php
+$seatsioClient->eventReports->byObjectType("event34");
+$seatsioClient->eventReports->byObjectType("event34", "generalAdmission");
+
+```
+
+</TabItem>
+<TabItem value='csharp'>
+
+```csharp
+Client.EventReports.ByObjectType("event34");
+Client.EventReports.ByObjectType("event34", "generalAdmission");
+
+```
+
+</TabItem>
+<TabItem value='java'>
+
+```java
+client.eventReports.byObjectType("event34");
+client.eventReports.byObjectType("event34", "generalAdmission");
+
+```
+
+</TabItem>
+<TabItem value='python'>
+
+```python
+client.events.reports.by_object_type("event34")
+client.events.reports.by_object_type("event34", object_type="generalAdmission")
+
+```
+
+</TabItem>
+<TabItem value='ruby'>
+
+```ruby
+client.event_reports.by_object_type("event34")
+client.event_reports.by_object_type("event34", "generalAdmission")
+```
+
+</TabItem>
+<TabItem value='javascript'>
+
+```javascript
+await client.eventReports.byObjectType('eventKey');
+await client.eventReports.byObjectType('eventKey', 'generalAdmission');
+```
+
+</TabItem>
+</Tabs>
+
+
+
+
+
+```shell
+curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSecretKey: 
+```
+
+
+
+```javascript
+{
+    "seat": [
+        {
+            "label": "C-11",
+            "labels": {
+                "own": { "label": "11", "type": "seat" },
+                "parent": { "label": "C", "type": "row" },
+                "section": "Floor"
+            },
+            "status": "free",
+            "categoryLabel": "Ground Floor",
+            "categoryKey": "4",
+            "entrance": "Main entrance",
+            "ticketType": "adult",
+            "section": "Floor",
+            "orderId": "order1",
+            "forSale": true,
+            "objectType": "seat",
+            "isAccessible": true,
+            "isCompanionSeat": false,
+            "hasRestrictedView": false,
+            "leftNeighbour": "C-10",
+            "rightNeighbour": "C-12",
+            "isSelectable": true,
+            "isDisabledBySocialDistancing": false,
+            "channel": "channel1"
+        },
+                {
+            "label": "C-45",
+            "labels": {
+                "own": { "label": "45", "type": "seat" },
+                "parent": { "label": "C", "type": "row" }
+            },
+            "status": "booked",
+            "categoryLabel": "Balcony",
+            "categoryKey": "5",
+            "forSale": true,
+            "objectType": "seat",
+            "isAccessible": true,
+            "isCompanionSeat": false,
+            "hasRestrictedView": false,
+            "leftNeighbour": "C-46",
+            "rightNeighbour": "C-44",
+            "isSelectable": false,
+            "isDisabledBySocialDistancing": false,
+            "channel": "channel1"
+        },
+        {
+            "label": "C-35",
+            "labels": {
+                "own": { "label": "35", "type": "seat" },
+                "parent": { "label": "C", "type": "row" }
+            },
+            "status": "reservedByToken",
+            "categoryLabel": "Balcony",
+            "catgoryKey": "5",
+            "extraData": {"name": "John Doe"},
+            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "forSale": true,
+            "objectType": "seat",
+            "isAccessible": true,
+            "isCompanionSeat": false,
+            "hasRestrictedView": false,
+            "leftNeighbour": "C-34",
+            "rightNeighbour": "C-36",
+            "isSelectable": false,
+            "isDisabledBySocialDistancing": false,
+            "channel": "channel1"
+        }
+    ],
+    "generalAdmission": [
+        {
+            "label": "GA",
+            "labels": {
+                "own": { "label": "GA", "type": "generalAdmission" }
+            },
+            "status": "free",
+            "categoryLabel": "Standing",
+            "categoryKey": 6,
+            "capacity": 100,
+            "numBooked": 34,
+            "numHeld": 6,
+            "numFree": 60,
+            "forSale": true,
+            "objectType": "generalAdmission",
+            "isSelectable": true,
+            "channel": "channel1"
+        }
+    ],
+    "table": [],
+    "booth": []
 }
 ```
 
