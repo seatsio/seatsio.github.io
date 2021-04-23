@@ -115,9 +115,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/de
           "cat3": 7,
           "cat1": 2
         },
-	"byObjectType": {
-	  ...
-	}
+	    "byObjectType": {
+	      ...
+	    }
       }
     },
     "byChannel": {
@@ -135,9 +135,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/de
         "byCategoryLabel": {
           "cat3": 7
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+          ...
+        }
       },
       "channel1": {
         "bySection": {
@@ -153,16 +153,16 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/de
         "byCategoryLabel": {
           "cat1": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+          ...
+        }
       }
     },
     "byCategoryKey": {
-			...
+      ...
     },
     "bySelectability": {
-			...
+      ...
     },
     "byCategoryLabel": {
       ...
@@ -286,9 +286,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/sum
           "cat3": 13,
           "NO_CATEGORY": 1
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+          ...
+        }
       }
     },
     "byChannel": {
@@ -308,9 +308,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/sum
           "cat3": 13,
           "NO_CATEGORY": 1
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       },
       "channel2": {
         "bySection": {
@@ -326,19 +326,19 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/sum
         "byCategoryLabel": {
           "cat2": 1
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "byCategoryKey": {
-			...
+      ...
     },
     "byStatus": {
-			...
+      ...
     },
     "byCategoryLabel": {
-			...
+      ...
     },
     "byObjectType": {
       ...
@@ -451,9 +451,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel/sum
         "byStatus": {
           "booked": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "byChannel": {
@@ -471,16 +471,16 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel/sum
         "byStatus": {
           "booked": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "bySelectability": {
-			...
+      ...
     },
     "byStatus": {
-			...
+      ...
     },
     "byObjectType": {
       ...
@@ -595,9 +595,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summa
         "byCategoryLabel": {
           "cat1": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "byChannel": {
@@ -615,9 +615,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summa
         "byCategoryLabel": {
           "cat1": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "bySelectability": {
@@ -739,9 +739,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary/d
         "byCategoryLabel": {
           "NO_CATEGORY": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "byCategoryKey": {
@@ -756,9 +756,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary/d
         "byStatus": {
           "free": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "bySelectability": {
@@ -883,9 +883,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/d
         "byCategoryLabel": {
           "cat1": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "byCategoryKey": {
@@ -900,9 +900,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/d
         "byStatus": {
           "booked": 2
         },
-	"byObjectType": {
-	  ...
-	}
+        "byObjectType": {
+        ...
+        }
       }
     },
     "bySelectability": {
@@ -1062,10 +1062,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType/summar
       }
     },
     "byCategoryKey": {
-			...
+      ...
     },
     "bySelectability": {
-			...
+      ...
     },
     "byCategoryLabel": {
       ...
