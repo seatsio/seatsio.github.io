@@ -791,3 +791,179 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary -
 }
 ```
 
+
+## Summary report by object type
+
+<Tabs 
+  groupId="serverside-code-samples"
+  defaultValue="shell"
+  values={[
+{ label: 'Text', value: 'shell', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Python', value: 'python', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Javascript', value: 'javascript', },
+]}>
+<TabItem value='shell'>
+
+```shell
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byObjectType/summary
+```
+
+</TabItem>
+<TabItem value='php'>
+
+```php
+$seatsioClient->eventReports->summaryByObjectType("event34");
+```
+
+</TabItem>
+<TabItem value='csharp'>
+
+```csharp
+Client.EventReports.SummaryByObjectType("event34");
+```
+
+</TabItem>
+<TabItem value='java'>
+
+```java
+client.eventReports.summaryByObjectType("event34");
+```
+
+</TabItem>
+<TabItem value='python'>
+
+```python
+client.events.reports.summary_by_object_type("event34")
+```
+
+</TabItem>
+<TabItem value='ruby'>
+
+```ruby
+client.event_reports.summary_by_object_type("event34")
+
+```
+
+</TabItem>
+<TabItem value='javascript'>
+
+```javascript
+await client.eventReports.summaryByObjectType('eventKey');
+```
+
+</TabItem>
+</Tabs>
+
+
+
+
+
+```shell
+curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType/summary -u aSecretKey: 
+```
+
+
+**Example response**
+
+```javascript
+
+{
+    "seat": {
+        "count": 34,
+        "bySection": {
+            "Floor": 12,
+            "Balcony": 22
+        },
+        "byCategoryLabel": {
+            "premium": 10,
+            "standard": 24
+        },
+        "byCategoryKey": {
+            "1": 10,
+            "2": 24
+        },
+        "bySelectability": {
+            "not_selectable": 34
+        },
+        "byChannel": {
+            "NO_CHANNEL": 34
+        },
+        "byStatus": {
+            "free": 34
+        }
+    },
+    "generalAdmission": {
+        "count": 80,
+        "bySection": {
+            "Balcony": 80
+        },
+        "byCategoryLabel": {
+            "premium": 2,
+            "standard": 78
+        },
+        "byCategoryKey": {
+            "1": 2,
+            "2": 78
+        },
+        "bySelectability": {
+            "selectable": 80
+        },
+        "byChannel": {
+            "NO_CHANNEL": 80
+        },
+        "byStatus": {
+            "free": 80
+        }
+    },
+    "booth": {
+        "count": 80,
+        "bySection": {
+            "Balcony": 80
+        },
+        "byCategoryLabel": {
+            "premium": 2,
+            "standard": 78
+        },
+        "byCategoryKey": {
+            "1": 2,
+            "2": 78
+        },
+        "bySelectability": {
+            "selectable": 80
+        },
+        "byChannel": {
+            "NO_CHANNEL": 80
+        },
+        "byStatus": {
+            "free": 80
+        }
+    },
+    "table": {
+        "count": 80,
+        "bySection": {
+            "Balcony": 80
+        },
+        "byCategoryLabel": {
+            "premium": 2,
+            "standard": 78
+        },
+        "byCategoryKey": {
+            "1": 2,
+            "2": 78
+        },
+        "bySelectability": {
+            "selectable": 80
+        },
+        "byChannel": {
+            "NO_CHANNEL": 80
+        },
+        "byStatus": {
+            "free": 80
+        }
+    }
+}
+```
