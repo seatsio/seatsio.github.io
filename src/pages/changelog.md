@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 423 - 23/04/2021
+- renderer: add support for Nunito Sans font
+- API: added chart and event reports by object type
+
 ### Version 422 - 21/04/2021
 - API: improved performance of chart and event reporting calls (especially for large charts)
 - designer: improved row labeling UI
