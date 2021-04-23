@@ -42,7 +42,7 @@ style: {
 - `'WorkSans'`
 - `'NotoSansHK'`
 - `'Lato'`
-
+- `'NunitoSans'`
 
 ## fontWeight
 
