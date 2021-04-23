@@ -14,7 +14,7 @@ The *chart report* endpoints all give you access to the data about a seating cha
 You can retrieve each of these reports in different representations, called report types. 
 For example, the `byLabel` report will give you an overview of all seats per seat label, whereas the `byCategoryKey` report will give you an overview of all different categories present on the seating chart, together with a list of the seats that belong to that category. 
 
-The following report types are available: `byLabel`, `byCategoryKey` and `byCategoryLabel`. 
+The following report types are available: `byLabel`, `byCategoryKey`, `byCategoryLabel` and `byObjectType`. 
 
 
 
@@ -523,3 +523,155 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
 
 ```
 
+## byObjectType
+
+<Tabs 
+  groupId="serverside-code-samples"
+  defaultValue="shell"
+  values={[
+{ label: 'Text', value: 'shell', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Python', value: 'python', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Javascript', value: 'javascript', },
+]}>
+<TabItem value='shell'>
+
+```shell
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byObjectType?bookWholeTables=chart
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byObjectType
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byObjectType?bookWholeTables=true
+GET https://api-{region}.seatsio.net/reports/charts/{chartKey}/byObjectType?bookWholeTables=false
+```
+
+</TabItem>
+<TabItem value='php'>
+
+```php
+$seatsioClient->chartReports->byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "chart");
+$seatsioClient->chartReports->byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", null);
+$seatsioClient->chartReports->byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "true");
+$seatsioClient->chartReports->byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "false");
+```
+
+</TabItem>
+<TabItem value='csharp'>
+
+```csharp
+Client.ChartReports.ByObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "chart");
+Client.ChartReports.ByObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", null);
+Client.ChartReports.ByObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "true");
+Client.ChartReports.ByObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "false");
+```
+
+</TabItem>
+<TabItem value='java'>
+
+```java
+client.chartReports.byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "chart");
+client.chartReports.byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", null);
+client.chartReports.byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "true");
+client.chartReports.byObjectType("d2aaasb4-e192-454a-9752-e5f1cb479421", "false");
+```
+
+</TabItem>
+<TabItem value='python'>
+
+```python
+client.charts.reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", "chart")
+client.charts.reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", None)
+client.charts.reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", "true")
+client.charts.reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", "false")
+
+```
+
+</TabItem>
+<TabItem value='ruby'>
+
+```ruby
+client.chart_reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", "chart")
+client.chart_reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", nil)
+client.chart_reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", "true")
+client.chart_reports.by_object_type("d2aaasb4-e192-454a-9752-e5f1cb479421", "false")
+```
+
+</TabItem>
+<TabItem value='javascript'>
+
+```javascript
+await client.chartReports.byObjectType('chartKey', 'chart');
+await client.chartReports.byObjectType('chartKey', undefined);
+await client.chartReports.byObjectType('chartKey', 'true');
+await client.chartReports.byObjectType('chartKey', 'false');
+```
+
+</TabItem>
+</Tabs>
+
+```shell
+curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f1cb479421/byObjectType -u aSecretKey: 
+```
+
+```javascript
+{
+    "seat": [
+        {
+            "label": "Section A-C-11",
+            "labels": {
+                "own": { "label": "11", "type": "seat" },
+                "parent": { "label": "C", "type": "row" },
+                "section: "Section A"
+            },
+            "categoryLabel": "Ground Floor",
+            "categoryKey": "1",
+            "entrance": "Main entrance",
+            "section": "Floor",
+            "objectType": "seat",
+            "leftNeighbour": "Section A-C-10",
+            "rightNeighbour": "Section A-C-12"
+        },
+        {
+            "label": "Section A-C-35",
+            "labels": {
+                "own": { "label": "35", "type": "seat" },
+                "parent": { "label": "C", "type": "row" },
+                "section": "Section A"
+            },
+            "categoryLabel": "Balcony",
+            "categoryKey": "5",
+            "objectType": "seat",
+            "leftNeighbour": "Section A-C-34",
+            "rightNeighbour": "Section A-C-36"
+        },
+        {
+            "label": "Section A-C-45",
+            "labels": {
+                "own": { "label": "45", "type": "seat" },
+                "parent": { "label": "C", "type": "row" },
+                "section: "Section A"
+            },
+            "categoryLabel": "Balcony",
+            "categoryKey": "2",
+            "objectType": "seat",
+            "leftNeighbour": "Section A-C-46",
+            "rightNeighbour": "Section A-C-44"
+        }
+    ],
+    "generalAdmission": [
+        {
+            "label": "GA",
+            "labels": {
+                "own": { "label": "GA", "type": "generalAdmission" }
+            },
+            "categoryLabel": "Standing",
+            "categoryKey": 6,
+            "capacity": 100,
+            "objectType": "generalAdmission"
+        }
+    ],
+    "table": [],
+    "booth": []
+}
+```
