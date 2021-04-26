@@ -127,7 +127,7 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "labels": {
                 "own": { "label": "11", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Ground Floor",
             "categoryKey": "1",
@@ -161,7 +161,7 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "labels": {
                 "own": { "label": "45", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "2",
@@ -632,7 +632,7 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "labels": {
                 "own": { "label": "11", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Ground Floor",
             "categoryKey": "1",
@@ -662,7 +662,7 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "labels": {
                 "own": { "label": "45", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "2",
