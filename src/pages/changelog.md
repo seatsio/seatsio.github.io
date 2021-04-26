@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 424 - 26/04/2021
+- API: event and chart reports contain the distance to the focal point for each object 
+
 ### Version 423 - 23/04/2021
 - renderer: add support for Nunito Sans font
 - API: added chart and event reports by object type
