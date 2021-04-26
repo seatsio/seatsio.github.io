@@ -167,7 +167,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "GA",
@@ -184,7 +185,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "booked": [
@@ -206,7 +208,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "reservedByToken": [
@@ -230,7 +233,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ]
 }
@@ -361,7 +365,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "rightNeighbour": "C-12",
             "status": "free",
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "GA",
@@ -378,7 +383,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "forSale": true,
             "objectType": "generalAdmission",
             "status": "free",
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "not_selectable": [
@@ -400,7 +406,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "rightNeighbour": "C-44",
             "status": "booked",
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         },
         {
             "label": "C-35",
@@ -422,7 +429,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "rightNeighbour": "C-36",
             "status": "reservedByToken",
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ]
 }
@@ -555,7 +563,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         }
     ],
     "Balcony": [
@@ -579,7 +588,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         },
         {
             "label": "C-45",
@@ -599,7 +609,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "Standing": [
@@ -618,7 +629,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_CATEGORY": [ ... ]
@@ -751,7 +763,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         }
     ],
     "5": [
@@ -775,7 +788,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         },
         {
             "label": "C-45",
@@ -795,7 +809,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "6": [
@@ -814,7 +829,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_CATEGORY": [ ... ]
@@ -939,7 +955,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         }
     ],
     "C-35": [
@@ -963,7 +980,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ],
     "C-45": [
@@ -985,7 +1003,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "GA": [
@@ -1004,7 +1023,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ]
 }
@@ -1133,7 +1153,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "C-35",
@@ -1156,7 +1177,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ],
     "order2": [
@@ -1179,7 +1201,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "NO_ORDER_ID": [
@@ -1198,7 +1221,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_ORDER_ID": [ ... ]
@@ -1327,7 +1351,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "C-35",
@@ -1352,7 +1377,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ],
     "Balcony": [
@@ -1377,7 +1403,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "NO_SECTION": [
@@ -1396,7 +1423,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_SECTION": [ ... ]
@@ -1445,7 +1473,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "leftNeighbour": "C-10",
             "rightNeighbour": "C-12",
             "isSelectable": true,
-            "isDisabledBySocialDistancing": false
+            "isDisabledBySocialDistancing": false,
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "C-35",
@@ -1469,7 +1498,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "leftNeighbour": "C-34",
             "rightNeighbour": "C-36",
             "isSelectable": false,
-            "isDisabledBySocialDistancing": false
+            "isDisabledBySocialDistancing": false,
+            "distanceToFocalPoint": 62.923
         }
     ],
     "channel2": [
@@ -1493,7 +1523,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "leftNeighbour": "C-46",
             "rightNeighbour": "C-44",
             "isSelectable": false,
-            "isDisabledBySocialDistancing": false
+            "isDisabledBySocialDistancing": false,
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "NO_CHANNEL": [
@@ -1511,7 +1542,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "numFree": 60,
             "forSale": true,
             "objectType": "generalAdmission",
-            "isSelectable": true
+            "isSelectable": true,
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_CHANNEL": [ ... ]
@@ -1631,9 +1663,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
-                {
+        {
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
@@ -1651,7 +1684,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         },
         {
             "label": "C-35",
@@ -1673,7 +1707,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ],
     "generalAdmission": [
@@ -1692,7 +1727,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "table": [],
