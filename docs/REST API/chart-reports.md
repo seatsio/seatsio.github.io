@@ -127,7 +127,7 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "labels": {
                 "own": { "label": "11", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Ground Floor",
             "categoryKey": "1",
@@ -135,7 +135,8 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "section": "Floor",
             "objectType": "seat",
             "leftNeighbour": "Section A-C-10",
-            "rightNeighbour": "Section A-C-12"
+            "rightNeighbour": "Section A-C-12",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "C-35": [
@@ -150,7 +151,8 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "categoryKey": "5",
             "objectType": "seat",
             "leftNeighbour": "Section A-C-34",
-            "rightNeighbour": "Section A-C-36"
+            "rightNeighbour": "Section A-C-36",
+            "distanceToFocalPoint": 12.878
         }
     ],
     "C-45": [
@@ -159,13 +161,14 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "labels": {
                 "own": { "label": "45", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "2",
             "objectType": "seat",
             "leftNeighbour": "Section A-C-46",
-            "rightNeighbour": "Section A-C-44"
+            "rightNeighbour": "Section A-C-44",
+            "distanceToFocalPoint": 20.2134
         }
     ],
     "GA": [
@@ -177,7 +180,8 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "categoryLabel": "Standing",
             "categoryKey": 6,
             "capacity": 100,
-            "objectType": "generalAdmission"
+            "objectType": "generalAdmission",
+            "distanceToFocalPoint": 89.213
         }
     ]
 }
@@ -314,7 +318,8 @@ The response is a JSON object where all the keys are category keys, and the valu
       "objectType": "seat",
       "categoryKey": "8",
       "categoryLabel": "VIP",
-      "section": "3"
+      "section": "3",
+      "distanceToFocalPoint": 10.3245
     },
     {
       "label": "3-A-2",
@@ -332,7 +337,8 @@ The response is a JSON object where all the keys are category keys, and the valu
       "objectType": "seat",
       "categoryKey": "8",
       "categoryLabel": "VIP",
-      "section": "3"
+      "section": "3",
+      "distanceToFocalPoint": 89.3245
     }
   ],
   "9": [
@@ -352,7 +358,8 @@ The response is a JSON object where all the keys are category keys, and the valu
       "objectType": "seat",
       "categoryKey": "9",
       "categoryLabel": "regular",
-      "section": "201"
+      "section": "201",
+      "distanceToFocalPoint": 34.847
     },
     ...
   ]
@@ -477,7 +484,8 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
       "objectType": "seat",
       "categoryKey": "8",
       "categoryLabel": "VIP",
-      "section": "3"
+      "section": "3",
+      "distanceToFocalPoint": 10.3245
     },
     {
       "label": "3-A-2",
@@ -495,7 +503,8 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
       "objectType": "seat",
       "categoryKey": "8",
       "categoryLabel": "VIP",
-      "section": "3"
+      "section": "3",
+      "distanceToFocalPoint": 10.3245
     }
   ],
   "Balcony": [
@@ -515,7 +524,8 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
       "objectType": "seat",
       "categoryKey": "9",
       "categoryLabel": "regular",
-      "section": "201"
+      "section": "201",
+      "distanceToFocalPoint": 10.3245
     },
     ...
   ]
@@ -622,7 +632,7 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "labels": {
                 "own": { "label": "11", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Ground Floor",
             "categoryKey": "1",
@@ -630,7 +640,8 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "section": "Floor",
             "objectType": "seat",
             "leftNeighbour": "Section A-C-10",
-            "rightNeighbour": "Section A-C-12"
+            "rightNeighbour": "Section A-C-12",
+            "distanceToFocalPoint": 10.3245
         },
         {
             "label": "Section A-C-35",
@@ -643,20 +654,22 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "categoryKey": "5",
             "objectType": "seat",
             "leftNeighbour": "Section A-C-34",
-            "rightNeighbour": "Section A-C-36"
+            "rightNeighbour": "Section A-C-36",
+            "distanceToFocalPoint": 10.3245
         },
         {
             "label": "Section A-C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
                 "parent": { "label": "C", "type": "row" },
-                "section: "Section A"
+                "section": "Section A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "2",
             "objectType": "seat",
             "leftNeighbour": "Section A-C-46",
-            "rightNeighbour": "Section A-C-44"
+            "rightNeighbour": "Section A-C-44",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "generalAdmission": [
@@ -668,7 +681,8 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
             "categoryLabel": "Standing",
             "categoryKey": 6,
             "capacity": 100,
-            "objectType": "generalAdmission"
+            "objectType": "generalAdmission",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "table": [],
