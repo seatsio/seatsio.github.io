@@ -202,7 +202,7 @@ curl https://api-{region}.seatsio.net/events/anEvent/status-changes?limit=100&st
             "extraData": {
                 "name": "Jane Doe"
             }, 
-            "holdToken": "bbaa2792-7707-416c-a2e2-dbec7ad7ee1f",
+            "holdToken": "wvXbB9MlHt",
             "origin": {
               "type": "HELD_BY_USER"
             }

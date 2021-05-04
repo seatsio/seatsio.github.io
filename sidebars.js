@@ -180,13 +180,15 @@ module.exports = {
     ],
     api: [
         "REST API/api-overview/api-introduction",
+        "REST API/api-overview/api-client-libraries",
+        "REST API/api-overview/api-url",
         "REST API/api-overview/api-authentication",
-        "REST API/api-overview/api-gzip",
+        //"REST API/api-overview/api-rate-limit",
         "REST API/api-overview/api-error-handling",
         "REST API/api-overview/api-pagination",
         "REST API/api-overview/api-expanding-objects",
+        "REST API/api-overview/api-gzip",
         "REST API/api-overview/api-uri-encoding",
-        "REST API/api-overview/api-client-libraries",
         {
             "Objects": [
                 "REST API/api-objects",

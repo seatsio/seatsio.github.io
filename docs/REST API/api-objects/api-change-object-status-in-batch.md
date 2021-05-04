@@ -50,8 +50,8 @@ $seatsioClient->events->changeObjectStatusInBatch([
 
 // Holding seats
 $seatsioClient->events->changeObjectStatusInBatch([
-	new StatusChangeRequest("event1", ["A-3", "A-5"], "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af"),
-	new StatusChangeRequest("event2", ["B-27"], "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af"),
+	new StatusChangeRequest("event1", ["A-3", "A-5"], "reservedByToken", "wvXbB9MlHt"),
+	new StatusChangeRequest("event2", ["B-27"], "reservedByToken", "wvXbB9MlHt"),
 );
 ```
 
@@ -67,8 +67,8 @@ Client.Events.ChangeObjectStatus(new[] {
 
 // Holding seats
 Client.Events.ChangeObjectStatus(new[] {
-	new StatusChangeRequest("event1", new[] {"A-3", "A-5"}, "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af"),
-	new StatusChangeRequest("event2", new[] {"B-27"}, "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af"),
+	new StatusChangeRequest("event1", new[] {"A-3", "A-5"}, "reservedByToken", "wvXbB9MlHt"),
+	new StatusChangeRequest("event2", new[] {"B-27"}, "reservedByToken", "wvXbB9MlHt"),
 });
 ```
 
@@ -84,8 +84,8 @@ client.events.changeObjectStatus(newArrayList(
 
 // Holding seats
 client.events.changeObjectStatus(newArrayList(
-	new StatusChangeRequest("event1", newArrayList("A-3", "A-5"), "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af"),
-	new StatusChangeRequest("event2", newArrayList("B-27"), "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af"),
+	new StatusChangeRequest("event1", newArrayList("A-3", "A-5"), "reservedByToken", "wvXbB9MlHt"),
+	new StatusChangeRequest("event2", newArrayList("B-27"), "reservedByToken", "wvXbB9MlHt"),
 ));
 ```
 
@@ -101,8 +101,8 @@ client.events.change_object_status_in_batch([
 
 # Holding seats
 client.events.change_object_status_in_batch([
-  StatusChangeRequest("event1", ["A-3", "A-5"], "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af"),
-  StatusChangeRequest("event2", ["B-27"], "reservedByToken", "f6c7f83b-d777-4aee-8429-772295bf67af")
+  StatusChangeRequest("event1", ["A-3", "A-5"], "reservedByToken", "wvXbB9MlHt"),
+  StatusChangeRequest("event2", ["B-27"], "reservedByToken", "wvXbB9MlHt")
 ])
 
 ```
@@ -119,8 +119,8 @@ client.events.change_object_status_in_batch([
 
 # Holding seats
 client.events.change_object_status_in_batch([
-	{ :event => 'event1', :objects => ['A-3', 'A-5'], :status => 'reservedByToken', :holdToken => 'f6c7f83b-d777-4aee-8429-772295bf67af'},
-  { :event => 'event2', :objects => ['B-27'], :status => 'reservedByToken', :holdToken => 'f6c7f83b-d777-4aee-8429-772295bf67af'}
+	{ :event => 'event1', :objects => ['A-3', 'A-5'], :status => 'reservedByToken', :holdToken => 'wvXbB9MlHt'},
+  { :event => 'event2', :objects => ['B-27'], :status => 'reservedByToken', :holdToken => 'wvXbB9MlHt'}
 ])
 
 ```
@@ -137,8 +137,8 @@ client.events.changeObjectStatus([
 
 // Holding seats
 client.events.changeObjectStatus([
-	new StatusChangeRequest('event1', ['A-3', 'A-5'], 'reservedByToken', 'f6c7f83b-d777-4aee-8429-772295bf67af'),
-	new StatusChangeRequest('event2', ['B-27'], 'reservedByToken', 'f6c7f83b-d777-4aee-8429-772295bf67af'),
+	new StatusChangeRequest('event1', ['A-3', 'A-5'], 'reservedByToken', 'wvXbB9MlHt'),
+	new StatusChangeRequest('event2', ['B-27'], 'reservedByToken', 'wvXbB9MlHt'),
 ]);
 ```
 
@@ -181,7 +181,7 @@ This API call only supports events that belong to the same workspace. It's not p
       event: 'event1', 
       objects: ['A-3', 'A-5'], 
       status: 'reservedByToken',
-      holdToken: 'f6c7f83b-d777-4aee-8429-772295bf67af'
+      holdToken: 'wvXbB9MlHt'
     },
     ...
   ]

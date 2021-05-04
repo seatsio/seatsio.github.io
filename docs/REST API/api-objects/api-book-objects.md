@@ -149,7 +149,7 @@ All seats (or tables, booths or GA places) passed in to this API will be conside
 // Booking held seats 
 {
     'objects': ['A-3', 'A-5'], 
-    'holdToken': 'a59a0803-f126-4b87-ac26-f8fa4907a60c'
+    'holdToken': 'wvXbB9MlHt'
 }
 
 // Ticket types
