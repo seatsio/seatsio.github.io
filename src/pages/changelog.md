@@ -2,6 +2,11 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 425 - 04/05/2021
+- renderer: new and improved tooltip layout
+- API: for new signups, hold token IDs became much shorter, to be able to store them more efficiently. If you're an existing customer, we recommend you enable this setting as well: https://app.seats.io/company-settings
+- event manager now shows the number of places assigned to a channel
+
 ### Version 424 - 26/04/2021
 - API: event and chart reports contain the distance to the focal point for each object 
 
