@@ -3,7 +3,7 @@ title: Changelog
 hide_table_of_contents: true
 ---
 ### Version 426 - 06/05/2021
-- designer: add "fixed occupancy areas" and "variable occupancy areas": they have a capacity (just like a general admission area), but can be booked by a single ticket buyer.
+- designer: added "fixed occupancy" and "variable occupancy" areas: they have a capacity (just like a general admission area), but can be booked by a single ticket buyer.
 - API: improved performance of calls that change object status
 - renderer: fixed bug in tooltip on `leaf` preset
 
