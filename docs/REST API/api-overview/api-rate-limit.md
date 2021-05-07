@@ -43,4 +43,4 @@ or just use our [api client libraries](/docs/api/client-libraries). They have ex
 
 ## Higher rate limit
 
-Expecting an higher load than what we allow on our shared instance? A dedicated seats.io server might be an option. Please [get in touch](mailto:sales@seats.io).
+Expecting a higher load than what we allow on our shared instance? A dedicated seats.io server might be an option. Please [get in touch](mailto:sales@seats.io).
