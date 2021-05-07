@@ -31,7 +31,9 @@ Calls to book best available seats take a little longer than normal booking call
 
 ## Handling rate limited requests
 
-Status `429` should be handled by a retry mechanism. You could build that yourself (e.g through [exponential backoff](https://en.wikipedia.org/wiki/Exponential_backoff)),
+Status `429` should be handled by a retry mechanism.
+
+You could build that yourself (e.g through [exponential backoff](https://en.wikipedia.org/wiki/Exponential_backoff)),
 or just use our [api client libraries](/docs/api/client-libraries). They have exponential backoff built-in.
 
 - [PHP](https://github.com/seatsio/seatsio-php): since v74.0
