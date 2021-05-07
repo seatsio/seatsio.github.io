@@ -21,7 +21,7 @@ long as you respect the limit of 80 concurrent requests.
 
 In-browser calls by rendered charts (e.g. to fetch object statuses, or to create a hold token) also count towards the rate limit - not just API calls from your server to seats.io.
 
-The rate limit corresponds to about **100 renderings and 200 booked places per second**. In other words: 100 new ticket buyers
+80 concurrent requests corresponds to about **100 renderings and 200 booked places per second**. In other words: 100 new ticket buyers
 can enter your site every second and book 2 places, without hitting the concurrent requests rate limit.
 
 Be aware: this depends on a number of factors, such as the size of the chart, whether social distancing rules are in place, the number of already booked places etc.
