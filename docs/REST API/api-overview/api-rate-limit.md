@@ -7,8 +7,6 @@ hidden: false
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## Introduction
-
 The seats.io API is rate limited, to keep the servers running smoothly when they receive an extremely high number of requests.
 
 This limit is set to **80 concurrent requests** per seats.io account. That means that 80 requests can be active at any given time (per account).
