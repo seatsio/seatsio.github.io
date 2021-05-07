@@ -27,7 +27,7 @@ can enter your site every second and book 2 places, without hitting the concurre
 Be aware: this depends on a number of factors, such as the size of the chart, whether social distancing rules are in place, the number of already booked places etc.
 So it's very important to do proper load testing before you go live.
 
-When booking best available places, the limit is lower: 100 booked places per second instead of 200.
+When booking **best available** places, the limit is lower: **100 booked places per second** instead of 200.
 
 ## Handling rate limited requests
 
