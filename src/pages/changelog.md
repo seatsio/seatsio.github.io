@@ -2,6 +2,20 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 427 - 07/05/2021
+- designer: uploaded images are now shrunk to 2048x2048 (if they were bigger than that)
+- event manager: bug fix: number of places assigned to channel doesn't include deleted objects 
+
+### Version 426 - 06/05/2021
+- designer: added "fixed occupancy" and "variable occupancy" areas: they have a capacity (just like a general admission area), but can be booked by a single ticket buyer.
+- API: improved performance of calls that change object status
+- renderer: fixed bug in tooltip on `leaf` preset
+
+### Version 425 - 04/05/2021
+- renderer: new and improved tooltip layout
+- API: hold token IDs are now much shorter, to be able to store them more efficiently. This is enabled by default for new signups. If you're an existing customer, we recommend you enable this setting as well: https://app.seats.io/company-settings
+- event manager now shows the number of places assigned to a channel
+
 ### Version 424 - 26/04/2021
 - API: event and chart reports contain the distance to the focal point for each object 
 
