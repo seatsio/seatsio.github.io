@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 427 - 07/05/2021
+- designer: uploaded images are now shrunk to 2048x2048 (if they are bigger than that)
+- event manager: bug fix: number of places assigned to channel doesn't include deleted objects 
+
 ### Version 426 - 06/05/2021
 - designer: added "fixed occupancy" and "variable occupancy" areas: they have a capacity (just like a general admission area), but can be booked by a single ticket buyer.
 - API: improved performance of calls that change object status
