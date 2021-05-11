@@ -31,6 +31,8 @@ Pass in a filter to only find the workspaces that have a matching name.
 
 ```shell
 GET https://api-{region}.seatsio.net/workspaces
+GET https://api-{region}.seatsio.net/workspaces/active
+GET https://api-{region}.seatsio.net/workspaces/inactive
 
 More info: https://docs.seats.io/docs/api-pagination
 ```
@@ -39,11 +41,23 @@ More info: https://docs.seats.io/docs/api-pagination
 <TabItem value='php'>
 
 ```php
+// active and inactive workspaces
 $client->workspaces->listFirstPage(pageSize?, filter?)
 $client->workspaces->listPageAfter(afterId, pageSize?, filter?)
 $client->workspaces->listPageBefore(beforeId, pageSize?, filter?)
-
 $client->workspaces->listAll(filter?);
+
+// active workspaces
+$client->workspaces->active->firstPage(pageSize?, filter?)
+$client->workspaces->active->pageAfter(afterId, pageSize?, filter?)
+$client->workspaces->active->pageBefore(beforeId, pageSize?, filter?)
+$client->workspaces->active->all(filter?)
+
+// inactive workspaces
+$client->workspaces->inactive->firstPage(pageSize?, filter?)
+$client->workspaces->inactive->pageAfter(afterId, pageSize?, filter?)
+$client->workspaces->inactive->pageBefore(beforeId, pageSize?, filter?)
+$client->workspaces->inactive->all(filter?)
 
 /*
 Some examples (for charts, but listing workspaces works similarly):
@@ -57,11 +71,23 @@ https://github.com/seatsio/seatsio-php/blob/master/README.md#listing-all-charts
 <TabItem value='csharp'>
 
 ```csharp
+// active and inactive workspaces
 client.Workspaces.ListFirstPage(pageSize?, filter?)
 client.Workspaces.ListPageAfter(afterId, pageSize?, filter?)
 client.Workspaces.ListPageBefore(beforeId, pageSize?, filter?)
+client.Workspaces.ListAll(filter?)
 
-client.Workspaces.ListAll(filter?);
+// active workspaces
+client.Workspaces.Active.FirstPage(pageSize?, filter?)
+client.Workspaces.Active.PageAfter(afterId, pageSize?, filter?)
+client.Workspaces.Active.PageBefore(beforeId, pageSize?, filter?)
+client.Workspaces.Active.All(filter?)
+
+// inactive workspaces
+client.Workspaces.Inactive.FirstPage(pageSize?, filter?)
+client.Workspaces.Inactive.PageAfter(afterId, pageSize?, filter?)
+client.Workspaces.Inactive.PageBefore(beforeId, pageSize?, filter?)
+client.Workspaces.Inactive.All(filter?)
 
 /*
 Some examples (for charts, but listing workspaces works similarly):
@@ -75,11 +101,23 @@ https://github.com/seatsio/seatsio-dotnet/blob/master/README.md#listing-all-char
 <TabItem value='java'>
 
 ```java
+// active and inactive workspaces
 client.workspaces.listFirstPage(pageSize?, filter?)
 client.workspaces.listPageAfter(afterId, pageSize?, filter?)
 client.workspaces.listPageBefore(beforeId, pageSize?, filter?)
+client.workspaces.listAll(filter?)
 
-client.workspaces.listAll(filter?);
+// active workspaces
+client.workspaces.active.firstPage(pageSize?, filter?)
+client.workspaces.active.pageAfter(afterId, pageSize?, filter?)
+client.workspaces.active.pageBefore(beforeId, pageSize?, filter?)
+client.workspaces.active.all(filter?)
+
+// inactive workspaces
+client.workspaces.inactive.firstPage(pageSize?, filter?)
+client.workspaces.inactive.pageAfter(afterId, pageSize?, filter?)
+client.workspaces.inactive.pageBefore(beforeId, pageSize?, filter?)
+client.workspaces.inactive.all(filter?)
 
 /*
 Some examples (for charts, but listing workspaces works similarly):
@@ -93,11 +131,23 @@ https://github.com/seatsio/seatsio-java/blob/master/README.md#listing-all-charts
 <TabItem value='python'>
 
 ```python
+# active and inactive workspaces
 client.workspaces.list_first_page(page_size?, filter?)
 client.workspaces.list_page_after(after_id, page_size?, filter?)
 client.workspaces.list_page_before(before_id, page_size?, filter?)
-
 client.workspaces.list(filter?)
+
+# active workspaces
+client.workspaces.active.first_page(page_size?, filter?)
+client.workspaces.active.page_after(after_id, page_size?, filter?)
+client.workspaces.active.page_before(before_id, page_size?, filter?)
+client.workspaces.active.list(filter?)
+
+# inactive workspaces
+client.workspaces.inactive.first_page(page_size?, filter?)
+client.workspaces.inactive.page_after(after_id, page_size?, filter?)
+client.workspaces.inactive.page_before(before_id, page_size?, filter?)
+client.workspaces.inactive.list(filter?)
 
 """
 Some examples (for charts, but listing workspaces works similarly):
@@ -111,11 +161,23 @@ https://github.com/seatsio/seatsio-python/blob/master/README.md#listing-all-char
 <TabItem value='ruby'>
 
 ```ruby
+# active and inactive workspaces
 client.workspaces.list(filter?).first_page(page_size?)
 client.workspaces.list(filter?).page_after(after_id, page_size?)
 client.workspaces.list(filter?).page_before(before_id, page_size?)
-
 client.workspaces.list(filter?)
+
+# active workspaces
+client.workspaces.active(filter?).first_page(page_size?)
+client.workspaces.active(filter?).page_after(after_id, page_size?)
+client.workspaces.active(filter?).page_before(before_id, page_size?)
+client.workspaces.active(filter?)
+
+# inactive workspaces
+client.workspaces.inactive(filter?).first_page(page_size?)
+client.workspaces.inactive(filter?).page_after(after_id, page_size?)
+client.workspaces.inactive(filter?).page_before(before_id, page_size?)
+client.workspaces.inactive(filter?)
 
 # Some examples (for charts, but listing workspaces works similarly):
 
@@ -127,11 +189,23 @@ client.workspaces.list(filter?)
 <TabItem value='javascript'>
 
 ```javascript
+// active and inactive workspaces
 client.workspaces.listFirstPage(filter?, pageSize?)
 client.workspaces.listPageAfter(afterId, filter?, pageSize?)
 client.workspaces.listPageBefore(beforeId, filter?, pageSize?)
+client.workspaces.listAll(filter?)
 
-client.workspaces.listAll(filter?);
+// active workspaces
+client.workspaces.active.firstPage(filter?, pageSize?)
+client.workspaces.active.pageAfter(afterId, filter?, pageSize?)
+client.workspaces.active.pageBefore(beforeId, filter?, pageSize?)
+client.workspaces.active.all(filter?)
+
+// inactive workspaces
+client.workspaces.inactive.firstPage(filter?, pageSize?)
+client.workspaces.inactive.pageAfter(afterId, filter?, pageSize?)
+client.workspaces.inactive.pageBefore(beforeId, filter?, pageSize?)
+client.workspaces.inactive.all(filter?)
 
 /*
 Some examples (for charts, but listing workspaces works similarly):
