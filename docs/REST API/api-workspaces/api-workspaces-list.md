@@ -13,7 +13,7 @@ Returns a paginated list of workspaces you’ve previously created. The workspac
 
 Pass in a filter to only find the workspaces that have a matching name.
 
-
+By default the call returns active and inactive workspaces. Add `/active` or `/inactive` to change that behaviour.
 
 <Tabs 
   groupId="serverside-code-samples"
