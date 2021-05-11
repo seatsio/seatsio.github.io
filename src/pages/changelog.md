@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 428 - 11/05/2021
+- API: added calls to fetch active or inactive workspaces
+
 ### Version 427 - 07/05/2021
 - designer: uploaded images are now shrunk to 2048x2048 (if they were bigger than that)
 - event manager: bug fix: number of places assigned to channel doesn't include deleted objects 
