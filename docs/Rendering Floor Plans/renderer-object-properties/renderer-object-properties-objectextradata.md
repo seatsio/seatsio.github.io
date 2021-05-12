@@ -10,4 +10,4 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 **Type**: object  
-example: `{'name': 'John Doe'}`
+example: `{'userId': '123'}`

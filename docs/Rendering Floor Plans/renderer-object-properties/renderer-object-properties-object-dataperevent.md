@@ -19,7 +19,7 @@ For GA areas, have a look at [this page](/docs/renderer/object-properties-ga-dat
   dataPerEvent: {
     eventKey1: {
       status: 'booked',
-      extraData: { name: 'John Doe' }
+      extraData: { userId: '123' }
     },
     eventKey2: {
       status: 'free'

@@ -37,8 +37,8 @@ POST https://api-{region}.seatsio.net/events/{eventKey}/actions/update-extra-dat
 
 ```php
 $extraDatas = [
-  "A-1" => ["name" => "John Doe"],
-  "A-2" => ["name" => "Jane Doe"]
+  "A-1" => ["userId" => "123"],
+  "A-2" => ["userId" => "456"]
 ];
 $seatsioClient->events->updateExtraDatas("event34", $extraDatas);
 ```
@@ -47,8 +47,8 @@ $seatsioClient->events->updateExtraDatas("event34", $extraDatas);
 <TabItem value='csharp'>
 
 ```csharp
-var extraData1 = new Dictionary<string, object> {{ "name", "John Doe" }};
-var extraData2 = new Dictionary<string, object> {{ "name", "Jane Doe" }};
+var extraData1 = new Dictionary<string, object> {{ "userId", "123" }};
+var extraData2 = new Dictionary<string, object> {{ "userId", "456" }};
 var extraDatas = new Dictionary<string, object> {{ "A-1", extraData1 }, { "A-2", extraData2 }};
 
 Client.Events.UpdateExtraDatas("event34", extraDatas);
@@ -59,9 +59,9 @@ Client.Events.UpdateExtraDatas("event34", extraDatas);
 
 ```java
 Map<String, Object> extraData1 = new HashMap<>();
-extraData1.put("name", "John Doe");
+extraData1.put("userId", "123");
 Map<String, Object> extraData2 = new HashMap<>();
-extraData1.put("name", "Jane Doe");
+extraData1.put("userId", "456");
 
 Map<String, Map<String, Object>> extraDatas = new HashMap<>();
 extraDatas.put("A-1", extraData1);
@@ -74,8 +74,8 @@ client.events.updateExtraDatas("event34", extraDatas);
 <TabItem value='python'>
 
 ```python
-extra_data1 = {"name": "John Doe"}
-extra_data2 = {"name": "Jane Doe"}
+extra_data1 = {"userId": "123"}
+extra_data2 = {"userId": "456"}
 
 client.events.update_extra_datas("event34", { "A-1": extra_data1, "A-2": extra_data2})
 
@@ -85,8 +85,8 @@ client.events.update_extra_datas("event34", { "A-1": extra_data1, "A-2": extra_d
 <TabItem value='ruby'>
 
 ```ruby
-extra_data1 = {"name": "John Doe"}
-extra_data2 = {"name": "Jane Doe"}
+extra_data1 = {"userId": "123"}
+extra_data2 = {"userId": "456"}
 
 client.events.update_extra_datas key: "event34", extra_data: { "A-1": extra_data1, "A-2": extra_data2}
 ```
@@ -95,7 +95,7 @@ client.events.update_extra_datas key: "event34", extra_data: { "A-1": extra_data
 <TabItem value='javascript'>
 
 ```javascript
-let extraData1 = {"name": "John Doe"}, extraData2 = {"name": "Jane Doe"};
+let extraData1 = {"userId": "123"}, extraData2 = {"userId": "456"};
 
 await client.events.updateExtraDatas('eventKey', {'A-1': extraData1, 'A-2': extraData2});
 ```
@@ -111,10 +111,10 @@ await client.events.updateExtraDatas('eventKey', {'A-1': extraData1, 'A-2': extr
 {
     "extraData": {
         "A-1": {
-            "name": "John Doe"
+            "userId": "123"
         },
         "A-2": {
-            "name": "Jane Doe"
+            "userId": "456"
         }  
     }
 }
@@ -127,7 +127,7 @@ extraData is a mapping between object labels and extra data objects. The extra d
 
 ```shell
 curl https://api-{region}.seatsio.net/events/event34/actions/update-extra-data \
--u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"A-1": {"name": "John Doe"}, "A-2": {"name": "Jane Doe"}}}'
+-u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"A-1": {"userId": "123"}, "A-2": {"userId": "456"}}}'
 
 ```
 

@@ -184,7 +184,7 @@ curl https://api-{region}.seatsio.net/events/anEvent/status-changes?limit=100&st
             "date": "2017-05-05T10:58:44.715Z",
             "orderId": "anOrder",
             "extraData": {
-                "name": "John Doe"
+                "userId": "123"
             },
             "origin": {
               "type": "API_CALL",
@@ -200,7 +200,7 @@ curl https://api-{region}.seatsio.net/events/anEvent/status-changes?limit=100&st
             "date": "2017-05-05T09:58:44.715Z",
             "orderId": "anotherOrder",
             "extraData": {
-                "name": "Jane Doe"
+                "userId": "456"
             }, 
             "holdToken": "wvXbB9MlHt",
             "origin": {
