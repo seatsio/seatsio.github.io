@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 429 - 12/05/2021
+- designer: bug fix: category color picker was shown behind the category list when there were many categories
+- event manager: tweaked tooltip for `manageChannels` mode
+
 ### Version 428 - 11/05/2021
 - API: added calls to fetch active or inactive workspaces
 
