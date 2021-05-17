@@ -1,5 +1,5 @@
 ---
-title: "4. Collect selected seats"
+title: "5. Collect selected seats"
 slug: "/tutorial/collect-selected-seats"
 hidden: false
 createdAt: "2018-08-21T09:55:39.597Z"

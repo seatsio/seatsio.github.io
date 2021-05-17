@@ -1,5 +1,5 @@
 ---
-title: "3. Show the floor plan on your page"
+title: "4. Show the floor plan on your page"
 slug: "/tutorial/show-the-floor-plan-on-your-page"
 hidden: false
 createdAt: "2018-08-21T09:12:10.090Z"
@@ -32,14 +32,31 @@ So in short: just copy & paste this code snippet and adapt it to your needs:
     new seatsio.SeatingChart({
         divId: 'chart',
         workspaceKey: 'your workspace key',
-        event: 'your event key'
+        event: 'your event key',
+        session: 'continue',
+        pricing: [
+           {'category': 1, 'price': 30}, 
+           {'category': 2, 'price': 40}, 
+           {'category': 3, 'price': 50}
+        ],
+        priceFormatter: function(price) {
+            return '$' + price;
+        }
     }).render();
 </script>
 ```
 
+The [session](/docs/renderer/config-session) parameter is optional, but most likely you'll want to pass it in. It enables
+'hold-on-select': when a user clicks on a seat, that seat immediately becomes unavailable to other users.
 
+This is only temporary: if you don't book the seat within 15 minutes, it gets released again.
+
+Seats.io doesn't store pricing information. So you need to pass in prices when you show the chart to the ticket buyer.
+Use a combination of the [pricing](/docs/renderer/config-pricing) and [priceFormatter](/docs/renderer/config-priceformatter) parameters for that.
 
 :::info 
-If you're using React, the easiest way to show a seating chart is to use our React wrapper: https://www.npmjs.com/package/@seatsio/seatsio-react
+If you're using React, the easiest way to show a seating chart is to use our React wrapper: https://github.com/seatsio/seatsio-react
+
+There's an AngularJS wrapper as well: https://github.com/seatsio/seatsio-angular
 :::
 
