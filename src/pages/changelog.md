@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 430 - 17/05/2021
+- API: new accounts have a rate limit of 100 concurrent requests: https://docs.seats.io/docs/api/rate-limit
+- renderer: bug fix: `chart.resetView()` now zooms all the way out on multi-floor charts
+
 ### Version 429 - 12/05/2021
 - designer: bug fix: category color picker was shown behind the category list when there were many categories
 - event manager: tweaked tooltip for `manageChannels` mode
