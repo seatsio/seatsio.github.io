@@ -46,13 +46,17 @@ So in short: just copy & paste this code snippet and adapt it to your needs:
 </script>
 ```
 
-The [session](/docs/renderer/config-session) parameter is optional, but most likely you'll want to pass it in. It enables
+[`workspaceKey`](/docs/renderer/config-workspacekey) is the public workspace key, which you can find at https://app.seats.io/workspace-settings
+
+[`event`](/docs/renderer/config-event) is the key of the event you created
+
+The [`session`](/docs/renderer/config-session) parameter is optional, but most likely you'll want to pass it in. It enables
 'hold-on-select': when a user clicks on a seat, that seat immediately becomes unavailable to other users.
 
 This is only temporary: if you don't book the seat within 15 minutes, it gets released again.
 
 Seats.io doesn't store pricing information. So you need to pass in prices when you show the chart to the ticket buyer.
-Use a combination of the [pricing](/docs/renderer/config-pricing) and [priceFormatter](/docs/renderer/config-priceformatter) parameters for that.
+Use a combination of the [`pricing`](/docs/renderer/config-pricing) and [`priceFormatter`](/docs/renderer/config-priceformatter) parameters for that.
 
 :::info 
 If you're using React, the easiest way to show a seating chart is to use our React wrapper: https://github.com/seatsio/seatsio-react

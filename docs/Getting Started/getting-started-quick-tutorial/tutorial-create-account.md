@@ -9,4 +9,4 @@ import TabItem from '@theme/TabItem';
 
 First things first: you'll need to create an account at https://app.seats.io/signup.
 
-You can use your account for free for 90 days to test-drive seats.io.
+You can use the account for 90 days at no cost to test-drive seats.io.

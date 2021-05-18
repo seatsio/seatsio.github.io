@@ -69,16 +69,10 @@ client.events.book('eventKey', ['A-3', 'A-5', 'A-7']);
 </TabItem>
 </Tabs>
 
-## When should I book?
-The answer is simple and complex at the same time: "whenever is appropriate in your sales flow". 
+### Seats held by the ticket buyer
 
-For example, you could call the seats.io API to book seats right before you collect their payment. Or you could pre-book some seats for VIPs before you even open up ticket sales.
-
-For a more in-depth discussion on this topic, check [this page](http://support.seats.io/integrating-seats-io/when-should-i-book-my-seats). 
-
-## Seats held by the ticket buyer
-
-If the seats are held, you need to pass in the hold token when booking the seats.
+If the seats are held (i.e. you passed in `session` when rendering the chart), you need to include the hold token when booking the seats.
+seats.io verifies whether the seats were held by that token, to prevent other ticket buyers from snatching them.
 
 <Tabs
 groupId="serverside-code-samples"
@@ -134,6 +128,13 @@ client.events.book('eventKey', ['A-3', 'A-5', 'A-7'], '8AWOqZZTz5');
 
 </TabItem>
 </Tabs>
+
+## When should I book?
+The answer is simple and complex at the same time: "whenever is appropriate in your sales flow". 
+
+For example, you could call the seats.io API to book seats right before you collect their payment. Or you could pre-book some seats for VIPs before you even open up ticket sales.
+
+For a more in-depth discussion on this topic, check [this page](http://support.seats.io/integrating-seats-io/when-should-i-book-my-seats).
 
 ## Live updates
 
