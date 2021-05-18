@@ -13,6 +13,7 @@ import TabItem from '@theme/TabItem';
 1. [Draw a floor plan](/docs/tutorial/draw-a-floor-plan) 
 1. [Create an event](/docs/tutorial/create-an-event) 
 1. [Show the floor plan on your page](/docs/tutorial/show-the-floor-plan-on-your-page) 
-1. [Collect selected seats](/docs/tutorial/collect-selected-seats) 
+1. [Submit selected seats](/docs/tutorial/submit-selected-seats) 
+1. [Submit hold token](/docs/tutorial/submit-hold-token) 
 1. [Book selected seats](/docs/tutorial/book-selected-seats)
 1. [Further reading](/docs/tutorial/further-reading)

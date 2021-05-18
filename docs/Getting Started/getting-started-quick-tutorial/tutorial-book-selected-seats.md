@@ -1,5 +1,5 @@
 ---
-title: "6. Book selected seats"
+title: "7. Book selected seats"
 slug: "/tutorial/book-selected-seats"
 hidden: false
 createdAt: "2018-08-21T09:35:42.604Z"
@@ -11,12 +11,8 @@ import TabItem from '@theme/TabItem';
 
 So you've shown your ticket buyer a floor plan, they selected the seats they wish. Now it's time to actually book them, so that they become unavailable for selection for the next ticket buyer that comes along. 
 
-You do this by calling the [Book objects endpoint](/docs/api/book-objects) of the Seats API. 
-Here are some examples using the respective [API Client libraries](/docs/api/client-libraries) you can use: 
-
-
-
-
+You do this by calling the [book objects endpoint](/docs/api/book-objects) of the Seats API. 
+Here are some examples using the respective [API Client libraries](/docs/api/client-libraries) you can use:
 
 <Tabs 
   groupId="serverside-code-samples"
@@ -26,6 +22,7 @@ Here are some examples using the respective [API Client libraries](/docs/api/cli
 { label: 'C#', value: 'csharp', },
 { label: 'Java', value: 'java', },
 { label: 'Python', value: 'python', },
+{ label: 'Ruby', value: 'ruby', },
 { label: 'Javascript', value: 'javascript', },
 ]}>
 <TabItem value='php'>
@@ -56,16 +53,21 @@ client.events.book("event1", ["A-3", "A-5", "A-7"])
 ```
 
 </TabItem>
+<TabItem value='ruby'>
+
+```ruby
+client.events.book('event1', ['A-3', 'A-5', 'A-7'], '8AWOqZZTz5')
+```
+
+</TabItem>
 <TabItem value='javascript'>
 
 ```javascript
-await client.events.book('eventKey', ['A-3', 'A-5', 'A-7']);
+client.events.book('eventKey', ['A-3', 'A-5', 'A-7']);
 ```
 
 </TabItem>
 </Tabs>
-
-
 
 ## When should I book?
 The answer is simple and complex at the same time: "whenever is appropriate in your sales flow". 
@@ -73,6 +75,65 @@ The answer is simple and complex at the same time: "whenever is appropriate in y
 For example, you could call the seats.io API to book seats right before you collect their payment. Or you could pre-book some seats for VIPs before you even open up ticket sales.
 
 For a more in-depth discussion on this topic, check [this page](http://support.seats.io/integrating-seats-io/when-should-i-book-my-seats). 
+
+## Seats held by the ticket buyer
+
+If the seats are held, you need to pass in the hold token when booking the seats.
+
+<Tabs
+groupId="serverside-code-samples"
+defaultValue="php"
+values={[
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Python', value: 'python', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Javascript', value: 'javascript', },
+]}>
+<TabItem value='php'>
+
+```php
+$seatsioClient->events->book("event1", ["A-3", "A-5", "A-7"], "8AWOqZZTz5");
+```
+
+</TabItem>
+<TabItem value='csharp'>
+
+```csharp
+Client.Events.Book("event1", new [] { "A-3", "A-5", "A-7" }, "8AWOqZZTz5");
+```
+
+</TabItem>
+<TabItem value='java'>
+
+```java
+client.events.book("event1", Arrays.asList("A-3", "A-5", "A-7"), "8AWOqZZTz5");
+```
+
+</TabItem>
+<TabItem value='python'>
+
+```python
+client.events.book("event1", ["A-3", "A-5", "A-7"], "8AWOqZZTz5")
+```
+
+</TabItem>
+<TabItem value='ruby'>
+
+```ruby
+client.events.book('event1', ['A-3', 'A-5', 'A-7'], '8AWOqZZTz5')
+```
+
+</TabItem>
+<TabItem value='javascript'>
+
+```javascript
+client.events.book('eventKey', ['A-3', 'A-5', 'A-7'], '8AWOqZZTz5');
+```
+
+</TabItem>
+</Tabs>
 
 ## Live updates
 
@@ -83,6 +144,3 @@ In other words: you can look at the seats on a floor plan as a collection of on/
 
 ## Custom statuses
 There's more than just 'booking' a seat. You can use your own statuses (i.e. other than *BOOKED*) as well, read more [here](/docs/api/custom-object-status).
-
-## Temporarily holding seats
-It's possible to hold seats for a little while, until the ticket buyer finishes up their purchase. Check [this page](/docs/api/temporarily-hold-objects) for more information on how to do this.
