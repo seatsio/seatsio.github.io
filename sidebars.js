@@ -177,6 +177,7 @@ module.exports = {
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartfindobject",
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartlistcategories",
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartzoomtoselectedobjects",
+                "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartzoomtofilteredcategories",
             ]
         }
     ],
