@@ -2,6 +2,11 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+
+### Version 431 - 19/05/2021
+- renderer: added onFilteredCategoriesChanged callback
+- renderer: bug fix: on mobile, ticket buyers were not able to select seats marked as orphan
+
 ### Version 430 - 17/05/2021
 - API: new accounts have a rate limit of 100 concurrent requests: https://docs.seats.io/docs/api/rate-limit
 - webapp: inactive workspaces are shown separately from the active ones
