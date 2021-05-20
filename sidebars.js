@@ -105,6 +105,7 @@ module.exports = {
                 "Rendering Floor Plans/renderer-react-to-events/renderer-events-onselectioninvalid",
                 "Rendering Floor Plans/renderer-react-to-events/renderer-events-onfullscreenopened",
                 "Rendering Floor Plans/renderer-react-to-events/renderer-events-onfullscreenclosed",
+                "Rendering Floor Plans/renderer-react-to-events/renderer-events-onfilteredcategorieschanged",
             ]
         },
         {
