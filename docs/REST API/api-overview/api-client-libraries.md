@@ -17,8 +17,5 @@ Interacting with the API becomes even easier if you use one of our client librar
 * [Python API client library](https://github.com/seatsio/seatsio-python)
 * [Ruby API client library](https://github.com/seatsio/seatsio-ruby)
 * [JavaScript client library](https://github.com/seatsio/seatsio-js)
-* [React client library](https://github.com/seatsio/seatsio-react)
-* [iOS client library](https://github.com/seatsio/seatsio-ios)
-* [Android client library](https://github.com/seatsio/seatsio-android)
 
-If you need a client library in another language, please let us via simple email to support@seats.io.
+If you need a client library in another language, please let us know via support@seats.io.

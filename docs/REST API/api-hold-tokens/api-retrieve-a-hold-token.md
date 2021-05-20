@@ -34,42 +34,42 @@ GET https://api-{region}.seatsio.net/hold-tokens/{token}
 <TabItem value='php'>
 
 ```php
-$seatsioClient->holdTokens->retrieve("18725661-36d6-4755-905a-28ce82d0c2d5");
+$seatsioClient->holdTokens->retrieve("wvXbB9MlHt");
 ```
 
 </TabItem>
 <TabItem value='csharp'>
 
 ```csharp
-Client.HoldTokens.Retrieve("18725661-36d6-4755-905a-28ce82d0c2d5");
+Client.HoldTokens.Retrieve("wvXbB9MlHt");
 ```
 
 </TabItem>
 <TabItem value='java'>
 
 ```java
-client.holdTokens.retrieve("18725661-36d6-4755-905a-28ce82d0c2d5");
+client.holdTokens.retrieve("wvXbB9MlHt");
 ```
 
 </TabItem>
 <TabItem value='python'>
 
 ```python
-client.hold_tokens.retrieve("18725661-36d6-4755-905a-28ce82d0c2d5")
+client.hold_tokens.retrieve("wvXbB9MlHt")
 ```
 
 </TabItem>
 <TabItem value='ruby'>
 
 ```ruby
-client.hold_tokens.retrieve("18725661-36d6-4755-905a-28ce82d0c2d5")
+client.hold_tokens.retrieve("wvXbB9MlHt")
 ```
 
 </TabItem>
 <TabItem value='javascript'>
 
 ```javascript
-await client.holdTokens.retrieve('holdToken');
+await client.holdTokens.retrieve('wvXbB9MlHt');
 ```
 
 </TabItem>
@@ -80,7 +80,7 @@ await client.holdTokens.retrieve('holdToken');
 
 
 ```shell
-curl https://api-{region}.seatsio.net/hold-tokens/18725661-36d6-4755-905a-28ce82d0c2d5 \
+curl https://api-{region}.seatsio.net/hold-tokens/wvXbB9MlHt \
 -u aSecretKey:
 ```
 
@@ -88,7 +88,7 @@ curl https://api-{region}.seatsio.net/hold-tokens/18725661-36d6-4755-905a-28ce82
 
 ```javascript
 {
-    "holdToken": "18725661-36d6-4755-905a-28ce82d0c2d5",
+    "holdToken": "wvXbB9MlHt",
     "expiresAt": "2017-05-05T10:58:44.715Z",
     "expiresInSeconds": 768
 }

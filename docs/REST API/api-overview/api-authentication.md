@@ -37,7 +37,7 @@ curl https://api-{region}.seatsio.net/charts -u 550e8400-e29b-41d4-a716-44665544
 
 ## Using a http header
 
-In general, you need to set a header called Authorization with value “Basic x”, where x is your secret key with a colon, base64 encoded. 
+In general, you need to set a header called Authorization with value “Basic x”, where x is your workspace secret key with a colon, base64 encoded. 
 
 So: 
 
@@ -77,21 +77,24 @@ All of the seats.io [client libraries](/docs/api/client-libraries) support authe
 <TabItem value='php'>
 
 ```php
-$seatsio = new \Seatsio\SeatsioClient("myWorkspaceSecretKey");
+use Seatsio\Region;
+use Seatsio\SeatsioClient;
+
+new SeatsioClient(Region::EU(), <WORKSPACE SECRET KEY>);
 ```
 
 </TabItem>
 <TabItem value='csharp'>
 
 ```csharp
-var client = new SeatsioClient("mySecretKey"); 
+var client = new SeatsioClient(Region.EU, "<WORKSPACE SECRET KEY>");
 ```
 
 </TabItem>
 <TabItem value='java'>
 
 ```java
-SeatsioClient client = new SeatsioClient("mySecretKey"); 
+SeatsioClient client = new SeatsioClient(Region.EU, <WORKSPACE SECRET KEY>);
 ```
 
 </TabItem>
@@ -99,7 +102,7 @@ SeatsioClient client = new SeatsioClient("mySecretKey");
 
 ```python
 import seatsio
-client = seatsio.Client(secret_key="mySecretKey")
+client = seatsio.Client(seatsio.Region.EU(), secret_key="my-workspace-secret-key") 
 ```
 
 </TabItem>
@@ -107,14 +110,16 @@ client = seatsio.Client(secret_key="mySecretKey")
 
 ```ruby
 require 'seatsio'
-client = Seatsio::Client.new('mySecretKey')
+client = Seatsio::Client.new(Seatsio::Region.EU(), "my-workspace-secret-key")
 ```
 
 </TabItem>
 <TabItem value='javascript'>
 
 ```javascript
-let client = new SeatsioClient('mySecretKey');
+import { SeatsioClient, Region } from 'seatsio'
+
+let client = new SeatsioClient(Region.EU(), <WORKSPACE SECRET KEY>)
 ```
 
 </TabItem>

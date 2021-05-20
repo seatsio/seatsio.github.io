@@ -1,9 +1,11 @@
 module.exports = {
     tutorial: [
+        "Getting Started/getting-started-quick-tutorial/tutorial-create-account",
         "Getting Started/getting-started-quick-tutorial/tutorial-draw-a-floor-plan",
         "Getting Started/getting-started-quick-tutorial/tutorial-create-an-event",
         "Getting Started/getting-started-quick-tutorial/tutorial-show-the-floor-plan-on-your-page",
-        "Getting Started/getting-started-quick-tutorial/tutorial-collect-selected-seats",
+        "Getting Started/getting-started-quick-tutorial/tutorial-submit-selected-seats",
+        "Getting Started/getting-started-quick-tutorial/tutorial-submit-hold-token",
         "Getting Started/getting-started-quick-tutorial/tutorial-book-selected-seats",
         "Getting Started/getting-started-quick-tutorial/tutorial-further-reading",
     ],
@@ -176,18 +178,21 @@ module.exports = {
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartfindobject",
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartlistcategories",
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartzoomtoselectedobjects",
+                "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartzoomtofilteredcategories",
             ]
         }
     ],
     api: [
         "REST API/api-overview/api-introduction",
+        "REST API/api-overview/api-client-libraries",
+        "REST API/api-overview/api-url",
         "REST API/api-overview/api-authentication",
-        "REST API/api-overview/api-gzip",
+        "REST API/api-overview/api-rate-limit",
         "REST API/api-overview/api-error-handling",
         "REST API/api-overview/api-pagination",
         "REST API/api-overview/api-expanding-objects",
+        "REST API/api-overview/api-gzip",
         "REST API/api-overview/api-uri-encoding",
-        "REST API/api-overview/api-client-libraries",
         {
             "Objects": [
                 "REST API/api-objects",

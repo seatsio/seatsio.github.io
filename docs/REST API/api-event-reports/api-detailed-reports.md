@@ -24,6 +24,7 @@ The report types you can choose from are:
 - byOrderId
 - bySection
 - byChannel
+- byObjectType
 
 You can also pass in an optional filter, for example to retrieve only the objects in a certain status:
 
@@ -166,7 +167,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "GA",
@@ -183,7 +185,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "booked": [
@@ -205,7 +208,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "reservedByToken": [
@@ -218,8 +222,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "catgoryKey": "5",
-            "extraData": {"name": "John Doe"},
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "extraData": {"userId": "123"},
+            "holdToken": "wvXbB9MlHt",
             "forSale": true,
             "objectType": "seat",
             "isAccessible": true,
@@ -229,7 +233,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ]
 }
@@ -360,7 +365,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "rightNeighbour": "C-12",
             "status": "free",
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "GA",
@@ -377,7 +383,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "forSale": true,
             "objectType": "generalAdmission",
             "status": "free",
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "not_selectable": [
@@ -399,7 +406,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "rightNeighbour": "C-44",
             "status": "booked",
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         },
         {
             "label": "C-35",
@@ -410,8 +418,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "catgoryKey": "5",
-            "extraData": {"name": "John Doe"},
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "extraData": {"userId": "123"},
+            "holdToken": "wvXbB9MlHt",
             "forSale": true,
             "objectType": "seat",
             "isAccessible": true,
@@ -421,7 +429,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "rightNeighbour": "C-36",
             "status": "reservedByToken",
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ]
 }
@@ -554,7 +563,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         }
     ],
     "Balcony": [
@@ -567,8 +577,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "categoryKey": "5",
-            "extraData": {"name": "John Doe"},
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "extraData": {"userId": "123"},
+            "holdToken": "wvXbB9MlHt",
             "forSale": true,
             "objectType": "seat",
             "isAccessible": true,
@@ -578,7 +588,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         },
         {
             "label": "C-45",
@@ -598,7 +609,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "Standing": [
@@ -617,7 +629,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_CATEGORY": [ ... ]
@@ -750,7 +763,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         }
     ],
     "5": [
@@ -763,8 +777,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "categoryKey": "5",
-            "extraData": {"name": "John Doe"},
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "extraData": {"userId": "123"},
+            "holdToken": "wvXbB9MlHt",
             "forSale": true,
             "objectType": "seat",
             "isAccessible": true,
@@ -774,7 +788,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         },
         {
             "label": "C-45",
@@ -794,7 +809,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "6": [
@@ -813,7 +829,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_CATEGORY": [ ... ]
@@ -938,7 +955,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         }
     ],
     "C-35": [
@@ -951,8 +969,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "categoryKey": "5",
-            "extraData": {"name": "John Doe"},
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "extraData": {"userId": "123"},
+            "holdToken": "wvXbB9MlHt",
             "forSale": true,
             "objectType": "seat",
             "isAccessible": true,
@@ -962,7 +980,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ],
     "C-45": [
@@ -984,7 +1003,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "GA": [
@@ -1003,7 +1023,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ]
 }
@@ -1132,7 +1153,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "C-35",
@@ -1143,9 +1165,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "categoryKey": "5",
-            "extraData": {"name": "John Doe"},
+            "extraData": {"userId": "123"},
             "orderId": "order1",
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "holdToken": "wvXbB9MlHt",
             "forSale": true   ,
             "objectType": "seat",
             "isAccessible": true,
@@ -1155,7 +1177,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ],
     "order2": [
@@ -1178,7 +1201,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "NO_ORDER_ID": [
@@ -1197,7 +1221,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_ORDER_ID": [ ... ]
@@ -1326,7 +1351,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "rightNeighbour": "C-12",
             "isSelectable": true,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "C-35",
@@ -1338,11 +1364,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "categoryKey": "5",
-            "extraData": {"name": "John Doe"},
+            "extraData": {"userId": "123"},
             "section": "Floor",
             "forSale": true,
             "orderId": "order1",
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "holdToken": "wvXbB9MlHt",
             "objectType": "seat",
             "isAccessible": true,
             "isCompanionSeat": false,
@@ -1351,7 +1377,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "rightNeighbour": "C-36",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
         }
     ],
     "Balcony": [
@@ -1376,7 +1403,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "rightNeighbour": "C-44",
             "isSelectable": false,
             "isDisabledBySocialDistancing": false,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "NO_SECTION": [
@@ -1395,7 +1423,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "forSale": true,
             "objectType": "generalAdmission",
             "isSelectable": true,
-            "channel": "channel1"
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_SECTION": [ ... ]
@@ -1444,7 +1473,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "leftNeighbour": "C-10",
             "rightNeighbour": "C-12",
             "isSelectable": true,
-            "isDisabledBySocialDistancing": false
+            "isDisabledBySocialDistancing": false,
+            "distanceToFocalPoint": 84.3242
         },
         {
             "label": "C-35",
@@ -1456,11 +1486,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
             "categoryKey": "5",
-            "extraData": {"name": "John Doe"},
+            "extraData": {"userId": "123"},
             "section": "Floor",
             "forSale": true,
             "orderId": "order1",
-            "holdToken": "5be320d5-10ca-4c8c-873c-40983c992ffc",
+            "holdToken": "wvXbB9MlHt",
             "objectType": "seat",
             "isAccessible": true,
             "isCompanionSeat": false,
@@ -1468,7 +1498,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "leftNeighbour": "C-34",
             "rightNeighbour": "C-36",
             "isSelectable": false,
-            "isDisabledBySocialDistancing": false
+            "isDisabledBySocialDistancing": false,
+            "distanceToFocalPoint": 62.923
         }
     ],
     "channel2": [
@@ -1492,7 +1523,8 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "leftNeighbour": "C-46",
             "rightNeighbour": "C-44",
             "isSelectable": false,
-            "isDisabledBySocialDistancing": false
+            "isDisabledBySocialDistancing": false,
+            "distanceToFocalPoint": 10.3245
         }
     ],
     "NO_CHANNEL": [
@@ -1510,10 +1542,197 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "numFree": 60,
             "forSale": true,
             "objectType": "generalAdmission",
-            "isSelectable": true
+            "isSelectable": true,
+            "distanceToFocalPoint": 82.832
         }
     ],
     "NO_CHANNEL": [ ... ]
+}
+```
+
+
+## Detailed report by object type
+
+<Tabs 
+  groupId="serverside-code-samples"
+  defaultValue="shell"
+  values={[
+{ label: 'Text', value: 'shell', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Python', value: 'python', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Javascript', value: 'javascript', },
+]}>
+<TabItem value='shell'>
+
+```shell
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byObjectType
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byObjectType/{status}
+```
+
+</TabItem>
+<TabItem value='php'>
+
+```php
+$seatsioClient->eventReports->byObjectType("event34");
+$seatsioClient->eventReports->byObjectType("event34", "generalAdmission");
+
+```
+
+</TabItem>
+<TabItem value='csharp'>
+
+```csharp
+Client.EventReports.ByObjectType("event34");
+Client.EventReports.ByObjectType("event34", "generalAdmission");
+
+```
+
+</TabItem>
+<TabItem value='java'>
+
+```java
+client.eventReports.byObjectType("event34");
+client.eventReports.byObjectType("event34", "generalAdmission");
+
+```
+
+</TabItem>
+<TabItem value='python'>
+
+```python
+client.events.reports.by_object_type("event34")
+client.events.reports.by_object_type("event34", object_type="generalAdmission")
+
+```
+
+</TabItem>
+<TabItem value='ruby'>
+
+```ruby
+client.event_reports.by_object_type("event34")
+client.event_reports.by_object_type("event34", "generalAdmission")
+```
+
+</TabItem>
+<TabItem value='javascript'>
+
+```javascript
+await client.eventReports.byObjectType('eventKey');
+await client.eventReports.byObjectType('eventKey', 'generalAdmission');
+```
+
+</TabItem>
+</Tabs>
+
+
+
+
+
+```shell
+curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSecretKey: 
+```
+
+
+
+```javascript
+{
+    "seat": [
+        {
+            "label": "C-11",
+            "labels": {
+                "own": { "label": "11", "type": "seat" },
+                "parent": { "label": "C", "type": "row" },
+                "section": "Floor"
+            },
+            "status": "free",
+            "categoryLabel": "Ground Floor",
+            "categoryKey": "4",
+            "entrance": "Main entrance",
+            "ticketType": "adult",
+            "section": "Floor",
+            "orderId": "order1",
+            "forSale": true,
+            "objectType": "seat",
+            "isAccessible": true,
+            "isCompanionSeat": false,
+            "hasRestrictedView": false,
+            "leftNeighbour": "C-10",
+            "rightNeighbour": "C-12",
+            "isSelectable": true,
+            "isDisabledBySocialDistancing": false,
+            "channel": "channel1",
+            "distanceToFocalPoint": 84.3242
+        },
+        {
+            "label": "C-45",
+            "labels": {
+                "own": { "label": "45", "type": "seat" },
+                "parent": { "label": "C", "type": "row" }
+            },
+            "status": "booked",
+            "categoryLabel": "Balcony",
+            "categoryKey": "5",
+            "forSale": true,
+            "objectType": "seat",
+            "isAccessible": true,
+            "isCompanionSeat": false,
+            "hasRestrictedView": false,
+            "leftNeighbour": "C-46",
+            "rightNeighbour": "C-44",
+            "isSelectable": false,
+            "isDisabledBySocialDistancing": false,
+            "channel": "channel1",
+            "distanceToFocalPoint": 10.3245
+        },
+        {
+            "label": "C-35",
+            "labels": {
+                "own": { "label": "35", "type": "seat" },
+                "parent": { "label": "C", "type": "row" }
+            },
+            "status": "reservedByToken",
+            "categoryLabel": "Balcony",
+            "catgoryKey": "5",
+            "extraData": {"userId": "123"},
+            "holdToken": "wvXbB9MlHt",
+            "forSale": true,
+            "objectType": "seat",
+            "isAccessible": true,
+            "isCompanionSeat": false,
+            "hasRestrictedView": false,
+            "leftNeighbour": "C-34",
+            "rightNeighbour": "C-36",
+            "isSelectable": false,
+            "isDisabledBySocialDistancing": false,
+            "channel": "channel1",
+            "distanceToFocalPoint": 62.923
+        }
+    ],
+    "generalAdmission": [
+        {
+            "label": "GA",
+            "labels": {
+                "own": { "label": "GA", "type": "generalAdmission" }
+            },
+            "status": "free",
+            "categoryLabel": "Standing",
+            "categoryKey": 6,
+            "capacity": 100,
+            "numBooked": 34,
+            "numHeld": 6,
+            "numFree": 60,
+            "forSale": true,
+            "objectType": "generalAdmission",
+            "isSelectable": true,
+            "channel": "channel1",
+            "distanceToFocalPoint": 82.832
+        }
+    ],
+    "table": [],
+    "booth": []
 }
 ```
 

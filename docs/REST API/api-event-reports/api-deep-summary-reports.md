@@ -114,7 +114,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/de
         "byCategoryLabel": {
           "cat3": 7,
           "cat1": 2
-        }
+        },
+	    "byObjectType": {
+	      ...
+	    }
       }
     },
     "byChannel": {
@@ -131,6 +134,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/de
         },
         "byCategoryLabel": {
           "cat3": 7
+        },
+        "byObjectType": {
+          ...
         }
       },
       "channel1": {
@@ -146,16 +152,22 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus/summary/de
         },
         "byCategoryLabel": {
           "cat1": 2
+        },
+        "byObjectType": {
+          ...
         }
       }
     },
     "byCategoryKey": {
-			...
+      ...
     },
     "bySelectability": {
-			...
+      ...
     },
     "byCategoryLabel": {
+      ...
+    },
+    "byObjectType": {
       ...
     }
   },
@@ -273,6 +285,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/sum
           "cat2": 1,
           "cat3": 13,
           "NO_CATEGORY": 1
+        },
+        "byObjectType": {
+          ...
         }
       }
     },
@@ -292,6 +307,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/sum
         "byCategoryLabel": {
           "cat3": 13,
           "NO_CATEGORY": 1
+        },
+        "byObjectType": {
+        ...
         }
       },
       "channel2": {
@@ -307,17 +325,23 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability/sum
         },
         "byCategoryLabel": {
           "cat2": 1
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
     "byCategoryKey": {
-			...
+      ...
     },
     "byStatus": {
-			...
+      ...
     },
     "byCategoryLabel": {
-			...
+      ...
+    },
+    "byObjectType": {
+      ...
     }
   },
   "not_selectable": {
@@ -426,6 +450,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel/sum
         },
         "byStatus": {
           "booked": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
@@ -443,14 +470,20 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel/sum
         },
         "byStatus": {
           "booked": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
     "bySelectability": {
-			...
+      ...
     },
     "byStatus": {
-			...
+      ...
+    },
+    "byObjectType": {
+      ...
     }
   },
   "cat2": {
@@ -561,6 +594,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summa
         },
         "byCategoryLabel": {
           "cat1": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
@@ -578,6 +614,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summa
         },
         "byCategoryLabel": {
           "cat1": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
@@ -585,6 +624,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey/summa
       ...
     },
     "byStatus": {
+      ...
+    },
+    "byObjectType": {
       ...
     }
   },
@@ -696,6 +738,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary/d
         },
         "byCategoryLabel": {
           "NO_CATEGORY": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
@@ -710,6 +755,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary/d
         },
         "byStatus": {
           "free": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
@@ -720,6 +768,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection/summary/d
       ...
     },
     "byCategoryLabel": {
+      ...
+    },
+    "byObjectType": {
       ...
     }
   },
@@ -831,6 +882,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/d
         },
         "byCategoryLabel": {
           "cat1": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
@@ -845,6 +899,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/d
         },
         "byStatus": {
           "booked": 2
+        },
+        "byObjectType": {
+        ...
         }
       }
     },
@@ -855,6 +912,9 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/d
       ...
     },
     "byCategoryLabel": {
+      ...
+    },
+    "byObjectType": {
       ...
     }
   },
@@ -867,3 +927,158 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel/summary/d
 }
 ```
 
+## Deep summary report by object type
+
+<Tabs 
+  groupId="serverside-code-samples"
+  defaultValue="shell"
+  values={[
+{ label: 'Text', value: 'shell', },
+{ label: 'PHP', value: 'php', },
+{ label: 'C#', value: 'csharp', },
+{ label: 'Java', value: 'java', },
+{ label: 'Python', value: 'python', },
+{ label: 'Ruby', value: 'ruby', },
+{ label: 'Javascript', value: 'javascript', },
+]}>
+<TabItem value='shell'>
+
+```shell
+GET https://api-{region}.seatsio.net/reports/events/{eventKey}/byObjectType/summary/deep
+```
+
+</TabItem>
+<TabItem value='php'>
+
+```php
+$seatsioClient->eventReports->deepSummaryByObjectType("event34");
+```
+
+</TabItem>
+<TabItem value='csharp'>
+
+```csharp
+Client.EventReports.DeepSummaryByObjectType("event34");
+```
+
+</TabItem>
+<TabItem value='java'>
+
+```java
+client.eventReports.deepSummaryByObjectType("event34");
+```
+
+</TabItem>
+<TabItem value='python'>
+
+```python
+client.events.reports.deep_summary_by_object_type("event34")
+```
+
+</TabItem>
+<TabItem value='ruby'>
+
+```ruby
+client.event_reports.deep_summary_by_object_type("event34")
+
+```
+
+</TabItem>
+<TabItem value='javascript'>
+
+```javascript
+await client.eventReports.deepSummaryByObjectType('eventKey');
+```
+
+</TabItem>
+</Tabs>
+
+
+
+
+
+```shell
+curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType/summary/deep -u aSecretKey: 
+```
+
+
+**Example response**
+
+```javascript
+
+{
+  "seat": {
+    "count": 9,
+    "bySection": {
+      "NO_SECTION": {
+        "count": 9,
+        "byChannel": {
+          "NO_CHANNEL": 7,
+          "channel1": 2
+        },
+        "byCategoryKey": {
+          "1": 2,
+          "3": 7
+        },
+        "bySelectability": {
+          "not_selectable": 9
+        },
+        "byCategoryLabel": {
+          "cat3": 7,
+          "cat1": 2
+        }
+      }
+    },
+    "byChannel": {
+      "NO_CHANNEL": {
+        "bySection": {
+          "NO_SECTION": 7
+        },
+        "count": 7,
+        "byCategoryKey": {
+          "3": 7
+        },
+        "bySelectability": {
+          "not_selectable": 7
+        },
+        "byCategoryLabel": {
+          "cat3": 7
+        }
+      },
+      "channel1": {
+        "bySection": {
+          "NO_SECTION": 2
+        },
+        "count": 2,
+        "byCategoryKey": {
+          "1": 2
+        },
+        "bySelectability": {
+          "not_selectable": 2
+        },
+        "byCategoryLabel": {
+          "cat1": 2
+        }
+      }
+    },
+    "byCategoryKey": {
+      ...
+    },
+    "bySelectability": {
+      ...
+    },
+    "byCategoryLabel": {
+      ...
+    }
+  },
+  "generalAdmission": {
+    ...
+  },
+  "table": {
+    ...
+  },
+  "booth": {
+    ...
+  }
+}
+```

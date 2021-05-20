@@ -21,7 +21,7 @@ module.exports = {
             },
             items: [
                 {
-                    to: 'docs/tutorial/draw-a-floor-plan', // TODO bver replace with docs/tutorial and redirect from the redirect plugin
+                    to: 'docs/tutorial/create-account', // TODO bver replace with docs/tutorial and redirect from the redirect plugin
                     activeBasePath: "docs/tutorial",
                     label: 'First steps'
                 },

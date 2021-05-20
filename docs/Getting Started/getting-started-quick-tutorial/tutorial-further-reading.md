@@ -1,5 +1,5 @@
 ---
-title: "6. Further reading"
+title: "8. Further reading"
 slug: "/tutorial/further-reading"
 hidden: false
 createdAt: "2019-12-02T13:21:40.933Z"

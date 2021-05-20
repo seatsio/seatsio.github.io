@@ -104,7 +104,7 @@ curl -X POST https://api-{region}.seatsio.net/hold-tokens \
 
 ```javascript
 {    
-    "holdToken": "71f0fc20-3c3b-4f9f-a38b-ed350ba564e7",
+    "holdToken": "wvXbB9MlHt",
     "expiresAt": "2017-05-05T10:58:44.715Z",
     "expiresInSeconds": 768
 }

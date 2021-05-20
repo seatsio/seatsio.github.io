@@ -164,7 +164,7 @@ await client.events.holdBestAvailable('eventKey', 10, holdToken, ['balcony', 'st
     "bestAvailable": {
         number: 2,
         categories: ["balcony", "stalls"],
-        extraData: [{"name": "John Doe"}, {"name": "Jane Doe"}],
+        extraData: [{"userId": "123"}, {"userId": "456"}],
         ticketTypes: ["adult", "child"]
     }
 }
@@ -178,7 +178,7 @@ await client.events.holdBestAvailable('eventKey', 10, holdToken, ['balcony', 'st
     "bestAvailable": {
         number: 2
     },
-    "holdToken": "17378c14-ae6a-46a4-ada4-9c745a45e018"
+    "holdToken": "wvXbB9MlHt"
 }
 ```
 

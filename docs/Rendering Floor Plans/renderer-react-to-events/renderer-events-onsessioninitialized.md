@@ -19,7 +19,7 @@ The `holdToken` parameter that gets passed into this callback is an object with 
 
 ```javascript
 {    
-    "holdToken": "71f0fc20-3c3b-4f9f-a38b-ed350ba564e7",
+    "holdToken": "wvXbB9MlHt",
     "expiresAt": "2020-01-06T10:58:44.715Z",
     "expiresInSeconds": 599
 }

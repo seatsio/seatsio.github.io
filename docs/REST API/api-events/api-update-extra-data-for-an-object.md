@@ -36,14 +36,14 @@ POST https://api-{region}.seatsio.net/events/{eventKey}/objects/{objectLabel}/ac
 <TabItem value='php'>
 
 ```php
-$seatsioClient->events->updateExtraData("event34", "A-1", ["name" => "John Doe"]);
+$seatsioClient->events->updateExtraData("event34", "A-1", ["userId" => "123"]);
 ```
 
 </TabItem>
 <TabItem value='csharp'>
 
 ```csharp
-var extraData = new Dictionary<string, object> {{ "name", "John Doe" }};
+var extraData = new Dictionary<string, object> {{ "userId", "123" }};
 Client.Events.UpdateExtraData("event34", "A-1", extraData);
 ```
 
@@ -52,7 +52,7 @@ Client.Events.UpdateExtraData("event34", "A-1", extraData);
 
 ```java
 Map<?, ?> extraData = new HashMap<>();
-extraData.put("name", "John Doe");
+extraData.put("userId", "123");
 client.events.updateExtraData("event34", "A-1", extraData);
 
 ```
@@ -61,7 +61,7 @@ client.events.updateExtraData("event34", "A-1", extraData);
 <TabItem value='python'>
 
 ```python
-extra_data = {"name": "John Doe"}
+extra_data = {"userId": "123"}
 client.events.update_extra_data("event34", "A-1", extra_data)
 
 ```
@@ -70,7 +70,7 @@ client.events.update_extra_data("event34", "A-1", extra_data)
 <TabItem value='ruby'>
 
 ```ruby
-extra_data = {"name": "John Doe"}
+extra_data = {"userId": "123"}
 client.events.update_extra_data key: "event34", object: "A-1", extra_data: extra_data
 ```
 
@@ -78,7 +78,7 @@ client.events.update_extra_data key: "event34", object: "A-1", extra_data: extra
 <TabItem value='javascript'>
 
 ```javascript
-let extraData = {'name': 'John Doe'};
+let extraData = {'userId': '123'};
 await client.events.updateExtraData('eventKey', 'A-1', extraData);
 ```
 
@@ -98,7 +98,7 @@ Keep in mind that certain characters need to be [URI encoded](/docs/api/uri-enco
 ```javascript
 {
     "extraData": {
-        "name": "John Doe"
+        "userId": "123"
     }
 }
 ```
@@ -110,7 +110,7 @@ extraData must be a valid JSON object.
 
 ```shell
 curl https://api-{region}.seatsio.net/events/event34/objects/A-1/actions/update-extra-data \
--u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"name": "John Doe"}}'
+-u aSecretKey: -X POST -H 'Content-Type: application/json' -d '{"extraData": {"userId": "123"}}'
 
 ```
 

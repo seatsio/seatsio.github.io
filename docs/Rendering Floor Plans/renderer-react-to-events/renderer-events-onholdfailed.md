@@ -22,6 +22,6 @@ This allows you to notify your user using your own error messaging style.
 :::info Note
 If you signed up after 21 Oct 2020, selected objects will also be automatically deselected again if the hold call fails, and a message will be displayed to the user to make them aware their selection was unsuccessful. 
 
-This automatic deselection in case of a failed hold is not enabled by default, to not break existing integrations. If you do want it enabled on your account, feel free to reach out to us on [support@seats.io](mailto:support@seats.io), and we'll make that happen.
+This automatic deselection in case of a failed hold is not enabled by default, to not break existing integrations. If you do want it enabled on your account, feel free to reach out to us on support@seats.io, and we'll make that happen.
 :::
 

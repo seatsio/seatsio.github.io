@@ -42,35 +42,35 @@ POST https://api-{region}.seatsio.net/hold-tokens/{token}
 <TabItem value='php'>
 
 ```php
-$seatsioClient->holdTokens->expireInMinutes("a6ec0bc0-4c43-11e7-b114-b2f933d5fe66", 30);
+$seatsioClient->holdTokens->expireInMinutes("wvXbB9MlHt", 30);
 ```
 
 </TabItem>
 <TabItem value='csharp'>
 
 ```csharp
-Client.HoldTokens.ExpireInMinutes("a6ec0bc0-4c43-11e7-b114-b2f933d5fe66", 30);
+Client.HoldTokens.ExpireInMinutes("wvXbB9MlHt", 30);
 ```
 
 </TabItem>
 <TabItem value='java'>
 
 ```java
-client.holdTokens.expireInMinutes("a6ec0bc0-4c43-11e7-b114-b2f933d5fe66", 30);
+client.holdTokens.expireInMinutes("wvXbB9MlHt", 30);
 ```
 
 </TabItem>
 <TabItem value='python'>
 
 ```python
-client.hold_tokens.expire_in_minutes("18725661-36d6-4755-905a-28ce82d0c2d5", 30)
+client.hold_tokens.expire_in_minutes("wvXbB9MlHt", 30)
 ```
 
 </TabItem>
 <TabItem value='ruby'>
 
 ```ruby
-client.hold_tokens.expire_in_minutes("18725661-36d6-4755-905a-28ce82d0c2d5", 30)
+client.hold_tokens.expire_in_minutes("wvXbB9MlHt", 30)
 
 ```
 
@@ -78,7 +78,7 @@ client.hold_tokens.expire_in_minutes("18725661-36d6-4755-905a-28ce82d0c2d5", 30)
 <TabItem value='javascript'>
 
 ```javascript
-await client.holdTokens.expiresInMinutes('holdToken', 30);
+await client.holdTokens.expiresInMinutes('wvXbB9MlHt', 30);
 ```
 
 </TabItem>
@@ -98,7 +98,7 @@ To change the expiration date of hold token, send a `POST` to https://api-{regio
 
 
 ```shell
-curl -X POST https://api-{region}.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b114-b2f933d5fe66 \
+curl -X POST https://api-{region}.seatsio.net/hold-tokens/wvXbB9MlHt \
 -u aSecretKey: \
 -H "Content-Type: application/json" \
 -d "{'expiresInMinutes': 30}"
@@ -108,7 +108,7 @@ curl -X POST https://api-{region}.seatsio.net/hold-tokens/a6ec0bc0-4c43-11e7-b11
 
 ```javascript
  {    
-     "holdToken": "a6ec0bc0-4c43-11e7-b114-b2f933d5fe66",
+     "holdToken": "wvXbB9MlHt",
      "expiresAt": "2017-05-05T10:58:44.715Z",
      "expiresInSeconds": 768
  }

@@ -1,5 +1,5 @@
 ---
-title: "2. Create an event"
+title: "3. Create an event"
 slug: "/tutorial/create-an-event"
 hidden: false
 createdAt: "2018-08-21T09:07:21.083Z"
@@ -18,5 +18,5 @@ You can create an event for a floor plan in 2 ways: either through the seats.io 
 
 
 
-![Screenshot 2018-08-21 11.46.50.png](/img/readme/Screenshot-2018-08-21-11.46.50.png)
+![Screenshot 2018-08-21 11.46.50.png](/img/tutorial/create-event.png)
 

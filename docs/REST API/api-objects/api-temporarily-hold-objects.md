@@ -51,7 +51,7 @@ POST https://api-{region}.seatsio.net/events/{eventKey}/actions/hold?expand=obje
 $seatsioClient->events->hold(
   "event1", // the event key
   ["A-3", "A-5"], // object labels
-  "17378c14-ae6a-46a4-ada4-9c745a45e018" // hold token
+  "wvXbB9MlHt" // hold token
 );
 
 // Ticket types
@@ -61,7 +61,7 @@ $seatsioClient->events->hold(
     ["objectId" => "A-3", "ticketType" => "adult"],
     ["objectId" => "A-5", "ticketType" => "child"]
   ],
-  "17378c14-ae6a-46a4-ada4-9c745a45e018" // hold token
+  "wvXbB9MlHt" // hold token
 );
 ```
 
@@ -70,12 +70,12 @@ $seatsioClient->events->hold(
 
 ```csharp
 // No ticket types
-Client.Events.Hold("event1", new [] { "A-3", "A-5" }, "17378c14-ae6a-46a4-ada4-9c745a45e018");
+Client.Events.Hold("event1", new [] { "A-3", "A-5" }, "wvXbB9MlHt");
 
 // Ticket types
 ObjectProperties object1 = new ObjectProperties("A-3", "adult");
 ObjectProperties object2 = new ObjectProperties("A-5", "child");
-Client.Events.Hold("event1", new [] { object1, object2 }, "17378c14-ae6a-46a4-ada4-9c745a45e018");
+Client.Events.Hold("event1", new [] { object1, object2 }, "wvXbB9MlHt");
 ```
 
 </TabItem>
@@ -83,12 +83,12 @@ Client.Events.Hold("event1", new [] { object1, object2 }, "17378c14-ae6a-46a4-ad
 
 ```java
 // No ticket types
-client.events.hold("event1", Arrays.asList("A-3", "A-5"), "17378c14-ae6a-46a4-ada4-9c745a45e018");
+client.events.hold("event1", Arrays.asList("A-3", "A-5"), "wvXbB9MlHt");
 
 // Ticket types
 ObjectProperties object1 = new ObjectProperties("A-3", "adult");
 ObjectProperties object2 = new ObjectProperties("A-5", "child");
-client.events.hold("event1", Arrays.asList(object1, object2), "17378c14-ae6a-46a4-ada4-9c745a45e018");
+client.events.hold("event1", Arrays.asList(object1, object2), "wvXbB9MlHt");
 ```
 
 </TabItem>
@@ -96,12 +96,12 @@ client.events.hold("event1", Arrays.asList(object1, object2), "17378c14-ae6a-46a
 
 ```python
 # No ticket types
-client.events.hold("event1", ["A-3", "A-5"], hold_token="17378c14-ae6a-46a4-ada4-9c745a45e018")
+client.events.hold("event1", ["A-3", "A-5"], hold_token="wvXbB9MlHt")
 
 # Ticket types
 object1 = ObjectProperties("A-3", ticket_type="adult")
 object2 = ObjectProperties("A-5", ticket_type="child")
-client.events.hold("event1", [object1, object2], hold_token="17378c14-ae6a-46a4-ada4-9c745a45e018")
+client.events.hold("event1", [object1, object2], hold_token="wvXbB9MlHt")
 ```
 
 </TabItem>
@@ -109,12 +109,12 @@ client.events.hold("event1", [object1, object2], hold_token="17378c14-ae6a-46a4-
 
 ```ruby
 # No ticket types
-client.events.hold('event1', ['A-3', 'A-5'], '17378c14-ae6a-46a4-ada4-9c745a45e018')
+client.events.hold('event1', ['A-3', 'A-5'], 'wvXbB9MlHt')
 
 # Ticket types
 object1 = {:objectId => 'A-3', :ticketType => 'adult'}
 object2 = {:objectId => 'A-5', :ticketType => 'child'}
-client.events.hold('event1', [object1, object2], '17378c14-ae6a-46a4-ada4-9c745a45e018')
+client.events.hold('event1', [object1, object2], 'wvXbB9MlHt')
 ```
 
 </TabItem>
@@ -147,7 +147,7 @@ await client.events.hold('eventKey', [object1, object2], holdToken.holdToken);
 // No ticket types
 {
     "objects": ["A-3", "A-5"],
-    "holdToken": "17378c14-ae6a-46a4-ada4-9c745a45e018"
+    "holdToken": "wvXbB9MlHt"
 }
 
 // Ticket types
@@ -156,7 +156,7 @@ await client.events.hold('eventKey', [object1, object2], holdToken.holdToken);
         {"objectId": "A-3", "ticketType": "adult"},
         {"objectId": "A-5", "ticketType": "child"}
     ],
-    "holdToken": "17378c14-ae6a-46a4-ada4-9c745a45e018"
+    "holdToken": "wvXbB9MlHt"
 }
 
 // Best available
@@ -164,10 +164,10 @@ await client.events.hold('eventKey', [object1, object2], holdToken.holdToken);
     "bestAvailable": {
         number: 2,
         categories: ["balcony", "stalls"],
-        extraData: [{"name": "John Doe"}, {"name": "Jane Doe"}],
+        extraData: [{"userId": "123"}, {"userId": "456"}],
         ticketTypes: ["adult", "child"]
     },
-    "holdToken": "17378c14-ae6a-46a4-ada4-9c745a45e018"
+    "holdToken": "wvXbB9MlHt"
 }
 ```
 
@@ -211,7 +211,7 @@ Holding also works for season tickets. Just pass in an array of events instead o
       },
     },
     "status": "reservedByToken",
-    "holdToken": "17378c14-ae6a-46a4-ada4-9c745a45e018",
+    "holdToken": "wvXbB9MlHt",
     "categoryLabel": "Ground Floor",
     "categoryKey": "4",
     "ticketType": "adult",
@@ -235,7 +235,7 @@ Holding also works for season tickets. Just pass in an array of events instead o
       },
     },
     "status": "reservedByToken",
-    "holdToken": "17378c14-ae6a-46a4-ada4-9c745a45e018",
+    "holdToken": "wvXbB9MlHt",
     "categoryLabel": "Ground Floor",
     "categoryKey": "4",
     "ticketType": "adult",
