@@ -3,6 +3,9 @@ title: Changelog
 hide_table_of_contents: true
 ---
 
+### Version 432 - 25/05/2021
+- renderer: bug fix: category filter is visible again on small screens
+
 ### Version 431 - 19/05/2021
 - renderer: added onFilteredCategoriesChanged callback
 - renderer: bug fix: on mobile, ticket buyers were not able to select seats marked as orphan
