@@ -3,6 +3,9 @@ title: Changelog
 hide_table_of_contents: true
 ---
 
+### Version 433 - 26/05/2021
+- renderer: bug fix: `tooltipInfo` wasn't formatting text properly (e.g. bold or italic)
+
 ### Version 432 - 25/05/2021
 - renderer: bug fix: category filter is visible again on small screens
 
