@@ -1,5 +1,5 @@
 ---
-title: "object.isInChannel([channelKey])"
+title: "object.isInChannel(channelKey)"
 slug: "/renderer/object-properties-objectisinchannel"
 hidden: false
 createdAt: "2018-08-24T08:09:42.598Z"
