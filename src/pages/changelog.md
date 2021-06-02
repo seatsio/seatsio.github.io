@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 434 - 02/06/2021
+- API: added `ids` property on reports, which contains the technical labels of the object, its parent row or table, and its section.
+- API: bug fix: `labels` property in reports now contains the displayed section label instead of the technical label
+- renderer: bug fix: when the 'session expired' dialog is shown, resizing the chart does not cause the dialog to close
 
 ### Version 433 - 26/05/2021
 - renderer: bug fix: `tooltipInfo` wasn't formatting text properly (e.g. bold or italic)
