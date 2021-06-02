@@ -49,7 +49,12 @@ The possible values for objectType are:
 - `booth`
 :::
 
+Most properties in the responses should be self-explanatory. However, `ids` and `labels` deserve some attention.
 
+`labels` contains the displayed label for the object, its parent row or table, and its section. In most cases, the 'technical' label (aka the ID)
+of an object is the same as its display label. But if needed, you can set a different display label in the designer.
+
+`ids` contains the technical labels, by which objects are identified (e.g. when booking them).
 
 ## Detailed report by status
 
