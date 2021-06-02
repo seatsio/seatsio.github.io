@@ -125,9 +125,13 @@ Should not be used in combination with `channelKeys`.
           "type": "seat"
         },
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
+      },
+      "ids": {
+        "own": "3",
+        "parent": "A"
       },
       "status": "free",
       "categoryLabel": "Ground Floor",
@@ -148,9 +152,13 @@ Should not be used in combination with `channelKeys`.
           "type": "seat"
         },
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
+      },
+      "ids": {
+        "own": "5",
+        "parent": "A"
       },
       "status": "free",
       "categoryLabel": "Ground Floor",

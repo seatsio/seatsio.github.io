@@ -181,18 +181,23 @@ Should not be used in combination with `channelKeys`.
 
 ```javascript
 {
-  "A-3": {
-    "label": "Section A-A-3",
+  "SEC A-A-3": {
+    "label": "SEC A-A-3",
     "labels": {
       "own": {
         "label": "3",
         "type": "seat",
       },
       "parent": {
-        "label": "A",
+        "label": "Row A",
         "type": "row"
       },
       "section": "Section A"
+    },
+    "ids": {
+      "own": "3",
+      "parent": "A",
+      "section"; "SEC A"
     },
     "status": "booked",
     "categoryLabel": "Ground Floor",
@@ -204,22 +209,27 @@ Should not be used in combination with `channelKeys`.
     "isAccessible": true,
     "isCompanionSeat": false,
     "hasRestrictedView": false,
-    "leftNeighbour": "Section A-A-2",
-    "rightNeighbour": "Section A-A-4",
+    "leftNeighbour": "SEC A-A-2",
+    "rightNeighbour": "SEC A-A-4",
     "entrance": "Blue"
   },
-  "A-5": {
-    "label": "Section A-A-5",
+  "SEC A-A-5": {
+    "label": "SEC A-A-5",
     "labels": {
       "own": {
         "label": "5",
         "type": "seat"
       },
       "parent": {
-        "label": "A",
+        "label": "Row A",
         "type": "row"
       },
       "section": "Section A"
+    },
+    "ids": {
+      "own": "5",
+      "parent": "A",
+      "section": "SEC A"
     },
     "status": "booked",
     "categoryLabel": "Ground Floor",
@@ -231,8 +241,8 @@ Should not be used in combination with `channelKeys`.
     "isAccessible": true,
     "isCompanionSeat": false,
     "hasRestrictedView": false,
-    "leftNeighbour": "Section A-A-4",
-    "rightNeighbour": "Section A-A-6",
+    "leftNeighbour": "SEC A-A-4",
+    "rightNeighbour": "SEC A-A-6",
     "entrance": "Blue"
   }
 }

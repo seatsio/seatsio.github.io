@@ -121,53 +121,68 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
 
 ```javascript
 {
-    "C-11": [
+    "SEC A-C-11": [
         {
-            "label": "Section A-C-11",
+            "label": "SEC A-C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Section A"
+            },   
+            "ids": {
+                "own": "11",
+                "parent": "C",
+                "section": "SEC A"
             },
             "categoryLabel": "Ground Floor",
             "categoryKey": "1",
             "entrance": "Main entrance",
             "section": "Floor",
             "objectType": "seat",
-            "leftNeighbour": "Section A-C-10",
-            "rightNeighbour": "Section A-C-12",
+            "leftNeighbour": "SEC A-C-10",
+            "rightNeighbour": "SEC A-C-12",
             "distanceToFocalPoint": 10.3245
         }
     ],
-    "C-35": [
+    "SEC A-C-35": [
         {
-            "label": "Section A-C-35",
+            "label": "SEC A-C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Section A"
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C",
+              "section": "SEC A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "5",
             "objectType": "seat",
-            "leftNeighbour": "Section A-C-34",
-            "rightNeighbour": "Section A-C-36",
+            "leftNeighbour": "SEC A-C-34",
+            "rightNeighbour": "SEC A-C-36",
             "distanceToFocalPoint": 12.878
         }
     ],
-    "C-45": [
+    "SEC A-C-45": [
         {
-            "label": "Section A-C-45",
+            "label": "SEC A-C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Section A"
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C",
+              "section": "SEC A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "2",
             "objectType": "seat",
-            "leftNeighbour": "Section A-C-46",
-            "rightNeighbour": "Section A-C-44",
+            "leftNeighbour": "SEC A-C-46",
+            "rightNeighbour": "SEC A-C-44",
             "distanceToFocalPoint": 20.2134
         }
     ],
@@ -175,7 +190,10 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "categoryLabel": "Standing",
             "categoryKey": 6,
@@ -306,13 +324,18 @@ The response is a JSON object where all the keys are category keys, and the valu
       "label": "3-A-1",
       "labels": {
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
         "own": {
           "label": "1",
           "type": "seat"
         },
+        "section": "Section 3"
+      },
+      "ids": {
+        "own": "1",
+        "parent": "A",
         "section": "3"
       },
       "objectType": "seat",
@@ -325,13 +348,18 @@ The response is a JSON object where all the keys are category keys, and the valu
       "label": "3-A-2",
       "labels": {
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
         "own": {
           "label": "2",
           "type": "seat"
         },
+        "section": "Section 3"
+      },
+      "ids": {
+        "own": "2",
+        "parent": "A",
         "section": "3"
       },
       "objectType": "seat",
@@ -346,13 +374,18 @@ The response is a JSON object where all the keys are category keys, and the valu
       "label": "201-A-1",
       "labels": {
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
         "own": {
           "label": "1",
           "type": "seat"
         },
+        "section": "Section 201"
+      },
+      "ids": {
+        "own": "1",
+        "parent": "A",
         "section": "201"
       },
       "objectType": "seat",
@@ -472,13 +505,18 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
       "label": "3-A-1",
       "labels": {
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
         "own": {
           "label": "1",
           "type": "seat"
         },
+        "section": "Section 3"
+      },
+      "ids": {
+        "own": "1",
+        "parent": "A",
         "section": "3"
       },
       "objectType": "seat",
@@ -491,13 +529,18 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
       "label": "3-A-2",
       "labels": {
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
         "own": {
           "label": "2",
           "type": "seat"
         },
+        "section": "Section 3"
+      },
+      "ids": {
+        "own": "2",
+        "parent": "A",
         "section": "3"
       },
       "objectType": "seat",
@@ -512,13 +555,18 @@ The response has the same structure as the `byCategoryKey` endpoint, but JSON ob
       "label": "201-A-1",
       "labels": {
         "parent": {
-          "label": "A",
+          "label": "Row A",
           "type": "row"
         },
         "own": {
           "label": "1",
           "type": "seat"
         },
+        "section": "Section 201"
+      },
+      "ids": {
+        "own": "1",
+        "parent": "A",
         "section": "201"
       },
       "objectType": "seat",
@@ -628,47 +676,62 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
 {
     "seat": [
         {
-            "label": "Section A-C-11",
+            "label": "SEC A-C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Section A"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C",
+              "section": "SEC A"
             },
             "categoryLabel": "Ground Floor",
             "categoryKey": "1",
             "entrance": "Main entrance",
             "section": "Floor",
             "objectType": "seat",
-            "leftNeighbour": "Section A-C-10",
-            "rightNeighbour": "Section A-C-12",
+            "leftNeighbour": "SEC A-C-10",
+            "rightNeighbour": "SEC A-C-12",
             "distanceToFocalPoint": 10.3245
         },
         {
-            "label": "Section A-C-35",
+            "label": "SEC A-C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Section A"
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C",
+              "section": "SEC A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "5",
             "objectType": "seat",
-            "leftNeighbour": "Section A-C-34",
-            "rightNeighbour": "Section A-C-36",
+            "leftNeighbour": "SEC A-C-34",
+            "rightNeighbour": "SEC A-C-36",
             "distanceToFocalPoint": 10.3245
         },
         {
-            "label": "Section A-C-45",
+            "label": "SEC A-C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Section A"
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C",
+              "section": "SEC A"
             },
             "categoryLabel": "Balcony",
             "categoryKey": "2",
             "objectType": "seat",
-            "leftNeighbour": "Section A-C-46",
-            "rightNeighbour": "Section A-C-44",
+            "leftNeighbour": "SEC A-C-46",
+            "rightNeighbour": "SEC A-C-44",
             "distanceToFocalPoint": 10.3245
         }
     ],
@@ -676,7 +739,10 @@ curl https://api-{region}.seatsio.net/reports/charts/d2aaasb4-e192-454a-9752-e5f
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "categoryLabel": "Standing",
             "categoryKey": 6,

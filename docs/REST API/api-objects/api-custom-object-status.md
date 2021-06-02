@@ -196,9 +196,13 @@ Should not be used in combination with `channelKeys`.
         "type": "seat"
       },
       "parent": {
-        "label": "A",
+        "label": "Row A",
         "type": "row"
       },
+    },
+    "ids": {
+      "own": "3",
+      "parent": "A"
     },
     "status": "myCustomStatus",
     "categoryLabel": "Ground Floor",
@@ -228,9 +232,13 @@ Should not be used in combination with `channelKeys`.
         "type": "seat"
       },
       "parent": {
-        "label": "T1",
+        "label": "Table T1",
         "type": "table"
       },
+    },
+    "ids": {
+      "own": "3",
+      "parent": "T1"
     },
     "status": "myCustomStatus",
     "categoryLabel": "Ground Floor",
@@ -250,17 +258,22 @@ Should not be used in combination with `channelKeys`.
 ```javascript
 {
   "STA-A-3": {
-    "label": "A-3",
+    "label": "STA-A-3",
     "labels": {
       "own": {
         "label": "3",
         "type": "seat"
       },
       "parent": {
-        "label": "A",
+        "label": "Row A",
         "type": "row"
       },
       "section": "Stalls"
+    },
+    "ids": {
+      "own": "3",
+      "parent": "A",
+      "section": "STA"
     },
     "status": "myCustomStatus",
     "categoryLabel": "Ground Floor",
@@ -289,6 +302,9 @@ Should not be used in combination with `channelKeys`.
         "type": "booth"
       }
     },
+    "ids": {
+      "own": "B1"
+    },
     "status": "myCustomStatus",
     "categoryLabel": "Ground Floor",
     "categoryKey": "4",
@@ -311,6 +327,9 @@ Should not be used in combination with `channelKeys`.
         "type": "table"
       }
     },
+    "ids": {
+      "own": "T1"
+    },
     "status": "myCustomStatus",
     "categoryLabel": "Ground Floor",
     "categoryKey": "4",
@@ -329,9 +348,12 @@ Should not be used in combination with `channelKeys`.
     "label": "GA1",
     "labels": {
       "own": {
-        "label": "GA1",
+        "label": "General Admission 1",
         "type": "generalAdmission"
       }
+    },
+    "ids": {
+      "own": "GA1"
     },
     "status": "myCustomStatus",
     "categoryLabel": "Ground Floor",

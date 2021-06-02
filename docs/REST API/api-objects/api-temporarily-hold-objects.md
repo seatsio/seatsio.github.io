@@ -206,9 +206,13 @@ Holding also works for season tickets. Just pass in an array of events instead o
         "type": "seat"
       },
       "parent": {
-        "label": "A",
+        "label": "Row A",
         "type": "row"
       },
+    },
+    "ids": {
+      "own": "3",
+      "parent": "A"
     },
     "status": "reservedByToken",
     "holdToken": "wvXbB9MlHt",
@@ -230,9 +234,13 @@ Holding also works for season tickets. Just pass in an array of events instead o
         "type": "seat"
       },
       "parent": {
-        "label": "A",
+        "label": "Row A",
         "type": "row"
       },
+    },
+    "ids": {
+      "own": "5",
+      "parent": "A"
     },
     "status": "reservedByToken",
     "holdToken": "wvXbB9MlHt",

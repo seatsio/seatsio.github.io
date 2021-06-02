@@ -148,8 +148,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -173,7 +177,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -194,7 +201,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -217,7 +228,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byStatus -u aSecret
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -346,8 +361,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -371,7 +390,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -392,7 +414,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -413,7 +439,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySelectability -u 
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -544,8 +574,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -572,7 +606,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -595,7 +633,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -617,7 +659,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryLabel -u 
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -744,8 +789,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -772,7 +821,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -795,7 +848,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -817,7 +874,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byCategoryKey -u aS
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -936,8 +996,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -964,7 +1028,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -989,7 +1057,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -1011,7 +1083,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byLabel -u aSecretK
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -1134,8 +1209,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -1160,7 +1239,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -1186,7 +1269,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -1209,7 +1296,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byOrderId -u aSecre
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -1335,8 +1425,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -1358,8 +1452,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -1386,8 +1484,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Balcony"
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -1411,7 +1513,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/bySection -u aSecre
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -1458,8 +1563,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -1480,8 +1589,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -1507,8 +1620,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Balcony"
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -1531,7 +1648,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byChannel -u aSecre
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
@@ -1644,8 +1764,12 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
             "label": "C-11",
             "labels": {
                 "own": { "label": "11", "type": "seat" },
-                "parent": { "label": "C", "type": "row" },
+                "parent": { "label": "Row C", "type": "row" },
                 "section": "Floor"
+            },
+            "ids": {
+              "own": "11",
+              "parent": "C"
             },
             "status": "free",
             "categoryLabel": "Ground Floor",
@@ -1670,7 +1794,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
             "label": "C-45",
             "labels": {
                 "own": { "label": "45", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "45",
+              "parent": "C"
             },
             "status": "booked",
             "categoryLabel": "Balcony",
@@ -1691,7 +1819,11 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
             "label": "C-35",
             "labels": {
                 "own": { "label": "35", "type": "seat" },
-                "parent": { "label": "C", "type": "row" }
+                "parent": { "label": "Row C", "type": "row" }
+            },
+            "ids": {
+              "own": "35",
+              "parent": "C"
             },
             "status": "reservedByToken",
             "categoryLabel": "Balcony",
@@ -1715,7 +1847,10 @@ curl https://api-{region}.seatsio.net/reports/events/event34/byObjectType -u aSe
         {
             "label": "GA",
             "labels": {
-                "own": { "label": "GA", "type": "generalAdmission" }
+                "own": { "label": "General Admission 1", "type": "generalAdmission" }
+            },
+            "ids": {
+              "own": "GA"
             },
             "status": "free",
             "categoryLabel": "Standing",
