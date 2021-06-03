@@ -179,6 +179,7 @@ module.exports = {
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartlistcategories",
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartzoomtoselectedobjects",
                 "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartzoomtofilteredcategories",
+                "Rendering Floor Plans/rendered-chart-properties/renderer-chart-properties-chartgetreportbyselectability",
             ]
         }
     ],

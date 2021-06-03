@@ -3,7 +3,7 @@ title: Changelog
 hide_table_of_contents: true
 ---
 ### Version 435 - 03/06/2021
-- renderer: added report by selectability
+- renderer: added [report by selectability](https://docs.seats.io/docs/renderer/chart-properties-chartgetreportbyselectability)
 - event manager: error messages can now get translated
 
 ### Version 434 - 02/06/2021
