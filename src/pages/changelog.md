@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 435 - 03/06/2021
+- renderer: added report by selectability
+- event manager: error messages can now get translated
+
 ### Version 434 - 02/06/2021
 - API: added `ids` property on reports, which contains the technical labels of the object, its parent row or table, and its section.
 - API: bug fix: `labels` property in reports now contains the displayed section label instead of the technical label
