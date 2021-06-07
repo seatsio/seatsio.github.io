@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 436 - 07/06/2021
+- renderer: bug fix: when invoking `chart.listSelectedObjects()`, `selectedTicketType` now contains the proper ticket type for GAs (instead of always the last selected one)
+
 ### Version 435 - 03/06/2021
 - renderer: added [report by selectability](https://docs.seats.io/docs/renderer/chart-properties-chartgetreportbyselectability)
 - event manager: error messages can now get translated
