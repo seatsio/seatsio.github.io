@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 437 - 09/06/2021
+- event manager: bug fix: objects could not be selected on mobile
+
 ### Version 436 - 07/06/2021
 - renderer: bug fix: when invoking `chart.listSelectedObjects()`, `selectedTicketType` now contains the proper ticket type for GAs (instead of always the last selected one)
 
