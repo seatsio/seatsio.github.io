@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 438 - 10/06/2021
+- API/renderer: on rectangular tables with seats on just one side, the first and last seats are not considered neighbours for social distancing or best available purposes
+- designer: bug fix: it's now possible to choose a shape type on Firefox 
+
 ### Version 437 - 09/06/2021
 - event manager: bug fix: objects could not be selected on mobile
 
