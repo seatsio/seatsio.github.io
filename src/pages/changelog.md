@@ -2,6 +2,10 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 439 - 14/06/2021
+- designer: bug fix: category color picker is shown on top of background image control, instead of underneath
+- renderer: bug fix: rounded rectangles with a very large corner radius are now rendered properly
+
 ### Version 438 - 10/06/2021
 - API/renderer: on rectangular tables with seats on just one side, the first and last seats are not considered neighbours for social distancing or best available purposes
 - designer: bug fix: it's now possible to choose a shape type on Firefox 
