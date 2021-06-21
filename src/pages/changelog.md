@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 440 - 21/06/2021
+- API: improved performance of bookings calls when the event has a social distancing ruleset
+
 ### Version 439 - 14/06/2021
 - designer: bug fix: category color picker is shown on top of background image control, instead of underneath
 - renderer: bug fix: rounded rectangles with a very large corner radius are now rendered properly
