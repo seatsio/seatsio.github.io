@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 441 - 23/06/2021
+- renderer/event manager: multi-select now works on mobile
+
 ### Version 440 - 21/06/2021
 - API: improved performance of bookings calls when the event has a social distancing ruleset
 
