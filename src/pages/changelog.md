@@ -2,11 +2,15 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 442 - 28/06/2021
+- API: improved performance of booking calls when the event has a social distancing ruleset that disables seats on nearby rows
+- webapp: showing object labels in chart preview now works properly on charts with tables 
+
 ### Version 441 - 23/06/2021
 - renderer/event manager: multi-select now works on mobile
 
 ### Version 440 - 21/06/2021
-- API: improved performance of bookings calls when the event has a social distancing ruleset
+- API: improved performance of booking calls when the event has a social distancing ruleset that disables seats to the sides
 
 ### Version 439 - 14/06/2021
 - designer: bug fix: category color picker is shown on top of background image control, instead of underneath
