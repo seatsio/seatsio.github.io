@@ -20,4 +20,4 @@ Suppose then that you've enabled `session` when rendering a chart. In that case,
  
 The exact meaning of a `booked` seat depends on your sales process, but this would typically be right before the payment gets processed. An object can go from `free` to `booked` directly, or from `free` to `reservedByToken` to `booked`. That's up to you.
 
-There are API calls to `/book` and `/release` seats`, and also to `hold them if you prefer to do that yourself instead of relying on the chart renderer parameter `session`. You can also assign other, custom statuses. Say you want to create a separate status 'VIP', which indicates that a seat can only be booked by people that are logged in on your site as VIP. That's where /changeStatus comes into place.
+There are API calls to `/book` and `/release` seats, and also to hold them if you prefer to do that yourself instead of relying on the chart renderer parameter `session`. You can also assign other, custom statuses. Say you want to create a separate status 'VIP', which indicates that a seat can only be booked by people that are logged in on your site as VIP. That's where /changeStatus comes into place.
