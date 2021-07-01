@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 443 - 01/07/2021
+- API/renderer: social distancing ruleset that disables seats in front and behind now works properly on curved or segmented rows
+
 ### Version 442 - 28/06/2021
 - API: improved performance of booking calls when the event has a social distancing ruleset that disables seats on nearby rows
 - webapp: showing object labels in chart preview now works properly on charts with tables 
