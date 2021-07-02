@@ -2,6 +2,9 @@
 title: Changelog
 hide_table_of_contents: true
 ---
+### Version 444 - 02/07/2021
+- renderer: removed "powered by seats.io" logo on watermarked charts (i.e. free accounts)
+
 ### Version 443 - 01/07/2021
 - API/renderer: social distancing ruleset that disables seats in front and behind now works properly on curved or segmented rows
 
