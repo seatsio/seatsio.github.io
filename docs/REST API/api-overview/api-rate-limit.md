@@ -7,10 +7,6 @@ hidden: false
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info
-Only accounts created after 2021-05-17 are rate limited. Older accounts don't have a limit (for now).
-:::
-
 The seats.io API is rate limited, to keep the servers running smoothly when they receive an extremely high number of requests.
 
 This limit is set to **100 concurrent requests** per seats.io account. That means that 100 requests can be active at any given time (per account).
